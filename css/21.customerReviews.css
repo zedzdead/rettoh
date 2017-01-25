@@ -1,0 +1,52 @@
+#cust-reviews {
+	clear: both;
+	text-align: left;
+}
+#cust-reviews #ct_pd_reviewFilter {margin: 5px 0;}
+#cust-reviews #ct_pd_reviewLink {margin: 5px 0;}
+#cust-reviews #ct_pd_reviewFilter #filter {display: none;}
+#cust-reviews #ct_pd_reviewFilter #total_avg {
+  float: none;
+}
+#cust-reviews #ct_pd_reviewFilter #total_avg #total {
+	float: right;
+}
+#cust-reviews #avg {
+	float: left;
+	margin-top: 3px;
+}
+#cust-reviews #ct_pd_title {display: none;}
+#cust-reviews #ct_pd_reviewsList {margin: 0; display: none;}
+#cust-reviews .ct_pd_rl_review_text {clear: both;}
+#cust-reviews #ct_pd_rl_count  {display: none;}
+#cust-reviews .ct_pd_rl_review_title {display: none;}
+#cust-reviews .ct_pd_rl_review p {margin: 5px 0;}
+#cust-reviews .ct_pd_rl_review_from {font-weight: 600;}
+#cust-reviews .ct_pd_rl_review_from span.ct_pd_rl_review_date {display: inline-block; float: right;}
+#cust-reviews .ct_pd_rl_review_comment {display: none;}
+
+/* Alternative stars (black and white) un-comment to override defaults*/
+#cust-reviews .star_rating {background-image: url('/layout/Star_Rating_Alt.png')}
+
+/* Larger Stars un-comment to override defaults*/
+
+
+#cust-reviews .star_rating {
+	background-image: url('/layout/Star_Rating_Lrg.png');
+	height: 25px;
+	width: 96px;
+}
+#cust-reviews .stars5_0 {background-position: 1px 0px;}
+#cust-reviews .stars4_5 {background-position: 1px -28px;}
+#cust-reviews .stars4_0 {background-position: -18px 0px;}
+#cust-reviews .stars3_5 {background-position: -18px -28px;}
+#cust-reviews .stars3_0 {background-position: -37px 0px;}
+#cust-reviews .stars2_5 {background-position: -37px -28px;}
+#cust-reviews .stars2_0 {background-position: -56px 0px;}
+#cust-reviews .stars1_5 {background-position: -56px -28px;}
+#cust-reviews .stars1_0 {background-position: -75px 0px;}
+#cust-reviews .stars0_5 {background-position: -75px -28px;}
+#cust-reviews .stars0_0 {background-position: -94px 0px;}
+#cust-reviews #ct_pd_reviewFilter #total_avg #total {margin-top: 5px;}
+
+

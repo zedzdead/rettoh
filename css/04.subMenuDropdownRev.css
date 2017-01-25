@@ -1,0 +1,22 @@
+/******************************************************************/
+/* Cybertill Plugin                                               */
+/* Author: Andy Davies                                            */
+/* Created: 12.12.15                                              */
+/* Amended:                                                       */
+/* Dependencies: subMenuDropdownrev.js                            */
+/* Description: This js and css reverses the direction that the   */
+/* sub-menus for those top level menu items on the right hand side*/
+/* of the viewport.                                               */
+/******************************************************************/
+
+/* Start of subMenuDropdownRev.js styles */
+.ct_cm_wrapper ul ul.menu-reverse {
+  left: unset;
+  right: 0;
+}
+
+.ct_cm_wrapper ul.menu-reverse ul {
+  left: unset;
+  right: 200px; /*Match .ct_cm_wrapper ul ul li width*/
+}
+/* End of subMenuDropdownRev.js styles */

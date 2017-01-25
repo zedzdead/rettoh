@@ -1,0 +1,38 @@
+/******************************************************************/
+/* Cybertill Plugin (for Small Basket Dropdown)                   */
+/* Author: Andy Davies                                            */
+/* Created: 31.03.16                                              */
+/* Amended:                                                       */
+/* Dependencies: mobileNavBar (plugin)                            */
+/*               subMenuDropdownrevbasketDropdown.js              */
+/* Description: This js and css creates a dropdown effect for     */
+/* small basket. It is designed only to work for desktop so the   */
+/* For mobile devices there is just a link to the basket page.    */
+/******************************************************************/
+/* Mobile navbar setting set width depending number of items in the bar e.g 4 = 20% */
+/* This bit is a bit crap */
+#basketwrap {
+	display: block;
+	float: left;
+	width: 20%;
+}
+
+#basketwrap #basket-detail {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #ccc;
+  display: none;
+  padding: 5px 5px 5px 20px;
+  position: relative;
+  z-index: 20;
+}
+
+/* Set your own media queries for when this should be absolutely positioned for desktop */
+@media (min-width: 1000px) { 
+	#basketwrap {
+	  padding-right: 0 !important;
+	  position: absolute;
+	  right: 10px;
+	  text-align: right !important;
+	  top: 0;
+	}
+}
