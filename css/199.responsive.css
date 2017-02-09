@@ -1,0 +1,72 @@
+/*
+* RS2 Responsive V1.0
+* Copyright 2017, hotter.com
+* 
+* Author: Andy Davies;
+*/
+/**********************************************/
+/* Contents                                   */
+/* Mobile Portrait        0-399               */
+/* Mobile Landscape     400-549               */
+/* Small Tablet (P)     550-767               */
+/* Small Tablet (L)     768-999               */
+/* Desktop             1000-1199              */
+/* Large Desktop       1200-huge!             */
+/**********************************************/
+/* Default */
+#devbar {width: 100%; height: 10px;}
+* {box-sizing: border-box;}
+.hide {display: none;}
+img {width: 100%; height: auto;}
+.mob {display: inline;}
+.dt {display: none;}
+#logo {max-width: 375px; margin: 0 auto; clear: both; min-height: 80px;}
+
+/*Clear fix */
+#ct_productsListing:after, .group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Mobile*/
+@media (max-width: 399px) {
+	#devbar {background: red;}
+}/* End Mobile < 399px*/ 
+
+/* Big Phones */
+@media (max-width: 549px) {
+
+}
+
+/*Larger than Mobile */
+@media (min-width: 400px) {
+	#devbar {background: orange;}
+}
+
+/* Larger than tablet portrait */
+@media (min-width: 550px) {
+	#devbar {background: yellow;}
+}
+
+/* Smallest Desktop*/
+@media (min-width: 768px) {
+	#devbar {background: green;}
+  .mob {display: none;}
+  .dt {display: none;}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+	#devbar {background: blue;}	
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1240px) {
+	#devbar {background: indigo;}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1570px) {
+	#devbar {background: violet;}	
+}

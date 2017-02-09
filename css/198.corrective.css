@@ -1,0 +1,7 @@
+/* This style sheet undoes rules that get in the way of responsiveness */
+#Section_Head_Roundal img {display: none;}
+.product_listing_container .grid_mode .product > .product_image {height: auto; width: 400px;}
+.product_listing_container .grid_mode > .row > .product, 
+.product_listing_container .grid_mode > .row_3col > .product, 
+.product_listing_container .grid_mode > .row_2col > .product {width: auto;}
+
