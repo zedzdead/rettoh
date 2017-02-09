@@ -6,10 +6,10 @@
 .product_listing_container .grid_mode > .row_2col > .product {width: auto;}
 .grid_mode {text-align: center;}
 div.content_wrapper {min-width: auto; text-align: center;}
-div.content_wrapper > div.content_left_shadow {padding: 0; max-width: 1280px;}
+div.content_wrapper > div.content_left_shadow {padding: 0; max-width: 1280px; width: 100%;}
 #productsFacets {text-align: left;}
 
-.container_content_leftsidebar > .left_column {padding: 0; width: 20%; text-align: left;}
+.container_content_leftsidebar > .left_column {padding: 0; width: 20%; text-align: left; margin: 0;}
 .container_content_leftsidebar > .right_column {padding: 0; width: 80%;}
 
 div.content_wrapper > div.content_left_shadow > div.content_right_shadow {padding: 0; width: 100%;}
