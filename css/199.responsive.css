@@ -20,6 +20,7 @@
 img {width: 100%; height: auto;}
 .mob {display: inline;}
 .dt {display: none;}
+.desklogo img {height: auto; width: auto;}
 #logo {max-width: 375px; margin: 0 auto; clear: both; min-height: 80px;}
 
 /*Clear fix */
