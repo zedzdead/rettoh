@@ -13,7 +13,7 @@ div.content_wrapper > div.content_left_shadow {padding: 0; max-width: 1280px; wi
 .container_content_leftsidebar > .right_column {padding: 0; width: 80%;}
 
 div.content_wrapper > div.content_left_shadow > div.content_right_shadow {padding: 0; width: 100%;}
-div.content_wrapper > div.content_left_shadow > div.content_right_shadow > div.main_content {max-width: 100%;}
+div.content_wrapper > div.content_left_shadow > div.content_right_shadow > div.main_content {width: 100%;}
 .container_full_width {width: 100%;}
 div#widget_breadcrumb {text-align: left;}
 
