@@ -20,7 +20,16 @@ div.content_wrapper > div.content_left_shadow > div.content_right_shadow > div.m
 .container_full_width {width: 100%;}
 div#widget_breadcrumb {text-align: left;}
 
-.container_content_leftsidebar {background: #DFCBB3;}
-
 div.widget_tall_double_espot, #Topnewbck {width: 100%;}
+#Topnewbck {background: #DFCBB3; width: 100%;}
 
+div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.header {width: 100%;}
+.widget_product_listing_position {width: 100%;}
+.widget_product_listing > .middle {width: 100%;}
+.widget_product_listing > .middle > .left_border {width: 100%;}
+.widget_product_listing > .middle > .left_border > .right_border {width: 100%;}
+.widget_product_listing > .middle > .left_border > .right_border > .content {width: 100%;}
+
+.product_listing_container .grid_mode > .row, .product_listing_container .grid_mode > .row_3col, .product_listing_container .grid_mode > .row_2col {width: 100%;}
+
+.right_border .product_listing_container .grid_mode > .row > .product, .product_listing_container .grid_mode > .row_3col > .product, .product_listing_container .grid_mode > .row_2col > .product {float: none; padding: 0; margin: 0 !important; display: inline-block; vertical-align: top; width: 100%;}
