@@ -4,4 +4,16 @@
 .product_listing_container .grid_mode > .row > .product, 
 .product_listing_container .grid_mode > .row_3col > .product, 
 .product_listing_container .grid_mode > .row_2col > .product {width: auto;}
+.grid_mode {text-align: center;}
+div.content_wrapper {min-width: auto; text-align: center;}
+div.content_wrapper > div.content_left_shadow {padding: 0; max-width: 1280px;}
+#productsFacets {text-align: left;}
+
+.container_content_leftsidebar > .left_column {padding: 0; width: 20%; text-align: left;}
+.container_content_leftsidebar > .right_column {padding: 0; width: 80%;}
+
+div.content_wrapper > div.content_left_shadow > div.content_right_shadow {padding: 0; width: 100%;}
+div.content_wrapper > div.content_left_shadow > div.content_right_shadow > div.main_content {max-width: 100%;}
+.container_full_width {width: 100%;}
+div#widget_breadcrumb {text-align: left;}
 
