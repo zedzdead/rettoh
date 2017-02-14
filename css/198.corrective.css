@@ -33,3 +33,5 @@ div.widget_left_nav > div.content_left_border > div.content_right_border > div.c
 .product_listing_container .grid_mode > .row, .product_listing_container .grid_mode > .row_3col, .product_listing_container .grid_mode > .row_2col {width: 100%;}
 
 .right_border .product_listing_container .grid_mode > .row > .product, .product_listing_container .grid_mode > .row_3col > .product, .product_listing_container .grid_mode > .row_2col > .product {float: none; padding: 0; margin: 0 !important; display: inline-block; vertical-align: top; width: 100%;}
+
+.peeriusRecs {display: none;}
