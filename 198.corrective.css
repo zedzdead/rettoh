@@ -1,0 +1,77 @@
+/* This style sheet undoes rules that get in the way of responsiveness */
+#Section_Head_Roundal img {display: none;}
+.product_listing_container .grid_mode .product > .product_image {height: auto; width: 400px;}
+.product_listing_container .grid_mode > .row > .product, 
+.product_listing_container .grid_mode > .row_3col > .product, 
+.product_listing_container .grid_mode > .row_2col > .product {width: auto;}
+.grid_mode {text-align: center;}
+div.content_wrapper {min-width: auto; text-align: center;}
+div.content_wrapper > div.content_left_shadow {padding: 0; max-width: 1280px; width: 100%;}
+#productsFacets {text-align: left;}
+
+.container_content_leftsidebar {width: 100%;}
+.container_content_leftsidebar > .left_column {padding: 0; width: 20%; text-align: left; margin: 0;}
+
+div.widget_left_nav {width: 100%;}
+.container_content_leftsidebar > .right_column {padding: 0; width: 80%;}
+
+div.content_wrapper > div.content_left_shadow > div.content_right_shadow {padding: 0; width: 100%;}
+div.content_wrapper > div.content_left_shadow > div.content_right_shadow > div.main_content {width: 100%;}
+.container_full_width {width: 100%;}
+div#widget_breadcrumb {text-align: left;}
+
+div.widget_tall_double_espot, #Topnewbck {width: 100%;}
+#Topnewbck {background: #DFCBB3; width: 100%;}
+
+div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.header {width: 100%;}
+.widget_product_listing_position {width: 100%;}
+.widget_product_listing > .middle {width: 100%;}
+.widget_product_listing > .middle > .left_border {width: 100%;}
+.widget_product_listing > .middle > .left_border > .right_border {width: 100%;}
+.widget_product_listing > .middle > .left_border > .right_border > .content {width: 100%;}
+
+.product_listing_container .grid_mode > .row, .product_listing_container .grid_mode > .row_3col, .product_listing_container .grid_mode > .row_2col {width: 100%;}
+
+.right_border .product_listing_container .grid_mode > .row > .product, .product_listing_container .grid_mode > .row_3col > .product, .product_listing_container .grid_mode > .row_2col > .product {float: none; padding: 0; margin: 0 !important; display: inline-block; vertical-align: top; width: 100%;}
+
+.peeriusRecs {display: none;}
+/*
+.tabs {
+  position: relative;   
+  min-height: 200px; /* This part sucks */
+  clear: both;
+  margin: 25px 0;
+}
+.tab {
+  float: left;
+}
+.tab label {
+  background: #eee; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  margin-left: -1px; 
+  position: relative;
+  left: 1px; 
+}
+.tab [type=radio] {
+  display: none;   
+}
+.content {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  background: white;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  border: 1px solid #ccc; 
+}
+[type=radio]:checked ~ label {
+  background: white;
+  border-bottom: 1px solid white;
+  z-index: 2;
+}
+[type=radio]:checked ~ label ~ .content {
+  z-index: 1;
+}
+*/
