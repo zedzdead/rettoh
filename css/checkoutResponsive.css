@@ -50,10 +50,18 @@ img {width: 100%;}
 #content_wrapper div.content_wrapper > div.content_left_shadow > div.content_right_shadow {width: 100%; padding: 0;}
 #content_wrapper div.content_wrapper > div.content_left_shadow > div.content_right_shadow > div.main_content {width: 100%; padding: 0;}
 #content_wrapper .container_full_width {width: 100%;}
-#content_wrapper #checkout_crumb {width: 100%; border: none; padding: 0;}
+#content_wrapper #checkout_crumb {width: 100%; border: none; padding: 0; float: none; margin: 20px 0;}
 #content_wrapper #checkout_crumb .crumb {text-align: center;}
 #content_wrapper #checkout_crumb span.step_on, 
 #content_wrapper #checkout_crumb span.step_off {margin: 0; font-size: 0; float: none; width: 20%; display: inline-block;}
+
+
+/* Font Awesome */
+#WC_ShipmentDisplay_div_4 span:first-child:before {
+    content: "\f007";
+    font-family: FontAwesome;
+    font-size: 24px;
+}
   
 /*Mobile*/
 @media (max-width: 399px) {
