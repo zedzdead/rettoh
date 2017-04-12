@@ -44,9 +44,16 @@ img {width: 100%;}
 #headerWidget .uspboxmob {display: block; line-height: 30px; height: auto;}
 #headerWidget .uspboxmobc {font-size: 14px;}
 
-#content_wrapper .content_wrapper {min-width: 300px; max-width: 960px;}
-
-
+/*Checkout Resets*/
+#content_wrapper .content_wrapper {min-width: 300px; max-width: 960px; width: 100%;}
+#content_wrapper .content_wrapper > div.content_left_shadow {width: 100%; padding: 0 10px;}
+#content_wrapper div.content_wrapper > div.content_left_shadow > div.content_right_shadow {width: 100%; padding: 0;}
+#content_wrapper div.content_wrapper > div.content_left_shadow > div.content_right_shadow > div.main_content {width: 100%; padding: 0;}
+#content_wrapper .container_full_width {width: 100%;}
+#content_wrapper #checkout_crumb {width: 100%;}
+#content_wrapper #checkout_crumb span.step_on, 
+#content_wrapper #checkout_crumb span.step_off {margin: 0;}
+  
 /*Mobile*/
 @media (max-width: 399px) {
   #headerWidget #masthead > .top {
