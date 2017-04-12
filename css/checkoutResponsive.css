@@ -41,7 +41,8 @@ img {width: 100%;}
 #headerWidget .searchposdiv {display: none;}
 #headerWidget #menu {display: none;}
 #headerWidget #USPGeneric {display: none;}
-#headerWidget .uspboxmob {display: block;}
+#headerWidget .uspboxmob {display: block; line-height: 30px; height: auto;}
+#headerWidget .uspboxmobc {font-size: 14px;}
 
 #content_wrapper .content_wrapper {min-width: 300px; max-width: 960px;}
 
