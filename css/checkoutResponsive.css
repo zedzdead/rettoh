@@ -64,6 +64,8 @@ img {width: 100%;}
 #content_wrapper #WC_AccountDisplay_div_7 br {display: none;}
 #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .content {padding: 10px;}
 #content_wrapper #guestLogin .emailSection label {font-size: 14px; padding: 0;}
+#content_wrapper #guestLogin .emailSection input {width: 100% !important;}
+#WC_AccountDisplay_div_3 .content input, #WC_AccountDisplay_div_19 .content input {height: auto; width: 100%;}
 
 
 /* Font Awesome */
