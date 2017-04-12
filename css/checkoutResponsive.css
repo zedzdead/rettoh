@@ -2,7 +2,7 @@
 * RS2 Responsive V1.0
 * Copyright 2017, Hotter.com
 * 
-* Author: Andy Davies;
+* Author: Andy Davies, CSS God;
 */
 /**********************************************/
 /* Contents												            */
@@ -43,6 +43,7 @@ img {width: 100%;}
 #headerWidget #USPGeneric {display: none;}
 #headerWidget .uspboxmob {display: block;}
 
+#content_wrapper .content_wrapper {min-width: 300px; max-width: 960px;}
 
 
 /*Mobile*/
