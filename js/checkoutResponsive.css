@@ -1,0 +1,108 @@
+/*
+* RS2 Responsive V1.0
+* Copyright 2017, Hotter.com
+* 
+* Author: Andy Davies, CSS God;
+*/
+/**********************************************/
+/* Contents												            */
+/* Mobile                 0-399   Green       */
+/* Larger than mobile   400-549   Yellow      */
+/* Larger than phablet  550-749   Pink        */
+/* Larger than tablet   750-999   Turquoise   */
+/* Larger than desktop 1000-1199  Lilac       */
+/* Larger than Desktop 1200-huge! Blue        */
+/**********************************************/
+/* Default */
+
+
+img {width: 100%;}
+
+/*Clear fix */
+.group:after {content: ""; display: table; clear: both;}
+
+/*Global Resets*/
+#headerWidget div.header_wrapper {min-width: 0; max-width: 960px; width: 100%;}
+#headerWidget div#widget_masthead_links div.masthead_links {display: none;}
+#headerWidget div.header_wrapper > div.header_left_shadow {width: 100%; padding: 0;}
+#headerWidget div.header_wrapper > div.header_left_shadow > div.header_right_shadow {width: 100%; padding: 0;}
+#headerWidget div.header_wrapper > div.header_left_shadow > div.header_right_shadow > div.header {width: 100%;}
+#headerWidget #masthead > .content {height: 87px; position: relative; width: 100%; background-color: #ffffff;}
+#headerWidget div.widget_masthead_logo_position {left: 0px; position: absolute; top: 0px;}
+#headerWidget .desklogo {display: none;}
+#headerWidget .desklogo > div {position: relative; width: 100%;}
+#headerWidget div#widget_masthead_logo1 img {position: relative; left: 0 top: 0; margin: 0;}
+#headerWidget .mobilelogo {display: block; width: 50%; margin: 0 auto;}
+#headerWidget .mobilelogo > div {float: none;}
+#headerWidget .header_espot_container {display: none;}
+#headerWidget div.widget_minishopcart_position {display: none;}
+#headerWidget a.blomobcart {display: none;}
+#headerWidget .mobburger {display: none;}
+#headerWidget .searchposdiv {display: none;}
+#headerWidget #menu {display: none;}
+#headerWidget #USPGeneric {display: none;}
+#headerWidget .uspboxmob {display: block; line-height: 30px; height: auto;}
+#headerWidget .uspboxmobc {font-size: 14px;}
+
+#content_wrapper .content_wrapper {min-width: 300px; max-width: 960px;}
+
+
+/*Mobile*/
+@media (max-width: 399px) {
+  #headerWidget #masthead > .top {
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: green;
+  }
+
+} /* End Mobile < 399px*/	
+
+@media (min-width: 400px) {
+  #headerWidget #masthead > .top {
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: yellow;
+  }
+}
+
+/* Larger than tablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+  #headerWidget #masthead > .top {
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: pink;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  #headerWidget #masthead > .top {
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: turquoise;
+  }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+  #headerWidget #masthead > .top {
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: lilac;
+  }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+  #headerWidget #masthead > .top {
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: blue;
+  }
+}
