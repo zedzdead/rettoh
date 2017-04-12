@@ -15,8 +15,8 @@
 /**********************************************/
 /* Default */
 
-
-img {width: 100%;}
+* {box-sizing: border-box;}
+img {width: 100%;}  
 
 /*Clear fix */
 .group:after {content: ""; display: table; clear: both;}
@@ -67,6 +67,7 @@ img {width: 100%;}
 } /* End Mobile < 399px*/	
 
 @media (min-width: 400px) {
+  * {box-sizing: border-box;}
   #headerWidget #masthead > .top {
     display: block;
     width: 100%;
