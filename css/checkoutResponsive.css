@@ -99,6 +99,66 @@ img {width: 100%;}
     font-size: 24px;
 }
 
+/* Form labels inside fields Start */
+form {position: relative;}
+input {
+  position: relative;
+  left: 0;
+  padding: 20px;
+  display: block;
+  background-position: 0 -10px;
+  font-size: 20px;
+  background: transparent;
+  border-radius: 15px;
+  border: solid 3px #666;
+  font-family: verdana;
+  width: 400px;
+  margin: 0;
+}
+
+input:focus {
+  border: solid 3px green;
+  outline: none;
+}
+
+label {
+  position: relative;
+  font-size: 20px;
+  top: 48px;  
+  color: #444;
+  left: 22px;
+  font-size: 0;
+}
+
+
+/*input:focus ~ label*/
+.placeholder {
+  font-size: 12px;
+  display: inline-block;
+  color:rgba(0, 0, 0, 0.75);
+  transition: all 1s;
+  top: 22px;
+  left: 24px;
+}
+
+.placeholder::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #fff;
+}
+.placeholder:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   opacity:  1;
+}
+.placeholder::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   opacity:  1;
+}
+.placeholder:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #fff;
+}
+
+label span.required-field  {color: red;}
+
+/* Form labels inside fields End */
 
   
 /*Mobile*/
