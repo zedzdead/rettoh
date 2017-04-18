@@ -101,7 +101,7 @@ img {width: 100%;}
 
 /* Form labels inside fields Start */
 form {position: relative;}
-input {
+#content_wrapper #guestLogin .emailSection input {
   position: relative;
   left: 0;
   padding: 20px;
@@ -116,12 +116,12 @@ input {
   margin: 0;
 }
 
-input:focus {
+#content_wrapper #guestLogin .emailSection input:focus {
   border: solid 3px green;
   outline: none;
 }
 
-label {
+#content_wrapper #guestLogin .emailSection label {
   position: relative;
   font-size: 20px;
   top: 48px;  
@@ -156,7 +156,7 @@ label {
    color:    #fff;
 }
 
-label span.required-field  {color: red;}
+#content_wrapper #guestLogin .emailSection label span.required-field  {color: red;}
 
 /* Form labels inside fields End */
 
