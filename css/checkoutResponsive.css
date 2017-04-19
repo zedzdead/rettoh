@@ -40,6 +40,7 @@ img {width: 100%;}
 #headerWidget .mobburger {display: none;}
 #headerWidget .searchposdiv {display: none;}
 #headerWidget #menu {display: none;}
+#headerWidget .jsEnabled #masthead > .navigation {width: 100%;}
 #headerWidget #USPGeneric {display: none;}
 #headerWidget .uspboxmob {display: block; line-height: 30px; height: auto;}
 #headerWidget .uspboxmobc {font-size: 14px;}
