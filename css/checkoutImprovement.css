@@ -128,7 +128,8 @@ span.charges{
 }
 
 #bopis_table tr.collect {
-  background: #ddd;
+  background: #eee;
+  border: solid 1px #A5C842;
 }
 
 #bopis_table td {position: relative;}
@@ -148,6 +149,7 @@ tr #WC_CheckoutStoreSelection_div_8 {
 }
 
 tr #WC_CheckoutStoreSelection_div_8 a {margin-left: 0}
+tr #WC_CheckoutStoreSelection_div_8 .button_primary > .button_text {padding: 0 20px;}
 
 #bopis_table input[type="radio"] {
   margin-left: -300px;
