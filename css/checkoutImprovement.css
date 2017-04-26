@@ -19,7 +19,7 @@
 }
 */
 
-/* Start enhanced Radio Button Code */
+/* Start enhanced Radio Button Code for Shipping Options*/
 #shipping_method_content {
   margin: 0 !important;
   padding: 15px 0;
@@ -118,4 +118,58 @@ span.charges{
     background: #eee;
 }
 
-/* End enhanced Radio buton Code */
+/* End enhanced Radio Button Code for Shipping Options*/
+
+/* Start enhanced Radio Button Code for Store Locator Options */
+
+#bopis_table tr:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+#bopis_table tr.collect {
+  background: #ddd;
+}
+
+#bopis_table td {position: relative;}
+
+#WC_CheckoutStoreSelection_div_8 {
+  display: none;
+  opacity: 0;
+  transition: all 2s;
+}
+
+tr #WC_CheckoutStoreSelection_div_8 {
+  display: block;
+  transition: all 2s;
+  opacity: 1;
+  position: absolute;
+  bottom: 5px
+}
+
+tr #WC_CheckoutStoreSelection_div_8 a {margin-left: 0}
+
+#bopis_table input[type="radio"] {
+  margin-left: -300px;
+}
+
+#bopis_table input[type="radio"]:before { 
+  content: "\f10c";
+  font-family: FontAwesome;
+  color: #666;
+  display: inline-block;
+  margin-left: 300px;
+  font-size: 20px;
+}
+
+#bopis_table input[type="radio"]:checked:before { 
+  content: "\f192";
+  font-family: FontAwesome;
+  display: inline-block;
+  color: #A2C43F;
+  margin-left: 300px;
+  font-size: 20px;
+}
+
+
+/* Start enhanced Radio Button Code for Store Locator Options */
