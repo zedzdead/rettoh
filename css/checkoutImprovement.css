@@ -110,6 +110,8 @@ span.charges{
   color: #A2C43F;  
 }
 
+#bopis_table {border-collapse: collapse;}
+
 #bopis_table tr {
 
 }
