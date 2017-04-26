@@ -184,5 +184,12 @@ tr #WC_CheckoutStoreSelection_div_8 .button_primary > .button_text {padding: 0 2
   font-size: 20px;
 }
 
+/* End enhanced Radio Button Code for Store Locator Options */
 
-/* Start enhanced Radio Button Code for Store Locator Options */
+/* Start Hide Secure Sockets message - not relevant */
+
+div#WC_CheckoutPaymentsAndBillingAddressf_div_2_1 > p.content {
+    display: none !important;
+}
+
+/* End Hide Secure Sockets message - not relevant */ 
