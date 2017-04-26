@@ -20,6 +20,10 @@
 */
 
 /*Remove Chrome/Safari blue Outline */
+*:focus {
+  outline: none;
+}
+
 input:focus,
 select:focus,
 textarea:focus,
