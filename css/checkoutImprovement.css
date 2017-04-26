@@ -19,6 +19,15 @@
 }
 */
 
+/*Remove Chrome/Safari blue Outline */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
 /* Start enhanced Radio Button Code for Shipping Options*/
 #shipping_method_content {
   margin: 0 !important;
