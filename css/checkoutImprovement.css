@@ -197,3 +197,6 @@ div#WC_CheckoutPaymentsAndBillingAddressf_div_2_1 > p.content {
 }
 
 /* End Hide Secure Sockets message - not relevant */ 
+
+/*WS-2237 Address Finder - "Please enter an Address" persists after use */
+.msghide {visibilty: hidden;}
