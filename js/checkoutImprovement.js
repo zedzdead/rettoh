@@ -17,9 +17,11 @@ jQuery(document).ready(function($) {
 jQuery(document).ready(function($) {
 	if($('.shipping_method_item input').length) {
 		$('.shipping_method_item input').change(function() {
+			alert('hide');
 			$('#WC_SingleShipmentShippingMethodDetails_div_1 p').toggleClass('msghide');
 		});
 		$('#shipping_delivery_method_change').click(function() {
+			alert('display');
 			$('#WC_SingleShipmentShippingMethodDetails_div_1 p').toggleClass('msghide');
 		});
 	}
