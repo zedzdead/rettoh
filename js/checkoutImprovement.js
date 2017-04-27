@@ -16,6 +16,7 @@ jQuery(document).ready(function($) {
 jQuery(document).ready(function($) {
 	if($('#shipping_delivery_method_option').length) {
 		$('#shipping_delivery_method_option').click(function() {
+			alert('clicked!');
 			$('#WC_SingleShipmentShippingMethodDetails_div_1 p').toggleClass('addresstoggle');
 		});
 	}
