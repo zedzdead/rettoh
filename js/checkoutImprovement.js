@@ -19,12 +19,12 @@ jQuery(document).ready(function($) {
 	if($('.shipping_method_item label').length) {
 		$('.shipping_method_item label').click(function() {
 			//alert('hide');
-			$('#WC_SingleShipmentShippingMethodDetails_div_1 p').toggleClass('msghide');
+			$('#WC_SingleShipmentShippingMethodDetails_div_1 > p').toggleClass('msghide');
 			
 		});
 		$('#shipping_delivery_method_change').click(function() {
 			//alert('display');
-			$('#WC_SingleShipmentShippingMethodDetails_div_1 p').toggleClass('msghide');
+			$('#WC_SingleShipmentShippingMethodDetails_div_1 > p').toggleClass('msghide');
 		});
 	}
 });
