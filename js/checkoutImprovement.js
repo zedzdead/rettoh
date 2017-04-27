@@ -16,15 +16,15 @@ jQuery(document).ready(function($) {
 /*WS-2237 Address Finder - "Please enter an Address" persists after use*/
 jQuery(document).ready(function($) {
 
-	if($('.shipping_method_item input').length) {
-		$('.shipping_method_item input').change(function() {
+	if($('.shipping_method_item label').length) {
+		$('.shipping_method_item label').click(function() {
 			//alert('hide');
-			setTimeout(function(){ $('#WC_SingleShipmentShippingMethodDetails_div_1 p').toggleClass('msghide'); }, 1000);
+			$('#WC_SingleShipmentShippingMethodDetails_div_1 p').toggleClass('msghide');
 			
 		});
 		$('#shipping_delivery_method_change').click(function() {
 			//alert('display');
-			setTimeout(function(){ $('#WC_SingleShipmentShippingMethodDetails_div_1 p').toggleClass('msghide'); }, 1000);
+			$('#WC_SingleShipmentShippingMethodDetails_div_1 p').toggleClass('msghide');
 		});
 	}
 });
