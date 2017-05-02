@@ -17,7 +17,6 @@ jQuery(document).ready(function($) {
 
 /*WS-2237 Address Finder - "Please enter an Address" persists after use*/
 jQuery(document).ready(function($) {
-	alert('zoom');
 	if($('.shipping_method_item label').length) {
 		$('.shipping_method_item label').click(function() {
 			$('#WC_SingleShipmentShippingMethodDetails_div_1 > p').toggleClass('msghide');			
