@@ -100,6 +100,33 @@ img {width: 100%;}
     font-size: 24px;
 }
 
+#WC_ShipmentDisplay_div_4 span:first-child:before {
+    content: "1";
+    font-family: 'Minion Pro Regular', "Times New Roman", Times, serif;
+    font-size: 24px;
+}
+
+/* \f0d1 = Truck */
+#WC_ShipmentDisplay_div_4 span:nth-child(3):before {
+    content: "2";
+    font-family: 'Minion Pro Regular', "Times New Roman", Times, serif;
+    font-size: 24px;
+}
+
+/* \f09d = Credit Card */
+#WC_ShipmentDisplay_div_4 span:nth-child(5):before {
+    content: "3";
+    font-family: 'Minion Pro Regular', "Times New Roman", Times, serif;
+    font-size: 24px;
+}
+
+/* \f118 = Smile */
+#WC_ShipmentDisplay_div_4 span:nth-child(7):before {
+    content: "4";
+    font-family: 'Minion Pro Regular', "Times New Roman", Times, serif;
+    font-size: 24px;
+}
+
 /* Form labels inside fields Start */
 form {position: relative;}
 #content_wrapper #guestLogin .emailSection input {
