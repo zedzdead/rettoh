@@ -165,8 +165,9 @@ form {position: relative;}
   display: inline-block;
   color:rgba(0, 0, 0, 0.75);
   transition: all 1s;
-  top: 22px;
+  top: 58px;
   left: 24px;
+  text-align: left;
 }
 
 .placeholder::-webkit-input-placeholder { /* WebKit browsers */
