@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
     $('input').each(function() {
       var phText = $(this).prev('label').text();
       console.log(phText);
-      $(this).prop('placeholder', 'Test');      
+      $(this).prop('placeholder', phTest);   
       $(this).focus(function() {
         $(this).prev('label').addClass('placeholder');
       });
