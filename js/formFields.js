@@ -3,8 +3,8 @@ jQuery(document).ready(function($) {
   if ($('input').length) {
     $('input').each(function() {
       //var phText = $(this).prev('label').text();
-      var phText =$(this).contents().get(0).nodeValue
-      console.log(phText);
+      //var phText =$(this).contents().get(0).nodeValue
+      //console.log(phText);
       /*
       $(this).prop('placeholder', phTest);   
       $(this).focus(function() {
