@@ -1,11 +1,12 @@
 jQuery(document).ready(function($) {
+  console.log('Start Form Fields');
   if ($('input').length) {
     $('input').each(function() {
+      var phText = $(this).prev('label').text();
+      console.log(phText);
+      $(this).prop('placeholder', 'Test');      
       $(this).focus(function() {
         $(this).prev('label').addClass('placeholder');
-        var phText = $(this).prev('label').text();
-        console.log(phText);
-        $(this).prop('placeholder', 'Test');
       });
       $('input').blur(function() {
         if($(this).val().length == 0) {
@@ -14,4 +15,5 @@ jQuery(document).ready(function($) {
       });
     });
   }
+  console.log('End Form Fields');
 });
