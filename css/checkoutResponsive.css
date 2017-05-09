@@ -28,7 +28,7 @@ img {width: 100%;}
 #headerWidget div.header_wrapper > div.header_left_shadow > div.header_right_shadow {width: 100%; padding: 0;}
 #headerWidget div.header_wrapper > div.header_left_shadow > div.header_right_shadow > div.header {width: 100%;}
 #headerWidget #masthead > .content {height: 87px; position: relative; width: 100%; background-color: #ffffff;}
-#headerWidget div.widget_masthead_logo_position {left: 0px; position: absolute; top: 0px;}
+#headerWidget div.widget_masthead_logo_position {left: 0px; position: relative; top: 0px;}
 #headerWidget .desklogo {display: none;}
 #headerWidget .desklogo > div {position: relative; width: 100%;}
 #headerWidget div#widget_masthead_logo1 img {position: relative; left: 0 top: 0; margin: 0;}
@@ -46,7 +46,7 @@ img {width: 100%;}
 #headerWidget .uspboxmobc {font-size: 14px;}
 
 /*Checkout Resets*/
-#content_wrapper .content_wrapper {min-width: 300px; max-width: 960px; width: 100%;}
+#content_wrapper .content_wrapper {min-width: 300px; max-width: 960px; width: 100%; text-align: center;}
 #content_wrapper .content_wrapper > div.content_left_shadow {width: 100%; padding: 0 10px;}
 #content_wrapper div.content_wrapper > div.content_left_shadow > div.content_right_shadow {width: 100%; padding: 0;}
 #content_wrapper div.content_wrapper > div.content_left_shadow > div.content_right_shadow > div.main_content {width: 100%; padding: 0;}
@@ -200,14 +200,10 @@ form {position: relative;}
     z-index: 9999;
 }
 
-#page .store_message > .content {max-width: 300px; margin: 0 auto; box-shadow: 10px 10px 10px #cdf;}
-
+#page .store_message > .content {max-width: 300px; margin: 0 auto; box-shadow: 5px 5px 50px #cdf;}
 #page .store_message > .content > .message {margin: 0; padding: 20px;}
-
 #page .store_message > .content > .message .message_text {width: 100%; margin: 0;}
-
-/*Force Change*/
-
+.store_message > .content > .close {outline: 0;}
 #page .shadowPiece {display: none;}
 
 /* Form labels inside fields End */
