@@ -189,7 +189,7 @@ form {position: relative;}
 #content_wrapper #guestLogin .emailSection label span.required-field  {color: red;}
 
 
-div.store_message {
+#page div.store_message {
     display: none;
     left: 0;
     margin-left: 0;
@@ -200,9 +200,9 @@ div.store_message {
     z-index: 9999;
 }
 
-.store_message > .content {width: 100%;}
+#page .store_message > .content {width: 100%;}
 
-.shadowPiece {display: none;}
+#page .shadowPiece {display: none;}
 
 /* Form labels inside fields End */
 
