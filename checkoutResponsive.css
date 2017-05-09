@@ -15,8 +15,8 @@
 /**********************************************/
 /* Default */
 
-
-img {width: 100%;}
+* {box-sizing: border-box;}
+img {width: 100%;}  
 
 /*Clear fix */
 .group:after {content: ""; display: table; clear: both;}
@@ -40,12 +40,175 @@ img {width: 100%;}
 #headerWidget .mobburger {display: none;}
 #headerWidget .searchposdiv {display: none;}
 #headerWidget #menu {display: none;}
+#headerWidget .jsEnabled #masthead > .navigation {width: 100%;}
 #headerWidget #USPGeneric {display: none;}
-#headerWidget .uspboxmob {display: block;}
+#headerWidget .uspboxmob {display: block; line-height: 30px; height: auto;}
+#headerWidget .uspboxmobc {font-size: 14px;}
 
-#content_wrapper .content_wrapper {min-width: 300px; max-width: 960px;}
+/*Checkout Resets*/
+#content_wrapper .content_wrapper {min-width: 300px; max-width: 960px; width: 100%;}
+#content_wrapper .content_wrapper > div.content_left_shadow {width: 100%; padding: 0 10px;}
+#content_wrapper div.content_wrapper > div.content_left_shadow > div.content_right_shadow {width: 100%; padding: 0;}
+#content_wrapper div.content_wrapper > div.content_left_shadow > div.content_right_shadow > div.main_content {width: 100%; padding: 0;}
+#content_wrapper .container_full_width {width: 100%;}
+#content_wrapper #checkout_crumb {width: 100%; border: none; padding: 0; float: none; margin: 20px 0;}
+#content_wrapper #checkout_crumb .crumb {text-align: center;}
+#content_wrapper #checkout_crumb span.step_on, 
+#content_wrapper #checkout_crumb span.step_off {margin: 0; font-size: 0; float: none; width: 20%; display: inline-block;}
+#content_wrapper #checkout_crumb span.step_on {color: #A2C43F;}
+#content_wrapper #box {min-width: 0;}
+#content_wrapper #box h1 {text-align: center; font-size: 24px; margin: 0;}
+#content_wrapper #box p {}
+#content_wrapper .container_content_rightsidebar {width: 100%;}
+#content_wrapper .container_content_rightsidebar #guestLogin {width: 100%; padding: 0;}
+#content_wrapper #WC_AccountDisplay_div_7 .strong {font-size: 12px; padding: 0; text-align: center;}
+#content_wrapper #WC_AccountDisplay_div_7 br {display: none;}
+#content_wrapper #guestLogin #WC_AccountDisplay_div_3 .content {padding: 10px;}
+#content_wrapper #guestLogin .emailSection label {font-size: 14px; padding: 0;}
+#content_wrapper #guestLogin .emailSection input {width: 100% !important;}
+#WC_AccountDisplay_div_3 .content input, #WC_AccountDisplay_div_19 .content input {height: auto; width: 100%;}
+#AjaxUniversalVariableDataLayer {display: none;}
+#content_wrapper div.footer_wrapper_position {display: none;}
+#content_wrapper #guestCheckoutPage .backToBasket {width: 100%;}
+
+/* Font Awesome */
+/* \f007 = User */
+#WC_ShipmentDisplay_div_4 span:first-child:before {
+    content: "\f007";
+    font-family: FontAwesome;
+    font-size: 24px;
+}
+
+/* \f0d1 = Truck */
+#WC_ShipmentDisplay_div_4 span:nth-child(3):before {
+    content: "\f0d1";
+    font-family: FontAwesome;
+    font-size: 24px;
+}
+
+/* \f09d = Credit Card */
+#WC_ShipmentDisplay_div_4 span:nth-child(5):before {
+    content: "\f09d";
+    font-family: FontAwesome;
+    font-size: 24px;
+}
+
+/* \f118 = Smile */
+#WC_ShipmentDisplay_div_4 span:nth-child(7):before {
+    content: "\f118";
+    font-family: FontAwesome;
+    font-size: 24px;
+}
+
+#WC_ShipmentDisplay_div_4 span:first-child:before {
+    content: "1";
+    font-family: 'Minion Pro Regular', "Times New Roman", Times, serif;
+    font-size: 24px;
+}
+
+/* \f0d1 = Truck */
+#WC_ShipmentDisplay_div_4 span:nth-child(3):before {
+    content: "2";
+    font-family: 'Minion Pro Regular', "Times New Roman", Times, serif;
+    font-size: 24px;
+}
+
+/* \f09d = Credit Card */
+#WC_ShipmentDisplay_div_4 span:nth-child(5):before {
+    content: "3";
+    font-family: 'Minion Pro Regular', "Times New Roman", Times, serif;
+    font-size: 24px;
+}
+
+/* \f118 = Smile */
+#WC_ShipmentDisplay_div_4 span:nth-child(7):before {
+    content: "4";
+    font-family: 'Minion Pro Regular', "Times New Roman", Times, serif;
+    font-size: 24px;
+}
+
+/* Form labels inside fields Start */
+form {position: relative;}
+#content_wrapper #guestLogin .emailSection input {
+  position: relative;
+  left: 0;
+  padding: 20px;
+  display: block;
+  background-position: 0 -10px;
+  font-size: 20px;
+  background: transparent;
+  border-radius: 15px;
+  border: solid 3px #666;
+  font-family: verdana;
+  width: 400px;
+  margin: 0;
+}
+
+#content_wrapper #guestLogin .emailSection input:focus {
+  border: solid 3px green;
+  outline: none;
+}
+
+#content_wrapper #guestLogin .emailSection label {
+  position: relative;
+  font-size: 20px;
+  top: 48px;  
+  color: #444;
+  left: 22px;
+  font-size: 0;
+  line-height: 0;
+}
 
 
+/*input:focus ~ label*/
+#content_wrapper #guestLogin .emailSection label.placeholder {
+  font-size: 12px;
+  display: inline-block;
+  color:rgba(0, 0, 0, 0.75);
+  transition: all 1s;
+  top: 24px;
+  left: 24px;
+  text-align: left;
+}
+
+.placeholder::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #fff;
+}
+.placeholder:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   opacity:  1;
+}
+.placeholder::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   opacity:  1;
+}
+.placeholder:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #fff;
+}
+
+#content_wrapper #guestLogin .emailSection label span.required-field  {color: red;}
+
+
+#page div.store_message {
+    display: none;
+    left: 0;
+    margin-left: 0;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    width: 100%;
+    z-index: 9999;
+}
+
+#page .store_message > .content {max-width: 300px; margin: 0 auto; box-shadow: 5px 5px 50px #cdf;}
+#page .store_message > .content > .message {margin: 0; padding: 20px;}
+#page .store_message > .content > .message .message_text {width: 100%; margin: 0;}
+.store_message > .content > .close {outline: 0;}
+#page .shadowPiece {display: none;}
+
+/* Form labels inside fields End */
+
+  
 /*Mobile*/
 @media (max-width: 399px) {
   #headerWidget #masthead > .top {
@@ -58,6 +221,7 @@ img {width: 100%;}
 } /* End Mobile < 399px*/	
 
 @media (min-width: 400px) {
+  * {box-sizing: border-box;}
   #headerWidget #masthead > .top {
     display: block;
     width: 100%;
