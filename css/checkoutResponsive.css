@@ -196,11 +196,13 @@ form {position: relative;}
     position: absolute;
     top: 40%;
     width: auto;
-    max-width: 300px;
+    width: 100%;
     z-index: 9999;
 }
 
-#page .store_message > .content {width: 100%;}
+#page .store_message > .content {max-width: 300px; margin: 0 auto; padding: 20px; box-shadow: 10px 10px 10px #cdf;}
+
+#page .store_message > .content > .message {margin: 0;}
 
 #page .shadowPiece {display: none;}
 
