@@ -160,7 +160,7 @@ form {position: relative;}
 
 
 /*input:focus ~ label*/
-.placeholder {
+#content_wrapper #guestLogin .emailSection label.placeholder {
   font-size: 12px;
   display: inline-block;
   color:rgba(0, 0, 0, 0.75);
