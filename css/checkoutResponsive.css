@@ -188,6 +188,20 @@ form {position: relative;}
 
 #content_wrapper #guestLogin .emailSection label span.required-field  {color: red;}
 
+
+div.store_message {
+    display: none;
+    left: 0;
+    margin-left: 0;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    max-width: 300px;
+    z-index: 9999;
+}
+
+.store_message > .content {width: 100%;}
+
 .shadowPiece {display: none;}
 
 /* Form labels inside fields End */
