@@ -200,9 +200,11 @@ form {position: relative;}
     z-index: 9999;
 }
 
-#page .store_message > .content {max-width: 300px; margin: 0 auto; padding: 20px; box-shadow: 10px 10px 10px #cdf;}
+#page .store_message > .content {max-width: 300px; margin: 0 auto; box-shadow: 10px 10px 10px #cdf;}
 
-#page .store_message > .content > .message {margin: 0;}
+#page .store_message > .content > .message {margin: 0; padding: 20px;}
+
+#page .store_message > .content > .message .message_text {width: 100%; margin: 0;}
 
 #page .shadowPiece {display: none;}
 
