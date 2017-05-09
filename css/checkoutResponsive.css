@@ -70,6 +70,7 @@ img {width: 100%;}
 #AjaxUniversalVariableDataLayer {display: none;}
 #content_wrapper div.footer_wrapper_position {display: none;}
 #content_wrapper #guestCheckoutPage .backToBasket {width: 100%;}
+#content_wrapper #guestLogin #WC_AccountDisplay_div_3 {width: 100%;}
 
 /* Font Awesome */
 /* \f007 = User */
