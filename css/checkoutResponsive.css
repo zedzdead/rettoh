@@ -89,7 +89,8 @@ img {width: 100%;}
     width: 90%;
     margin: 0 auto;
 }
-#content_wrapper #guestCheckoutPage .HForm .label_spacer {
+
+#guestCheckoutPage #content_wrapper .HForm .label_spacer {
     margin: 0 auto;
     width: 90%;
     font-size: 14px;
