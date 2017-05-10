@@ -63,9 +63,11 @@ img {width: 100%;}
 #content_wrapper .container_content_rightsidebar #guestLogin {width: 100%; padding: 0;}
 #content_wrapper #WC_AccountDisplay_div_7 .strong {font-size: 12px; padding: 0; text-align: center;}
 #content_wrapper #WC_AccountDisplay_div_7 br {display: none;}
+#content_wrapeer form {text-align: left;}
 #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .content {padding: 10px;}
 #content_wrapper #guestLogin .emailSection label {font-size: 14px; padding: 0;}
 #content_wrapper #guestLogin .emailSection input {width: 100% !important;}
+#content_wrapper #guestLogin .emailSection .infoText {padding: 10px 0 10px 25px; font-size: 16px; text-align: left;}
 #WC_AccountDisplay_div_3 .content input, #WC_AccountDisplay_div_19 .content input {height: auto; width: 100%;}
 #AjaxUniversalVariableDataLayer {display: none;}
 #content_wrapper div.footer_wrapper_position {display: none;}
