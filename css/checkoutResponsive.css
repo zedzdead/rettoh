@@ -126,6 +126,7 @@ img {width: 100%;}
   font-size: 12px !important;
   line-height: 30px !important;
 }
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .recentFavourites, .pcaAutoCompleteSmall .recentFavouritesSmall {width: 100% !important;}
 
 
 /* Font Awesome */
