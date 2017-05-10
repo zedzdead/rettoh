@@ -82,20 +82,24 @@ img {width: 100%;}
 #content_wrapper #guestLogin #newUserForm .form_2column .regForm,
 #content_wrapper #guestCheckoutPage .backToBasket {width: 100%;}
 #content_wrapper #guestLogin #newUserForm h2 {font-size: 18px;}
-.HForm {clear: left;}
+#content_wrapper .HForm {clear: left;}
 #content_wrapper #guestLogin #newUserForm select {height: auto; margin-bottom: 15px; padding: 2px;}
 #content_wrapper #guestLogin .HAddress_Finder {width: 100%;}
 #content_wrapper #HAddress_Finder_PC {
     width: 90%;
     margin: 0 auto;
 }
-#guestCheckoutPage .HForm .label_spacer {
+#content_wrapper #guestCheckoutPage .HForm .label_spacer {
     margin: 0 auto;
     width: 90%;
     font-size: 14px;
     padding: 5px;
+    text-align: left;
+    left: 0;
+    top: 0;
+    float:left;
 }
-#content_wrapper .pcaAutoComplete .inputArea {
+#content_wrapper #guestLogin .pcaAutoComplete .inputArea {
     border: 1px solid #ccc !important;
     padding: 0px !important;
     position: relative !important;
