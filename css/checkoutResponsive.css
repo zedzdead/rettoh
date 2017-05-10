@@ -64,7 +64,7 @@ img {width: 100%;}
 #content_wrapper #WC_AccountDisplay_div_7 .strong {font-size: 12px; padding: 0; text-align: center;}
 #content_wrapper #WC_AccountDisplay_div_7 br {display: none;}
 #content_wrapper form {text-align: left; width: 100%;}
-#content_wrapper #guestLogin #WC_AccountDisplay_div_3 .content {padding: 10px; width: 100%;}
+#content_wrapper #guestLogin #WC_AccountDisplay_div_3 .content {padding: 5px; width: 100%;}
 #content_wrapper #guestLogin .emailSection label {font-size: 14px; padding: 0;}
 #content_wrapper #guestLogin .emailSection input {width: 100% !important;}
 #content_wrapper #guestLogin .emailSection .infoText {padding: 10px 0 10px 25px; font-size: 16px; text-align: left;}
@@ -81,6 +81,7 @@ img {width: 100%;}
 #content_wrapper #guestLogin #newUserForm input,
 #content_wrapper #guestLogin #newUserForm .form_2column .regForm,
 #content_wrapper #guestCheckoutPage .backToBasket {width: 100%;}
+#content_wrapper .form_2column .regForm {padding: 0;}
 #content_wrapper #guestLogin #newUserForm h2 {font-size: 18px;}
 #content_wrapper .HForm {clear: left;}
 #content_wrapper #guestLogin #newUserForm select {height: auto; margin-bottom: 15px; padding: 2px;}
@@ -128,6 +129,7 @@ img {width: 100%;}
 }
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .recentFavourites, 
 #guestCheckoutPage #content_wrapper .pcaAutoCompleteSmall .recentFavouritesSmall {width: 100% !important;}
+#content_wrapper #guestLogin .regForm .column_label {font-size: 16px; line-height: 20px;}
 
 
 /* Font Awesome */
