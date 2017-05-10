@@ -118,8 +118,15 @@ img {width: 100%;}
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea .suggestion span, 
 #guestCheckoutPage #content_wrapper #HAddress_Finder_PC .inputArea span {line-height: 16px; font-size: 14px !important; top: 0 !important; }
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea {height: 30px !important;}
-#guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea .search {top: 0 !important; left: 0 !important;  }
-.pcaAutoComplete .inputArea .suggestion
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea .search {top: 8px !important; left: 7px !important;  }
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .recentFavourites, .pcaAutoCompleteSmall .recentFavouritesSmall {top: 29px; left: 0;}
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .pcaItemHolder {padding: 0;}
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .pcaItem,
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .item span {
+  font-size: 12px !important;
+  line-height: 30px !important;
+}
+
 
 /* Font Awesome */
 /* \f007 = User */
