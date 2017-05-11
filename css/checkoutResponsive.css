@@ -99,7 +99,7 @@ img {width: 100%;}
 #content_wrapper .form_2column .regForm {padding: 0;}
 #content_wrapper #guestLogin #newUserForm h2 {font-size: 18px;}
 #content_wrapper .HForm {clear: left;}
-#content_wrapper #guestLogin .HAddress_Finder {width: 100%; padding: 0; min-height: 120px;}
+#content_wrapper #guestLogin .HAddress_Finder {width: 100%; padding: 0; height: 120px;}
 #guestCheckoutPage #content_wrapper #HAddress_Finder_PC {
     width: 90%;
     margin: 0 auto;
@@ -204,10 +204,10 @@ img {width: 100%;}
 #content_wrapper .fleft {float: none;}
 #content_wrapper #addressLine2 span {
     position: relative;
-    top: 0;
+    top: 0 !important;
     font-size: 14px;
-    float: left;
-    line-height: 20px;
+    float: none; 
+    line-height: 14px;
     padding-right: 10px;
 }
 
@@ -225,6 +225,17 @@ img {width: 100%;}
 }
 
 #content_wrapper #passwordArea input {width: 100% !important;}
+#content_wrapper #guestLogin .myaccount_section_header {height: auto;}
+#content_wrapper #guestLogin #passwordArea span.header {font-size: 12px; font-weight: normal;}
+#content_wrapper #guestLogin #offersArea span.header {
+    font-size: 12px;
+    width: 100%;
+    line-height: normal;
+    height: auto;
+    margin-left: 0px;
+    display: inline-block;
+    padding: 0;
+}
 
 /* Font Awesome */
 /* \f007 = User */
