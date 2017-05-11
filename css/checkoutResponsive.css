@@ -123,6 +123,10 @@ img {width: 100%;}
     left: 0;
 }
 
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .pnlAutoComplete, 
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .pnlResults, 
+#guestCheckoutPage #content_wrapper .pcaAutoCompleteSmall .pnlAutoCompleteSmall, 
+#guestCheckoutPage #content_wrapper .pcaAutoCompleteSmall .pnlResultsSmall {position: absolute; top: 0; left: 0; width: 100% !important;}
 #guestCheckoutPage #content_wrapper #HAddress_Finder_PC .inputArea span {font-size: inherit;}
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea .suggestion .invisible {font-size: inherit !important;}
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea .suggestion span, 
@@ -146,7 +150,7 @@ img {width: 100%;}
 #guestCheckoutPage #content_wrapper .pcaAutoCompleteSmall .recentFavouritesSmall {width: 100% !important;}
 
 
-#content_wrapper #guestLogin .regForm .column_label {font-size: 14px; line-height: 20px;}
+#content_wrapper #guestLogin .regForm .column_label {font-size: 14px; line-height: 16px;}
 #content_wrapper #guestLogin #newUserForm input {
     margin-bottom: 0;
     line-height: 24px;
