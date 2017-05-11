@@ -80,7 +80,8 @@ img {width: 100%;}
 #content_wrapper #guestLogin #newUserForm .form_2column .regForm,
 #content_wrapper #guestLogin #newUserForm input,
 #content_wrapper #guestLogin #newUserForm .form_2column .regForm,
-#content_wrapper #guestCheckoutPage .backToBasket {width: 100%;}
+#content_wrapper #guestCheckoutPage .backToBasket,
+#content_wrapper #guestCheckoutPage #guestCheckoutPage #addressLine2 {width: 100%;}
 #content_wrapper #guestLogin #newUserForm select {
     border: 2px solid #7e7675;
     height: 36px;
