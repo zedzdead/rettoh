@@ -81,7 +81,9 @@ img {width: 100%;}
 #content_wrapper #guestLogin #newUserForm input,
 #content_wrapper #guestLogin #newUserForm .form_2column .regForm,
 #content_wrapper #guestCheckoutPage .backToBasket,
-#content_wrapper #guestCheckoutPage #guestCheckoutPage #addressLine2 {width: 100%;}
+#content_wrapper #guestCheckoutPage #guestCheckoutPage #addressLine2,
+#guestCheckoutPage #content_wrapper #guestLogin #passwordArea {width: 100%;}
+
 #content_wrapper #guestLogin #newUserForm select {
     border: 2px solid #7e7675;
     height: 36px;
@@ -95,7 +97,7 @@ img {width: 100%;}
 #content_wrapper .form_2column .regForm {padding: 0;}
 #content_wrapper #guestLogin #newUserForm h2 {font-size: 18px;}
 #content_wrapper .HForm {clear: left;}
-#content_wrapper #guestLogin .HAddress_Finder {width: 100%; padding: 0;}
+#content_wrapper #guestLogin .HAddress_Finder {width: 100%; padding: 0; min-height: 120px;}
 #guestCheckoutPage #content_wrapper #HAddress_Finder_PC {
     width: 90%;
     margin: 0 auto;
@@ -166,6 +168,8 @@ img {width: 100%;}
   text-decoration: none;
 }
 
+
+
 #addressLine2,
 #content_wrapper #guestLogin .regForm .column_label {font-size: 14px; line-height: 16px;}
 #content_wrapper #guestLogin #newUserForm input {
@@ -196,6 +200,19 @@ img {width: 100%;}
   outline-color: #A5C842;
 }
 #content_wrapper .fleft {float: none;}
+
+#content_wrapper #guestLogin #passwordArea span.header {
+    color: #4D4D4D;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    line-height: 16px;
+    height: auto;
+    padding: 0;
+    margin-bottom: 15px;
+}
 
 /* Font Awesome */
 /* \f007 = User */
