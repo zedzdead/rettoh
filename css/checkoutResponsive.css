@@ -144,7 +144,9 @@ img {width: 100%;}
 }
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .recentFavourites, 
 #guestCheckoutPage #content_wrapper .pcaAutoCompleteSmall .recentFavouritesSmall {width: 100% !important;}
-#guestCheckoutPage #content_wrapper.selectedItem span {font-size: 14px !important; line-height: 20px !important;}
+
+
+#content_wrapper #guestLogin .regForm .column_label {font-size: 14px; line-height: 20px;}
 #content_wrapper #guestLogin #newUserForm input {
     margin-bottom: 0;
     line-height: 24px;
