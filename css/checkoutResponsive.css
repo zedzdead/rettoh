@@ -243,8 +243,20 @@ img {width: 100%;}
 #content_wrapper #guestLogin #offersArea .sign_in_registration,
 #content_wrapper #guestLogin #offersArea .form_2column .label_spacer,
 #content_wrapper #guestLogin #offersArea .checkbox_registration,
-#content_wrapper #guestLogin #offersArea .checkboxContainer {float: left; width: 20px;}
-#content_wrapper #guestLogin #offersArea label {width: 50%;}
+#content_wrapper #guestLogin #offersArea .checkboxContainer {float: left; width: 36px;}
+#content_wrapper #guestLogin #offersArea .checkboxContainer input {
+    float: left;
+    width: 40px !important;
+    position: relative;
+    top: 0px;
+    height: 24px !important;
+    margin-bottom: 0 !important;
+}
+#content_wrapper .checkboxandradio-wrap h3 {
+    margin-bottom: 6px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
 
 /* Font Awesome */
 /* \f007 = User */
