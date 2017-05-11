@@ -148,7 +148,7 @@ img {width: 100%;}
 }
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .recentFavourites, 
 #guestCheckoutPage #content_wrapper .pcaAutoCompleteSmall .recentFavouritesSmall {width: 100% !important;}
-#guestCheckoutPage #content_wrapper .pcaAutoCompleteSmall #HAddressFinderAlternate {
+#guestCheckoutPage #content_wrapper #HAddressFinderAlternate {
     position: relative !important;
     left: 0;
     top: 0;
