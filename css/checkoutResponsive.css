@@ -150,9 +150,13 @@ img {width: 100%;}
 #guestCheckoutPage #content_wrapper .pcaAutoCompleteSmall .recentFavouritesSmall {width: 100% !important;}
 #guestCheckoutPage #content_wrapper #HAddressFinderAlternate {
     position: relative !important;
-    left: 0;
+    left: 0 !important;
     top: 0;
     font-size: 12px !important;
+    color: #A5C842;
+}
+#guestCheckoutPage #content_wrapper #HAddressFinderAlternate:hover {
+  color: #333;
 }
 
 #content_wrapper #guestLogin .regForm .column_label {font-size: 14px; line-height: 16px;}
