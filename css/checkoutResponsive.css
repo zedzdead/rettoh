@@ -81,7 +81,7 @@ img {width: 100%;}
 #content_wrapper #guestLogin #newUserForm input,
 #content_wrapper #guestLogin #newUserForm .form_2column .regForm,
 #content_wrapper #guestCheckoutPage .backToBasket,
-#content_wrapper #guestCheckoutPage #guestCheckoutPage #addressLine2,
+#content_wrapper #guestCheckoutPage #addressLine2,
 #guestCheckoutPage #content_wrapper #guestLogin #passwordArea,
 #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .myaccount_section_header, 
 #content_wrapper #guestLogin #WC_AccountDisplay_div_19 .myaccount_section_header {width: 100%;}
@@ -202,6 +202,14 @@ img {width: 100%;}
   outline-color: #A5C842;
 }
 #content_wrapper .fleft {float: none;}
+#content_wrapper #addressLine2 span {
+    position: relative;
+    top: 0;
+    font-size: 14px;
+    float: left;
+    line-height: 20px;
+    padding-right: 10px;
+}
 
 #content_wrapper #guestLogin #passwordArea span.header {
     color: #4D4D4D;
