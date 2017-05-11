@@ -240,6 +240,11 @@ img {width: 100%;}
 }
 #content_wrapper #guestLogin #offersArea .checkboxandradio-wrap {font-size: 12px;}
 #content_wrapper #guestLogin #offersArea label {float: none; }
+#content_wrapper #guestLogin #offersArea .sign_in_registration,
+#content_wrapper #guestLogin #offersArea .form_2column .label_spacer,
+#content_wrapper #guestLogin #offersArea .checkbox_registration,
+#content_wrapper #guestLogin #offersArea .checkboxContainer {float: left; width: 20px;}
+#content_wrapper #guestLogin #offersArea label {width: 50%;}
 
 /* Font Awesome */
 /* \f007 = User */
