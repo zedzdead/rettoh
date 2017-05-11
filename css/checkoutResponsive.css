@@ -148,7 +148,12 @@ img {width: 100%;}
 }
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .recentFavourites, 
 #guestCheckoutPage #content_wrapper .pcaAutoCompleteSmall .recentFavouritesSmall {width: 100% !important;}
-
+#guestCheckoutPage #content_wrapper .pcaAutoCompleteSmall #HAddressFinderAlternate {
+    position: relative !important;
+    left: 0;
+    top: 0;
+    font-size: 12px !important;
+}
 
 #content_wrapper #guestLogin .regForm .column_label {font-size: 14px; line-height: 16px;}
 #content_wrapper #guestLogin #newUserForm input {
