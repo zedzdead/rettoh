@@ -81,10 +81,20 @@ img {width: 100%;}
 #content_wrapper #guestLogin #newUserForm input,
 #content_wrapper #guestLogin #newUserForm .form_2column .regForm,
 #content_wrapper #guestCheckoutPage .backToBasket {width: 100%;}
+#content_wrapper #guestLogin #newUserForm select {
+    border: 2px solid #7e7675;
+    height: 36px;
+    margin-bottom: 0; 
+    padding: 0 5px;
+    font-size: 14px;
+    line-height: 36px;
+    width: 100%;
+    max-width: 100%;
+}
 #content_wrapper .form_2column .regForm {padding: 0;}
 #content_wrapper #guestLogin #newUserForm h2 {font-size: 18px;}
 #content_wrapper .HForm {clear: left;}
-#content_wrapper #guestLogin #newUserForm select#pcainput_ct26be42hx99ka1716409 {height: auto; margin-bottom: 15px; padding: 2px; width: 100%; max-width: 100%;}
+#content_wrapper #guestLogin #newUserForm select {height: auto; margin-bottom: 15px; padding: 2px; width: 100%; max-width: 100%;}
 #content_wrapper #guestLogin .HAddress_Finder {width: 100%;}
 #guestCheckoutPage #content_wrapper #HAddress_Finder_PC {
     width: 90%;
@@ -119,7 +129,12 @@ img {width: 100%;}
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea .suggestion span, 
 #guestCheckoutPage #content_wrapper #HAddress_Finder_PC .inputArea span {line-height: 16px; font-size: 14px !important; top: 0 !important; }
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea {height: 30px !important;}
-#guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea .search {top: 8px !important; left: 7px !important;  }
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea .search {
+    top: 7px !important;
+    left: 7px !important;
+    height: 16px !important;
+    font-size: 14px !important;
+}
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .recentFavourites, .pcaAutoCompleteSmall .recentFavouritesSmall {top: 29px; left: 0;}
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .pcaItemHolder {padding: 0;}
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .pcaItem,
