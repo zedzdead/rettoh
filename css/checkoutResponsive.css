@@ -84,7 +84,7 @@ img {width: 100%;}
 #content_wrapper .form_2column .regForm {padding: 0;}
 #content_wrapper #guestLogin #newUserForm h2 {font-size: 18px;}
 #content_wrapper .HForm {clear: left;}
-#content_wrapper #guestLogin #newUserForm select {height: auto; margin-bottom: 15px; padding: 2px;}
+#content_wrapper #guestLogin #newUserForm select#pcainput_ct26be42hx99ka1716409 {height: auto; margin-bottom: 15px; padding: 2px; width: 100%; max-width: 100%;}
 #content_wrapper #guestLogin .HAddress_Finder {width: 100%;}
 #guestCheckoutPage #content_wrapper #HAddress_Finder_PC {
     width: 90%;
@@ -130,7 +130,8 @@ img {width: 100%;}
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .recentFavourites, 
 #guestCheckoutPage #content_wrapper .pcaAutoCompleteSmall .recentFavouritesSmall {width: 100% !important;}
 #content_wrapper #guestLogin .regForm .column_label {font-size: 16px; line-height: 20px;}
-#content_wrapper #guestLogin #newUserForm input {margin-bottom: 0; line-height: 24px; font-size: 18px; height: 36px; line-height: 18px; font-size: 18px;}
+#content_wrapper #guestLogin #newUserForm input {margin-bottom: 0; line-height: 24px; font-size: 18px; height: 36px; line-height: 18px; font-size: 18px; padding-left: 10px;}
+#content_wrapper .fleft {float: none;}
 
 /* Font Awesome */
 /* \f007 = User */
