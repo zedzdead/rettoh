@@ -84,7 +84,9 @@ img {width: 100%;}
 #content_wrapper #guestCheckoutPage #addressLine2,
 #guestCheckoutPage #content_wrapper #guestLogin #passwordArea,
 #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .myaccount_section_header, 
-#content_wrapper #guestLogin #WC_AccountDisplay_div_19 .myaccount_section_header {width: 100%;}
+#content_wrapper #guestLogin #WC_AccountDisplay_div_19 .myaccount_section_header,
+#content_wrapper #guestLogin #offersArea,
+#content_wrapper #guestLogin #offersArea label {width: 100%;}
 
 #content_wrapper #guestLogin #newUserForm select {
     border: 2px solid #7e7675;
@@ -236,6 +238,8 @@ img {width: 100%;}
     display: inline-block;
     padding: 0;
 }
+#content_wrapper #guestLogin #offersArea .checkboxandradio-wrap {font-size: 12px;}
+#content_wrapper #guestLogin #offersArea label {float: none; }
 
 /* Font Awesome */
 /* \f007 = User */
