@@ -94,7 +94,7 @@ img {width: 100%;}
 #content_wrapper .form_2column .regForm {padding: 0;}
 #content_wrapper #guestLogin #newUserForm h2 {font-size: 18px;}
 #content_wrapper .HForm {clear: left;}
-#content_wrapper #guestLogin .HAddress_Finder {width: 100%;}
+#content_wrapper #guestLogin .HAddress_Finder {width: 100%; padding: 0;}
 #guestCheckoutPage #content_wrapper #HAddress_Finder_PC {
     width: 90%;
     margin: 0 auto;
@@ -104,12 +104,16 @@ img {width: 100%;}
 #guestCheckoutPage #content_wrapper .HForm .label_spacer {
     margin: 0 auto;
     width: 90%;
-    font-size: 14px;
+    font-size: 14px !important;
     padding: 5px;
     text-align: left;
     left: 0;
     top: 0;
     float:left;
+}
+
+#guestCheckoutPage #content_wrapper .HForm .label_spacer span {
+  font-size: 12px !important;
 }
 #content_wrapper #guestLogin .pcaAutoComplete .inputArea {
     border: 1px solid #ccc !important;
