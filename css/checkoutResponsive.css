@@ -143,7 +143,7 @@ img {width: 100%;}
 }
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .recentFavourites, 
 #guestCheckoutPage #content_wrapper .pcaAutoCompleteSmall .recentFavouritesSmall {width: 100% !important;}
-#content_wrapper #guestLogin .regForm .column_label {font-size: 16px; line-height: 20px;}
+#content_wrapper #guestLogin .regForm .column_label {font-size: 14px; line-height: 20px;}
 #content_wrapper #guestLogin #newUserForm input {
     margin-bottom: 0;
     line-height: 24px;
@@ -154,6 +154,7 @@ img {width: 100%;}
     padding-left: 10px;
     border: #ccc 2px solid;
     margin-bottom: 15px;
+    color: #666;
 }
 /*new change*/
 #content_wrapper #guestLogin #newUserForm select {
@@ -163,6 +164,12 @@ img {width: 100%;}
     width: 100%;
     max-width: 100%;
     border: solid 2px #ccc;
+    color: #666;
+}
+
+#content_wrapper #guestLogin #newUserForm input:focus,
+#content_wrapper #guestLogin #newUserForm select:focus {
+  outline-color: #A5C842;
 }
 #content_wrapper .fleft {float: none;}
 
