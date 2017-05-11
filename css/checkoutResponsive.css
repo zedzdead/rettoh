@@ -154,10 +154,11 @@ img {width: 100%;}
     left: 0 !important;
     top: 0;
     font-size: 12px !important;
-    color: #A5C842;
+    color: #333;
 }
 #guestCheckoutPage #content_wrapper #HAddressFinderAlternate:hover {
-  color: #333;
+  color: #A5C842;
+  text-decoration: none;
 }
 
 #content_wrapper #guestLogin .regForm .column_label {font-size: 14px; line-height: 16px;}
