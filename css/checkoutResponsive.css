@@ -526,6 +526,7 @@ form {position: relative;}
     height: 10px;
     background-color: pink;
   }
+  #content_wrapper p {text-align: left;}
 }
 
 /* Larger than tablet */
