@@ -229,6 +229,7 @@ img {width: 100%;}
 #content_wrapper #passwordArea input {width: 100% !important;}
 #content_wrapper #guestLogin .myaccount_section_header {height: auto;}
 #content_wrapper #guestLogin #passwordArea span.header {font-size: 12px; font-weight: normal;}
+#content_wrapper #guestLogin.birthday_label select {width: 30%;}
 #content_wrapper #guestLogin #offersArea span.header {
     font-size: 10px;
     width: 100%;
@@ -238,6 +239,8 @@ img {width: 100%;}
     display: inline-block;
     padding: 0;
 }
+#guestLogin #WC_AccountDisplay_div_3 .myaccount_section_header,
+#guestLogin #WC_AccountDisplay_div_19 .myaccount_section_header {margin-bottom: 10px;}
 #content_wrapper #guestLogin #offersArea .checkboxandradio-wrap {font-size: 12px;}
 #content_wrapper #guestLogin #offersArea label {float: none; font-size: 10px;}
 #content_wrapper #guestLogin #offersArea .sign_in_registration,
@@ -257,6 +260,7 @@ img {width: 100%;}
     font-weight: bold;
     margin-bottom: 10px;
     padding: 5px 0;
+    font-size: 12px;
 }
 
 /* Font Awesome */
