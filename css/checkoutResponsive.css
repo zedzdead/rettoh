@@ -60,10 +60,9 @@ body#guestCheckoutPage {background: none;}
 #content_wrapper #checkout_crumb span.step_on {color: #A2C43F;}
 #content_wrapper #box {min-width: 0; min-height: 200px;}
 #content_wrapper #box h1 {text-align: center; font-size: 24px; margin: 0;}
-#content_wrapper #box p {font-size: 12px; text-align: center;}
+#content_wrapper p {font-size: 12px; text-align: center; padding: 0;}
 #content_wrapper .container_content_rightsidebar {width: 100%;}
 #content_wrapper .container_content_rightsidebar #guestLogin {width: 100%; padding: 0;}
-#content_wrapper p {font-size: 12px; padding: 0; text-align: center;}
 #content_wrapper #WC_AccountDisplay_div_7 br {display: none;}
 #content_wrapper form {text-align: left; width: 100%;}
 #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .content {padding: 5px; width: 100%;}
