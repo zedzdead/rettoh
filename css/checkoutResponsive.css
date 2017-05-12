@@ -102,12 +102,12 @@ body#guestCheckoutPage {background: none;}
     font-size: 14px;
     line-height: 36px;
     width: 100%;
-    max-width: 100%;
+    max-width: 400px;
 }
 #content_wrapper .form_2column .regForm {padding: 0;}
 #content_wrapper #guestLogin #newUserForm h2 {font-size: 18px;}
 #content_wrapper .HForm {clear: left;}
-#content_wrapper #guestLogin .HAddress_Finder {width: 100%; padding: 0; height: 120px;}
+#content_wrapper #guestLogin .HAddress_Finder {width: 100%; padding: 0; height: 120px; max-width: 400px;}
 #guestCheckoutPage #content_wrapper #HAddress_Finder_PC {
     width: 90%;
     margin: 0 auto;
@@ -193,6 +193,8 @@ body#guestCheckoutPage {background: none;}
     border: #ccc 2px solid;
     margin-bottom: 15px;
     color: #666;
+    width: 100%;
+    max-width: 400px;
 }
 
 #content_wrapper #guestLogin #newUserForm select {
@@ -204,7 +206,9 @@ body#guestCheckoutPage {background: none;}
     border: solid 2px #ccc;
     color: #666;
 }
-#content_wrapper #guestLogin #newUserForm #passwordArea select {width: 30%;}
+
+#content_wrapper #guestLogin #passwordArea {width: 100%; max-width: 400px;}
+#content_wrapper #guestLogin #newUserForm #passwordArea select {width: 30%; max-width: 133px;}
 
 #content_wrapper #guestLogin #newUserForm input:focus,
 #content_wrapper #guestLogin #newUserForm select:focus {
@@ -269,6 +273,7 @@ body#guestCheckoutPage {background: none;}
     font-size: 12px;
 }
 
+#content_wrapper #guestLogin #offersArea {width: 100%; max-width: 400px;}
 #content_wrapper #guestLogin #offersArea .privacyLink {
     font-size: 10px;
     float: none;
@@ -407,6 +412,8 @@ body#guestCheckoutPage {background: none;}
     border: #ccc 2px solid;
     margin-bottom: 15px;
     color: #666;
+    width: 100%;
+    max-width: 400px;
 }
 
 /* Form labels inside fields Start */
