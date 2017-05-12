@@ -34,6 +34,7 @@ img {width: 100%;}
 #headerWidget div#widget_masthead_logo1 img {position: relative; left: 0 top: 0; margin: 0;}
 #headerWidget .mobilelogo {display: block; width: 50%; margin: 0 auto;}
 #headerWidget .mobilelogo > div {float: none;}
+.jsEnabled #headerWidget #masthead > .navigation {width: 100%;}
 #headerWidget .header_espot_container {display: none;}
 #headerWidget div.widget_minishopcart_position {display: none;}
 #headerWidget a.blomobcart {display: none;}
