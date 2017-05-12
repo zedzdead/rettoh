@@ -74,7 +74,7 @@ body#guestCheckoutPage {background: none;}
     padding: 0;
     float: none;
     display: inline-block;
-    text-align: right;
+    text-align: left;
     padding-right: 10px;
 }
 #content_wrapper #guestLogin .emailSection input {width: 100% !important;}
@@ -536,7 +536,10 @@ form {position: relative;}
     background-color: pink;
   }
   #content_wrapper p,
-  #content_wrapper #WC_AccountDisplay_div_7 .strong {text-align: left;}  
+  #content_wrapper #WC_AccountDisplay_div_7 .strong {text-align: left;}
+  #content_wrapper #guestLogin .emailSection label,
+  #addressLine2, 
+  #content_wrapper #guestLogin .regForm .column_label {text-align: right};  
 }
 
 /* Larger than tablet */
