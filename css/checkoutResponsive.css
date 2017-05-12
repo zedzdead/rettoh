@@ -60,7 +60,8 @@ body#guestCheckoutPage {background: none;}
 #content_wrapper #checkout_crumb span.step_on {color: #A2C43F;}
 #content_wrapper #box {min-width: 0; min-height: 200px;}
 #content_wrapper #box h1 {text-align: center; font-size: 24px; margin: 0;}
-#content_wrapper p {font-size: 12px; text-align: center; padding: 0;}
+#content_wrapper p,
+#content_wrapper #WC_AccountDisplay_div_7 .strong {font-size: 12px; text-align: center; padding: 0;}
 #content_wrapper .container_content_rightsidebar {width: 100%;}
 #content_wrapper .container_content_rightsidebar #guestLogin {width: 100%; padding: 0;}
 #content_wrapper #WC_AccountDisplay_div_7 br {display: none;}
@@ -525,7 +526,8 @@ form {position: relative;}
     height: 10px;
     background-color: pink;
   }
-  #content_wrapper p {text-align: left;}
+  #content_wrapper p,
+  #content_wrapper #WC_AccountDisplay_div_7 .strong {text-align: left;}
 }
 
 /* Larger than tablet */
