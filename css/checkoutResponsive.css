@@ -63,7 +63,7 @@ body#guestCheckoutPage {background: none;}
 #content_wrapper #box p {font-size: 12px;}
 #content_wrapper .container_content_rightsidebar {width: 100%;}
 #content_wrapper .container_content_rightsidebar #guestLogin {width: 100%; padding: 0;}
-#content_wrapper #WC_AccountDisplay_div_7 .strong {font-size: 12px; padding: 0; text-align: center;}
+/*#content_wrapper #WC_AccountDisplay_div_7 .strong {font-size: 12px; padding: 0; text-align: center;}*/
 #content_wrapper #WC_AccountDisplay_div_7 br {display: none;}
 #content_wrapper form {text-align: left; width: 100%;}
 #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .content {padding: 5px; width: 100%;}
