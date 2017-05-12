@@ -399,6 +399,7 @@ img {width: 100%;}
 }
 
 /* Form labels inside fields Start */
+/*
 form {position: relative;}
 #content_wrapper #guestLogin .emailSection input {
   position: relative;
@@ -430,8 +431,6 @@ form {position: relative;}
   line-height: 0;
 }
 
-
-/*input:focus ~ label*/
 #content_wrapper #guestLogin .emailSection label.placeholder {
   font-size: 12px;
   display: inline-block;
@@ -476,7 +475,7 @@ form {position: relative;}
 #page .store_message > .content > .message .message_text {width: 100%; margin: 0;}
 .store_message > .content > .close {outline: 0;}
 #page .shadowPiece {display: none;}
-
+*/
 /* Form labels inside fields End */
 
   
