@@ -535,6 +535,7 @@ form {position: relative;}
     height: 10px;
     background-color: pink;
   }
+  .selectbox {display: inline-block;}
   #content_wrapper p,
   #content_wrapper #WC_AccountDisplay_div_7 .strong {text-align: left;} 
 }
