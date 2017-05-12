@@ -22,7 +22,7 @@ img {width: 100%;}
 .group:after {content: ""; display: table; clear: both;}
 
 /*Global Resets*/
-#headerWidget div.header_wrapper {min-width: 0; max-width: 960px; width: 100%;}
+#headerWidget div.header_wrapper {min-width: 0; max-width: 960px; width: 100%; margin: 0 auto;}
 #headerWidget div#widget_masthead_links div.masthead_links {display: none;}
 #headerWidget div.header_wrapper > div.header_left_shadow {width: 100%; padding: 0;}
 #headerWidget div.header_wrapper > div.header_left_shadow > div.header_right_shadow {width: 100%; padding: 0;}
@@ -47,7 +47,7 @@ img {width: 100%;}
 #headerWidget .uspboxmobc {font-size: 14px;}
 
 /*Checkout Resets*/
-#content_wrapper .content_wrapper {min-width: 300px; max-width: 960px; width: 100%; text-align: center;}
+#content_wrapper .content_wrapper {min-width: 300px; max-width: 960px; width: 100%; text-align: center; margin: 0 auto;}
 #content_wrapper .content_wrapper > div.content_left_shadow {width: 100%; padding: 0 10px;}
 #content_wrapper div.content_wrapper > div.content_left_shadow > div.content_right_shadow {width: 100%; padding: 0;}
 #content_wrapper div.content_wrapper > div.content_left_shadow > div.content_right_shadow > div.main_content {width: 100%; padding: 0;}
