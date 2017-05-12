@@ -549,7 +549,7 @@ form {position: relative;}
   }
   #content_wrapper #guestLogin .emailSection label,
   #addressLine2, 
-  #content_wrapper #guestLogin .regForm .column_label {text-align: right};   
+  #content_wrapper #guestLogin .regForm .column_label {text-align: right;}   
 }
 
 /* Larger than desktop */
