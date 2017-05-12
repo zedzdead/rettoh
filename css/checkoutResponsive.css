@@ -66,7 +66,7 @@ img {width: 100%;}
 #content_wrapper #WC_AccountDisplay_div_7 br {display: none;}
 #content_wrapper form {text-align: left; width: 100%;}
 #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .content {padding: 5px; width: 100%;}
-#content_wrapper #guestLogin .emailSection label {font-size: 14px; padding: 0;}
+#content_wrapper #guestLogin .emailSection label {font-size: 14px; padding: 0; line-height: 16px;}
 #content_wrapper #guestLogin .emailSection input {width: 100% !important;}
 #content_wrapper #guestLogin .emailSection .infoText {
     padding: 0 10px 10px;
@@ -421,9 +421,8 @@ form {position: relative;}
   background: transparent;
   border-radius: 15px;
   border: solid 3px #666;
-  font-family: verdana;
-  width: 400px;
   margin: 0;
+  height: 70px;
 }
 
 #content_wrapper #guestLogin .emailSection input:focus {
