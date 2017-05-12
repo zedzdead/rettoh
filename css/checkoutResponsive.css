@@ -276,20 +276,21 @@ img {width: 100%;}
   color: #A5C842;
 }
 
-#content_wrapper #guestLogin #WC_AccountDisplay_div_3 .content .button_primary,  
-#content_wrapper #guestLogin #WC_AccountDisplay_div_19 .content .button_primary {
+#content_wrapper #guestLogin #WC_AccountDisplay_div_3 .content .button_primary, #content_wrapper #guestLogin #WC_AccountDisplay_div_19 .content .button_primary {
     float: none;
     position: relative;
     bottom: auto;
     top: 0;
     left: 0;
+    height: auto;
+    display: block;
 }
 
 #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .button_primary > .button_text, 
 #content_wrapper #guestLogin #WC_AccountDisplay_div_19 .button_primary > .button_text {
     font-size: 20px !important;
-    height: 30px !important;
-    line-height: 30px !important;
+    height: 40px !important;
+    line-height: 40px !important;
     padding: 0px;
     font-family: Tahoma, Geneva, sans-serif;
     font-weight: normal;
