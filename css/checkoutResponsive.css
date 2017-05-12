@@ -536,10 +536,7 @@ form {position: relative;}
     background-color: pink;
   }
   #content_wrapper p,
-  #content_wrapper #WC_AccountDisplay_div_7 .strong {text-align: left;}
-  #content_wrapper #guestLogin .emailSection label,
-  #addressLine2, 
-  #content_wrapper #guestLogin .regForm .column_label {text-align: right};  
+  #content_wrapper #WC_AccountDisplay_div_7 .strong {text-align: left;} 
 }
 
 /* Larger than tablet */
@@ -550,6 +547,9 @@ form {position: relative;}
     height: 10px;
     background-color: turquoise;
   }
+  #content_wrapper #guestLogin .emailSection label,
+  #addressLine2, 
+  #content_wrapper #guestLogin .regForm .column_label {text-align: right};   
 }
 
 /* Larger than desktop */
