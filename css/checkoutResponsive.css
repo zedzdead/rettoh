@@ -398,6 +398,16 @@ img {width: 100%;}
     font-size: 24px;
 }
 
+#content_wrapper #guestLogin #Logon input {
+    height: 36px;
+    line-height: 18px;
+    font-size: 16px;
+    padding-left: 10px;
+    border: #ccc 2px solid;
+    margin-bottom: 15px;
+    color: #666;
+}
+
 /* Form labels inside fields Start */
 /*
 form {position: relative;}
