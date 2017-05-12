@@ -198,6 +198,7 @@ img {width: 100%;}
     border: solid 2px #ccc;
     color: #666;
 }
+#content_wrapper #guestLogin #newUserForm #passwordArea select {width: 30%;}
 
 #content_wrapper #guestLogin #newUserForm input:focus,
 #content_wrapper #guestLogin #newUserForm select:focus {
@@ -229,7 +230,6 @@ img {width: 100%;}
 #content_wrapper #passwordArea input {width: 100% !important;}
 #content_wrapper #guestLogin .myaccount_section_header {height: auto;}
 #content_wrapper #guestLogin #passwordArea span.header {font-size: 12px; font-weight: normal;}
-#content_wrapper #guestLogin #newUserForm .birthday_label select {width: 30%;}
 #content_wrapper #guestLogin #offersArea span.header {
     font-size: 10px;
     width: 100%;
