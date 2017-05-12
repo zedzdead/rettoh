@@ -67,7 +67,7 @@ body#guestCheckoutPage {background: none;}
 #content_wrapper #WC_AccountDisplay_div_7 br {display: none;}
 #content_wrapper form {text-align: left; width: 100%;}
 #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .content {padding: 5px; width: 100%;}
-#content_wrapper #guestLogin .emailSection label {font-size: 14px; padding: 0; line-height: 16px;}
+#content_wrapper #guestLogin .emailSection label {font-size: 14px; line-height: 16px; width: 150px; top: 7px;}
 #content_wrapper #guestLogin .emailSection input {width: 100% !important;}
 #content_wrapper #guestLogin .emailSection .infoText {
     padding: 0 10px 10px;
@@ -205,6 +205,7 @@ body#guestCheckoutPage {background: none;}
     max-width: 100%;
     border: solid 2px #ccc;
     color: #666;
+    max-width: 400px;
 }
 
 #content_wrapper #guestLogin #passwordArea {width: 100%; max-width: 400px;}
