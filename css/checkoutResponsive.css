@@ -61,13 +61,22 @@ body#guestCheckoutPage {background: none;}
 #content_wrapper #box {min-width: 0; min-height: 200px;}
 #content_wrapper #box h1 {text-align: center; font-size: 24px; margin: 0;}
 #content_wrapper p,
-#content_wrapper #WC_AccountDisplay_div_7 .strong {font-size: 12px; text-align: center; padding: 0;}
+#content_wrapper #WC_AccountDisplay_div_7 .strong {font-size: 12px !important; text-align: center; padding: 0;}
 #content_wrapper .container_content_rightsidebar {width: 100%;}
 #content_wrapper .container_content_rightsidebar #guestLogin {width: 100%; padding: 0;}
 #content_wrapper #WC_AccountDisplay_div_7 br {display: none;}
 #content_wrapper form {text-align: left; width: 100%;}
 #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .content {padding: 5px; width: 100%;}
-#content_wrapper #guestLogin .emailSection label {font-size: 14px; line-height: 16px; width: 150px; padding: 0;}
+#content_wrapper #guestLogin .emailSection label {
+    font-size: 14px;
+    line-height: 16px;
+    width: 150px;
+    padding: 0;
+    float: none;
+    display: inline-block;
+    text-align: right;
+    padding-right: 10px;
+}
 #content_wrapper #guestLogin .emailSection input {width: 100% !important;}
 #content_wrapper #guestLogin .emailSection .infoText {
     padding: 0 10px 10px;
@@ -527,7 +536,7 @@ form {position: relative;}
     background-color: pink;
   }
   #content_wrapper p,
-  #content_wrapper #WC_AccountDisplay_div_7 .strong {text-align: left;}
+  #content_wrapper #WC_AccountDisplay_div_7 .strong {text-align: left;}  
 }
 
 /* Larger than tablet */
