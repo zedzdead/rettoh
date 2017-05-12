@@ -229,6 +229,7 @@ img {width: 100%;}
 #content_wrapper #passwordArea input {width: 100% !important;}
 #content_wrapper #guestLogin .myaccount_section_header {height: auto;}
 #content_wrapper #guestLogin #passwordArea span.header {font-size: 12px; font-weight: normal;}
+#content_wrapper #guestLogin #newUserForm select
 #content_wrapper #guestLogin.birthday_label select {width: 30%;}
 #content_wrapper #guestLogin #offersArea span.header {
     font-size: 10px;
@@ -261,6 +262,19 @@ img {width: 100%;}
     margin-bottom: 10px;
     padding: 5px 0;
     font-size: 12px;
+}
+
+#content_wrapper #guestLogin #offersArea .privacyLink {
+  font-size: 12px;
+  float: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+#content_wrapper #guestLogin #offersArea .privacyLink:hover {
+  text-decoration: underline;
+  color: #A5C842;
 }
 
 /* Font Awesome */
