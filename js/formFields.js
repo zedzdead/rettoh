@@ -1,5 +1,5 @@
-/*
 jQuery(document).ready(function($) {
+  /*
   console.log('Start Form Fields');
   if ($('input').length) {
     $('input').each(function() {
@@ -18,5 +18,5 @@ jQuery(document).ready(function($) {
     });
   }
   console.log('End Form Fields');
+  */
 });
-*/
