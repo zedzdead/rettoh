@@ -122,7 +122,7 @@ div#searchComponent {display: none;}
 #content_wrapper .form_2column .regForm {padding: 0;}
 #content_wrapper #guestLogin #newUserForm h2 {font-size: 18px;}
 #content_wrapper .HForm {clear: left;}
-#content_wrapper #guestLogin .HAddress_Finder {width: 100%; padding: 0; height: 120px; max-width: 400px;}
+#content_wrapper #guestLogin .HAddress_Finder {width: 100%; padding: 0; height: 120px; max-width: 400px; float: right;}
 #guestCheckoutPage #content_wrapper #HAddress_Finder_PC {
     width: 90%;
     margin: 0 auto;
