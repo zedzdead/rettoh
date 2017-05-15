@@ -361,8 +361,9 @@ div#searchComponent {display: none;}
 
 /* Font Awesome */
 /* \f007 = User */
+/* \f290 - Shopping bag */
 #WC_ShipmentDisplay_div_4 span:first-child:before {
-    content: "\f007";
+    content: "\f290";
     font-family: FontAwesome;
     font-size: 24px;
 }
