@@ -46,6 +46,7 @@ body#guestCheckoutPage {background: none;}
 #headerWidget #USPGeneric {display: none;}
 #headerWidget .uspboxmob {display: block; line-height: 30px; height: auto;}
 #headerWidget .uspboxmobc {font-size: 14px;}
+div#searchComponent {display: none;}
 
 /*Checkout Resets*/
 #content_wrapper .content_wrapper {min-width: 300px; max-width: 960px; width: 100%; text-align: center; margin: 0 auto;}
