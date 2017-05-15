@@ -320,7 +320,7 @@ div#searchComponent {display: none;}
     height: 40px !important;
     line-height: 40px !important;
     padding: 0px;
-    font-family: Tahoma, Geneva, sans-serif;
+    font-family: Arial,Verdana,Helvetica,sans-serif;
     font-weight: normal;
     text-transform: capitalize;
     width: 100%;
@@ -539,7 +539,9 @@ form {position: relative;}
   }
   .selectbox {display: inline-block;}
   #content_wrapper p,
-  #content_wrapper #WC_AccountDisplay_div_7 .strong {text-align: left;} 
+  #content_wrapper #WC_AccountDisplay_div_7 .strong {text-align: left;}
+  #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .button_primary > .button_text, 
+  #content_wrapper #guestLogin #WC_AccountDisplay_div_19 .button_primary > .button_text {width: 200px;} 
 }
 
 /* Larger than tablet */
