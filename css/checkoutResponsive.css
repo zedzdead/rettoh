@@ -427,6 +427,23 @@ div#searchComponent {display: none;}
     max-width: 400px;
 }
 
+#page div.store_message {
+    display: none;
+    left: 0;
+    margin-left: 0;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    width: 100%;
+    z-index: 9999;
+}
+
+#page .store_message > .content {max-width: 300px; margin: 0 auto; box-shadow: 5px 5px 50px #cdf;}
+#page .store_message > .content > .message {margin: 0; padding: 20px;}
+#page .store_message > .content > .message .message_text {width: 100%; margin: 0;}
+.store_message > .content > .close {outline: 0;}
+#page .shadowPiece {display: none;}
+
 /* Form labels inside fields Start */
 /*
 form {position: relative;}
@@ -486,23 +503,6 @@ form {position: relative;}
 
 #content_wrapper #guestLogin .emailSection label span.required-field  {color: red;}
 
-
-#page div.store_message {
-    display: none;
-    left: 0;
-    margin-left: 0;
-    position: absolute;
-    top: 40%;
-    width: auto;
-    width: 100%;
-    z-index: 9999;
-}
-
-#page .store_message > .content {max-width: 300px; margin: 0 auto; box-shadow: 5px 5px 50px #cdf;}
-#page .store_message > .content > .message {margin: 0; padding: 20px;}
-#page .store_message > .content > .message .message_text {width: 100%; margin: 0;}
-.store_message > .content > .close {outline: 0;}
-#page .shadowPiece {display: none;}
 */
 /* Form labels inside fields End */
 
