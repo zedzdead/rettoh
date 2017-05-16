@@ -177,6 +177,7 @@ div#searchComponent {display: none;}
     height: 16px !important;
     font-size: 14px !important;
 }
+#guestCheckoutPage #content_wrapper .HAddressBlock {margin-top: 20px;}
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .recentFavourites, .pcaAutoCompleteSmall .recentFavouritesSmall {top: 29px; left: 0;}
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .pcaItemHolder {padding: 0;}
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .pcaItem,
@@ -579,7 +580,8 @@ form {position: relative;}
   #content_wrapper #guestLogin .regForm .column_label {text-align: right;} 
   #content_wrapper #checkout_crumb span.step_on, #content_wrapper #checkout_crumb span.step_off {font-size: 18px;}
   #WC_ShipmentDisplay_div_4 span:before {display: none;} 
-  #guestCheckoutPage #content_wrapper #addressLine2 span {top: 8px !important;} 
+  #guestCheckoutPage #content_wrapper #addressLine2 span {top: 8px !important;}
+  div#stateDiv {float: right; width: 426px;} 
 }
 
 /* Larger than desktop */
