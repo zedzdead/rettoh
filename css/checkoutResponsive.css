@@ -552,7 +552,9 @@ form {position: relative;}
   #content_wrapper p,
   #content_wrapper #WC_AccountDisplay_div_7 .strong {text-align: left;}
   #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .button_primary > .button_text, 
-  #content_wrapper #guestLogin #WC_AccountDisplay_div_19 .button_primary > .button_text {width: 200px;} 
+  #content_wrapper #guestLogin #WC_AccountDisplay_div_19 .button_primary > .button_text,
+  #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {width: 300px;}
+
 }
 
 /* Larger than tablet */
