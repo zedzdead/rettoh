@@ -217,6 +217,7 @@ div#searchComponent {display: none;}
     width: 100%;
     max-width: 426px;
 }
+#content_wrapper #guestCheckoutPage #addressLine2 {width: 100%}
 
 #content_wrapper #guestLogin #newUserForm #passwordArea input {max-width: 397px;}
 
@@ -554,7 +555,7 @@ form {position: relative;}
   #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .button_primary > .button_text, 
   #content_wrapper #guestLogin #WC_AccountDisplay_div_19 .button_primary > .button_text,
   #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {width: 300px;}
-  #content_wrapper #guestLogin .emailSection .infoText {margin-left: 170px;}
+  #content_wrapper #guestLogin .emailSection .infoText {margin-left: 25%;}
 
 }
 
