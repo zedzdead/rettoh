@@ -561,7 +561,8 @@ form {position: relative;}
   #content_wrapper #guestLogin #WC_AccountDisplay_div_19 .button_primary > .button_text,
   #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {width: 300px;}
   #content_wrapper #guestLogin .emailSection .infoText {margin-left: 25%;}
-  #guestCheckoutPage #content_wrapper  #addressLine2 {padding: 0; }
+  #guestCheckoutPage #content_wrapper  #addressLine2 {padding: 0;}
+  #guestCheckoutPage #content_wrapper #addressLine2 span {color: red;}
 
 }
 
