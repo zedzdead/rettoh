@@ -318,7 +318,7 @@ div#searchComponent {display: none;}
     float: none;
     position: relative;
     bottom: auto;
-    top: 0;
+    top: 20px;
     left: 0;
     height: auto;
     display: block;
@@ -433,7 +433,7 @@ div#searchComponent {display: none;}
     font-size: 16px;
     padding-left: 10px;
     border: #ccc 2px solid;
-    margin-bottom: 15px;
+    margin-bottom: 0;
     color: #666;
     width: 100%;
     max-width: 426px;
