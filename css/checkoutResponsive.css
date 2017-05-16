@@ -217,7 +217,7 @@ div#searchComponent {display: none;}
     width: 100%;
     max-width: 426px;
 }
-#guestCheckoutPage #content_wrapper  #addressLine2 {width: 100%; max-width: 100%;}
+#guestCheckoutPage #content_wrapper  #addressLine2 {width: 100%; max-width: 100%; padding: 0; }
 
 #content_wrapper #guestLogin #newUserForm #passwordArea input {max-width: 397px;}
 
@@ -240,7 +240,6 @@ div#searchComponent {display: none;}
 #content_wrapper .fleft {float: none;}
 #content_wrapper #addressLine2 span {
     position: relative;
-    top: 0 !important;
     font-size: 14px;
     float: none; 
     line-height: 14px;
