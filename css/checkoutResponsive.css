@@ -581,7 +581,12 @@ form {position: relative;}
   #content_wrapper #checkout_crumb span.step_on, #content_wrapper #checkout_crumb span.step_off {font-size: 18px;}
   #WC_ShipmentDisplay_div_4 span:before {display: none;} 
   #guestCheckoutPage #content_wrapper #addressLine2 span {top: 8px !important;}
-  div#stateDiv {float: right; width: 426px;} 
+  div#label_state {
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    top: 7px;
+  }
 }
 
 /* Larger than desktop */
