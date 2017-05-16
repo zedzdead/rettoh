@@ -241,10 +241,14 @@ div#searchComponent {display: none;}
 #content_wrapper #addressLine2 span {
     position: relative;
     font-size: 14px;
-    float: none; 
     line-height: 14px;
     padding-right: 10px;
     top: 0 !important;
+    width: 150px;
+    padding: right: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+    padding-left: 10px;
 }
 
 #content_wrapper #guestLogin #passwordArea span.header {
