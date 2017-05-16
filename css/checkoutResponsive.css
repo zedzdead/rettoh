@@ -215,7 +215,10 @@ div#searchComponent {display: none;}
     margin-bottom: 15px;
     color: #666;
     width: 100%;
+    max-width: 426px;
 }
+
+#content_wrapper #guestLogin #newUserForm #passwordArea input {max-width: 397px;}
 
 #content_wrapper #guestLogin #newUserForm select {
     height: auto;
@@ -433,6 +436,7 @@ div#searchComponent {display: none;}
     margin-bottom: 15px;
     color: #666;
     width: 100%;
+    max-width: 426px;
 }
 
 #page div.store_message {
