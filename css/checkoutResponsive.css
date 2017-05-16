@@ -196,7 +196,7 @@ div#searchComponent {display: none;}
 
 
 #addressLine2,
-#content_wrapper #guestLogin .regForm .column_label {font-size: 14px; line-height: 16px; width: 150px; text-align: left; display: inline-block;}
+#content_wrapper #guestLogin .regForm .column_label {font-size: 14px; line-height: 16px; width: 150px; text-align: left; display: inline-block; float: none; top: 0;}
 #content_wrapper #guestLogin #newUserForm input {
     margin-bottom: 0;
     line-height: 24px;
