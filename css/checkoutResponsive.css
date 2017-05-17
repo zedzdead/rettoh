@@ -581,6 +581,7 @@ form {position: relative;}
   #content_wrapper #guestLogin .emailSection label {text-align: right; width: 25%;}
   #addressLine2, #content_wrapper #guestLogin .regForm .column_label {text-align: right; width: 25%;}
   #content_wrapper #addressLine2 span {text-align: right; width: 25%;}
+  #content_wrapper #addressLine2 input {float: none;}
 }
 
 /* Larger than tablet */
