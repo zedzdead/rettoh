@@ -8,7 +8,7 @@ jQuery(document).ready(function($) {
 	//Add non breaking spaces to shipping option label text
 	if($('.shipping_method_item_title').length) {
 		$('.shipping_method_item_title label span').each(function() {
-			$(this).text($(this).text().replace(' ', '&nbsp;'));
+			$(this).html($(this).html().replace(' ', '&nbsp;'));
 		});
 	}
 });
