@@ -582,7 +582,7 @@ form {position: relative;}
   #content_wrapper #guestLogin .regForm .column_label {text-align: right; width: 25%;}
   #content_wrapper #addressLine2 span {text-align: right; width: 26%;} /*Bizarre! */
   #content_wrapper #addressLine2 input {float: none;}
-  #guestCheckoutPage #content_wrapper #addressLine2 span {display: inline-block; text-align: right; padding: 0 10px; margin: 0;}
+  #guestCheckoutPage #content_wrapper #addressLine2 span {display: inline-block; text-align: right; padding: 0 10px 0 0; margin: 0;}
 }
 
 /* Larger than tablet */
