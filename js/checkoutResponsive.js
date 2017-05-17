@@ -9,7 +9,7 @@ jQuery(document).ready(function($) {
 	if($('.shipping_method_item_title').length) {
 		$('.shipping_method_item_title label span').each(function() {
 			$(this).html($(this).html().replace(/ /g, '&nbsp;'));
-			$(this).html($(this).html().replace(/-/g, '&#8288'));
+			//$(this).html($(this).html().replace(/-/g, '&#8288'));
 		});
 	}
 });
