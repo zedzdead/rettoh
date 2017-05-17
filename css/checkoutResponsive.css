@@ -464,6 +464,13 @@ div#searchComponent {display: none;}
 
 /* Checkout Page 2 */
 
+.checkout .checkoutHeader, .checkoutFooter {width: 100%; max-width: 930px;}
+.checkout .sec-head, 
+.checkout #content_wrapper .content_wrapper,
+.checkout #shipping .shipping_method,
+.checkout .shipAddressSelect,
+.checkout #shipAddressSelect .Hform {width: 100%;}
+
 div.header_wrapper_position {
     position: relative;
     width: 100%;
@@ -471,6 +478,8 @@ div.header_wrapper_position {
     max-width: 930px;
     margin: 0 auto;
 }
+
+
 
 
 
