@@ -68,7 +68,7 @@ span.charges{
   /*color: #B4D8E8;*/
   cursor:pointer;
   padding-left: 5px;
-  height: 20px;
+  /*height: 20px;*/
   display: inline-block;
   width: 97%;
   position: relative;
@@ -166,6 +166,8 @@ tr #WC_CheckoutStoreSelection_div_8 {
 tr #WC_CheckoutStoreSelection_div_8 a {margin-left: 0}
 tr #WC_CheckoutStoreSelection_div_8 .button_primary > .button_text {padding: 0 20px;}
 
+/*This doesn't work in IE */
+/*
 #bopis_table input[type="radio"] {
   margin-left: -300px;
 }
@@ -187,6 +189,7 @@ tr #WC_CheckoutStoreSelection_div_8 .button_primary > .button_text {padding: 0 2
   margin-left: 300px;
   font-size: 20px;
 }
+*/
 
 /* End enhanced Radio Button Code for Store Locator Options */
 
