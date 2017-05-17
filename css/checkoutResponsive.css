@@ -576,7 +576,8 @@ form {position: relative;}
   #content_wrapper #guestLogin .emailSection .infoText {margin-left: 25%;}
   #guestCheckoutPage #content_wrapper  #addressLine2 {padding: 0;}
   #content_wrapper #guestLogin #newUserForm input,
-  #content_wrapper #guestLogin #Logon input {max-width: 426px;}
+  #content_wrapper #guestLogin #Logon input {max-width: 75%;}
+  #guestLogin .emailSection label {text-align: right; width: 25%;}
 }
 
 /* Larger than tablet */
