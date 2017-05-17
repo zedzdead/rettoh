@@ -574,15 +574,6 @@ form {position: relative;}
   #content_wrapper #guestLogin #WC_AccountDisplay_div_19 .button_primary > .button_text,
   #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {width: 300px;}
   #content_wrapper #guestLogin .emailSection .infoText {margin-left: 25%;}
-  #guestCheckoutPage #content_wrapper  #addressLine2 {padding: 0; text-align: left;}
-  #content_wrapper #guestLogin #newUserForm input,
-  #content_wrapper #guestLogin #Logon input {max-width: 74%;}
-  #guestLogin .emailSection label {text-align: right; width: 25%;}
-  #content_wrapper #guestLogin .emailSection label {text-align: right; width: 25%;}
-  #content_wrapper #guestLogin .regForm .column_label {text-align: right; width: 25%;}
-  #content_wrapper #addressLine2 span {text-align: right; width: 25%;}
-  #content_wrapper #addressLine2 input {float: none;}
-  #guestCheckoutPage #content_wrapper #addressLine2 span {display: inline-block; text-align: right; padding: 0 10px 0 0; margin: 0;}
 }
 
 /* Larger than tablet */
@@ -597,7 +588,19 @@ form {position: relative;}
   #addressLine2, 
   #content_wrapper #guestLogin .regForm .column_label {text-align: right;} 
   #content_wrapper #checkout_crumb span.step_on, #content_wrapper #checkout_crumb span.step_off {font-size: 18px;}
-  #WC_ShipmentDisplay_div_4 span:before {display: none;} 
+  #WC_ShipmentDisplay_div_4 span:before {display: none;}
+/* Test */
+  #guestCheckoutPage #content_wrapper  #addressLine2 {padding: 0; text-align: left;}
+  #content_wrapper #guestLogin #newUserForm input,
+  #content_wrapper #guestLogin #Logon input {max-width: 74%;}
+  #guestLogin .emailSection label {text-align: right; width: 25%;}
+  #content_wrapper #guestLogin .emailSection label {text-align: right; width: 25%;}
+  #content_wrapper #guestLogin .regForm .column_label {text-align: right; width: 25%;}
+  #content_wrapper #addressLine2 span {text-align: right; width: 25%;}
+  #content_wrapper #addressLine2 input {float: none;}
+  #guestCheckoutPage #content_wrapper #addressLine2 span {display: inline-block; text-align: right; padding: 0 10px 0 0; margin: 0;}
+/* End Test */
+
   #guestCheckoutPage #content_wrapper #addressLine2 span {margin: 0; top: 0 !important;}
   div#label_state {
     padding-left: 10px;
