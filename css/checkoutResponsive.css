@@ -469,7 +469,8 @@ div#searchComponent {display: none;}
 .checkout #content_wrapper .content_wrapper,
 .checkout #shipping .shipping_method,
 .checkout .shipAddressSelect,
-.checkout #shipAddressSelect .Hform {width: 100%;}
+.checkout #shipAddressSelect .Hform,
+.checkout .container_content_rightsidebar > .left_column {width: 100%;}
 
 div.header_wrapper_position {
     position: relative;
