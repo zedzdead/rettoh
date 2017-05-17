@@ -464,16 +464,6 @@ div#searchComponent {display: none;}
 
 /* Checkout Page 2 */
 
-.checkout .checkoutHeader, .checkoutFooter {width: 100%; max-width: 930px;}
-.checkout .sec-head, 
-.checkout #content_wrapper .content_wrapper,
-.checkout #shipping .shipping_method,
-.checkout .shipAddressSelect,
-.checkout #shipAddressSelect .Hform,
-.checkout .container_content_rightsidebar > .left_column {width: 100%;}
-.checkout #shipping .container_content_rightsidebar.addressbook_sidebar .left_column {margin: 0;}
-.checkout #shipping_method_content p {text-align: left;}
-
 div.header_wrapper_position {
     position: relative;
     width: 100%;
@@ -482,7 +472,19 @@ div.header_wrapper_position {
     margin: 0 auto;
 }
 
+.checkout .checkoutHeader, .checkoutFooter {width: 100%; max-width: 930px;}
+.checkout .sec-head, 
+.checkout #content_wrapper .content_wrapper,
+.checkout #shipping .shipping_method,
+.checkout .shipAddressSelect,
+.checkout #shipAddressSelect .Hform,
+.checkout .container_content_rightsidebar > .left_column,
+.checkout #shipping .container_content_rightsidebar > .right_column 
+.checkout .shipping_Order_Summary, .paymentOrderSummary {width: 100%;}
 
+.checkout #shipping .container_content_rightsidebar.addressbook_sidebar .left_column {margin: 0;}
+.checkout #shipping_method_content p {text-align: left;}
+.checkout #order_details {padding: 15px 1%; width: 100%;}
 
 
 
