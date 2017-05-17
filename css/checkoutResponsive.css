@@ -598,6 +598,7 @@ form {position: relative;}
   #content_wrapper #guestLogin .regForm .column_label {text-align: right;} 
   #content_wrapper #checkout_crumb span.step_on, #content_wrapper #checkout_crumb span.step_off {font-size: 18px;}
   #WC_ShipmentDisplay_div_4 span:before {display: none;} 
+  #guestCheckoutPage #content_wrapper #addressLine2 span {margin: 0; top: 0 !important;}
   div#label_state {
     padding-left: 10px;
     padding-right: 10px;
