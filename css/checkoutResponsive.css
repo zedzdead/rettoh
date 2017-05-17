@@ -539,7 +539,7 @@ form {position: relative;}
   
 /*Mobile*/
 @media (max-width: 399px) {
-  #headerWidget #masthead > .top {
+  #dev {
     display: block;
     width: 100%;
     height: 5px;
@@ -553,7 +553,7 @@ form {position: relative;}
   #headerWidget #masthead > .top {
     display: block;
     width: 100%;
-    height: 10px;
+    height: 5px;
     background-color: yellow;
   }
 }
@@ -563,7 +563,7 @@ form {position: relative;}
   #headerWidget #masthead > .top {
     display: block;
     width: 100%;
-    height: 10px;
+    height: 5px;
     background-color: pink;
 
   }
@@ -581,7 +581,7 @@ form {position: relative;}
   #headerWidget #masthead > .top {
     display: block;
     width: 100%;
-    height: 10px;
+    height: 5px;
     background-color: turquoise;
   }
   #content_wrapper #guestLogin .emailSection label,
@@ -625,7 +625,7 @@ form {position: relative;}
   #headerWidget #masthead > .top {
     display: block;
     width: 100%;
-    height: 10px;
+    height: 5px;
     background-color: blue;
   }
 }
