@@ -78,12 +78,12 @@ div#searchComponent {display: none;}
 #content_wrapper #guestLogin .emailSection label {
     font-size: 14px;
     line-height: 16px;
-    width: 150px;
+    width: 100%;
     padding: 0;
     float: none;
     display: inline-block;
     text-align: left;
-    padding-right: 10px;
+    padding-right: 2%;
 }
 #content_wrapper #guestLogin .emailSection input {width: 100% !important;}
 #content_wrapper #guestLogin .emailSection .infoText {
@@ -576,7 +576,7 @@ form {position: relative;}
   #content_wrapper #guestLogin .emailSection .infoText {margin-left: 25%;}
   #guestCheckoutPage #content_wrapper  #addressLine2 {padding: 0;}
   #content_wrapper #guestLogin #newUserForm input,
-  #content_wrapper #guestLogin #Logon input {max-width: 75%;}
+  #content_wrapper #guestLogin #Logon input {max-width: 72%;}
   #guestLogin .emailSection label {text-align: right; width: 25%;}
 }
 
