@@ -61,21 +61,21 @@ body#guestCheckoutPage {background: none;}
 .checkout #checkout_crumb .crumb a span.step_off {width: 100%;}
 .checkout #checkout_crumb .crumb a {width: 20%; display: inline-block; float: none;}
 .checkout #checkout_crumb .crumb span.step_on {color: #58595b;}
-#content_wrapper #box {min-width: 0; min-height: 200px;}
-#content_wrapper #box h1 {text-align: center; font-size: 24px; margin: 0;}
-#content_wrapper p,
-#content_wrapper #WC_AccountDisplay_div_7 .strong {font-size: 12px !important; text-align: center; padding: 0;}
-#content_wrapper .container_content_rightsidebar {width: 100%;}
-#content_wrapper .container_content_rightsidebar #guestLogin {width: 100%; padding: 0;}
-#content_wrapper #WC_AccountDisplay_div_7 br {display: none;}
-#content_wrapper form {text-align: left; width: 100%;}
-#content_wrapper #guestLogin #WC_AccountDisplay_div_3 .content {
+.checkout #box {min-width: 0; min-height: 200px;}
+.checkout #box h1 {text-align: center; font-size: 24px; margin: 0;}
+.checkout p,
+.checkout #WC_AccountDisplay_div_7 .strong {font-size: 12px !important; text-align: center; padding: 0;}
+.checkout .container_content_rightsidebar {width: 100%;}
+.checkout .container_content_rightsidebar #guestLogin {width: 100%; padding: 0;}
+.checkout #WC_AccountDisplay_div_7 br {display: none;}
+.checkout form {text-align: left; width: 100%;}
+.checkout #guestLogin #WC_AccountDisplay_div_3 .content {
     padding: 5px;
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
 }
-#content_wrapper #guestLogin .emailSection label {
+.checkout #guestLogin .emailSection label {
     font-size: 14px;
     line-height: 16px;
     width: 100%;
@@ -85,31 +85,31 @@ body#guestCheckoutPage {background: none;}
     text-align: left;
     padding-right: 2%;
 }
-#content_wrapper #guestLogin .emailSection input {width: 100% !important;}
-#content_wrapper #guestLogin .emailSection .infoText {
+.checkout #guestLogin .emailSection input {width: 100% !important;}
+.checkout #guestLogin .emailSection .infoText {
     padding: 0 10px 10px;
     font-size: 12px;
     text-align: left;
 }
 #WC_AccountDisplay_div_3 .content input, #WC_AccountDisplay_div_19 .content input {height: auto; width: 100%;}
 #AjaxUniversalVariableDataLayer {display: none;}
-#content_wrapper div.footer_wrapper_position {display: none;}
-#content_wrapper #guestCheckoutPage .backToBasket,
-#content_wrapper #guestLogin #WC_AccountDisplay_div_3,
-#content_wrapper #guestLogin #userIsNotExist,
-#content_wrapper #newUserForm,
-#content_wrapper #guestLogin #newUserForm .sign_in_registration,
-#content_wrapper .sign_in_registration .form .content .align,
-#content_wrapper #guestLogin #newUserForm .form_2column .regForm,
-#content_wrapper #guestLogin #newUserForm input,
-#content_wrapper #guestLogin #newUserForm .form_2column .regForm,
-#content_wrapper #guestCheckoutPage .backToBasket,
-#content_wrapper #guestCheckoutPage #addressLine2,
+.checkout div.footer_wrapper_position {display: none;}
+.checkout #guestCheckoutPage .backToBasket,
+.checkout #guestLogin #WC_AccountDisplay_div_3,
+.checkout #guestLogin #userIsNotExist,
+.checkout #newUserForm,
+.checkout #guestLogin #newUserForm .sign_in_registration,
+.checkout .sign_in_registration .form .content .align,
+.checkout #guestLogin #newUserForm .form_2column .regForm,
+.checkout #guestLogin #newUserForm input,
+.checkout #guestLogin #newUserForm .form_2column .regForm,
+.checkout #guestCheckoutPage .backToBasket,
+.checkout #guestCheckoutPage #addressLine2,
 #guestCheckoutPage #content_wrapper #guestLogin #passwordArea,
-#content_wrapper #guestLogin #WC_AccountDisplay_div_3 .myaccount_section_header, 
-#content_wrapper #guestLogin #WC_AccountDisplay_div_19 .myaccount_section_header,
-#content_wrapper #guestLogin #offersArea,
-#content_wrapper #guestLogin #offersArea label {width: 100%;}
+.checkout #guestLogin #WC_AccountDisplay_div_3 .myaccount_section_header, 
+.checkout #guestLogin #WC_AccountDisplay_div_19 .myaccount_section_header,
+.checkout #guestLogin #offersArea,
+.checkout #guestLogin #offersArea label {width: 100%;}
 
 #content_wrapper #guestLogin #newUserForm select {
     border: 2px solid #7e7675;
@@ -121,10 +121,10 @@ body#guestCheckoutPage {background: none;}
     width: 100%;
     max-width: 400px;
 }
-#content_wrapper .form_2column .regForm {padding: 0;}
-#content_wrapper #guestLogin #newUserForm h2 {font-size: 18px;}
-#content_wrapper .HForm {clear: left;}
-#content_wrapper #guestLogin .HAddress_Finder {
+.checkout .form_2column .regForm {padding: 0;}
+.checkout #guestLogin #newUserForm h2 {font-size: 18px;}
+.checkout .HForm {clear: left;}
+.checkout #guestLogin .HAddress_Finder {
     width: 100%;
     padding: 0;
     height: 120px;
@@ -151,7 +151,7 @@ body#guestCheckoutPage {background: none;}
 #guestCheckoutPage #content_wrapper .HForm .label_spacer span {
   font-size: 12px !important;
 }
-#content_wrapper #guestLogin .pcaAutoComplete .inputArea {
+.checkout #guestLogin .pcaAutoComplete .inputArea {
     border: 1px solid #ccc !important;
     padding: 0px !important;
     position: relative !important;
@@ -205,8 +205,8 @@ body#guestCheckoutPage {background: none;}
 
 
 #addressLine2,
-#content_wrapper #guestLogin .regForm .column_label {font-size: 14px; line-height: 16px; width: 150px; text-align: left; display: inline-block; float: none; top: 0;}
-#content_wrapper #guestLogin #newUserForm input {
+.checkout #guestLogin .regForm .column_label {font-size: 14px; line-height: 16px; width: 150px; text-align: left; display: inline-block; float: none; top: 0;}
+.checkout #guestLogin #newUserForm input {
     margin-bottom: 0;
     line-height: 24px;
     font-size: 18px;
@@ -221,9 +221,9 @@ body#guestCheckoutPage {background: none;}
 }
 #guestCheckoutPage #content_wrapper  #addressLine2 {width: 100%; max-width: 100%; padding: 0; top: 0 !important;}
 
-#content_wrapper #guestLogin #newUserForm #passwordArea input {max-width: 397px;}
+.checkout #guestLogin #newUserForm #passwordArea input {max-width: 397px;}
 
-#content_wrapper #guestLogin #newUserForm select {
+.checkout #guestLogin #newUserForm select {
     height: auto;
     margin-bottom: 15px;
     padding: 7px;
@@ -232,11 +232,11 @@ body#guestCheckoutPage {background: none;}
     color: #666;
 }
 
-#content_wrapper #guestLogin #passwordArea {width: 100%;}
-#content_wrapper #guestLogin #newUserForm #passwordArea select {width: 30%; max-width: 133px;}
+.checkout #guestLogin #passwordArea {width: 100%;}
+.checkout #guestLogin #newUserForm #passwordArea select {width: 30%; max-width: 133px;}
 
-#content_wrapper #guestLogin #newUserForm input:focus,
-#content_wrapper #guestLogin #newUserForm select:focus {
+.checkout #guestLogin #newUserForm input:focus,
+.checkout #guestLogin #newUserForm select:focus {
   outline-color: #A5C842;
 }
 #content_wrapper .fleft {float: none;}
