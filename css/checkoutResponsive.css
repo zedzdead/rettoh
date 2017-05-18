@@ -511,11 +511,26 @@ div.header_wrapper_position {
 .checkout #total_breakdown .button_primary > .button_text {font-size: 20px !important; height: 40px !important; line-height: 40px !important; padding: 0px 0px !important; background-color: #fff !important; width: 100%; display: inline-block; border: solid 1px #ccc; color: #666;}
 .checkout #shipping .title label, 
 .checkout #shipping #shipping_delivery_method_option p {width: 100%;}
-.checkout #shipping #shipping_delivery_method_option a {cursor: pointer; float: none; text-align: center; width: 100%; border: solid 1px #ccc; font-weight: bold; padding: 10px 5%; display: inline-block; line-height: inherit; font-size: 20px; margin-top: 10px; background: #fff;}
+.checkout #shipping #shipping_delivery_method_option a {cursor: pointer; float: none; text-align: center; width: 50%; border: solid 1px #ccc; font-weight: bold; padding: 5px 0; display: inline-block; line-height: inherit; font-size: 20px; margin-top: 10px; background: #fff;}
 .checkout .shipping_Order_Summary .deliveryDetails {width: 100%; font-size: inherit;}
 .checkout #storeLocatorForm .formFields .hidden {font-size: 12px; line-height: 20px;}
 .checkout .storeLocator .Hform .formFields input#searchWordTownOrPostCode {width: 100%; height: 30px; line-height: 30px; margin: 0; padding: 5px; font-size: 14px;}
-
+.checkout .storeLocator #storeLocatorForm input.button {
+    background: none repeat scroll 0 0 #A5C842;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px 0;
+    font-size: 20px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+}
 
 /* Form labels inside fields Start */
 /*
