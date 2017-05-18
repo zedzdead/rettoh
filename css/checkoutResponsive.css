@@ -490,7 +490,7 @@ div.header_wrapper_position {
 .checkout #order_details {padding: 15px 1%; width: 100%;}
 .checkout .right_column #order_details .itemspecs {margin-left: 0; width: 68%;}
 .checkout .right_column #order_details .img {width: 30%; float: right;}
-.checkout .right_column #order_details .img img {width: 100%; height: auto;}
+.checkout .right_column #order_details .img img {width: 100%; height: auto; max-width: 200px;}
 .checkout .orderDetailsHeader {font-size: 16px; height: auto;}
 .checkout #order_details tr.nested th {text-align: center;}
 .checkout .right_column #order_details .itemspecs p {font-size: 14px;}
@@ -624,7 +624,7 @@ form {position: relative;}
   #content_wrapper #guestLogin .regForm .column_label {text-align: right;} 
   #content_wrapper #checkout_crumb span.step_on, #content_wrapper #checkout_crumb span.step_off {font-size: 18px;}
   #WC_ShipmentDisplay_div_4 span:before {display: none;}
-/* Test */
+
   #guestCheckoutPage #content_wrapper  #addressLine2 {padding: 0; text-align: left;}
   #content_wrapper #guestLogin #newUserForm input,
   #content_wrapper #guestLogin #Logon input {max-width: 74%;}
@@ -634,15 +634,11 @@ form {position: relative;}
   #content_wrapper #addressLine2 span {text-align: right; width: 25%;}
   #content_wrapper #addressLine2 input {float: none;}
   #guestCheckoutPage #content_wrapper #addressLine2 span {display: inline-block; text-align: right; padding: 0 10px 0 0; margin: 0;}
-/* End Test */
 
   #guestCheckoutPage #content_wrapper #addressLine2 span {margin: 0; top: 0 !important;}
-  div#label_state {
-    padding-left: 10px;
-    padding-right: 10px;
-    position: relative;
-    top: 7px;
-  }
+  div#label_state {padding-left: 10px; padding-right: 10px; position: relative; top: 7px;}
+  .checkout #shipping .container_content_rightsidebar.addressbook_sidebar .left_column {width: 68%;}
+  .checkout #shipping .container_content_rightsidebar > .right_column {float: right; width: 221px; width: 30% !important;}
 }
 
 /* Larger than desktop */
