@@ -511,7 +511,7 @@ div.header_wrapper_position {
 .checkout #shipping .title label, 
 .checkout #shipping #shipping_delivery_method_option p {width: 100%;}
 .checkout #shipping #shipping_delivery_method_option a {cursor: pointer; float: none; text-align: center; width: 100%; border: solid 1px #ccc; font-weight: bold; padding: 10px 5%; display: inline-block; line-height: inherit; font-size: 20px; margin-top: 10px; background: #fff;}
-.checkout .shipping_Order_Summary .deliveryDetails {width: 100%;}
+.checkout .shipping_Order_Summary .deliveryDetails {width: 100%; font-size: inherit;}
 
 /* Form labels inside fields Start */
 /*
