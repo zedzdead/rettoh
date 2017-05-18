@@ -505,12 +505,13 @@ div.header_wrapper_position {
 .checkout .right_column #total_breakdown #order_total .total_details {font-size: 14px !important; line-height: inherit;}
 .checkout #total_breakdown #order_total .total_figures {font-size: 14px !important;}
 .checkout #total_breakdown .orderTotal, #total_breakdown .grandTotal {font-size: 20px !important; font-weight: bold;}
-.checkout #total_breakdown .button_primary {height: auto; clear: both; width: 100% !important; margin: 10px 0 0 0;}
-.checkout #total_breakdown .button_primary > .button_text {font-size: 20px !important; height: 40px !important; line-height: 40px !important; padding: 0px 0px !important; background-color: #fff !important; width: 100%; display: inline-block; border: solid 1px #ccc;}
+.checkout .shipping_Order_Summary .deliveryDetails {width: 100%; padding-top: 30px; margin: 0; float: none; clear: both;}
+.checkout #total_breakdown .button_primary {height: auto !important; clear: both; width: 100% !important; margin: 10px 0 0 0;}
+.checkout #total_breakdown .button_primary > .button_text {font-size: 20px !important; height: 40px !important; line-height: 40px !important; padding: 0px 0px !important; background-color: #fff !important; width: 100%; display: inline-block; border: solid 1px #ccc; color: #666;}
 .checkout #shipping .title label, 
 .checkout #shipping #shipping_delivery_method_option p {width: 100%;}
 .checkout #shipping #shipping_delivery_method_option a {cursor: pointer; float: none; text-align: center; width: 100%; border: solid 1px #ccc; font-weight: bold; padding: 10px 5%; display: inline-block; line-height: inherit; font-size: 20px; margin-top: 10px; background: #fff;}
-/*Force Change */
+.checkout .shipping_Order_Summary .deliveryDetails {width: 100%;}
 
 /* Form labels inside fields Start */
 /*
