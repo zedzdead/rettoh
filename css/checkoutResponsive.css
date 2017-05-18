@@ -493,9 +493,12 @@ div.header_wrapper_position {
 .checkout .right_column #order_details .img img {width: 100%; height: auto;}
 .checkout .orderDetailsHeader {font-size: 16px height: auto;}
 .checkout #order_details tr.nested th {text-align: center;}
-.checkout .right_column #order_details .itemspecs p {text-align: left; font-size: 20px;}
+.checkout .right_column #order_details .itemspecs p {font-size: 14px;}
+.checkout .right_column #order_details .itemspecs p {text-align: left; font-size: 20px; text-decoration: none;}
 .checkout .right_column #order_details .itemspecs p a {text-decoration: none;}
 .checkout .right_column #order_details .itemspecs p a:hover {color: #A2C43F;}
+.checkout .shipping_Order_Summary .price {font-size: 20px; font-weight: bold; line-height: 40px;}
+.checkout .right_column #order_details .itemspecs {margin-left: 30px; font-size: 14px; line-height: normal; padding: 10px 0 10px 0;}
 
 
 
