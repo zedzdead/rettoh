@@ -509,7 +509,7 @@ div.header_wrapper_position {
 .checkout #total_breakdown .button_primary > .button_text {font-size: 20px !important; height: 40px !important; line-height: 40px !important; padding: 0px 0px !important; background-color: #fff !important; width: 100%; display: inline-block; border: solid 1px #ccc;}
 .checkout #shipping .title label, 
 .checkout #shipping #shipping_delivery_method_option p {width: 100%;}
-#shipping #shipping_delivery_method_option a {cursor: pointer; float: none; text-align: center; width: 100%; border: solid 1px #ccc; font-weight: bold; padding: 10px 5%; display: inline-block; line-height: inherit; font-size: 20px; margin-top: 10px; background: #fff;}
+.checkout #shipping #shipping_delivery_method_option a {cursor: pointer; float: none; text-align: center; width: 100%; border: solid 1px #ccc; font-weight: bold; padding: 10px 5%; display: inline-block; line-height: inherit; font-size: 20px; margin-top: 10px; background: #fff;}
 /*Force Change */
 
 /* Form labels inside fields Start */
