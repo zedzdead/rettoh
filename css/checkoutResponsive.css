@@ -506,7 +506,7 @@ div.header_wrapper_position {
 .checkout #total_breakdown #order_total .total_figures {font-size: 14px !important;}
 .checkout #total_breakdown .orderTotal, #total_breakdown .grandTotal {font-size: 20px !important; font-weight: bold;}
 .checkout #total_breakdown .button_primary {height: auto; clear: both; width: 100% !important; margin: 10px 0 0 0;}
-.checkout #total_breakdown .button_primary > .button_text {font-size: 20px !important; height: 40px !important; line-height: 40px !important; padding: 0px 0px !important; background-color: #fff !important; width: 100%; display: inline-block;}
+.checkout #total_breakdown .button_primary > .button_text {font-size: 20px !important; height: 40px !important; line-height: 40px !important; padding: 0px 0px !important; background-color: #fff !important; width: 100%; display: inline-block; border: solid 1px #ccc;}
 
 
 /* Form labels inside fields Start */
