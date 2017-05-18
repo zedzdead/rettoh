@@ -22,18 +22,20 @@ img {width: 100%;}
 .group:after {content: ""; display: table; clear: both;}
 
 /*Global Resets*/
-#headerWidget div.header_wrapper {min-width: 0; max-width: 960px; width: 100%;}
+body#guestCheckoutPage {background: none;}
+#headerWidget div.header_wrapper {min-width: 0; max-width: 960px; width: 100%; margin: 0 auto;}
 #headerWidget div#widget_masthead_links div.masthead_links {display: none;}
 #headerWidget div.header_wrapper > div.header_left_shadow {width: 100%; padding: 0;}
 #headerWidget div.header_wrapper > div.header_left_shadow > div.header_right_shadow {width: 100%; padding: 0;}
 #headerWidget div.header_wrapper > div.header_left_shadow > div.header_right_shadow > div.header {width: 100%;}
 #headerWidget #masthead > .content {height: 87px; position: relative; width: 100%; background-color: #ffffff;}
-#headerWidget div.widget_masthead_logo_position {left: 0px; position: absolute; top: 0px;}
+#headerWidget div.widget_masthead_logo_position {left: 0px; position: relative; top: 0px;}
 #headerWidget .desklogo {display: none;}
 #headerWidget .desklogo > div {position: relative; width: 100%;}
-#headerWidget div#widget_masthead_logo1 img {position: relative; left: 0 top: 0; margin: 0;}
-#headerWidget .mobilelogo {display: block; width: 50%; margin: 0 auto;}
-#headerWidget .mobilelogo > div {float: none;}
+#headerWidget div#widget_masthead_logo1 img {position: relative; left: 0 top: 0; margin: 0 !important; display: inline; max-height: 60px; width: auto; height: auto; max-width: 100%;}
+#headerWidget .mobilelogo {display: block; width: 50%; margin: 0 auto; text-align: center;}
+#headerWidget .mobilelogo > div {float: none !important;}
+.jsEnabled #headerWidget #masthead > .navigation {width: 100%;}
 #headerWidget .header_espot_container {display: none;}
 #headerWidget div.widget_minishopcart_position {display: none;}
 #headerWidget a.blomobcart {display: none;}
@@ -44,37 +46,342 @@ img {width: 100%;}
 #headerWidget #USPGeneric {display: none;}
 #headerWidget .uspboxmob {display: block; line-height: 30px; height: auto;}
 #headerWidget .uspboxmobc {font-size: 14px;}
+div#searchComponent {display: none;}
 
 /*Checkout Resets*/
-#content_wrapper .content_wrapper {min-width: 300px; max-width: 960px; width: 100%;}
+#content_wrapper .content_wrapper {min-width: 300px; max-width: 960px; width: 100%; text-align: center; margin: 0 auto;}
 #content_wrapper .content_wrapper > div.content_left_shadow {width: 100%; padding: 0 10px;}
 #content_wrapper div.content_wrapper > div.content_left_shadow > div.content_right_shadow {width: 100%; padding: 0;}
 #content_wrapper div.content_wrapper > div.content_left_shadow > div.content_right_shadow > div.main_content {width: 100%; padding: 0;}
 #content_wrapper .container_full_width {width: 100%;}
-#content_wrapper #checkout_crumb {width: 100%; border: none; padding: 0; float: none; margin: 20px 0;}
+#content_wrapper #checkout_crumb {width: 100%; border: none; padding: 0; float: none; margin: 20px 0; color: #ccc;}
 #content_wrapper #checkout_crumb .crumb {text-align: center;}
 #content_wrapper #checkout_crumb span.step_on, 
-#content_wrapper #checkout_crumb span.step_off {margin: 0; font-size: 0; float: none; width: 20%; display: inline-block;}
-#content_wrapper #checkout_crumb span.step_on {color: #A2C43F;}
-#content_wrapper #box {min-width: 0;}
+#content_wrapper #checkout_crumb span.step_off {margin: 0; font-size: 0; float: none; width: 20%; display: inline-block; color: #ccc;}
+#content_wrapper #checkout_crumb a span.step_off {width: 100%;}
+#content_wrapper #checkout_crumb a {width: 20%; display: inline-block; float: none;}
+#content_wrapper #checkout_crumb span.step_on {color: #58595b;}
+#content_wrapper #box {min-width: 0; min-height: 200px;}
 #content_wrapper #box h1 {text-align: center; font-size: 24px; margin: 0;}
-#content_wrapper #box p {}
+#content_wrapper p,
+#content_wrapper #WC_AccountDisplay_div_7 .strong {font-size: 12px !important; text-align: center; padding: 0;}
 #content_wrapper .container_content_rightsidebar {width: 100%;}
 #content_wrapper .container_content_rightsidebar #guestLogin {width: 100%; padding: 0;}
-#content_wrapper #WC_AccountDisplay_div_7 .strong {font-size: 12px; padding: 0; text-align: center;}
 #content_wrapper #WC_AccountDisplay_div_7 br {display: none;}
-#content_wrapper #guestLogin #WC_AccountDisplay_div_3 .content {padding: 10px;}
-#content_wrapper #guestLogin .emailSection label {font-size: 14px; padding: 0;}
+#content_wrapper form {text-align: left; width: 100%;}
+#content_wrapper #guestLogin #WC_AccountDisplay_div_3 .content {
+    padding: 5px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+#content_wrapper #guestLogin .emailSection label {
+    font-size: 14px;
+    line-height: 16px;
+    width: 100%;
+    padding: 0;
+    float: none;
+    display: inline-block;
+    text-align: left;
+    padding-right: 2%;
+}
 #content_wrapper #guestLogin .emailSection input {width: 100% !important;}
+#content_wrapper #guestLogin .emailSection .infoText {
+    padding: 0 10px 10px;
+    font-size: 12px;
+    text-align: left;
+}
 #WC_AccountDisplay_div_3 .content input, #WC_AccountDisplay_div_19 .content input {height: auto; width: 100%;}
 #AjaxUniversalVariableDataLayer {display: none;}
 #content_wrapper div.footer_wrapper_position {display: none;}
-#content_wrapper #guestCheckoutPage .backToBasket {width: 100%;}
+#content_wrapper #guestCheckoutPage .backToBasket,
+#content_wrapper #guestLogin #WC_AccountDisplay_div_3,
+#content_wrapper #guestLogin #userIsNotExist,
+#content_wrapper #newUserForm,
+#content_wrapper #guestLogin #newUserForm .sign_in_registration,
+#content_wrapper .sign_in_registration .form .content .align,
+#content_wrapper #guestLogin #newUserForm .form_2column .regForm,
+#content_wrapper #guestLogin #newUserForm input,
+#content_wrapper #guestLogin #newUserForm .form_2column .regForm,
+#content_wrapper #guestCheckoutPage .backToBasket,
+#content_wrapper #guestCheckoutPage #addressLine2,
+#guestCheckoutPage #content_wrapper #guestLogin #passwordArea,
+#content_wrapper #guestLogin #WC_AccountDisplay_div_3 .myaccount_section_header, 
+#content_wrapper #guestLogin #WC_AccountDisplay_div_19 .myaccount_section_header,
+#content_wrapper #guestLogin #offersArea,
+#content_wrapper #guestLogin #offersArea label {width: 100%;}
+
+#content_wrapper #guestLogin #newUserForm select {
+    border: 2px solid #7e7675;
+    height: 36px;
+    margin-bottom: 0; 
+    padding: 0 5px;
+    font-size: 14px;
+    line-height: 36px;
+    width: 100%;
+    max-width: 400px;
+}
+#content_wrapper .form_2column .regForm {padding: 0;}
+#content_wrapper #guestLogin #newUserForm h2 {font-size: 18px;}
+#content_wrapper .HForm {clear: left;}
+#content_wrapper #guestLogin .HAddress_Finder {
+    width: 100%;
+    padding: 0;
+    height: 120px;
+    float: none;
+    margin: 0;
+}
+#guestCheckoutPage #content_wrapper #HAddress_Finder_PC {
+    width: 90%;
+    margin: 0 auto;
+    clear: left;
+}
+
+#guestCheckoutPage #content_wrapper .HForm .label_spacer {
+    margin: 0 auto;
+    width: 90%;
+    font-size: 14px !important;
+    padding: 5px;
+    text-align: left;
+    left: 0;
+    top: 0;
+    float:left;
+}
+
+#guestCheckoutPage #content_wrapper .HForm .label_spacer span {
+  font-size: 12px !important;
+}
+#content_wrapper #guestLogin .pcaAutoComplete .inputArea {
+    border: 1px solid #ccc !important;
+    padding: 0px !important;
+    position: relative !important;
+    width: 100% !important; 
+    background-color: #fff !important;
+    height: 20px !important;
+    background-image: none;
+    line-height: 18px !important;
+    left: 0;
+}
+
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .pnlAutoComplete, 
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .pnlResults, 
+#guestCheckoutPage #content_wrapper .pcaAutoCompleteSmall .pnlAutoCompleteSmall, 
+#guestCheckoutPage #content_wrapper .pcaAutoCompleteSmall .pnlResultsSmall {position: absolute; top: 30px; left: 0; width: 100% !important;}
+#guestCheckoutPage #content_wrapper #HAddress_Finder_PC .inputArea span {font-size: inherit;}
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea .suggestion {height: 16px !important;}
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea .suggestion .invisible {font-size: inherit !important;}
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea .suggestion span, 
+#guestCheckoutPage #content_wrapper #HAddress_Finder_PC .inputArea span {line-height: 16px; font-size: 14px !important; top: 0 !important; }
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea {height: 30px !important;}
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea .search {
+    top: 7px !important;
+    left: 7px !important;
+    height: 16px !important;
+    font-size: 14px !important;
+}
+#guestCheckoutPage #content_wrapper .HAddressBlock {margin-top: 20px;}
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .recentFavourites, .pcaAutoCompleteSmall .recentFavouritesSmall {top: 29px; left: 0;}
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .pcaItemHolder {padding: 0;}
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .pcaItem,
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .item span,
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .selectedItem span {
+  font-size: 12px !important;
+  line-height: 20px !important;
+}
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .recentFavourites, 
+#guestCheckoutPage #content_wrapper .pcaAutoCompleteSmall .recentFavouritesSmall {width: 100% !important;}
+#guestCheckoutPage #content_wrapper #HAddressFinderAlternate {
+    position: relative !important;
+    left: 0 !important;
+    top: 0;
+    font-size: 12px !important;
+    color: #333;
+}
+#guestCheckoutPage #content_wrapper #HAddressFinderAlternate:hover {
+  color: #A5C842;
+  text-decoration: none;
+}
+
+
+
+#addressLine2,
+#content_wrapper #guestLogin .regForm .column_label {font-size: 14px; line-height: 16px; width: 150px; text-align: left; display: inline-block; float: none; top: 0;}
+#content_wrapper #guestLogin #newUserForm input {
+    margin-bottom: 0;
+    line-height: 24px;
+    font-size: 18px;
+    height: 36px;
+    line-height: 18px;
+    font-size: 16px;
+    padding-left: 10px;
+    border: #ccc 2px solid;
+    margin-bottom: 15px;
+    color: #666;
+    width: 100%;
+}
+#guestCheckoutPage #content_wrapper  #addressLine2 {width: 100%; max-width: 100%; padding: 0; top: 0 !important;}
+
+#content_wrapper #guestLogin #newUserForm #passwordArea input {max-width: 397px;}
+
+#content_wrapper #guestLogin #newUserForm select {
+    height: auto;
+    margin-bottom: 15px;
+    padding: 7px;
+    width: 100%;
+    border: solid 2px #ccc;
+    color: #666;
+}
+
+#content_wrapper #guestLogin #passwordArea {width: 100%;}
+#content_wrapper #guestLogin #newUserForm #passwordArea select {width: 30%; max-width: 133px;}
+
+#content_wrapper #guestLogin #newUserForm input:focus,
+#content_wrapper #guestLogin #newUserForm select:focus {
+  outline-color: #A5C842;
+}
+#content_wrapper .fleft {float: none;}
+#content_wrapper #addressLine2 span {
+    position: relative;
+    font-size: 14px;
+    line-height: 14px;
+    padding-right: 10px;
+    top: 0 !important;
+    width: 150px;
+    padding: right: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+    padding-left: 10px;
+}
+
+#content_wrapper #guestLogin #passwordArea span.header {
+    color: #4D4D4D;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    line-height: 16px;
+    height: auto;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+#content_wrapper #passwordArea input {width: 100% !important;}
+#content_wrapper #guestLogin .myaccount_section_header {height: auto;}
+#content_wrapper #guestLogin #passwordArea span.header {font-size: 12px; font-weight: normal;}
+#content_wrapper #guestLogin #offersArea span.header {
+    font-size: 10px;
+    width: 100%;
+    line-height: normal;
+    height: auto;
+    margin-left: 0px;
+    display: inline-block;
+    padding: 0;
+}
+#guestLogin #WC_AccountDisplay_div_3 .myaccount_section_header,
+#guestLogin #WC_AccountDisplay_div_19 .myaccount_section_header {margin-bottom: 10px;}
+#content_wrapper #guestLogin #offersArea .checkboxandradio-wrap {font-size: 12px; padding-bottom: 5px;}
+#content_wrapper #guestLogin #offersArea label {float: none; font-size: 10px;}
+#content_wrapper #guestLogin #offersArea .sign_in_registration,
+#content_wrapper #guestLogin #offersArea .form_2column .label_spacer,
+#content_wrapper #guestLogin #offersArea .checkbox_registration,
+#content_wrapper #guestLogin #offersArea .checkboxContainer {float: left; width: 36px;}
+#content_wrapper #guestLogin #offersArea .checkboxContainer input {
+    float: left;
+    width: 40px !important;
+    position: relative;
+    top: 0px;
+    height: 24px !important;
+    margin-bottom: 0 !important;
+}
+#content_wrapper .checkboxandradio-wrap h3 {
+    margin-bottom: 6px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 5px 0;
+    font-size: 12px;
+}
+
+#content_wrapper #guestLogin #offersArea {width: 100%; }
+#content_wrapper #guestLogin #offersArea .privacyLink {
+    font-size: 10px;
+    float: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#content_wrapper #guestLogin #offersArea .privacyLink:hover {
+  text-decoration: underline;
+  color: #A5C842;
+}
+
+#content_wrapper #guestLogin #WC_AccountDisplay_div_3 .content .button_primary, 
+#content_wrapper #guestLogin #WC_AccountDisplay_div_19 .content .button_primary {
+    float: none;
+    position: relative;
+    bottom: auto;
+    top: 20px;
+    left: 0;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+#content_wrapper #guestLogin #WC_AccountDisplay_div_3 .button_primary > .button_text, 
+#content_wrapper #guestLogin #WC_AccountDisplay_div_19 .button_primary > .button_text {
+    font-size: 20px !important;
+    height: 40px !important;
+    line-height: 40px !important;
+    padding: 0px;
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+    font-weight: normal;
+    text-transform: capitalize;
+    width: 100%;
+}
+#content_wrapper #guestLogin .button_primary > .left_border,
+#content_wrapper #guestLogin .button_primary > .right_border {display: none;}
+.ems_account_registration_2 {display: none;}
+#content_wrapper #guestLogin #WC_AccountDisplay_div_3, #WC_AccountDisplay_div_19 {padding-bottom: 10px;}
+#content_wrapper #guestLogin #WC_AccountDisplay_div_19 {display: none;}
+
+#guestCheckoutPage #content_wrapper .backToBasket {
+    border-top: 1px solid #CCCCCC;
+    margin: 20px 0;
+    padding: 10px 0 30px;
+    width: 100%;
+}
+
+#guestCheckoutPage #content_wrapper .button_primary {
+    cursor: pointer;
+    display: inline-block;
+    height: 54px;
+    overflow: hidden;
+    text-decoration: none;
+    width: 100%;
+    line-height: 36px;
+    font-size: 18px;
+}
+
+#guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {
+    background: none repeat scroll 0 0 #FFFFFF !important;
+    border: 1px solid #CCCCCC;
+    color: #74756F;
+    height: 36px;
+    line-height: 30px;
+    font-size: 16px;
+    width: 100%;
+}
 
 /* Font Awesome */
 /* \f007 = User */
+/* \f290 - Shopping bag */
 #WC_ShipmentDisplay_div_4 span:first-child:before {
-    content: "\f007";
+    content: "\f290";
     font-family: FontAwesome;
     font-size: 24px;
 }
@@ -99,95 +406,44 @@ img {width: 100%;}
     font-family: FontAwesome;
     font-size: 24px;
 }
-
+/*
 #WC_ShipmentDisplay_div_4 span:first-child:before {
     content: "1";
     font-family: 'Minion Pro Regular', "Times New Roman", Times, serif;
     font-size: 24px;
 }
 
-/* \f0d1 = Truck */
+/* \f0d1 = Truck *//*
 #WC_ShipmentDisplay_div_4 span:nth-child(3):before {
     content: "2";
     font-family: 'Minion Pro Regular', "Times New Roman", Times, serif;
     font-size: 24px;
 }
 
-/* \f09d = Credit Card */
+/* \f09d = Credit Card *//*
 #WC_ShipmentDisplay_div_4 span:nth-child(5):before {
     content: "3";
     font-family: 'Minion Pro Regular', "Times New Roman", Times, serif;
     font-size: 24px;
 }
 
-/* \f118 = Smile */
+/* \f118 = Smile *//*
 #WC_ShipmentDisplay_div_4 span:nth-child(7):before {
     content: "4";
     font-family: 'Minion Pro Regular', "Times New Roman", Times, serif;
     font-size: 24px;
 }
-
-/* Form labels inside fields Start */
-form {position: relative;}
-#content_wrapper #guestLogin .emailSection input {
-  position: relative;
-  left: 0;
-  padding: 20px;
-  display: block;
-  background-position: 0 -10px;
-  font-size: 20px;
-  background: transparent;
-  border-radius: 15px;
-  border: solid 3px #666;
-  font-family: verdana;
-  width: 400px;
-  margin: 0;
+*/
+#content_wrapper #guestLogin #Logon input {
+    height: 36px;
+    line-height: 18px;
+    font-size: 16px;
+    padding-left: 10px;
+    border: #ccc 2px solid;
+    margin-bottom: 0;
+    color: #666;
+    width: 100%;
 }
-
-#content_wrapper #guestLogin .emailSection input:focus {
-  border: solid 3px green;
-  outline: none;
-}
-
-#content_wrapper #guestLogin .emailSection label {
-  position: relative;
-  font-size: 20px;
-  top: 48px;  
-  color: #444;
-  left: 22px;
-  font-size: 0;
-  line-height: 0;
-}
-
-
-/*input:focus ~ label*/
-#content_wrapper #guestLogin .emailSection label.placeholder {
-  font-size: 12px;
-  display: inline-block;
-  color:rgba(0, 0, 0, 0.75);
-  transition: all 1s;
-  top: 24px;
-  left: 24px;
-  text-align: left;
-}
-
-.placeholder::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #fff;
-}
-.placeholder:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:    #fff;
-   opacity:  1;
-}
-.placeholder::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    #fff;
-   opacity:  1;
-}
-.placeholder:-ms-input-placeholder { /* Internet Explorer 10+ */
-   color:    #fff;
-}
-
-#content_wrapper #guestLogin .emailSection label span.required-field  {color: red;}
-
 
 #page div.store_message {
     display: none;
@@ -206,12 +462,120 @@ form {position: relative;}
 .store_message > .content > .close {outline: 0;}
 #page .shadowPiece {display: none;}
 
+/* Checkout Page 2 */
+
+div.header_wrapper_position {
+    position: relative;
+    width: 100%;
+    z-index: 200;
+    max-width: 930px;
+    margin: 0 auto;
+}
+
+.checkout .checkoutHeader, .checkoutFooter {width: 100%; max-width: 930px;}
+.checkout .sec-head, 
+.checkout #content_wrapper .content_wrapper,
+.checkout #shipping .shipping_method,
+.checkout .shipAddressSelect,
+.checkout #shipAddressSelect .Hform,
+.checkout .container_content_rightsidebar > .left_column,
+.checkout #shipping .container_content_rightsidebar > .right_column,
+.checkout .shipping_Order_Summary, .paymentOrderSummary,
+.checkout #order_details .itemspecs {width: 100%;}
+
+.checkout #shipping .container_content_rightsidebar.addressbook_sidebar .left_column {margin: 0;}
+.checkout #shipping_method_content p {text-align: left;}
+.checkout #shipping .shipping_method_item, .checkout .method_item {margin-bottom: 15px;}
+.checkout .shipping_Order_Summary, .checkout .paymentOrderSummary {width: 100%;}
+.checkout #order_details {padding: 15px 1%; width: 100%;}
+.checkout .right_column #order_details .itemspecs {margin-left: 0; width: 68%;}
+.checkout .right_column #order_details .img {width: 30%; float: right; margin: 0;}
+.checkout .right_column #order_details .img img {width: 100%; height: auto; max-width: 200px;}
+.checkout .orderDetailsHeader {font-size: 16px; height: auto;}
+.checkout #order_details tr.nested th {text-align: center;}
+.checkout .right_column #order_details .itemspecs p {font-size: 14px;}
+.checkout .right_column #order_details .itemspecs p {text-align: left; font-size: 20px; text-decoration: none;}
+.checkout .right_column #order_details .itemspecs p a {text-decoration: none; font-size: 14px;}
+.checkout .right_column #order_details .itemspecs p a:hover {color: #A2C43F;}
+.checkout .shipping_Order_Summary .price {font-size: 20px; font-weight: bold; line-height: 40px;}
+.checkout .right_column #order_details .itemspecs {margin-left: 0; font-size: 12px; line-height: normal; padding: 10px 0 10px 0;}
+.checkout #order_details .th_align_left_normal {padding: 6px 2%;}
+.checkout .shipping_Order_Summary .item-quantity span {color: #58595B; font-size: 15px; margin-top: 5px; display: inline-block;}
+.checkout #total_breakdown {width: 100%; float: none; padding: 5px 2%; text-align: right; display: inline-block; vertical-align: top; }
+.checkout .right_column #total_breakdown #order_total .total_details {font-size: 14px !important; line-height: inherit;}
+.checkout #total_breakdown #order_total .total_figures {font-size: 14px !important;}
+.checkout #total_breakdown .orderTotal, #total_breakdown .grandTotal {font-size: 20px !important; font-weight: bold;}
+.checkout #total_breakdown .button_primary {height: auto; clear: both; width: 100% !important; margin: 10px 0 0 0;}
+.checkout #total_breakdown .button_primary > .button_text {font-size: 20px !important; height: 40px !important; line-height: 40px !important; padding: 0px 0px !important; background-color: #fff !important; width: 100%; display: inline-block; border: solid 1px #ccc;}
+.checkout #shipping .title label, 
+.checkout #shipping #shipping_delivery_method_option p.title, #storeDetailsPage .title {text-align: left;}
+
+/* Form labels inside fields Start */
+/*
+form {position: relative;}
+#content_wrapper #guestLogin .emailSection input {
+  position: relative;
+  left: 0;
+  padding: 20px;
+  display: block;
+  background-position: 0 -10px;
+  font-size: 20px;
+  background: transparent;
+  border-radius: 15px;
+  border: solid 3px #666;
+  margin: 0;
+  height: 70px;
+}
+
+#content_wrapper #guestLogin .emailSection input:focus {
+  border: solid 3px green;
+  outline: none;
+}
+
+#content_wrapper #guestLogin .emailSection label {
+  position: relative;
+  font-size: 20px;
+  top: 48px;  
+  color: #444;
+  left: 22px;
+  font-size: 0;
+  line-height: 0;
+}
+
+#content_wrapper #guestLogin .emailSection label.placeholder {
+  font-size: 12px;
+  display: inline-block;
+  color:rgba(0, 0, 0, 0.75);
+  transition: all 1s;
+  top: 24px;
+  left: 24px;
+  text-align: left;
+}
+
+.placeholder::-webkit-input-placeholder { 
+    color:    #fff;
+}
+.placeholder:-moz-placeholder { 
+   color:    #fff;
+   opacity:  1;
+}
+.placeholder::-moz-placeholder { 
+   color:    #fff;
+   opacity:  1;
+}
+.placeholder:-ms-input-placeholder { 
+   color:    #fff;
+}
+
+#content_wrapper #guestLogin .emailSection label span.required-field  {color: red;}
+
+*/
 /* Form labels inside fields End */
 
   
 /*Mobile*/
 @media (max-width: 399px) {
-  #headerWidget #masthead > .top {
+  #dev {
     display: block;
     width: 100%;
     height: 5px;
@@ -222,37 +586,65 @@ form {position: relative;}
 
 @media (min-width: 400px) {
   * {box-sizing: border-box;}
-  #headerWidget #masthead > .top {
+  #dev {
     display: block;
     width: 100%;
-    height: 10px;
+    height: 5px;
     background-color: yellow;
   }
 }
 
 /* Larger than tablet (also point when grid becomes active) */
 @media (min-width: 550px) {
-  #headerWidget #masthead > .top {
+  #dev {
     display: block;
     width: 100%;
-    height: 10px;
+    height: 5px;
     background-color: pink;
+
   }
+  .selectbox {display: inline-block;}
+  #content_wrapper p,
+  #content_wrapper #WC_AccountDisplay_div_7 .strong {text-align: left;}
+  #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .button_primary > .button_text, 
+  #content_wrapper #guestLogin #WC_AccountDisplay_div_19 .button_primary > .button_text,
+  #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {width: 300px;}
+  #content_wrapper #guestLogin .emailSection .infoText {margin-left: 25%;}
 }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
-  #headerWidget #masthead > .top {
+  #dev {
     display: block;
     width: 100%;
-    height: 10px;
+    height: 5px;
     background-color: turquoise;
   }
+  #content_wrapper #guestLogin .emailSection label,
+  #addressLine2, 
+  #content_wrapper #guestLogin .regForm .column_label {text-align: right;} 
+  #content_wrapper #checkout_crumb span.step_on, #content_wrapper #checkout_crumb span.step_off {font-size: 18px;}
+  #WC_ShipmentDisplay_div_4 span:before {display: none;}
+
+  #guestCheckoutPage #content_wrapper  #addressLine2 {padding: 0; text-align: left;}
+  #content_wrapper #guestLogin #newUserForm input,
+  #content_wrapper #guestLogin #Logon input {max-width: 74%;}
+  #guestLogin .emailSection label {text-align: right; width: 25%;}
+  #content_wrapper #guestLogin .emailSection label {text-align: right; width: 25%;}
+  #content_wrapper #guestLogin .regForm .column_label {text-align: right; width: 25%;}
+  #content_wrapper #addressLine2 span {text-align: right; width: 25%;}
+  #content_wrapper #addressLine2 input {float: none;}
+  #guestCheckoutPage #content_wrapper #addressLine2 span {display: inline-block; text-align: right; padding: 0 10px 0 0; margin: 0;}
+
+  #guestCheckoutPage #content_wrapper #addressLine2 span {margin: 0; top: 0 !important;}
+  div#label_state {padding-left: 10px; padding-right: 10px; position: relative; top: 7px;}
+  .checkout #shipping .container_content_rightsidebar.addressbook_sidebar .left_column {width: 68%;}
+  .checkout #shipping .container_content_rightsidebar > .right_column {float: right; width: 221px; width: 30% !important; margin-top: 28px;}
 }
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
-  #headerWidget #masthead > .top {
+  #dev {
     display: block;
     width: 100%;
     height: 10px;
@@ -262,10 +654,10 @@ form {position: relative;}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
-  #headerWidget #masthead > .top {
+  #dev {
     display: block;
     width: 100%;
-    height: 10px;
+    height: 5px;
     background-color: blue;
   }
 }
