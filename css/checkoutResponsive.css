@@ -380,28 +380,28 @@ body#guestCheckoutPage {background: none;}
 /* Font Awesome */
 /* \f007 = User */
 /* \f290 - Shopping bag */
-#WC_ShipmentDisplay_div_4 span:first-child:before {
+.checkout .crumb span:first-child:before {
     content: "\f290";
     font-family: FontAwesome;
     font-size: 24px;
 }
 
 /* \f0d1 = Truck */
-#WC_ShipmentDisplay_div_4 span:nth-child(3):before {
+.checkout .crumb span:nth-child(3):before {
     content: "\f0d1";
     font-family: FontAwesome;
     font-size: 24px;
 }
 
 /* \f09d = Credit Card */
-#WC_ShipmentDisplay_div_4 span:nth-child(5):before {
+.checkout .crumb span:nth-child(5):before {
     content: "\f09d";
     font-family: FontAwesome;
     font-size: 24px;
 }
 
 /* \f118 = Smile */
-#WC_ShipmentDisplay_div_4 span:nth-child(7):before {
+.checkout .crumb span:nth-child(7):before {
     content: "\f118";
     font-family: FontAwesome;
     font-size: 24px;
