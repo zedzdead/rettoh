@@ -22,6 +22,7 @@ img {width: 100%;}
 .group:after {content: ""; display: table; clear: both;}
 
 /*Global Resets*/
+body.checkout {background: none;}
 body#guestCheckoutPage {background: none;}
 #headerWidget div.header_wrapper {min-width: 0; max-width: 960px; width: 100%; margin: 0 auto;}
 #headerWidget div#widget_masthead_links div.masthead_links {display: none;}
