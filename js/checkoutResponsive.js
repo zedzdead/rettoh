@@ -12,4 +12,8 @@ jQuery(document).ready(function($) {
 			//$(this).html($(this).html().replace(/-/g, '&#8288'));
 		});
 	}
+	//Move the button to change selected shipping option
+	if($('#shipping_delivery_method_option').length) {
+		$('#shipping_delivery_method_option').append($('#shipping_delivery_method_option a'));
+	}
 });
