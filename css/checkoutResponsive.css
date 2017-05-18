@@ -501,10 +501,13 @@ div.header_wrapper_position {
 .checkout .right_column #order_details .itemspecs {margin-left: 0; font-size: 12px; line-height: normal; padding: 10px 0 10px 0;}
 .checkout #order_details .th_align_left_normal {padding: 6px 2%;}
 .checkout .shipping_Order_Summary .item-quantity span {color: #58595B; font-size: 15px; margin-top: 5px; display: inline-block;}
-.checkout #total_breakdown {width: 100%;}
-.checkout .right_column #total_breakdown #order_total .total_details {font-size: 14px; line-height: inherit;}
+.checkout #total_breakdown {width: 100%; float: none; padding: 5px 2%; text-align: right; display: inline-block; vertical-align: top; }
+.checkout .right_column #total_breakdown #order_total .total_details {font-size: 14px !important; line-height: inherit;}
 .checkout #total_breakdown #order_total .total_figures {font-size: 14px;}
 .checkout #total_breakdown .orderTotal, #total_breakdown .grandTotal {font-size: 20px !important; font-weight: bold;}
+.checkout #total_breakdown .button_primary {height: auto; clear: both; width: 100% !important; margin-top: 10px;}
+.checkout #total_breakdown .button_primary > .button_text {font-size: 20px !important; height: 40px !important; line-height: 40px !important; padding: 0px 0px !important; background-color: #fff !important; width: 100%; display: inline-block;}
+
 
 /* Form labels inside fields Start */
 /*
