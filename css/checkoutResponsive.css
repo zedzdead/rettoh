@@ -489,7 +489,7 @@ div.header_wrapper_position {
 .checkout .shipping_Order_Summary, .checkout .paymentOrderSummary {width: 100%;}
 .checkout #order_details {padding: 15px 1%; width: 100%;}
 .checkout .right_column #order_details .itemspecs {margin-left: 0; width: 68%;}
-.checkout .right_column #order_details .img {width: 30%; float: right;}
+.checkout .right_column #order_details .img {width: 30%; float: right; margin: 0;}
 .checkout .right_column #order_details .img img {width: 100%; height: auto; max-width: 200px;}
 .checkout .orderDetailsHeader {font-size: 16px; height: auto;}
 .checkout #order_details tr.nested th {text-align: center;}
