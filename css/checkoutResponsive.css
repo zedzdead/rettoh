@@ -485,12 +485,14 @@ div.header_wrapper_position {
 .checkout .shipping_Order_Summary, .paymentOrderSummary,
 .checkout #order_details .itemspecs {width: 100%;}
 .checkout .shipping_address_content, .address_book {font-size: 14px;}
-.checkout .addressDetailWrap {display: inline-block; width: 48%; margin: 0; float: none; vertical-align: top; padding: 10px 2%;}
+.checkout .addressDetailWrap {display: inline-block; width: 48%; margin: 0; float: none; vertical-align: top; padding: 10px 2%; min-height: 150px;}
 .checkout .addressDetailWrap:nth-child(odd),
 .checkout .addressDetailWrap:nth-child(even) {margin: 0;}
 .checkout .addressDetailWrap .button_primary {height: 28px;}
 .checkout .addressDetailWrap .button_primary > .button_text {font-size: 14px; height: 28px; line-height: 28px; padding: 0; min-width: 128px;}
 .checkout .addressDetailInner {min-height: 140px;}
+#deleteAdddressLink {text-decoration: ;}
+#deleteAdddressLink .button_text {padding: 0; font-size: 14px;}
 
 .checkout #shipping .container_content_rightsidebar.addressbook_sidebar .left_column {margin: 0;}
 .checkout #shipping_method_content p {text-align: left;}
