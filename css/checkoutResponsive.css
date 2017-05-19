@@ -24,6 +24,7 @@ img {width: 100%;}
 /*Global Resets*/
 body.checkout {background: none;}
 body#guestCheckoutPage {background: none;}
+body > iframe {display: none;}
 .checkout #headerWidget div.header_wrapper {min-width: 0; max-width: 960px; width: 100%; margin: 0 auto;}
 .checkout #headerWidget div#widget_masthead_links div.masthead_links {display: none;}
 .checkout #headerWidget div.header_wrapper > div.header_left_shadow {width: 100%; padding: 0;}
@@ -486,6 +487,7 @@ div.header_wrapper_position {
 .checkout #shipping .container_content_rightsidebar.addressbook_sidebar .left_column {margin: 0;}
 .checkout #shipping_method_content p {text-align: left;}
 .checkout #shipping .shipping_method_item, .checkout .method_item {margin-bottom: 15px;}
+.checkout #shipping_method_content input[type="radio"] + label { padding-right: 50px; }
 .checkout .shipping_Order_Summary, .checkout .paymentOrderSummary {width: 100%;}
 .checkout #order_details {padding: 15px 1%; width: 100%;}
 .checkout .right_column #order_details .itemspecs {margin-left: 0; width: 68%;}
@@ -625,12 +627,12 @@ form {position: relative;}
 
   }
   .selectbox {display: inline-block;}
-  #content_wrapper p,
-  #content_wrapper #WC_AccountDisplay_div_7 .strong {text-align: left;}
-  #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .button_primary > .button_text, 
-  #content_wrapper #guestLogin #WC_AccountDisplay_div_19 .button_primary > .button_text,
-  #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {width: 300px;}
-  #content_wrapper #guestLogin .emailSection .infoText {margin-left: 25%;}
+  .checkout #content_wrapper p,
+  .checkout #content_wrapper #WC_AccountDisplay_div_7 .strong {text-align: left;}
+  .checkout #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .button_primary > .button_text, 
+  .checkout #content_wrapper #guestLogin #WC_AccountDisplay_div_19 .button_primary > .button_text,
+  .checkout #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {width: 300px;}
+  .checkout #content_wrapper #guestLogin .emailSection .infoText {margin-left: 25%;}
 }
 
 /* Larger than tablet */
@@ -641,20 +643,20 @@ form {position: relative;}
     height: 5px;
     background-color: turquoise;
   }
-  #content_wrapper #guestLogin .emailSection label,
-  #addressLine2, 
-  #content_wrapper #guestLogin .regForm .column_label {text-align: right;} 
-  #content_wrapper #checkout_crumb span.step_on, #content_wrapper #checkout_crumb span.step_off {font-size: 18px;}
-  #WC_ShipmentDisplay_div_4 span:before {display: none;}
+  .checkout #content_wrapper #guestLogin .emailSection label,
+  .checkout #addressLine2, 
+  .checkout #content_wrapper #guestLogin .regForm .column_label {text-align: right;} 
+  .checkout #checkout_crumb span.step_on, #content_wrapper #checkout_crumb span.step_off {font-size: 18px;}
+  .checkout .crumb span:before {display: none;}
 
-  #guestCheckoutPage #content_wrapper  #addressLine2 {padding: 0; text-align: left;}
-  #content_wrapper #guestLogin #newUserForm input,
-  #content_wrapper #guestLogin #Logon input {max-width: 74%;}
-  #guestLogin .emailSection label {text-align: right; width: 25%;}
-  #content_wrapper #guestLogin .emailSection label {text-align: right; width: 25%;}
-  #content_wrapper #guestLogin .regForm .column_label {text-align: right; width: 25%;}
-  #content_wrapper #addressLine2 span {text-align: right; width: 25%;}
-  #content_wrapper #addressLine2 input {float: none;}
+  .checkout #guestCheckoutPage #content_wrapper  #addressLine2 {padding: 0; text-align: left;}
+  .checkout #content_wrapper #guestLogin #newUserForm input,
+  .checkout #content_wrapper #guestLogin #Logon input {max-width: 74%;}
+  .checkout #guestLogin .emailSection label {text-align: right; width: 25%;}
+  .checkout #content_wrapper #guestLogin .emailSection label {text-align: right; width: 25%;}
+  .checkout #content_wrapper #guestLogin .regForm .column_label {text-align: right; width: 25%;}
+  .checkout #content_wrapper #addressLine2 span {text-align: right; width: 25%;}
+  .checkout #content_wrapper #addressLine2 input {float: none;}
   #guestCheckoutPage #content_wrapper #addressLine2 span {display: inline-block; text-align: right; padding: 0 10px 0 0; margin: 0;}
 
   #guestCheckoutPage #content_wrapper #addressLine2 span {margin: 0; top: 0 !important;}

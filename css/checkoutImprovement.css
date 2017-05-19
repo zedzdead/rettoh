@@ -73,7 +73,7 @@ span.charges{
   width: 97%;
   position: relative;
   z-index: 20;
-  padding: 20px 50px 20px 20px;
+  padding: 20px 0 20px 20px;
   border: solid 1px #999;
   color: #666;
   transition: all 1s;
