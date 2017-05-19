@@ -495,7 +495,7 @@ div.header_wrapper_position {
 .checkout #deleteAdddressLink {text-decoration: underline; font-family: Arial,Verdana,Helvetica,sans-serif; font-size: 14px; height: 28px; line-height: 28px; width: 47%;}
 .checkout #deleteAdddressLink .button_text {padding: 0; font-size: 14px; border: 0; width: auto; min-width: 0; text-decoration: underline; height: 28px; line-height: 28px; display: inline; float: none;}
 .checkout #HAddANewAddress div {margin-top: 20px;}
-.checkout .addressDetailWrap .address {text-align: center;}
+.checkout #WC_ShippingAddressSelectSingle_div_1 .addressDetailWrap .address {text-align: center;}
 
 .checkout #shipping .container_content_rightsidebar.addressbook_sidebar .left_column {margin: 0;}
 .checkout #shipping_method_content p {text-align: left;}
