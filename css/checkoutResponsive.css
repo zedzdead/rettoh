@@ -487,7 +487,7 @@ div.header_wrapper_position {
 .checkout .addressDetailWrap {display: inline-block; width: 48%; margin: 0;}
 .checkout .addressDetailWrap:nth-child(odd) {margin: 0;}
 .checkout .addressDetailWrap .button_primary {height: 28px;}
-.checkout .button_primary > .button_text {font-size: 13px; height: 24px; line-height: 24px; padding: 2px 20px;}
+.checkout .addressDetailWrap .button_primary > .button_text {font-size: 13px; height: 24px; line-height: 24px; padding: 2px 20px;}
 
 .checkout #shipping .container_content_rightsidebar.addressbook_sidebar .left_column {margin: 0;}
 .checkout #shipping_method_content p {text-align: left;}
