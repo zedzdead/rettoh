@@ -484,6 +484,9 @@ div.header_wrapper_position {
 .checkout #shipping .container_content_rightsidebar > .right_column,
 .checkout .shipping_Order_Summary, .paymentOrderSummary,
 .checkout #order_details .itemspecs {width: 100%;}
+.checkout .addressDetailWrap {display: inline-block; width: 48%; margin: 0;}
+.checkout .addressDetailWrap .button_primary {height: 28px;}
+.checkout .button_primary > .button_text {font-size: 13px; height: 24px; line-height: 24px; padding: 2px 20px;}
 
 .checkout #shipping .container_content_rightsidebar.addressbook_sidebar .left_column {margin: 0;}
 .checkout #shipping_method_content p {text-align: left;}
@@ -674,7 +677,7 @@ form {position: relative;}
   #dev {
     display: block;
     width: 100%;
-    height: 10px;
+    height: 5px;
     background-color: lilac;
   }
 }
