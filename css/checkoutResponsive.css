@@ -489,7 +489,7 @@ div.header_wrapper_position {
 .checkout .addressDetailWrap:nth-child(odd),
 .checkout .addressDetailWrap:nth-child(even) {margin: 10px 0;}
 .checkout .addressDetailWrap .button_primary {height: 28px;}
-.checkout .addressDetailWrap .button_primary > .button_text {font-size: 14px; height: 28px; line-height: 28px; padding: 0; min-width: 128px;}
+.checkout .addressDetailWrap .button_primary > .button_text {font-size: 14px; height: 28px; line-height: 28px; padding: 0; min-width: 100%;}
 .checkout .addressDetailInner {min-height: 140px;}
 .checkout #editAdddressLink, .newAddress {text-decoration: underline; font-size: 14px; height: 28px; font-weight: 700; line-height: 28px;}
 .checkout #deleteAdddressLink {text-decoration: underline; font-family: Arial,Verdana,Helvetica,sans-serif; font-size: 14px; height: 28px; line-height: 28px;}
