@@ -646,7 +646,7 @@ form {position: relative;}
   .checkout #content_wrapper #guestLogin .emailSection label,
   .checkout #addressLine2, 
   .checkout #content_wrapper #guestLogin .regForm .column_label {text-align: right;} 
-  .checkout #checkout_crumb .crumb span.step_on, #content_wrapper #checkout_crumb .crumb span.step_off {font-size: 18px;}
+  .checkout #checkout_crumb .crumb span.step_on, .checkout #checkout_crumb .crumb span.step_off {font-size: 18px; width: 24%;}
   .checkout .crumb span:before {display: none;}
 
   .checkout #guestCheckoutPage #content_wrapper  #addressLine2 {padding: 0; text-align: left;}
