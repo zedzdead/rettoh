@@ -5,6 +5,9 @@ jQuery(document).ready(function($) {
 		$('body').addClass('checkout');
 		$('body').prepend($('<div id="dev"></dev>'));
 	}
+	if($('.checkout').length && !$('.sec-number').length) {
+		$('..mobilelogo').prepend($('<div class="sec-number"><div class="sec-call">Call Today :</div><div id="sec-num" class="sec-num">0800 306 406</div></div>'));
+	}
 	//Add non breaking spaces to shipping option label text
 	if($('.shipping_method_item_title').length) {
 		$('.shipping_method_item_title label span').each(function() {
