@@ -474,12 +474,13 @@ body > iframe {display: none;}
     width: 200px;
     margin: 0 auto;
 }
-.sec-call .sec-num {display: inline-block; width: 50%;}
-.sec-call {
+.checkout .sec-call,
+.checkout .sec-num {display: inline-block; width: 50%;}
+.checkout .sec-call {
     text-align: right;
     font-size: 14px;
 }
-.sec-number {
+.checkout .sec-number {
     float: none;
     position: absolute;
     /* top: 50%; */
