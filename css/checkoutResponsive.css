@@ -465,13 +465,27 @@ body > iframe {display: none;}
 #page .shadowPiece {display: none;}
 
 /* Checkout Page 2 */
+.checkout .sec-head {
+  position: relative;
 
+}
 .checkout .sec-logo {
     float: none;
     width: 200px;
     margin: 0 auto;
 }
-
+.sec-call .sec-num {display: inline-block; width: 50%;}
+.sec-call {
+    text-align: right;
+    font-size: 14px;
+}
+.sec-number {
+    float: none;
+    position: absolute;
+    /* top: 50%; */
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+}
 
 div.header_wrapper_position {
     position: relative;
@@ -481,7 +495,7 @@ div.header_wrapper_position {
     margin: 0 auto;
 }
 
-.checkout .checkoutHeader, .checkoutFooter {width: 100%; max-width: 930px;}
+.checkout .checkoutHeader, .checkoutFooter {width: 100%; max-width: 930px; padding: 0;}
 .checkout .sec-head, 
 .checkout #content_wrapper .content_wrapper,
 .checkout #shipping .shipping_method,
