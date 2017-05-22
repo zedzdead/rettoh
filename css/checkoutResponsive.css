@@ -30,14 +30,15 @@ body > iframe {display: none;}
 .checkout #headerWidget div.header_wrapper > div.header_left_shadow {width: 100%; padding: 0;}
 .checkout #headerWidget div.header_wrapper > div.header_left_shadow > div.header_right_shadow {width: 100%; padding: 0;}
 .checkout #headerWidget div.header_wrapper > div.header_left_shadow > div.header_right_shadow > div.header {width: 100%;}
-.checkout #headerWidget #masthead > .content {height: 87px; position: relative; width: 100%; background-color: #ffffff;}
+.checkout #headerWidget #masthead > .content {height: 63px; position: relative; width: 100%; background-color: #ffffff;}
 .checkout #headerWidget div.widget_masthead_logo_position {left: 0px; position: relative; top: 0px;}
 .checkout #headerWidget .desklogo {display: none;}
 .checkout #headerWidget .desklogo > div {position: relative; width: 100%;}
 .checkout #headerWidget div#widget_masthead_logo1 img {position: relative; left: 0 top: 0; margin: 0 !important; display: inline; max-height: 60px; width: auto; height: auto; max-width: 100%;}
-.checkout #headerWidget .mobilelogo {display: block; width: 200px; margin: 30px auto 0; text-align: center;}
+.checkout #headerWidget .mobilelogo {display: block; width: 100%; margin: 30px auto 0; text-align: center;}
 .checkout .mobilelogo .searchposdiv {display: none;} 
 #headerWidget .mobilelogo > div {float: none !important;}
+#headerWidget .mobilelogo > div:nth-child(2) {width: 200px; margin: 0 auto;}
 .jsEnabled #headerWidget #masthead > .navigation {width: 100%;}
 .checkout #headerWidget .header_espot_container {display: none;}
 .checkout #headerWidget div.widget_minishopcart_position {display: none;}
