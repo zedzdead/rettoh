@@ -475,17 +475,20 @@ body > iframe {display: none;}
     margin: 0 auto;
 }
 .checkout .sec-call,
-.checkout .sec-num {display: inline-block; width: 50%;}
+.checkout .sec-num {display: inline-block; width: 50%; margin: 0; padding: 0 3px; font-size: 14px;}
 .checkout .sec-call {
     text-align: right;
-    font-size: 14px;
 }
 .checkout .sec-number {
     float: none;
     position: absolute;
-    /* top: 50%; */
+    top: 0;
     transform: translateY(0);
     -webkit-transform: translateY(0);
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
 }
 
 div.header_wrapper_position {
