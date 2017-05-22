@@ -467,18 +467,17 @@ body > iframe {display: none;}
 /* Checkout Page 2 */
 .checkout .sec-head {
   position: relative;
-
+  margin-bottom: -30px;
 }
 .checkout .sec-logo {
     float: none;
     width: 200px;
-    margin: 0 auto;
+    margin: 30px auto 0;
 }
 .checkout .sec-call,
-.checkout .sec-num {display: inline-block; width: 50%; margin: 0; padding: 0 3px; font-size: 14px;}
-.checkout .sec-call {
-    text-align: right;
-}
+.checkout .sec-num {display: inline-block; width: 48%; margin: 0; padding: 0 3px; font-size: 14px;}
+.checkout .sec-call {text-align: right;}
+.checkout .sec-num {text-align: left;}
 .checkout .sec-number {
     float: none;
     position: absolute;
