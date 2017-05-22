@@ -16,7 +16,7 @@
 /* Default */
 
 * {box-sizing: border-box;}
-img {width: 100%;}  
+img {width: 100% !important; height: auto !important;}  
 
 /*Clear fix */
 .group:after {content: ""; display: table; clear: both;}
@@ -466,6 +466,13 @@ body > iframe {display: none;}
 
 /* Checkout Page 2 */
 
+.checkout .sec-logo {
+    float: none;
+    width: 200px;
+    margin: 0 auto;
+}
+
+
 div.header_wrapper_position {
     position: relative;
     width: 100%;
@@ -545,6 +552,12 @@ div.header_wrapper_position {
     line-height: 40px;
     padding: 0;
 }
+
+.checkout .checkOutTitle {font-size: 22px; line-height: normal; padding-bottom: 10px;}
+
+
+/* Store Locator Click and Collect */
+
 
 /* Form labels inside fields Start */
 /*
