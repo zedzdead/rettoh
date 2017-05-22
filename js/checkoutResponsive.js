@@ -16,4 +16,8 @@ jQuery(document).ready(function($) {
 	if($('#shipping_delivery_method_option').length) {
 		$('#shipping_delivery_method_option').append($('#shipping_delivery_method_option a'));
 	}
+	//Move Selected Delivery option and change link to below main call to action
+	if($('#shipAddressSelect').length) {
+		$('#shipAddressSelect').append($('#shipping_delivery_method_option'));
+	}
 });
