@@ -24,4 +24,7 @@ jQuery(document).ready(function($) {
 	if($('#shipAddressSelect').length) {
 		$('#shipAddressSelect').append($('#shipping_delivery_method_option'));
 	}
+	if($('##bopis_table').length) {
+		$('##bopis_table tr td:last-child').addClass('zoom');
+	}
 });
