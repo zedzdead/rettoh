@@ -573,13 +573,16 @@ div.header_wrapper_position {
 
 .checkout .checkOutTitle {font-size: 22px; line-height: normal; padding-bottom: 10px;}
 
+/* Store Locator Click and Collect */
+
+.checkout #bopis_table tr {min-height: 150px;}
+.checkout tr #WC_CheckoutStoreSelection_div_8 {left: 100px;}
 .checkout .opening-times {display: none;}
 .checkout td > div > label.full-line:before,
 .checkout .selected > td > div > label.full-line:before {position: absolute;}
-
-
-/* Store Locator Click and Collect */
-
+.checkout #bopis_table td:first-child {width: 20%;}
+.checkout #bopis_table td:nth-child(2) {width: 80%;}
+.checkout #bopis_table td:last-child {display: none;}
 
 /* Form labels inside fields Start */
 /*
