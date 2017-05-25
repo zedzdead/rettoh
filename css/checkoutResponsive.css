@@ -573,6 +573,8 @@ div.header_wrapper_position {
 
 .checkout .checkOutTitle {font-size: 22px; line-height: normal; padding-bottom: 10px;}
 
+.checkout .opening {display: none;}
+
 
 /* Store Locator Click and Collect */
 
