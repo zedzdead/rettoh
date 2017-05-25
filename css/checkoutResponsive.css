@@ -574,6 +574,8 @@ div.header_wrapper_position {
 .checkout .checkOutTitle {font-size: 22px; line-height: normal; padding-bottom: 10px;}
 
 .checkout .opening-times {display: none;}
+.checkout td > div > label.full-line:before,
+.checkout .selected > td > div > label.full-line:before {position: absolute;}
 
 
 /* Store Locator Click and Collect */
