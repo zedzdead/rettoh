@@ -26,6 +26,7 @@ jQuery(document).ready(function($) {
 	}
 
 	if($('#bopis_table').length) {
+		console.log('zoom');
 		$('#bopis_table tr td:last-child').addClass('zoom');
 	}
 });
