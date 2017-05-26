@@ -580,7 +580,7 @@ body.checkout  > iframe {display: none;}
 .checkout td > div > label.full-line:before,
 .checkout .selected > td > div > label.full-line:before {position: absolute; top:35px;}
 .checkout #bopis_table td:first-child {width: 50px;}
-.checkout #bopis_table td:nth-child(2) {width: 100%; height: 135px; display: block;}
+.checkout #bopis_table td:nth-child(2) {width: 100%; display: block;}
 .checkout #bopis_table td:last-child {position: absolute; right: -300px; opacity: 0; transition: all 1s; background: #ffe; padding: 20px;}
 .checkout #bopis_table td.slide:last-child {
     opacity: 1;
@@ -710,7 +710,7 @@ form {position: relative;}
   .checkout #shipping #shipping_delivery_method_option a {float: right; margin-top: -34px;}
   .checkout .addressDetailWrap {width: 31.5%;}
   .checkout #bopis_table td:first-child {width: 50px;}
-  .checkout #bopis_table td:nth-child(2) {width: 60%;}
+  .checkout #bopis_table td:nth-child(2) {width: 60%; display: table-cell; }
   .checkout #bopis_table td:last-child,
   .checkout #bopis_table td.slide:last-child {display: table-cell; width: 40%; position: relative; right: 0; opacity: 1; background: transparent;}
 } 
