@@ -605,12 +605,13 @@ body.checkout  > iframe {display: none;}
     font-size: 24px;
 }
 .closer {
-    position: absolute;
+    position: absolute !important;
     top: 0;
     left: -20px;
     float: left;
     width: 20px !important;
     font-size: 0;
+    color: red;
 }
 /* \f00d = Close */
 .closer:before {
