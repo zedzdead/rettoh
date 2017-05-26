@@ -583,6 +583,11 @@ body.checkout  > iframe {display: none;}
 .checkout #bopis_table td:first-child {width: 50px;}
 .checkout #bopis_table td:nth-child(2) {width: 100%;}
 .checkout #bopis_table td:last-child {display: none;}
+.checkout .my_account_content_bold {font-size: 14px; font-weight: 700;}
+.checkout #bopis_table .dotted_bottom_border > div > div {width: 100% !important;}
+.checkout #bopis_table td:last-child > div {width: 100%;}
+
+
 
 /* Form labels inside fields Start */
 /*
