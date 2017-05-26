@@ -34,6 +34,9 @@ jQuery(document).ready(function($) {
 				$(this).parent().next('td').addClass('slide');
 			})
 		});
+		$('.closer').click(function() {
+			$('.slide').removeClass('slide');
+		});
 	}
 
 });
