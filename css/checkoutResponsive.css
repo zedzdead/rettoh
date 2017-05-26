@@ -577,7 +577,6 @@ body.checkout  > iframe {display: none;}
 
 .checkout #bopis_table tr {min-height: 150px; position: relative;}
 .checkout tr #WC_CheckoutStoreSelection_div_8 {right: 15px;}
-.checkout .opening-times {display: none;}
 .checkout td > div > label.full-line:before,
 .checkout .selected > td > div > label.full-line:before {position: absolute; top:35px;}
 .checkout #bopis_table td:first-child {width: 50px;}
