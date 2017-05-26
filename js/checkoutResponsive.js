@@ -29,6 +29,7 @@ jQuery(document).ready(function($) {
 		$('.checkout #bopis_table td:nth-child(2)').prepend($('<div class="opening-times">Open</div>'));
 		$('.opening-times').each(function() {
 			$(this).click(function() {
+				$('.slide').removeClass('slide');
 				$(this).parent().next('td').addClass('slide');
 			})
 		});
