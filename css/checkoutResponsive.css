@@ -577,9 +577,9 @@ body.checkout  > iframe {display: none;}
 
 .checkout #bopis_table th, #bopis_table1 th {height: 20px; line-height: 20px; font-size: 14px;}
 .checkout #bopis_table th:first-child {width: 50px;}
-.checkout #bopis_table th:nth-child(2) {width: 80%;}
-.checkout #bopis_table th:last-child {width: 20%;}
-.checkout #bopis_table tr {min-height: 150px; position: relative;}
+.checkout #bopis_table th:nth-child(2) {width: 100%;}
+.checkout #bopis_table th:last-child {}
+.checkout #bopis_table tr {min-height: 0px; position: relative;}
 .checkout tr #WC_CheckoutStoreSelection_div_8 {left: 15px;}
 .checkout td > div > label.full-line:before,
 .checkout .selected > td > div > label.full-line:before {position: absolute; top:58px;}
