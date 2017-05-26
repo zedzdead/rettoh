@@ -704,7 +704,8 @@ form {position: relative;}
   .checkout .addressDetailWrap {width: 31.5%;}
   .checkout #bopis_table td:first-child {width: 50px;}
   .checkout #bopis_table td:nth-child(2) {width: 60%;}
-  .checkout #bopis_table td:last-child {display: table-cell; width: 40%;}
+  .checkout #bopis_table td:last-child,
+  .checkout #bopis_table td.slide:last-child {display: table-cell; width: 40%; position: relative; right: 0; opacity: 1; background: #fff;}
 } 
 
 /* Larger than tablet */
