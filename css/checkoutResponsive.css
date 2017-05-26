@@ -596,6 +596,13 @@ body.checkout  > iframe {display: none;}
     right: 0;
     display: inline;
     float: right;
+    font-size: 0;
+}
+/* \f017 = Clock */
+.opening-times:before {
+    content: "\f017";
+    font-family: FontAwesome;
+    font-size: 24px;
 }
 .checkout .my_account_content_bold {font-size: 14px; font-weight: 700;}
 .checkout #bopis_table .dotted_bottom_border > div > div {width: 100% !important;}
@@ -713,6 +720,7 @@ form {position: relative;}
   .checkout #bopis_table td:nth-child(2) {width: 60%; display: table-cell; }
   .checkout #bopis_table td:last-child,
   .checkout #bopis_table td.slide:last-child {display: table-cell; width: 40%; position: relative; right: 0; opacity: 1; background: transparent;}
+  .opening-times {display: none;}
 } 
 
 /* Larger than tablet */
