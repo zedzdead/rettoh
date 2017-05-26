@@ -16,7 +16,7 @@
 /* Default */
 
 .checkout * {box-sizing: border-box;}
-.chekout img {width: 100% !important; height: auto !important;}  
+.checkout img {width: 100% !important; height: auto !important;}  
 
 /*Clear fix */
 .group:after {content: ""; display: table; clear: both;}
@@ -576,10 +576,10 @@ body.checkout  > iframe {display: none;}
 /* Store Locator Click and Collect */
 
 .checkout #bopis_table tr {min-height: 150px;}
-.checkout tr #WC_CheckoutStoreSelection_div_8 {left: 100px;}
+.checkout tr #WC_CheckoutStoreSelection_div_8 {right: 15px;}
 .checkout .opening-times {display: none;}
 .checkout td > div > label.full-line:before,
-.checkout .selected > td > div > label.full-line:before {position: absolute;}
+.checkout .selected > td > div > label.full-line:before {position: absolute; top:35px;}
 .checkout #bopis_table td:first-child {width: 50px;}
 .checkout #bopis_table td:nth-child(2) {width: 100%;}
 .checkout #bopis_table td:last-child {display: none;}
