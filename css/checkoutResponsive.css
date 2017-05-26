@@ -575,22 +575,10 @@ body.checkout  > iframe {display: none;}
 
 /* Store Locator Click and Collect */
 
-.checkout #bopis_table th, #bopis_table1 th {height: 20px; line-height: 20px; font-size: 14px; display: block;}
-.checkout #bopis_table th:first-child {
-    text-align: left;
-    width: 20%;
-    float: left;
-}
-.checkout #bopis_table th:nth-child(2) {
-    width: 56%;
-    float: left;
-    text-align: center;
-}
-.checkout #bopis_table th:last-child {
-    width: 20%;
-    float: right;
-    text-align: right;
-}
+.checkout #bopis_table th, #bopis_table1 th {height: 20px; line-height: 20px; font-size: 14px; display: inline-block; width: 32%;}
+.checkout #bopis_table th:first-child {text-align: left;}
+.checkout #bopis_table th:nth-child(2) {text-align: center;}
+.checkout #bopis_table th:last-child {text-align: right;}
 .checkout #bopis_table tr.nested {height: 50px;}
 .checkout #bopis_table tr {min-height: 0px; position: relative;}
 .checkout tr #WC_CheckoutStoreSelection_div_8 {left: 15px;}
