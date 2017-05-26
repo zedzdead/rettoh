@@ -589,6 +589,7 @@ body.checkout  > iframe {display: none;}
     right: -80px;
     z-index: 600;
 }
+.opening-times {position: relative; z-index: 500;}
 .checkout .my_account_content_bold {font-size: 14px; font-weight: 700;}
 .checkout #bopis_table .dotted_bottom_border > div > div {width: 100% !important;}
 .checkout #bopis_table td:last-child > div {width: 100%;}
