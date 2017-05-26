@@ -580,8 +580,8 @@ body.checkout  > iframe {display: none;}
 .checkout .opening-times {display: none;}
 .checkout td > div > label.full-line:before,
 .checkout .selected > td > div > label.full-line:before {position: absolute;}
-.checkout #bopis_table td:first-child {width: 20%;}
-.checkout #bopis_table td:nth-child(2) {width: 80%;}
+.checkout #bopis_table td:first-child {width: 50px;}
+.checkout #bopis_table td:nth-child(2) {width: 100%;}
 .checkout #bopis_table td:last-child {display: none;}
 
 /* Form labels inside fields Start */
