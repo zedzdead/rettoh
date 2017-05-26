@@ -592,7 +592,7 @@ body.checkout  > iframe {display: none;}
 .opening-times {
     position: relative;
     z-index: 500;
-    top: -20px;
+    top: -40px;
     right: 0;
     display: inline;
     float: right;
