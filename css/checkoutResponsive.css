@@ -612,7 +612,7 @@ body.checkout  > iframe {display: none;}
     width: 20px !important;
     font-size: 0;
     color: red;
-    background #ffe;
+    background: #ffe;
 }
 /* \f00d = Close */
 .closer:before {
@@ -737,6 +737,7 @@ form {position: relative;}
   .checkout #bopis_table td:last-child,
   .checkout #bopis_table td.slide:last-child {display: table-cell; width: 40%; position: relative; right: 0; opacity: 1; background: transparent;}
   .opening-times {display: none;}
+  .closer {display: none;}
 } 
 
 /* Larger than tablet */
