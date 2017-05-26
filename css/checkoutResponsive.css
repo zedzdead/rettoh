@@ -580,7 +580,7 @@ body.checkout  > iframe {display: none;}
 .checkout td > div > label.full-line:before,
 .checkout .selected > td > div > label.full-line:before {position: absolute; top:35px;}
 .checkout #bopis_table td:first-child {width: 50px;}
-.checkout #bopis_table td:nth-child(2) {width: 100%;}
+.checkout #bopis_table td:nth-child(2) {width: 100%; height: 135px; display: block;}
 .checkout #bopis_table td:last-child {position: absolute; right: -300px; opacity: 0; transition: all 1s; background: #ffe; padding: 20px;}
 .checkout #bopis_table td.slide:last-child {
     opacity: 1;
@@ -589,7 +589,14 @@ body.checkout  > iframe {display: none;}
     right: -80px;
     z-index: 600;
 }
-.opening-times {position: relative; z-index: 500;}
+.opening-times {
+    position: relative;
+    z-index: 500;
+    top: -20px;
+    right: 0;
+    display: inline;
+    float: right;
+}
 .checkout .my_account_content_bold {font-size: 14px; font-weight: 700;}
 .checkout #bopis_table .dotted_bottom_border > div > div {width: 100% !important;}
 .checkout #bopis_table td:last-child > div {width: 100%;}
@@ -705,7 +712,7 @@ form {position: relative;}
   .checkout #bopis_table td:first-child {width: 50px;}
   .checkout #bopis_table td:nth-child(2) {width: 60%;}
   .checkout #bopis_table td:last-child,
-  .checkout #bopis_table td.slide:last-child {display: table-cell; width: 40%; position: relative; right: 0; opacity: 1; background: #fff;}
+  .checkout #bopis_table td.slide:last-child {display: table-cell; width: 40%; position: relative; right: 0; opacity: 1; background: transparent;}
 } 
 
 /* Larger than tablet */
