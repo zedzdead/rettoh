@@ -24,8 +24,12 @@ jQuery(document).ready(function($) {
 	if($('#shipAddressSelect').length) {
 		$('#shipAddressSelect').append($('#shipping_delivery_method_option'));
 	}
-
+	//Add a clickable div to display opening times for click and collect - everything else done with css
 	if($('#bopis_table').length) {
-		$('#bopis_table tr td:last-child').addClass('opening-times');
+		$('.checkout #bopis_table td:nth-child(2)').prepend($('<div class="opening-times"><a href="#">Open</a></div>'));
+		$('.opening-times').each(function() {
+			$(this).parent().next('td').addClass('slide');
+		});
 	}
+
 });
