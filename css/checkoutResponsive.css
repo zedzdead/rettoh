@@ -613,7 +613,9 @@ body.checkout  > iframe {display: none;}
     font-size: 0;
     color: red;
     background: #ffe;
+    opacity: 0;
 }
+.slide .closer {opacity: 1;}
 /* \f00d = Close */
 .closer:before {
     content: "\f00d";
