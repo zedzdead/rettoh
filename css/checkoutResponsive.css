@@ -612,6 +612,7 @@ body.checkout  > iframe {display: none;}
     width: 20px !important;
     font-size: 0;
     color: red;
+    background #ffe;
 }
 /* \f00d = Close */
 .closer:before {
