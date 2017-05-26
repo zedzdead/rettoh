@@ -613,7 +613,7 @@ body.checkout  > iframe {display: none;}
     font-size: 0;
 }
 /* \f00d = Close */
-.opening-times:before {
+.closer:before {
     content: "\f00d";
     font-family: FontAwesome;
     font-size: 24px;
