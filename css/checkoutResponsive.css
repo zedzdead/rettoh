@@ -783,6 +783,19 @@ form {position: relative;}
   div#label_state {padding-left: 10px; padding-right: 10px; position: relative; top: 7px;}
   .checkout #shipping .container_content_rightsidebar.addressbook_sidebar .left_column {width: 68%;}
   .checkout #shipping .container_content_rightsidebar > .right_column {float: right; width: 221px; width: 30% !important; margin-top: 28px;}
+  .checkout #bopis_table th:first-child {width: 5%;}
+  .checkout #bopis_table th:nth-child(2) {width: 55%;}
+  .checkout #bopis_table th:last-child {width: 36%;}
+}
+
+/* Larger than tablet */
+@media (min-width: 930px) {
+  #dev {
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: gold;
+  }
 }
 
 /* Larger than desktop */
@@ -791,7 +804,7 @@ form {position: relative;}
     display: block;
     width: 100%;
     height: 5px;
-    background-color: lilac;
+    background-color: cornflowerblue;
   }
 }
 
