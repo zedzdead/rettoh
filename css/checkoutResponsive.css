@@ -626,6 +626,7 @@ body.checkout  > iframe {display: none;}
 .checkout #bopis_table .dotted_bottom_border > div > div {width: 100% !important;}
 .checkout #bopis_table td:last-child > div {position: relative;}
 .checkout #bopis_table td {font-size: 12px;}
+.closer ~ div > div {line-height: 16px;}
 
 
 
