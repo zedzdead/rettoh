@@ -580,7 +580,7 @@ body.checkout  > iframe {display: none;}
 .checkout td > div > label.full-line:before,
 .checkout .selected > td > div > label.full-line:before {position: absolute; top:35px;}
 .checkout #bopis_table td:first-child {width: 50px;}
-.checkout #bopis_table td:nth-child(2) {width: 100%; display: block;}
+.checkout #bopis_table td:nth-child(2) {width: 100%; display: block; height: 135px;}
 .checkout #bopis_table td:last-child {position: absolute; right: -300px; opacity: 0; transition: all 1s; background: #ffe; padding: 20px;}
 .checkout #bopis_table td.slide:last-child {
     opacity: 1;
