@@ -688,7 +688,10 @@ form {position: relative;}
   .checkout #shipping .title label, #shipping #shipping_delivery_method_option p.title, #storeDetailsPage .title {float: left; width: 51%;}
   .checkout #shipping .title label, .checkout #shipping #shipping_delivery_method_option p {width: 51%; float: left;}
   .checkout #shipping #shipping_delivery_method_option a {float: right; margin-top: -34px;}
-  .checkout .addressDetailWrap {width: 31.5%;}  
+  .checkout .addressDetailWrap {width: 31.5%;}
+  .checkout #bopis_table td:first-child {width: 50px;}
+  .checkout #bopis_table td:nth-child(2) {width: 50%;}
+  .checkout #bopis_table td:last-child {display: table-cell; width: 50%;}
 } 
 
 /* Larger than tablet */
