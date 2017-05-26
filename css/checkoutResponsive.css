@@ -744,8 +744,8 @@ form {position: relative;}
   .checkout .addressDetailWrap {width: 31.5%;}
   .checkout #bopis_table th, #bopis_table1 th {}
   .checkout #bopis_table th:first-child {width: 5%;}
-  .checkout #bopis_table th:nth-child(2) {width: 41%;}
-  .checkout #bopis_table th:last-child {width: 50%;}
+  .checkout #bopis_table th:nth-child(2) {width: 56%;}
+  .checkout #bopis_table th:last-child {width: 35%;}
   .checkout #bopis_table td:first-child {width: 50px;}
   .checkout #bopis_table td:nth-child(2) {display: table-cell;}
   .checkout #bopis_table td:last-child,
@@ -784,8 +784,8 @@ form {position: relative;}
   .checkout #shipping .container_content_rightsidebar.addressbook_sidebar .left_column {width: 68%;}
   .checkout #shipping .container_content_rightsidebar > .right_column {float: right; width: 221px; width: 30% !important; margin-top: 28px;}
   .checkout #bopis_table th:first-child {width: 5%;}
-  .checkout #bopis_table th:nth-child(2) {width: 55%;}
-  .checkout #bopis_table th:last-child {width: 36%;}
+  .checkout #bopis_table th:nth-child(2) {width: 60%;}
+  .checkout #bopis_table th:last-child {width: 31%;}
 }
 
 /* Larger than tablet */
@@ -796,6 +796,9 @@ form {position: relative;}
     height: 5px;
     background-color: gold;
   }
+  .checkout #bopis_table th:first-child {width: 5%;}
+  .checkout #bopis_table th:nth-child(2) {width: 62%;}
+  .checkout #bopis_table th:last-child {width: 29%;}  
 }
 
 /* Larger than desktop */
