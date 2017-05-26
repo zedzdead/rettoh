@@ -581,9 +581,9 @@ body.checkout  > iframe {display: none;}
 .checkout .selected > td > div > label.full-line:before {position: absolute; top:35px;}
 .checkout #bopis_table td:first-child {width: 50px;}
 .checkout #bopis_table td:nth-child(2) {width: 100%;}
-.checkout #bopis_table td:last-child {position: absolute; right: 0; display: none; transition: all 1s; background: #ffe; padding: 20px;}
+.checkout #bopis_table td:last-child {position: absolute; right: 0; opacity: 0; transition: all 1s; background: #ffe; padding: 20px;}
 .checkout #bopis_table td.slide:last-child {
-    display: block;
+    opacity: 1;
     position: absolute;
     top: 0px;
     right: -80px;
