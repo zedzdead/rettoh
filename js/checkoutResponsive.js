@@ -27,6 +27,7 @@ jQuery(document).ready(function($) {
 	//Add a clickable div to display opening times for click and collect - everything else done with css
 	if($('#bopis_table').length) {
 		$('.checkout #bopis_table td:nth-child(2)').prepend($('<div class="opening-times">Open</div>'));
+		$('.checkout #bopis_table td:last-child > div').before($('<div class="closer">Close</div>'));	
 		$('.opening-times').each(function() {
 			$(this).click(function() {
 				$('.slide').removeClass('slide');
