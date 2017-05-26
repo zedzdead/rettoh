@@ -604,6 +604,7 @@ body.checkout  > iframe {display: none;}
     font-family: FontAwesome;
     font-size: 24px;
 }
+.opening-times:hover:before {cursor: pointer;}
 .closer {
     position: absolute !important;
     top: 0;
@@ -622,6 +623,7 @@ body.checkout  > iframe {display: none;}
     font-family: FontAwesome;
     font-size: 24px;
 }
+.closer:hover:before {cursor: pointer;}
 .checkout .my_account_content_bold {font-size: 14px; font-weight: 700;}
 .checkout #bopis_table .dotted_bottom_border > div > div {width: 100% !important;}
 .checkout #bopis_table td:last-child > div {position: relative;}
