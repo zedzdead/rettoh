@@ -735,7 +735,7 @@ form {position: relative;}
   .checkout #bopis_table td:first-child {width: 50px;}
   .checkout #bopis_table td:nth-child(2) {width: 60%; display: table-cell; }
   .checkout #bopis_table td:last-child,
-  .checkout #bopis_table td.slide:last-child {display: table-cell; width: 40%; position: relative; right: 0; opacity: 1; background: transparent;}
+  .checkout #bopis_table td.slide:last-child {display: table-cell; width: 40%; position: relative; right: 0; opacity: 1; background: transparent; transition: all 0s;}
   .opening-times {display: none;}
   .closer {display: none;}
 } 
