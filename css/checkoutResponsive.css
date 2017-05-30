@@ -667,7 +667,7 @@ body.checkout  > iframe {display: none;}
     line-height: normal;
 }
 .checkout form#PaymentForm1 .billing_address_container a.button_secondary {
-    top: 48px;
+    top: 60px;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -677,7 +677,9 @@ body.checkout  > iframe {display: none;}
     line-height: 26px;
     font-size: 14px;
 }
-.checkout form#PaymentForm1 .billingAddressSection span.addressDetails {padding-bottom: 20px;}
+.checkout form#PaymentForm1 .billingAddressSection span.addressDetails {padding-bottom: 40px;}
+.checkout .paymentDetailsSection .breadcrumb_current {font-size: 16px;}
+.checkout .payment_radio_options label {font-size: 14px;}
 
 
 /* Form labels inside fields Start */
