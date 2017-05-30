@@ -549,8 +549,10 @@ body.checkout  > iframe {display: none;}
 .checkout #total_breakdown .button_primary {height: auto !important; clear: both; width: 100% !important; margin: 10px 0 0 0;}
 .checkout #total_breakdown .button_primary > .button_text {font-size: 20px !important; height: 40px !important; line-height: 40px !important; padding: 0px 0px !important; background-color: #fff !important; width: 100%; display: inline-block; border: solid 1px #ccc; color: #666;}
 .checkout #shipping .title label, 
-.checkout #shipping #shipping_delivery_method_option p {width: 100%;}
-.checkout #shipping #shipping_delivery_method_option a {cursor: pointer; float: none; text-align: center; width: 50%; border: solid 1px #ccc; font-weight: bold; padding: 5px 0; display: inline-block; line-height: inherit; font-size: 14px; margin-top: 10px; background: #fff;}
+.checkout #shipping #shipping_delivery_method_option p,
+.checkout #shipAddressSelect #shipping_delivery_method_option p {width: 100%;}
+.checkout #shipping #shipping_delivery_method_option a,
+.checkout #shipAddressSelect #shipping_delivery_method_option a {cursor: pointer; float: none; text-align: center; width: 50%; border: solid 1px #ccc; font-weight: bold; padding: 5px 0; display: inline-block; line-height: inherit; font-size: 14px; margin-top: 10px; background: #fff;}
 .checkout .shipping_Order_Summary .deliveryDetails {width: 100%; font-size: inherit;}
 .checkout #storeLocatorForm .formFields .hidden {font-size: 12px; line-height: 20px;}
 .checkout .storeLocator .Hform .formFields input#searchWordTownOrPostCode {width: 100%; height: 30px; line-height: 30px; margin: 0; padding: 5px; font-size: 14px;}
