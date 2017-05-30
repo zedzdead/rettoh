@@ -644,6 +644,7 @@ body.checkout  > iframe {display: none;}
 #paymentPage.checkout #box .body, #paymentPage.checkout #box_1 .body {width: 100%; border: none; padding: 0;}
 .checkout form#PaymentForm1 .billingAddressSection {width: 100%; margin-top: 28px;}
 #paymentPage.checkout .container_content_rightsidebar > .right_column {width: 100%;}
+.checkout .paymentDetailsSection {width: 100%;}
 
 
 
