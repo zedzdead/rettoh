@@ -786,6 +786,8 @@ form {position: relative;}
   .checkout #bopis_table th:first-child {width: 5%;}
   .checkout #bopis_table th:nth-child(2) {width: 60%;}
   .checkout #bopis_table th:last-child {width: 31%;}
+  .checkout .container_content_rightsidebar > .left_column {width: 75%; margin-right: 1%;}
+  .checkout .container_content_rightsidebar > .right_column {width: 25%;}
 }
 
 /* Larger than tablet */
