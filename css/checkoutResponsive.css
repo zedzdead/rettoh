@@ -777,10 +777,25 @@ form {position: relative;}
   .checkout #bopis_table td.slide:last-child {display: table-cell; width: 40%; position: relative; right: 0; opacity: 1; background: transparent; transition: all 0s;}
   .opening-times {display: none;}
   .closer {display: none;}
+  .checkout form#PaymentForm1 .billingAddressSection span.addressDetails {
+    width: 100%;
+    font-size: 12px;
+    line-height: normal;
+  }
+  .checkout form#PaymentForm1 .billing_address_container a.button_secondary {
+    top: 48px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .checkout form#PaymentForm1 .billing_address_container a.button_secondary .button_text {
+    line-height: 26px;
+    font-size: 14px;
+  }
+  .checkout form#PaymentForm1 .billingAddressSection span.addressDetails {padding-bottom: 20px;}
 
-
-} 
-
+}
 /* Larger than tablet */
 @media (min-width: 750px) {
   #dev {
