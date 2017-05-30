@@ -506,7 +506,7 @@ body.checkout  > iframe {display: none;}
 .checkout .shipAddressSelect,
 .checkout #shipAddressSelect .Hform,
 .checkout .container_content_rightsidebar > .left_column,
-.checkout #shipping .container_content_rightsidebar > .right_column,
+.checkout .container_content_rightsidebar > .right_column,
 .checkout .shipping_Order_Summary, .paymentOrderSummary,
 .checkout #order_details .itemspecs {width: 100%;}
 .checkout .shipping_address_content, .address_book {font-size: 14px;}
