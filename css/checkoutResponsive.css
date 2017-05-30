@@ -681,7 +681,10 @@ body.checkout  > iframe {display: none;}
 .checkout .paymentDetailsSection .breadcrumb_current {font-size: 16px !important;}
 .checkout .payment_radio_options label {font-size: 14px;}
 .checkout .payment_radio_options #weaccept {float: none; margin: 0;}
-
+.checkout .payment_radio_options input,
+#paymentPage.checkout #pay_by_paypal,
+#paymentPage.checkout #pay_by_paypal > #byPayPal {margin: 0;}
+#paymentPage.checkout #pay_by_paypal > .paypalIcon {margin: 0 78px; display: block; width: 80px;}
 
 /* Form labels inside fields Start */
 /*
