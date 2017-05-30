@@ -834,9 +834,9 @@ form {position: relative;}
 
   #guestCheckoutPage #content_wrapper #addressLine2 span {margin: 0; top: 0 !important;}
   div#label_state {padding-left: 10px; padding-right: 10px; position: relative; top: 7px;}
-  .checkout .container_content_rightsidebar > .left_column,
+  .checkout #shipping .container_content_rightsidebar > .left_column,
   #paymentPage.checkout .container_content_rightsidebar > .left_column {width: 74%; margin-right: 1% !important;}  
-  .checkout .container_content_rightsidebar > .right_column,
+  .checkout #shipping .container_content_rightsidebar > .right_column,
   #paymentPage.checkout .container_content_rightsidebar > .right_column {float: right; width: 221px; width: 25% !important; margin-top: 28px;}
   .checkout #bopis_table th:first-child {width: 5%;}
   .checkout #bopis_table th:nth-child(2) {width: 60%;}
