@@ -386,7 +386,7 @@ body.checkout  > iframe {display: none;}
 /* \f007 = User */
 /* \f290 - Shopping bag */
 .checkout .crumb span:first-child:before,
-.checkout #WC_ShipmentDisplay_links_2 {
+.checkout #WC_ShipmentDisplay_links_2 span {
     content: "\f290";
     font-family: FontAwesome;
     font-size: 24px;
@@ -394,7 +394,7 @@ body.checkout  > iframe {display: none;}
 
 /* \f0d1 = Truck */
 .checkout .crumb span:nth-child(3):before,
-.checkout #WC_ShipmentDisplay_links_3 {
+.checkout #WC_ShipmentDisplay_links_3 span {
     content: "\f0d1";
     font-family: FontAwesome;
     font-size: 24px;
@@ -402,7 +402,7 @@ body.checkout  > iframe {display: none;}
 
 /* \f09d = Credit Card */
 .checkout .crumb span:nth-child(5):before,
-.checkout #WC_ShipmentDisplay_links_4 {
+.checkout #WC_ShipmentDisplay_links_4 span {
     content: "\f09d";
     font-family: FontAwesome;
     font-size: 24px;
@@ -415,7 +415,6 @@ body.checkout  > iframe {display: none;}
     font-size: 24px;
 }
 
-.checkout #WC_ShipmentDisplay_links_2
 /*
 #WC_ShipmentDisplay_div_4 span:first-child:before {
     content: "1";
