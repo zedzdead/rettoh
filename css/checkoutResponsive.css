@@ -645,7 +645,19 @@ body.checkout  > iframe {display: none;}
 .checkout form#PaymentForm1 .billingAddressSection {width: 100%; margin-top: 28px;}
 #paymentPage.checkout .container_content_rightsidebar > .right_column {width: 100%;}
 .checkout .paymentDetailsSection {width: 100%;}
-
+.checkout form#PaymentForm1 .billing_address_container a.button_secondary {
+    top: 8px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.checkout form#PaymentForm1 .billing_address_container a.button_secondary .button_text{
+    background: none repeat scroll 0 0 #FFFFFF !important;
+    border: 1px solid #CCCCCC;
+    color: #74756F;
+    height: 28px;
+    line-height: 21px;
+}
 
 
 /* Form labels inside fields Start */
