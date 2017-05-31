@@ -34,7 +34,7 @@ body.checkout  > iframe {display: none;}
 .checkout #headerWidget div.widget_masthead_logo_position {left: 0px; position: relative; top: 0px;}
 .checkout #headerWidget .desklogo {display: none;}
 .checkout #headerWidget .desklogo > div {position: relative; width: 100%;}
-.checkout #headerWidget div#widget_masthead_logo1 img {position: relative; left: 0 top: 0; margin: 0 !important; display: inline; width: auto; height: auto; max-width: 100%;}
+.checkout #headerWidget div#widget_masthead_logo1 img {position: relative; left: 0 top: 0; margin: 0 !important; padding: 0; display: inline; width: auto; height: auto; max-width: 100%;}
 .checkout #headerWidget .mobilelogo {display: block; width: 100%; margin: 30px auto 0; text-align: center;}
 .checkout #ems_hotter_logo_17902 {width: 100%;}
 .checkout #masthead > .top {height: 10px;}
