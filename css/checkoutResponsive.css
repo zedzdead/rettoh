@@ -186,12 +186,12 @@ body.checkout  > iframe {display: none;}
 }
 #guestCheckoutPage #content_wrapper .HAddressBlock {margin-top: 20px;}
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .recentFavourites, .pcaAutoCompleteSmall .recentFavouritesSmall {top: 29px; left: 0;}
-#guestCheckoutPage #content_wrapper .pcaAutoComplete .pcaItemHolder {padding: 0;}
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .pcaItemHolder {padding: 5px 0 !important;}
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .pcaItem,
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .item span,
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .selectedItem span {
   font-size: 12px !important;
-  line-height: 20px !important;
+  line-height: 12px !important;
 }
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .recentFavourites, 
 #guestCheckoutPage #content_wrapper .pcaAutoCompleteSmall .recentFavouritesSmall {width: 100% !important;}
