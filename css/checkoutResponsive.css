@@ -827,7 +827,7 @@ form {position: relative;}
   .checkout #checkout_crumb .crumb span.step_on, .checkout #checkout_crumb .crumb span.step_off {font-size: 18px; width: 24%;}
   .checkout .crumb span:before {display: none;}
 
-  .checkout #guestCheckoutPage #content_wrapper  #addressLine2 {padding: 0; text-align: left;}
+  .checkout #guestCheckoutPage #content_wrapper  #addressLine2 {padding: 0; text-align: left; margin: 0 0 25px;}
   .checkout #content_wrapper #guestLogin #newUserForm input,
   .checkout #content_wrapper #guestLogin #Logon input {max-width: 74%;}
   .checkout #guestLogin .emailSection label {text-align: right; width: 25%;}
