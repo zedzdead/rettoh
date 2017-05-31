@@ -706,7 +706,8 @@ body.checkout  > iframe {display: none;}
 #paymentPage.checkout #pay_by_paypal,
 #paymentPage.checkout #pay_by_paypal > #byPayPal {margin: 0;}
 #paymentPage.checkout #pay_by_paypal > .paypalIcon {margin: 0 78px; display: block; width: 80px; float: none;}
-
+#pay_by_paypal label {width: auto;}
+.checkout .payment_radio_options > div {padding-left: 20px; margin-bottom: 5px;}
 
 /* Form labels inside fields Start */
 /*
