@@ -15,7 +15,8 @@
 /**********************************************/
 /* Default */
 
-body.checkout {display: block;}
+body {display: none !important;}
+body.checkout {display: block !important;}
 .checkout * {box-sizing: border-box;}
 .checkout img {width: 100% !important; height: auto !important;}  
 
