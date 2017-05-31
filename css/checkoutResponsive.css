@@ -224,7 +224,7 @@ body.checkout  > iframe {display: none;}
     color: #666;
     width: 100%;
 }
-#guestCheckoutPage #content_wrapper  #addressLine2 {width: 100%; max-width: 100%; padding: 0; top: 0 !important;}
+#guestCheckoutPage #content_wrapper  #addressLine2 {width: 100%; max-width: 100%; padding: 0; top: 0 !important; margin-bottom: 25px;}
 
 .checkout #guestLogin #newUserForm #passwordArea input {max-width: 397px;}
 
