@@ -37,7 +37,7 @@ body.checkout  > iframe {display: none;}
 .checkout #headerWidget div#widget_masthead_logo1 img {position: relative; left: 0 top: 0; margin: 0 !important; display: inline; max-height: 60px; width: auto; height: auto; max-width: 100%;}
 .checkout #headerWidget .mobilelogo {display: block; width: 100%; margin: 30px auto 0; text-align: center;}
 .checkout #ems_hotter_logo_17902 {width: 100%;}
-.checkout #masthead > .top {height: 35px;}
+.checkout #masthead > .top {height: 10px;}
 .checkout .mobilelogo .searchposdiv {display: none;} 
 .checkout #headerWidget .mobilelogo > div {float: none !important;}
 .checkout #headerWidget .mobilelogo > div:nth-child(2) {width: 200px; margin: 0 auto;}
@@ -790,7 +790,7 @@ form {position: relative;}
     background-color: pink;
 
   }
-  .checkout .selectbox {display: inline-block;}
+  .checkout .selectbox {display: inline-block; margin-bottom: 10px;}
   .checkout #content_wrapper p,
   .checkout #content_wrapper #WC_AccountDisplay_div_7 .strong {text-align: left;}
   .checkout #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .button_primary > .button_text, 
@@ -822,7 +822,8 @@ form {position: relative;}
   }
   .checkout #content_wrapper #guestLogin .emailSection label,
   .checkout #addressLine2, 
-  .checkout #content_wrapper #guestLogin .regForm .column_label {text-align: right;} 
+  .checkout #content_wrapper #guestLogin .regForm .column_label {text-align: right; height: 25px;}
+  #WC_AddressEntryForm__div_5_1 {float: left;}
   .checkout #checkout_crumb .crumb span.step_on, .checkout #checkout_crumb .crumb span.step_off {font-size: 18px; width: 24%;}
   .checkout .crumb span:before {display: none;}
 
