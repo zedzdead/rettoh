@@ -15,8 +15,8 @@
 /**********************************************/
 /* Default */
 
-body {display: none !important;}
-body.checkout {display: block !important;}
+/*body {display: none;}
+body.checkout {display: block;}*/
 .checkout * {box-sizing: border-box;}
 .checkout img {width: 100% !important; height: auto !important;}  
 
@@ -825,6 +825,8 @@ form {position: relative;}
   .checkout #bopis_table td.slide:last-child {display: table-cell; width: 40%; position: relative; right: 0; opacity: 1; background: transparent; transition: all 0s;}
   .opening-times {display: none;}
   .closer {display: none;}
+  #paymentPage.checkout #pay_by_paypal > .paypalIcon {margin: 0; float: none; display: inline-block; width: auto; float: right;}
+
 }
 /* Larger than tablet */
 @media (min-width: 750px) {
