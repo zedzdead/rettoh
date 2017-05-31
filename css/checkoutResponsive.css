@@ -838,6 +838,9 @@ form {position: relative;}
   #guestCheckoutPage #content_wrapper #addressLine2 span {display: inline-block; text-align: right; padding: 0 10px 0 0; margin: 0;}
 
   #guestCheckoutPage #content_wrapper #addressLine2 span {margin: 0; top: 0 !important;}
+
+  input#_state {max-width: 100% !important;}
+  div#stateDiv {float: right; width: 75%;}
   div#label_state {padding-left: 10px; padding-right: 10px; position: relative; top: 7px;}
   .checkout .container_content_rightsidebar > .left_column,
   .checkout #shipping .container_content_rightsidebar > .left_column,
