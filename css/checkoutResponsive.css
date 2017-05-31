@@ -482,7 +482,7 @@ body.checkout  > iframe {display: none;}
     margin: 30px auto 0;
 }
 .checkout .sec-call,
-.checkout .sec-num {display: inline-block; width: 48%; margin: 0; padding: 0; font-size: 14px;}
+.checkout .sec-num {display: inline-block; width: 40%; margin: 0; padding: 0; font-size: 14px;}
 .checkout .sec-call {text-align: right;}
 .checkout .sec-num {text-align: left;}
 .checkout .sec-number {
@@ -621,6 +621,10 @@ body.checkout  > iframe {display: none;}
     content: "\f017";
     font-family: FontAwesome;
     font-size: 24px;
+    background: white;
+    border-radius: 12px;
+    width: 24px;
+    display: inline-block;
 }
 .opening-times:hover:before {cursor: pointer;}
 .closer {
