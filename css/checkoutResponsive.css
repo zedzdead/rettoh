@@ -797,6 +797,7 @@ form {position: relative;}
   .checkout #content_wrapper #guestLogin #WC_AccountDisplay_div_19 .button_primary > .button_text,
   .checkout #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {width: 300px;}
   .checkout #content_wrapper #guestLogin .emailSection .infoText {margin-left: 25%;}
+  .checkout #addressLine2, .checkout #guestLogin .regForm .column_label {margin-bottom: 10px;}
   .checkout #shipping .title label, #shipping #shipping_delivery_method_option p.title, #storeDetailsPage .title {float: left; width: 51%;}
   .checkout #shipping .title label, .checkout #shipping #shipping_delivery_method_option p {width: 51%; float: left;}
   .checkout #shipping #shipping_delivery_method_option a {float: right; margin-top: -34px;}
