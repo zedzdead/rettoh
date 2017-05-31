@@ -615,6 +615,8 @@ body.checkout  > iframe {display: none;}
     display: inline;
     float: right;
     font-size: 0;
+    width: 24px;
+    height: 24px;
 }
 /* \f017 = Clock */
 .opening-times:before {
@@ -624,6 +626,7 @@ body.checkout  > iframe {display: none;}
     background: white;
     border-radius: 12px;
     width: 24px;
+    height: 24px;
     display: inline-block;
 }
 .opening-times:hover:before {cursor: pointer;}
