@@ -836,6 +836,7 @@ form {position: relative;}
   .checkout #content_wrapper #guestLogin .regForm .column_label {text-align: right; width: 25%;}
   .checkout #content_wrapper #addressLine2 span {text-align: right; width: 25%;}
   .checkout #content_wrapper #addressLine2 input {float: none;}
+  .checkout #addressLine2, .checkout #guestLogin .regForm .column_label {margin-bottom: 0;}
   #guestCheckoutPage #content_wrapper #addressLine2 span {display: inline-block; text-align: right; padding: 0 10px 0 0; margin: 0;}
 
   #guestCheckoutPage #content_wrapper #addressLine2 span {margin: 0; top: 0 !important;}
