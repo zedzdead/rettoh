@@ -647,8 +647,11 @@ body.checkout  > iframe {display: none;}
     content: "\f00d";
     font-family: FontAwesome;
     font-size: 24px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
 }
-.closer:hover:before {cursor: pointer;}
+.closer:hover:before {cursor: pointer; width: 24px; height: 24px; display: inline-block;}
 .checkout .my_account_content_bold {font-size: 14px; font-weight: 700;}
 .checkout #bopis_table .dotted_bottom_border > div > div {width: 100% !important;}
 .checkout #bopis_table td:last-child > div {position: relative;}
