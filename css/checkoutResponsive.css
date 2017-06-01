@@ -698,6 +698,7 @@ body.checkout  > iframe {display: none;}
     width: 200px;
     margin: 0 auto;
     padding: 0;
+    height: auto;
 }
 .checkout form#PaymentForm1 .billing_address_container a.button_secondary .button_text {
     line-height: 26px;
