@@ -1,5 +1,6 @@
 jQuery(document).ready(function($) {
 	//Look for Checkout crumbs and set dev bar
+	/*
 	if($('#checkout_crumb').length) {
 		console.log('This is Checkout');
 		$('body').addClass('checkout');
@@ -38,5 +39,5 @@ jQuery(document).ready(function($) {
 			$('.slide').removeClass('slide');
 		});
 	}
-
+	*/
 });
