@@ -854,6 +854,7 @@ form {position: relative;}
   .checkout .payment_radio_options #weaccept {float: right; margin-top: -5px; margin-right: 20px;}
   #paymentPage.checkout #pay_by_paypal > .paypalIcon {margin: 0; float: none; display: inline-block; float: right; margin-right: 20px;}
   .checkout .paymentCardDetails {width: 100%;}
+  .checkout #WC_ShipmentDisplay_div_31 .button_primary > .button_text {width: 250px; float: right;}
 
 
 }
