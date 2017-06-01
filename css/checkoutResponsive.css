@@ -707,7 +707,7 @@ body.checkout  > iframe {display: none;}
 .checkout form#PaymentForm1 .billingAddressSection span.addressDetails {}
 .checkout div#payment_edit_billing_address {clear: both;}
 
-.checkout #box .paymentDetailsSection p.title {padding: 20px 0 10px 0 !important;}
+.checkout #box .paymentDetailsSection p.title {padding: 20px 0 10px 0 !important; width: auto;}
 .checkout .paymentDetailsSection .breadcrumb_current {font-size: 16px !important; padding: 0; width: 200px; margin: 0 auto 20px; text-align: center;}
 .checkout .payment_radio_options label {font-size: 14px;}
 .checkout .payment_radio_options #weaccept {float: none; margin: 0;}
@@ -717,6 +717,16 @@ body.checkout  > iframe {display: none;}
 #paymentPage.checkout #pay_by_paypal > .paypalIcon {margin: 0 78px; display: block; width: 80px; float: none;}
 #pay_by_paypal label {width: auto !important; margin-bottom: 8px !important;}
 .checkout .payment_radio_options > div {padding-left: 20px; margin-bottom: 5px;}
+.checkout .paymentDetailsSection .paymentCardDetails .drop_down_billing {width: 100%; height: 32px; font-size: 14px; margin: 0;}
+.checkout .paymentCardDetails .col1 {width: 100%;}
+.checkout .card_info .col1 .card_number {width: 100%;}
+.checkout .paymentCardDetails .col1 label {width: 100% font-size: 14px; padding: 0;}
+.checkout .paymentCardDetails .col1 input {width: 100% height: 32px font-size: 14px;}
+.checkout .card_info .month_year {height: 32px;}
+.checkout .paymentCardDetails .col1 .date select {width: 120px; height: 32px; font-size: 14px;}
+.checkout .paymentCardDetails .col1 input.cvv2 {width: 80%;}
+
+
 
 /* Form labels inside fields Start */
 /*
@@ -837,6 +847,8 @@ form {position: relative;}
   .checkout form#PaymentForm1 .billing_address_container a.button_secondary {float: right;}
   .checkout .payment_radio_options #weaccept {float: right; margin-top: -5px; margin-right: 20px;}
   #paymentPage.checkout #pay_by_paypal > .paypalIcon {margin: 0; float: none; display: inline-block; float: right; margin-right: 20px;}
+  .checkout .paymentCardDetails {width: 100%;}
+
 
 }
 /* Larger than tablet */
