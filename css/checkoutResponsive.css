@@ -744,7 +744,7 @@ body.checkout  > iframe {display: none;}
 #orderConfirmationPage.checkout .left {width: 100%;}
 #orderConfirmationPage.checkout .main_header_text {font-size: 22px;}
 .checkout #billing_summary .billing_address, .billing_summary .billing_address {float: left; padding: 0 1% !important; width: 40%;}
-#orderConfirmationPage.checkout .billing_method {width: 59%; line-height: normal; top: 0; padding: 0 1%;}
+#orderConfirmationPage.checkout .billing_method {width: 59%; line-height: normal; top: 0; padding: 0 1%; float: right;}
 #orderConfirmationPage.checkout .addressTitle,
 #orderConfirmationPage.checkout .billing_method p.title {padding: 0; margin: 10px 0;}
 #orderConfirmationPage.checkout #shipping {width: 100%;}
