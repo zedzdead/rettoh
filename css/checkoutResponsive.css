@@ -727,6 +727,9 @@ body.checkout  > iframe {display: none;}
 .checkout .card_info .month_year {height: 32px;}
 .checkout .paymentCardDetails .col1 .date select {width: 120px; height: 32px; font-size: 14px;}
 .checkout .paymentCardDetails .cvv2 input {width: 80%;}
+.checkout .fright .button_footer_line {width: 100%;}
+.checkout .button_primary {height: auto; width: 100%;}
+.checkout #WC_ShipmentDisplay_div_31 .button_primary > .button_text {font-size: 18px; height: 40px; line-height: 40px; width: 100%;}
 
 
 
