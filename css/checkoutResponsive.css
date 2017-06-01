@@ -719,9 +719,10 @@ body.checkout  > iframe {display: none;}
 .checkout .payment_radio_options > div {padding-left: 20px; margin-bottom: 5px;}
 .checkout .paymentDetailsSection .paymentCardDetails .drop_down_billing {width: 100%; height: 32px; font-size: 14px; margin: 0;}
 .checkout .paymentCardDetails {width: 100%;}
+.checkout .card_info {width: 100%;}
 .checkout .paymentCardDetails .col1 {width: 100%;}
 .checkout .card_info .col1 .card_number {width: 100%;}
-.checkout .paymentCardDetails .col1 label {width: 100%; font-size: 14px; padding: 0;}
+.checkout .paymentCardDetails .col1 label {width: 100%; font-size: 14px; padding: 0; text-align: left;}
 .checkout .paymentCardDetails .col1 input {width: 100%; height: 32px; font-size: 14px;}
 .checkout .card_info .month_year {height: 32px;}
 .checkout .paymentCardDetails .col1 .date select {width: 120px; height: 32px; font-size: 14px;}
