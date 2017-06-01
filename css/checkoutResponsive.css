@@ -833,6 +833,7 @@ form {position: relative;}
   .checkout #bopis_table td.slide:last-child {display: table-cell; width: 40%; position: relative; right: 0; opacity: 1; background: transparent; transition: all 0s;}
   .opening-times {display: none;}
   .closer {display: none;}
+  .checkout form#PaymentForm1 .billing_address_container a.button_secondary {float: right;}
   #paymentPage.checkout #pay_by_paypal > .paypalIcon {margin: 0; float: none; display: inline-block; width: auto; float: right;}
 
 }
