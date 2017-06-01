@@ -726,7 +726,7 @@ body.checkout  > iframe {display: none;}
 .checkout .paymentCardDetails .col1 input {width: 100%; height: 32px; font-size: 14px;}
 .checkout .card_info .month_year {height: 32px;}
 .checkout .paymentCardDetails .col1 .date select {width: 120px; height: 32px; font-size: 14px;}
-.checkout .paymentCardDetails .col1 input.cvv2 {width: 80%;}
+.checkout .paymentCardDetails .cvv2 input {width: 80%;}
 
 
 
