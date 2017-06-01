@@ -718,6 +718,7 @@ body.checkout  > iframe {display: none;}
 #pay_by_paypal label {width: auto !important; margin-bottom: 8px !important;}
 .checkout .payment_radio_options > div {padding-left: 20px; margin-bottom: 5px;}
 .checkout .paymentDetailsSection .paymentCardDetails .drop_down_billing {width: 100%; height: 32px; font-size: 14px; margin: 0;}
+.checkout .paymentCardDetails {width: 100%;}
 .checkout .paymentCardDetails .col1 {width: 100%;}
 .checkout .card_info .col1 .card_number {width: 100%;}
 .checkout .paymentCardDetails .col1 label {width: 100% font-size: 14px; padding: 0;}
