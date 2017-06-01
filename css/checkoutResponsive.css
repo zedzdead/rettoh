@@ -729,7 +729,7 @@ body.checkout  > iframe {display: none;}
 .checkout .paymentCardDetails .cvv2 input {width: 80%;}
 .checkout .fright .button_footer_line {width: 100%;}
 .checkout .button_primary {height: auto; width: 100%;}
-.checkout #WC_ShipmentDisplay_div_31 .button_primary {width: 100% height: 40px;}
+.checkout #WC_ShipmentDisplay_div_31 .button_primary {width: 100%; height: 40px;}
 .checkout #WC_ShipmentDisplay_div_31 .button_primary > .button_text {font-size: 18px; height: 40px; line-height: 40px; width: 100%;}
 
 
