@@ -668,6 +668,7 @@ body.checkout  > iframe {display: none;}
 .checkout form#PaymentForm1 .billingAddressSection {width: 100%; margin-top: 28px;}
 #paymentPage.checkout .container_content_rightsidebar > .right_column {width: 100%;}
 .checkout .paymentDetailsSection {width: 100%;}
+.checkout form#PaymentForm1 .billingAddressSection {padding: 20px 5% 20px;}
 .checkout form#PaymentForm1 .billing_address_container a.button_secondary {
     top: 8px;
     position: absolute;
@@ -688,17 +689,23 @@ body.checkout  > iframe {display: none;}
     line-height: normal;
 }
 .checkout form#PaymentForm1 .billing_address_container a.button_secondary {
-    top: 60px;
-    position: absolute;
+    top: 0;
+    position: relative;
     right: 0;
-    bottom: 0;
-    left: 0;
+    bottom: unset;
+    left: unset;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 0;
 }
 .checkout form#PaymentForm1 .billing_address_container a.button_secondary .button_text {
     line-height: 26px;
     font-size: 14px;
 }
-.checkout form#PaymentForm1 .billingAddressSection span.addressDetails {padding-bottom: 40px;}
+.checkout form#PaymentForm1 .billingAddressSection span.addressDetails {}
+.checkout div#payment_edit_billing_address {clear: both;}
+
 .checkout .paymentDetailsSection .breadcrumb_current {font-size: 16px !important;}
 .checkout .payment_radio_options label {font-size: 14px;}
 .checkout .payment_radio_options #weaccept {float: none; margin: 0;}
