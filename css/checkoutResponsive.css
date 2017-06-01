@@ -387,7 +387,7 @@ body.checkout  > iframe {display: none;}
 /* Font Awesome */
 /* \f007 = User */
 /* \f290 - Shopping bag */
-.checkout .crumb span:first-child:before,
+.checkout .crumb > span:first-child:before,
 .checkout #WC_ShipmentDisplay_links_2 span:before {
     content: "\f290";
     font-family: FontAwesome;
@@ -732,7 +732,29 @@ body.checkout  > iframe {display: none;}
 .checkout #WC_ShipmentDisplay_div_31 .button_primary {width: 100%; height: 40px;}
 .checkout #WC_ShipmentDisplay_div_31 .button_primary > .button_text {font-size: 18px; height: 40px; line-height: 40px; width: 100%;}
 
-
+/* Confirmation Page */
+.checkout #orderConfirmationPage .continue_shopping {width: 100%; float: none; text-align: center;}
+.checkout #orderConfirmationPage .button_secondary {height: 32px; width: 100%;}
+.checkout #guestCheckoutPage .backToBasket a.button_primary .button_text, 
+.checkout form#PaymentForm1 .billing_address_container a.button_secondary .button_text, 
+.checkout #MiniShopCartProductsList .button_secondary > .button_text, 
+.checkout a.button_secondary .button_text {height: 32px; line-height: 32px; font-size: 14px; float: none;}
+.checkout #orderConfirmationPage .topSection h1 {width: 100%; font-size: 24px !important;}
+.checkout #orderConfirmationPage .topSection p {margin: 10px 0; width: 100%;}
+.checkout #orderConfirmationPage .left {width: 100%;}
+.checkout #orderConfirmationPage .main_header_text {font-size: 22px;}
+.checkout #billing_summary .billing_address, .billing_summary .billing_address {float: left; padding: 0 1% !important; width: 40%;}
+.checkout #orderConfirmationPage .billing_method {width: 59%; line-height: normal; top: 0; padding: 0 1%;}
+.checkout #orderConfirmationPage .addressTitle,
+.checkout #orderConfirmationPage .billing_method p.title {padding: 0; margin: 10px 0;}
+.checkout #orderConfirmationPage #shipping {width: 100%;}
+.checkout #orderConfirmationPage #shipping .shipping_method {width: 100%;}
+.checkout #orderConfirmationPage table#order_details {padding: 0;}
+.checkout #OrderConfirmPagingDisplay #order_details .img {max-width: 130px; float: right; width: 25%;}
+.checkout #OrderConfirmPagingDisplay #order_details .itemspecs .strongtext {line-height: 16px;}
+.checkout #OrderConfirmPagingDisplay #order_details .itemspecs {font-size: 12px; width: 72%; line-height: normal; margin: 0;}
+.checkout #orderConfirmationPage #total_breakdown #order_total .total_details {font-size: 16px;}
+.checkout .info_icon img {width: 20px; height: auto;}
 
 /* Form labels inside fields Start */
 /*
