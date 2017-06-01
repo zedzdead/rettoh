@@ -754,7 +754,7 @@ body.checkout  > iframe {display: none;}
 .checkout #OrderConfirmPagingDisplay #order_details .itemspecs .strongtext {line-height: 16px;}
 .checkout #OrderConfirmPagingDisplay #order_details .itemspecs {font-size: 12px; width: 72%; line-height: normal; margin: 0;}
 #orderConfirmationPage.checkout #total_breakdown #order_total .total_details {font-size: 16px;}
-.checkout .info_icon img {width: 20px; height: auto;}
+.checkout .info_icon img {width: 20px !important; height: auto;}
 
 /* Form labels inside fields Start */
 /*
