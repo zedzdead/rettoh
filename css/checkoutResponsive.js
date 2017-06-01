@@ -1,5 +1,6 @@
 jQuery(document).ready(function($) {
 	//Look for Checkout crumbs and set dev bar
+	/*
 	if($('#checkout_crumb').length) {
 		console.log('This is Checkout');
 		$('body').addClass('checkout');
@@ -26,10 +27,17 @@ jQuery(document).ready(function($) {
 	}
 	//Add a clickable div to display opening times for click and collect - everything else done with css
 	if($('#bopis_table').length) {
-		$('.checkout #bopis_table td:nth-child(2)').prepend($('<div class="opening-times"><a href="#">Open</a></div>'));
+		$('.checkout #bopis_table td:nth-child(2)').prepend($('<div class="opening-times">Open</div>'));
+		$('.checkout #bopis_table td:last-child > div').before($('<div class="closer">Close</div>'));	
 		$('.opening-times').each(function() {
-			$(this).parent().next('td').addClass('slide');
+			$(this).click(function() {
+				$('.slide').removeClass('slide');
+				$(this).parent().next('td').addClass('slide');
+			})
+		});
+		$('.closer').click(function() {
+			$('.slide').removeClass('slide');
 		});
 	}
-
+	*/
 });
