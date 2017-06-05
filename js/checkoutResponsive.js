@@ -1,11 +1,12 @@
 jQuery(document).ready(function($) {
 	//Look for Checkout crumbs and set dev bar
-
+	console.log('checkoutResponsive start');	
 	if($('#checkout_crumb').length) {
-		console.log('This is Checkout');
 		$('body').addClass('checkout');
 		$('body').prepend($('<div id="dev"></dev>'));
 	}
+
+	//Add Phone Number if not already there
 	if($('.checkout').length && !$('.sec-number').length) {
 		console.log('Add Phone number');
 		$('.mobilelogo').prepend($('<div class="sec-number"><div class="sec-call">Call Today :</div><div id="sec-num" class="sec-num">0800 306 406</div></div>'));
@@ -25,6 +26,7 @@ jQuery(document).ready(function($) {
 	if($('#shipAddressSelect').length) {
 		$('#shipAddressSelect').append($('#shipping_delivery_method_option'));
 	}
+
 	//Add a clickable div to display opening times for click and collect - everything else done with css
 	if($('#bopis_table').length) {
 		$('.checkout #bopis_table td:nth-child(2)').prepend($('<div class="opening-times">Open</div>'));
@@ -39,5 +41,6 @@ jQuery(document).ready(function($) {
 			$('.slide').removeClass('slide');
 		});
 	}
-
+	console.log('checkoutResponsive end');	
+	
 });
