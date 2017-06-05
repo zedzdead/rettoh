@@ -684,8 +684,8 @@ body.checkout  > iframe {display: none;}
 }
 
 .checkout .HAddressAdd {margin: 0;}
-.checkout div#shipping #shopcartAddressForm .HAddressAdd .button_primary {float: none; margin: 10px 0; display: block; height: 30px;}
-.checkout #box_1 .button_primary > .button_text {height: 30px;}
+.checkout div#shipping #shopcartAddressForm .HAddressAdd .button_primary {float: none; margin: 10px 0; display: block; height: 30px !important;}
+.checkout #box_1 .button_primary > .button_text {height: 30px; line-height: 30px !important; font-size: 16px !important; display: inline-block; width: 100%;}
 
 
 /* Store Locator Click and Collect */
