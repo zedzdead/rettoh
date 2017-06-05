@@ -595,7 +595,8 @@ body.checkout  > iframe {display: none;}
 
 .checkout #shopcartAddressForm #box .body, .checkout #shopcartAddressForm #box_1 .body {width: 100%;}
 .checkout .HForm .label_spacer {font-size: 14px; min-height: 20px; width: 170px; line-height: 20px; text-align: left; margin-bottom: 0;}
-.checkout .HForm input, .HForm select {min-width: 399px; height: 20px; line-height: 20px; font-size: 14px;}
+.checkout .HForm input, .checkout .HForm select {min-width: 399px; height: 28px; line-height: 28px; font-size: 16px;}
+.checkout #WC_ShoppingCartAddressEntryFormf_div_20 {padding-left: 10px;}
 
 
 /* Store Locator Click and Collect */
