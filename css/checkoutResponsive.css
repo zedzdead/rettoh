@@ -683,6 +683,10 @@ body.checkout  > iframe {display: none;}
   text-decoration: none;
 }
 
+.checkout .HAddressAdd {margin: 0;}
+.checkout div#shipping #shopcartAddressForm .HAddressAdd .button_primary {float: none; margin: 10px 0; display: block; height: 30px;}
+.checkout #box_1 .button_primary > .button_text {height: 30px;}
+
 
 /* Store Locator Click and Collect */
 
@@ -972,6 +976,7 @@ form {position: relative;}
   #paymentPage.checkout #pay_by_paypal > .paypalIcon {margin: 0; float: none; display: inline-block; float: right; margin-right: 20px;}
   .checkout .paymentCardDetails {width: 100%;}
   .checkout #WC_ShipmentDisplay_div_31 .button_primary > .button_text {width: 250px; float: right;}
+  .checkout div#shipping #shopcartAddressForm .HAddressAdd .button_primary {float: right; width: 30%;}
 
 
 }
