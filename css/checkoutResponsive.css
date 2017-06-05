@@ -591,6 +591,12 @@ body.checkout  > iframe {display: none;}
 
 .checkout .checkOutTitle {font-size: 22px; line-height: normal; padding-bottom: 10px; margin-top: 0;}
 
+/* Add Address Form */
+
+.checkout .shopcartAddressForm #box .body, .checkout .shopcartAddressForm #box_1 .body {
+    width: 100%;
+}
+
 /* Store Locator Click and Collect */
 
 .checkout #bopis_table th, #bopis_table1 th {height: 20px; line-height: 20px; font-size: 14px; display: inline-block; width: 32%;}
