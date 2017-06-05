@@ -601,6 +601,85 @@ body.checkout  > iframe {display: none;}
 .checkout .HAddress_Finder {height: 140px; width: 100%; font-size: 14px;}
 .checkout .HAddress_Finder span {font-size: 14px;}
 .checkout #HAddress_Finder_PC {font-size: 12px; height: 140px; margin-left: 0; clear: left; width: 96%; margin: 0 2%;}
+.checkout .pcaAutoComplete .inputArea {height: 31px !important;}
+
+.checkout .HAddress_Finder {
+    width: 100%;
+    padding: 0;
+    height: 120px;
+    float: none;
+    margin: 0;
+}
+.checkout #content_wrapper #HAddress_Finder_PC {
+    width: 90%;
+    margin: 0 auto;
+    clear: left;
+}
+
+.checkout #content_wrapper .HForm .label_spacer {
+    margin: 0 auto;
+    width: 90%;
+    font-size: 14px !important;
+    padding: 5px;
+    text-align: left;
+    left: 0;
+    top: 0;
+    float:left;
+}
+
+.checkout #content_wrapper .HForm .label_spacer span {
+  font-size: 12px !important;
+}
+.checkout .pcaAutoComplete .inputArea {
+    border: 1px solid #ccc !important;
+    padding: 0px !important;
+    position: relative !important;
+    width: 100% !important; 
+    background-color: #fff !important;
+    height: 20px !important;
+    background-image: none;
+    line-height: 18px !important;
+    left: 0;
+}
+
+.checkout #content_wrapper .pcaAutoComplete .pnlAutoComplete, 
+.checkout #content_wrapper .pcaAutoComplete .pnlResults, 
+.checkout #content_wrapper .pcaAutoCompleteSmall .pnlAutoCompleteSmall, 
+.checkout #content_wrapper .pcaAutoCompleteSmall .pnlResultsSmall {position: absolute; top: 30px; left: 0; width: 100% !important;}
+.checkout #content_wrapper #HAddress_Finder_PC .inputArea span {font-size: inherit;}
+.checkout #content_wrapper .pcaAutoComplete .inputArea .suggestion {height: 16px !important;}
+.checkout #content_wrapper .pcaAutoComplete .inputArea .suggestion .invisible {font-size: inherit !important;}
+.checkout #content_wrapper .pcaAutoComplete .inputArea .suggestion span, 
+.checkout #content_wrapper #HAddress_Finder_PC .inputArea span {line-height: 16px; font-size: 14px !important; top: 0 !important; }
+.checkout #content_wrapper .pcaAutoComplete .inputArea {height: 30px !important;}
+.checkout #content_wrapper .pcaAutoComplete .inputArea .search {
+    top: 7px !important;
+    left: 7px !important;
+    height: 16px !important;
+    font-size: 14px !important;
+}
+.checkout #content_wrapper .HAddressBlock {margin-top: 20px;}
+.checkout #content_wrapper .pcaAutoComplete .recentFavourites, .pcaAutoCompleteSmall .recentFavouritesSmall {top: 29px; left: 0;}
+.checkout #content_wrapper .pcaAutoComplete .pcaItemHolder {padding: 5px 0 !important;}
+.checkout #content_wrapper .pcaAutoComplete .pcaItem,
+.checkout #content_wrapper .pcaAutoComplete .item span,
+.checkout #content_wrapper .pcaAutoComplete .selectedItem span {
+  font-size: 12px !important;
+  line-height: 12px !important;
+}
+.checkout #content_wrapper .pcaAutoComplete .recentFavourites, 
+.checkout #content_wrapper .pcaAutoCompleteSmall .recentFavouritesSmall {width: 100% !important;}
+.checkout #content_wrapper #HAddressFinderAlternate {
+    position: relative !important;
+    left: 0 !important;
+    top: 0;
+    font-size: 12px !important;
+    color: #333;
+}
+.checkout #content_wrapper #HAddressFinderAlternate:hover {
+  color: #A5C842;
+  text-decoration: none;
+}
 
 
 /* Store Locator Click and Collect */
