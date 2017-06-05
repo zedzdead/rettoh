@@ -597,7 +597,7 @@ body.checkout  > iframe {display: none;}
 .checkout #box .body .title {font-size: 16px;}
 .checkout #shopcartAddressForm #box .body, .checkout #shopcartAddressForm #box_1 .body {width: 100%;}
 .checkout .HForm .label_spacer {font-size: 14px; min-height: 20px; width: 170px; line-height: 20px; text-align: left; margin-bottom: 0;}
-.checkout .HForm input, .checkout .HForm select {min-width: 100%; height: 28px; line-height: 28px; font-size: 16px; width: 100%;}
+.checkout .HForm input, .checkout .HForm select {min-width: 100%; height: 28px; line-height: 28px; font-size: 14px; width: 100%;}
 .checkout .HForm select {padding: 0 0 0 10px;}
 .checkout #WC_ShoppingCartAddressEntryFormf_div_20 {padding: 10px; float: left;}
 .checkout .HAddress_Finder {height: 140px; width: 100%; font-size: 14px;}
@@ -976,7 +976,7 @@ form {position: relative;}
   #paymentPage.checkout #pay_by_paypal > .paypalIcon {margin: 0; float: none; display: inline-block; float: right; margin-right: 20px;}
   .checkout .paymentCardDetails {width: 100%;}
   .checkout #WC_ShipmentDisplay_div_31 .button_primary > .button_text {width: 250px; float: right;}
-  .checkout div#shipping #shopcartAddressForm .HAddressAdd .button_primary {float: right; width: 30%;}
+  .checkout div#shipping #shopcartAddressForm .HAddressAdd .button_primary {float: right; width: 40%;}
 
 
 }
