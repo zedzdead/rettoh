@@ -593,7 +593,7 @@ body.checkout  > iframe {display: none;}
 
 /* Add Address Form */
 
-.checkout .shopcartAddressForm #box .body, .checkout .shopcartAddressForm #box_1 .body {
+.checkout #shopcartAddressForm #box .body, .checkout #shopcartAddressForm #box_1 .body {
     width: 100%;
 }
 
