@@ -3,6 +3,7 @@
 /* Author: Andy Davies          */
 /* Copyright: Hotter Shoes      */
 
+console.log('Start Checkout Improvements');
 //Replaced below
 /*
 jQuery(document).ready(function($) {
@@ -53,3 +54,5 @@ jQuery(document).ready(function($) {
 		});
 	}
 });
+
+console.log('End Checkout Improvements');
