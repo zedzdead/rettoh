@@ -482,7 +482,7 @@ body.checkout  > iframe {display: none;}
 }
 
 .checkout #page .store_message > .content {max-width: 300px; margin: 0 auto; box-shadow: 5px 5px 50px #cdf;}
-.checkout #page .store_message > .content > .message {margin: 0; padding: 20px;}
+.checkout #page .store_message > .content > .message {margin: 0; padding: 40px 20px 20px;}
 .checkout #page .store_message > .content > .message .message_text {width: 100%; margin: 0;}
 .checkout .store_message > .content > .close {outline: 0;}
 .checkout #page .shadowPiece {display: none;}
