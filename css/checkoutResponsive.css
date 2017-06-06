@@ -413,25 +413,24 @@ body.checkout  > iframe {display: none;}
     font-family: FontAwesome;
     font-size: 24px;
 }
-/*
-.checkout #checkout_crumb a:first-child span:before {
+
+.checkout #checkout_crumb .crumb a:first-of-type span:before {
     content: "\f290";
     font-family: FontAwesome;
     font-size: 24px;
 }
 
-.checkout #checkout_crumb a:nth-child(2) span:before {
+.checkout #checkout_crumb .crumb a:nth-of-type(2) span:before {
     content: "\f0d1";
     font-family: FontAwesome;
     font-size: 24px;
 }
 
-.checkout #checkout_crumb a:nth-child(3) span:before {
+.checkout #checkout_crumb .crumb a:nth-of-type(3) span:before {
     content: "\f09d";
     font-family: FontAwesome;
     font-size: 24px;
 }
-*/
 /*
 #WC_ShipmentDisplay_div_4 span:first-child:before {
     content: "1";
