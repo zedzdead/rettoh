@@ -937,7 +937,11 @@ form {position: relative;}
         height: 5px;
         background-color: green;
     }
-    .checkout .dijitTooltip {left: 20px !important; top-margin: -35px;} 
+    .checkout .dijitTooltip {
+        left: 0 !important;
+        margin-top: -35px;
+        margin: -35px 1% 0;
+    }
 
 } /* End Mobile < 399px*/	
 
@@ -950,7 +954,11 @@ form {position: relative;}
     background-color: yellow;
   }
   .checkout .addressDetailWrap .button_primary > .button_text {font-size: 14px; height: 28px; line-height: 28px; padding: 0; min-width: 135px;}
-  .checkout .dijitTooltip {left: 20px !important; top-margin: -35px;} 
+      .checkout .dijitTooltip {
+        left: 0 !important;
+        margin-top: -35px;
+        margin: -35px 1% 0;
+    }
 }
 
 /* Larger than tablet (also point when grid becomes active) */
@@ -989,7 +997,11 @@ form {position: relative;}
     .checkout .paymentCardDetails {width: 100%;}
     .checkout #WC_ShipmentDisplay_div_31 .button_primary > .button_text {width: 250px; float: right;}
     .checkout div#shipping #shopcartAddressForm .HAddressAdd .button_primary {float: right; width: 40%;}
-    .checkout .dijitTooltip {left: 20px !important; top-margin: -35px;} 
+        .checkout .dijitTooltip {
+        left: 0 !important;
+        margin-top: -35px;
+        margin: -35px 1% 0;
+    }
 
 }
 /*
@@ -1045,7 +1057,6 @@ form {position: relative;}
   .checkout #bopis_table th:nth-child(2) {width: 60%;}
   .checkout #bopis_table th:last-child {width: 31%;}  
   .checkout .storeLocator { margin-top: 6px;} 
-  .checkout .dijitTooltip {left: 20px !important; top-margin: -35px;} 
 }
 
 /* Larger than tablet */
