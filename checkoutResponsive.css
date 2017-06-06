@@ -387,36 +387,50 @@ body.checkout  > iframe {display: none;}
 /* Font Awesome */
 /* \f007 = User */
 /* \f290 - Shopping bag */
-.checkout .crumb span:first-child:before,
-.checkout #WC_ShipmentDisplay_links_2 span:before {
+.checkout #checkout_crumb span:first-child:before {
     content: "\f290";
     font-family: FontAwesome;
     font-size: 24px;
 }
 
 /* \f0d1 = Truck */
-.checkout .crumb span:nth-child(3):before,
-.checkout #WC_ShipmentDisplay_links_3 span:before {
+.checkout #checkout_crumb span:nth-child(3):before {
     content: "\f0d1";
     font-family: FontAwesome;
     font-size: 24px;
 }
 
 /* \f09d = Credit Card */
-.checkout .crumb span:nth-child(5):before,
-.checkout #WC_ShipmentDisplay_links_4 span:before {
+.checkout #checkout_crumb span:nth-child(5):before {
     content: "\f09d";
     font-family: FontAwesome;
     font-size: 24px;
 }
 
 /* \f118 = Smile */
-.checkout .crumb span:nth-child(7):before {
+.checkout #checkout_crumb span:nth-child(7):before {
     content: "\f118";
     font-family: FontAwesome;
     font-size: 24px;
 }
 
+.checkout #checkout_crumb .crumb a#WC_ShipmentDisplay_links_2 span:before {
+    content: "\f290";
+    font-family: FontAwesome;
+    font-size: 24px;
+}
+
+.checkout #checkout_crumb .crumb a#WC_ShipmentDisplay_links_3 span:before {
+    content: "\f0d1";
+    font-family: FontAwesome;
+    font-size: 24px;
+}
+
+.checkout #checkout_crumb .crumb a#WC_ShipmentDisplay_links_4 span:before {
+    content: "\f09d";
+    font-family: FontAwesome;
+    font-size: 24px;
+}
 /*
 #WC_ShipmentDisplay_div_4 span:first-child:before {
     content: "1";
@@ -588,6 +602,103 @@ body.checkout  > iframe {display: none;}
 
 .checkout .checkOutTitle {font-size: 22px; line-height: normal; padding-bottom: 10px; margin-top: 0;}
 
+/* Add Address Form */
+
+.checkout #ems_shopcart_address_create_1_143901 > div {margin: 0 !important;}
+.checkout #box .body .title {font-size: 16px;}
+.checkout #shopcartAddressForm #box .body, .checkout #shopcartAddressForm #box_1 .body {width: 100%;}
+.checkout .HForm .label_spacer {font-size: 14px; min-height: 20px; width: 170px; line-height: 20px; text-align: left; margin-bottom: 0;}
+.checkout .HForm input, .checkout .HForm select {min-width: 100%; height: 28px; line-height: 28px; font-size: 14px; width: 100%;}
+.checkout .HForm select {padding: 0 0 0 10px;}
+.checkout #WC_ShoppingCartAddressEntryFormf_div_20 {padding: 10px; float: left;}
+.checkout .HAddress_Finder {height: 140px; width: 100%; font-size: 14px;}
+.checkout .HAddress_Finder span {font-size: 14px;}
+.checkout #HAddress_Finder_PC {font-size: 12px; height: 140px; margin-left: 0; clear: left; width: 96%; margin: 0 2%;}
+.checkout .pcaAutoComplete .inputArea {height: 31px !important;}
+
+.checkout .HAddress_Finder {
+    width: 100%;
+    padding: 0;
+    height: 120px;
+    float: none;
+    margin: 0;
+}
+.checkout #content_wrapper #HAddress_Finder_PC {
+    width: 90%;
+    margin: 0 auto;
+    clear: left;
+}
+
+.checkout #content_wrapper .HForm .label_spacer {
+    margin: 0 auto;
+    width: 90%;
+    font-size: 14px !important;
+    padding: 5px;
+    text-align: left;
+    left: 0;
+    top: 0;
+    float:left;
+}
+
+.checkout #content_wrapper .HForm .label_spacer span {
+  font-size: 12px !important;
+}
+.checkout .pcaAutoComplete .inputArea {
+    border: 1px solid #ccc !important;
+    padding: 0px !important;
+    position: relative !important;
+    width: 100% !important; 
+    background-color: #fff !important;
+    height: 20px !important;
+    background-image: none;
+    line-height: 18px !important;
+    left: 0;
+}
+
+.checkout #content_wrapper .pcaAutoComplete .pnlAutoComplete, 
+.checkout #content_wrapper .pcaAutoComplete .pnlResults, 
+.checkout #content_wrapper .pcaAutoCompleteSmall .pnlAutoCompleteSmall, 
+.checkout #content_wrapper .pcaAutoCompleteSmall .pnlResultsSmall {position: absolute; top: 30px; left: 0; width: 100% !important;}
+.checkout #content_wrapper #HAddress_Finder_PC .inputArea span {font-size: inherit;}
+.checkout #content_wrapper .pcaAutoComplete .inputArea .suggestion {height: 16px !important;}
+.checkout #content_wrapper .pcaAutoComplete .inputArea .suggestion .invisible {font-size: inherit !important;}
+.checkout #content_wrapper .pcaAutoComplete .inputArea .suggestion span, 
+.checkout #content_wrapper #HAddress_Finder_PC .inputArea span {line-height: 16px; font-size: 14px !important; top: 0 !important; }
+.checkout #content_wrapper .pcaAutoComplete .inputArea {height: 30px !important;}
+.checkout #content_wrapper .pcaAutoComplete .inputArea .search {
+    top: 7px !important;
+    left: 7px !important;
+    height: 16px !important;
+    font-size: 14px !important;
+}
+.checkout #content_wrapper .HAddressBlock {margin-top: 20px;}
+.checkout #content_wrapper .pcaAutoComplete .recentFavourites, .pcaAutoCompleteSmall .recentFavouritesSmall {top: 29px; left: 0;}
+.checkout #content_wrapper .pcaAutoComplete .pcaItemHolder {padding: 5px 0 !important;}
+.checkout #content_wrapper .pcaAutoComplete .pcaItem,
+.checkout #content_wrapper .pcaAutoComplete .item span,
+.checkout #content_wrapper .pcaAutoComplete .selectedItem span {
+  font-size: 12px !important;
+  line-height: 12px !important;
+}
+.checkout #content_wrapper .pcaAutoComplete .recentFavourites, 
+.checkout #content_wrapper .pcaAutoCompleteSmall .recentFavouritesSmall {width: 100% !important;}
+.checkout #content_wrapper #HAddressFinderAlternate {
+    position: relative !important;
+    left: 0 !important;
+    top: 0;
+    font-size: 12px !important;
+    color: #333;
+}
+.checkout #content_wrapper #HAddressFinderAlternate:hover {
+  color: #A5C842;
+  text-decoration: none;
+}
+
+.checkout .HAddressAdd {margin: 0;}
+.checkout div#shipping #shopcartAddressForm .HAddressAdd .button_primary {float: none; margin: 10px 0; display: block; height: 30px !important;}
+.checkout #box_1 .button_primary > .button_text {height: 30px; line-height: 30px !important; font-size: 16px !important; display: inline-block; width: 100%;}
+
+
 /* Store Locator Click and Collect */
 
 .checkout #bopis_table th, #bopis_table1 th {height: 20px; line-height: 20px; font-size: 14px; display: inline-block; width: 32%;}
@@ -601,9 +712,8 @@ body.checkout  > iframe {display: none;}
 .checkout .selected > td > div > label.full-line:before {position: absolute; top:58px;}
 .checkout #bopis_table td:first-child {width: 50px;}
 .checkout #bopis_table td:nth-child(2) {width: 100%; display: block; height: 135px;}
-.checkout #bopis_table td:last-child {position: absolute; right: -300px; opacity: 0; transition: all 1s; background: #ffe; padding: 20px; top: 0;}
+.checkout #bopis_table td:last-child {position: absolute; right: -300px; transition: right 1s; background: #ffe; padding: 20px; top: 0; -webkit-transform: translateZ(0);}
 .checkout #bopis_table td.slide:last-child {
-    opacity: 1;
     position: absolute;
     top: 0px;
     right: -80px;
@@ -668,6 +778,7 @@ body.checkout  > iframe {display: none;}
 .checkout form#PaymentForm1 .billingAddressSection {width: 100%; margin-top: 28px;}
 #paymentPage.checkout .container_content_rightsidebar > .right_column {width: 100%;}
 .checkout .paymentDetailsSection {width: 100%;}
+.checkout form#PaymentForm1 .billingAddressSection {padding: 20px 5% 20px;}
 .checkout form#PaymentForm1 .billing_address_container a.button_secondary {
     top: 8px;
     position: absolute;
@@ -688,25 +799,72 @@ body.checkout  > iframe {display: none;}
     line-height: normal;
 }
 .checkout form#PaymentForm1 .billing_address_container a.button_secondary {
-    top: 60px;
-    position: absolute;
+    top: 0;
+    position: relative;
     right: 0;
-    bottom: 0;
-    left: 0;
+    bottom: unset;
+    left: unset;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 0;
+    height: auto;
 }
 .checkout form#PaymentForm1 .billing_address_container a.button_secondary .button_text {
     line-height: 26px;
     font-size: 14px;
 }
-.checkout form#PaymentForm1 .billingAddressSection span.addressDetails {padding-bottom: 40px;}
-.checkout .paymentDetailsSection .breadcrumb_current {font-size: 16px !important;}
+.checkout form#PaymentForm1 .billingAddressSection span.addressDetails {}
+.checkout div#payment_edit_billing_address {clear: both;}
+
+.checkout #box .paymentDetailsSection p.title {padding: 20px 0 10px 0 !important; width: auto;}
+.checkout .paymentDetailsSection .breadcrumb_current {font-size: 16px !important; padding: 0; width: 200px; margin: 0 auto 20px; text-align: center;}
 .checkout .payment_radio_options label {font-size: 14px;}
 .checkout .payment_radio_options #weaccept {float: none; margin: 0;}
 .checkout .payment_radio_options input,
 #paymentPage.checkout #pay_by_paypal,
 #paymentPage.checkout #pay_by_paypal > #byPayPal {margin: 0;}
 #paymentPage.checkout #pay_by_paypal > .paypalIcon {margin: 0 78px; display: block; width: 80px; float: none;}
+#pay_by_paypal label {width: auto !important; margin-bottom: 8px !important;}
+.checkout .payment_radio_options > div {padding-left: 20px; margin-bottom: 5px;}
+.checkout .paymentDetailsSection .paymentCardDetails .drop_down_billing {width: 100%; height: 32px; font-size: 14px; margin: 0;}
+.checkout .paymentCardDetails {width: 100%;}
+.checkout .card_info {width: 100%;}
+.checkout .paymentCardDetails .col1 {width: 100%;}
+.checkout .card_info .col1 .card_number {width: 100%;}
+.checkout .paymentCardDetails .col1 label {width: 100%; font-size: 14px; padding: 0; text-align: left;}
+.checkout .paymentCardDetails .col1 input {width: 100%; height: 32px; font-size: 14px;}
+.checkout .card_info .month_year {height: 32px;}
+.checkout .paymentCardDetails .col1 .date select {width: 120px; height: 32px; font-size: 14px;}
+.checkout .paymentCardDetails .cvv2 input {width: 80%;}
+.checkout .fright .button_footer_line {width: 100%;}
+.checkout .button_primary {height: auto; width: 100%;}
+.checkout #WC_ShipmentDisplay_div_31 .button_primary {width: 100%; height: 40px;}
+.checkout #WC_ShipmentDisplay_div_31 .button_primary > .button_text {font-size: 18px; height: 40px; line-height: 40px; width: 100%;}
 
+/* Confirmation Page */
+#orderConfirmationPage.checkout .continue_shopping {width: 100%; float: none; text-align: center;}
+#orderConfirmationPage.checkout .button_secondary {height: 32px; width: 100%;}
+.checkout #guestCheckoutPage .backToBasket a.button_primary .button_text, 
+.checkout form#PaymentForm1 .billing_address_container a.button_secondary .button_text, 
+.checkout #MiniShopCartProductsList .button_secondary > .button_text, 
+.checkout a.button_secondary .button_text {height: 32px; line-height: 32px; font-size: 14px; float: none;}
+#orderConfirmationPage.checkout .topSection h1 {width: 100%; font-size: 24px !important;}
+#orderConfirmationPage.checkout .topSection p {margin: 10px 0; width: 100%;}
+#orderConfirmationPage.checkout .left {width: 100%;}
+#orderConfirmationPage.checkout .main_header_text {font-size: 22px;}
+.checkout #billing_summary .billing_address, .billing_summary .billing_address {float: left; padding: 0 1% !important; width: 40%;}
+#orderConfirmationPage.checkout .billing_method {width: 59%; line-height: normal; top: 0; padding: 0 1%; float: right; clear: none;}
+#orderConfirmationPage.checkout .addressTitle,
+#orderConfirmationPage.checkout .billing_method p.title {padding: 0; margin: 10px 0;}
+#orderConfirmationPage.checkout #shipping {width: 100%;}
+#orderConfirmationPage.checkout #shipping .shipping_method {width: 100%;}
+#orderConfirmationPage.checkout table#order_details {padding: 0;}
+.checkout #OrderConfirmPagingDisplay #order_details .img {max-width: 130px; float: right; width: 25%;}
+.checkout #OrderConfirmPagingDisplay #order_details .itemspecs .strongtext {line-height: 16px;}
+.checkout #OrderConfirmPagingDisplay #order_details .itemspecs {font-size: 12px; width: 72%; line-height: normal; margin: 0;}
+#orderConfirmationPage.checkout #total_breakdown #order_total .total_details {font-size: 16px;}
+.checkout .info_icon img {width: 20px !important; height: auto;}
 
 /* Form labels inside fields Start */
 /*
@@ -773,12 +931,20 @@ form {position: relative;}
   
 /*Mobile*/
 @media (max-width: 399px) {
-  #dev {
-    display: block;
-    width: 100%;
-    height: 5px;
-    background-color: green;
-  }
+    #dev {
+        display: block;
+        width: 100%;
+        height: 5px;
+        background-color: green;
+    }
+    .checkout .dijitTooltip {
+        position: fixed !important;
+        z-index: 2000;
+        display: block;
+        left: 40% !important;
+        top: 0 !important;
+        overflow: visible;
+    }  
 
 } /* End Mobile < 399px*/	
 
@@ -795,35 +961,49 @@ form {position: relative;}
 
 /* Larger than tablet (also point when grid becomes active) */
 @media (min-width: 550px) {
-  #dev {
-    display: block;
-    width: 100%;
-    height: 5px;
-    background-color: pink;
+    #dev {
+        display: block;
+        width: 100%;
+        height: 5px;
+        background-color: pink;
+    }
+    .checkout .selectbox {display: inline-block; margin-bottom: 10px;}
+    .checkout #content_wrapper p,
+    .checkout #content_wrapper #WC_AccountDisplay_div_7 .strong {text-align: left;}
+    .checkout #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .button_primary > .button_text, 
+    .checkout #content_wrapper #guestLogin #WC_AccountDisplay_div_19 .button_primary > .button_text,
+    .checkout #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {width: 300px;}
+    .checkout #content_wrapper #guestLogin .emailSection .infoText {margin-left: 25%;}
+    .checkout #addressLine2, .checkout #guestLogin .regForm .column_label {margin-bottom: 10px;}
+    .checkout #shipping .title label, #shipping #shipping_delivery_method_option p.title, #storeDetailsPage .title {float: left; width: 51%;}
+    .checkout #shipping .title label, .checkout #shipping #shipping_delivery_method_option p {width: 51%; float: left;}
+    .checkout #shipping #shipping_delivery_method_option a {float: right; margin-top: -34px;}
+    .checkout .addressDetailWrap {width: 31.5%;}
+    .checkout #bopis_table th, #bopis_table1 th {}
+    .checkout #bopis_table th:first-child {width: 5%;}
+    .checkout #bopis_table th:nth-child(2) {width: 56%;}
+    .checkout #bopis_table th:last-child {width: 35%;}
+    .checkout #bopis_table td:first-child {width: 50px;}
+    .checkout #bopis_table td:nth-child(2) {display: table-cell;}
+    .checkout #bopis_table td:last-child,
+    .checkout #bopis_table td.slide:last-child {display: table-cell; width: 40%; position: relative; right: 0; background: transparent; transition: right 1s; -webkit-transform: translateZ(0);}
+    .opening-times {display: none;}
+    .closer {display: none;}
+    .checkout form#PaymentForm1 .billing_address_container a.button_secondary {float: right;}
+    .checkout .payment_radio_options #weaccept {float: right; margin-top: -5px; margin-right: 20px;}
+    #paymentPage.checkout #pay_by_paypal > .paypalIcon {margin: 0; float: none; display: inline-block; float: right; margin-right: 20px;}
+    .checkout .paymentCardDetails {width: 100%;}
+    .checkout #WC_ShipmentDisplay_div_31 .button_primary > .button_text {width: 250px; float: right;}
+    .checkout div#shipping #shopcartAddressForm .HAddressAdd .button_primary {float: right; width: 40%;}
+    .checkout .dijitTooltip {
+        position: absolute !important;
+        z-index: 2000;
+        display: block;
+        left: unset;
+        top: unset;
+        overflow: visible;
+    }    
 
-  }
-  .checkout .selectbox {display: inline-block; margin-bottom: 10px;}
-  .checkout #content_wrapper p,
-  .checkout #content_wrapper #WC_AccountDisplay_div_7 .strong {text-align: left;}
-  .checkout #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .button_primary > .button_text, 
-  .checkout #content_wrapper #guestLogin #WC_AccountDisplay_div_19 .button_primary > .button_text,
-  .checkout #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {width: 300px;}
-  .checkout #content_wrapper #guestLogin .emailSection .infoText {margin-left: 25%;}
-  .checkout #addressLine2, .checkout #guestLogin .regForm .column_label {margin-bottom: 10px;}
-  .checkout #shipping .title label, #shipping #shipping_delivery_method_option p.title, #storeDetailsPage .title {float: left; width: 51%;}
-  .checkout #shipping .title label, .checkout #shipping #shipping_delivery_method_option p {width: 51%; float: left;}
-  .checkout #shipping #shipping_delivery_method_option a {float: right; margin-top: -34px;}
-  .checkout .addressDetailWrap {width: 31.5%;}
-  .checkout #bopis_table th, #bopis_table1 th {}
-  .checkout #bopis_table th:first-child {width: 5%;}
-  .checkout #bopis_table th:nth-child(2) {width: 56%;}
-  .checkout #bopis_table th:last-child {width: 35%;}
-  .checkout #bopis_table td:first-child {width: 50px;}
-  .checkout #bopis_table td:nth-child(2) {display: table-cell;}
-  .checkout #bopis_table td:last-child,
-  .checkout #bopis_table td.slide:last-child {display: table-cell; width: 40%; position: relative; right: 0; opacity: 1; background: transparent; transition: all 0s;}
-  .opening-times {display: none;}
-  .closer {display: none;}
 }
 /* Larger than tablet */
 @media (min-width: 750px) {
@@ -837,7 +1017,7 @@ form {position: relative;}
   .checkout #addressLine2, 
   .checkout #content_wrapper #guestLogin .regForm .column_label {text-align: right; height: 25px;}
   #WC_AddressEntryForm__div_5_1 {float: left;}
-  .checkout #checkout_crumb .crumb span.step_on, .checkout #checkout_crumb .crumb span.step_off {font-size: 18px; width: 24%;}
+  .checkout #checkout_crumb .crumb span.step_on, .checkout #checkout_crumb .crumb span.step_off {font-size: 16px; width: 24%;}
   .checkout .crumb span:before {display: none;}
 
   .checkout #guestCheckoutPage #content_wrapper  #addressLine2 {padding: 0; text-align: left; margin: 0 0 25px;}
