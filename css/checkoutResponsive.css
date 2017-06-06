@@ -956,7 +956,15 @@ form {position: relative;}
     height: 5px;
     background-color: yellow;
   }
-  .checkout .addressDetailWrap .button_primary > .button_text {font-size: 14px; height: 28px; line-height: 28px; padding: 0; min-width: 135px;}  
+  .checkout .addressDetailWrap .button_primary > .button_text {font-size: 14px; height: 28px; line-height: 28px; padding: 0; min-width: 135px;}
+       .checkout .dijitTooltip {
+        position: fixed !important;
+        z-index: 2000;
+        display: block;
+        left: 40% !important;
+        top: 0 !important;
+        overflow: visible;
+    }  
 }
 
 /* Larger than tablet (also point when grid becomes active) */
@@ -994,16 +1002,7 @@ form {position: relative;}
     #paymentPage.checkout #pay_by_paypal > .paypalIcon {margin: 0; float: none; display: inline-block; float: right; margin-right: 20px;}
     .checkout .paymentCardDetails {width: 100%;}
     .checkout #WC_ShipmentDisplay_div_31 .button_primary > .button_text {width: 250px; float: right;}
-    .checkout div#shipping #shopcartAddressForm .HAddressAdd .button_primary {float: right; width: 40%;}
-    .checkout .dijitTooltip {
-        position: absolute !important;
-        z-index: 2000;
-        display: block;
-        left: unset;
-        top: unset;
-        overflow: visible;
-        margin-top: -35px;
-    }    
+    .checkout div#shipping #shopcartAddressForm .HAddressAdd .button_primary {float: right; width: 40%;} 
 
 }
 /* Larger than tablet */
@@ -1047,6 +1046,15 @@ form {position: relative;}
   .checkout #bopis_table th:nth-child(2) {width: 60%;}
   .checkout #bopis_table th:last-child {width: 31%;}  
   .checkout .storeLocator { margin-top: 6px;}
+    .checkout .dijitTooltip {
+        position: absolute !important;
+        z-index: 2000;
+        display: block;
+        left: unset;
+        top: unset;
+        overflow: visible;
+        margin-top: -35px;
+    }     
 }
 
 /* Larger than tablet */
