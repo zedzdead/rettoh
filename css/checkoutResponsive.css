@@ -890,6 +890,7 @@ div#WC_CheckoutPaymentAndBillingAddressSummaryf_div_3_1 p span {
     float: right;
 }
 .checkout #orderConfirmationPage.checkout .billing_method p {text-align: left;}
+.checkout #orderConfirmationPage .billing_method .total_figures span {float: right; text-align: right !important;}
 
 #orderConfirmationPage.checkout #shipping {width: 100%;}
 #orderConfirmationPage.checkout #shipping .shipping_method {width: 100%;}
