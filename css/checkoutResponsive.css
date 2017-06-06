@@ -931,12 +931,20 @@ form {position: relative;}
   
 /*Mobile*/
 @media (max-width: 399px) {
-  #dev {
-    display: block;
-    width: 100%;
-    height: 5px;
-    background-color: green;
-  }
+    #dev {
+        display: block;
+        width: 100%;
+        height: 5px;
+        background-color: green;
+    }
+    .checkout .dijitTooltip {
+        position: fixed !important;
+        z-index: 2000;
+        display: block;
+        left: 40% !important;
+        top: 0 !important;
+        overflow: visible;
+    }  
 
 } /* End Mobile < 399px*/	
 
@@ -953,42 +961,48 @@ form {position: relative;}
 
 /* Larger than tablet (also point when grid becomes active) */
 @media (min-width: 550px) {
-  #dev {
-    display: block;
-    width: 100%;
-    height: 5px;
-    background-color: pink;
-
-  }
-  .checkout .selectbox {display: inline-block; margin-bottom: 10px;}
-  .checkout #content_wrapper p,
-  .checkout #content_wrapper #WC_AccountDisplay_div_7 .strong {text-align: left;}
-  .checkout #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .button_primary > .button_text, 
-  .checkout #content_wrapper #guestLogin #WC_AccountDisplay_div_19 .button_primary > .button_text,
-  .checkout #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {width: 300px;}
-  .checkout #content_wrapper #guestLogin .emailSection .infoText {margin-left: 25%;}
-  .checkout #addressLine2, .checkout #guestLogin .regForm .column_label {margin-bottom: 10px;}
-  .checkout #shipping .title label, #shipping #shipping_delivery_method_option p.title, #storeDetailsPage .title {float: left; width: 51%;}
-  .checkout #shipping .title label, .checkout #shipping #shipping_delivery_method_option p {width: 51%; float: left;}
-  .checkout #shipping #shipping_delivery_method_option a {float: right; margin-top: -34px;}
-  .checkout .addressDetailWrap {width: 31.5%;}
-  .checkout #bopis_table th, #bopis_table1 th {}
-  .checkout #bopis_table th:first-child {width: 5%;}
-  .checkout #bopis_table th:nth-child(2) {width: 56%;}
-  .checkout #bopis_table th:last-child {width: 35%;}
-  .checkout #bopis_table td:first-child {width: 50px;}
-  .checkout #bopis_table td:nth-child(2) {display: table-cell;}
-  .checkout #bopis_table td:last-child,
-  .checkout #bopis_table td.slide:last-child {display: table-cell; width: 40%; position: relative; right: 0; background: transparent; transition: right 1s; -webkit-transform: translateZ(0);}
-  .opening-times {display: none;}
-  .closer {display: none;}
-  .checkout form#PaymentForm1 .billing_address_container a.button_secondary {float: right;}
-  .checkout .payment_radio_options #weaccept {float: right; margin-top: -5px; margin-right: 20px;}
-  #paymentPage.checkout #pay_by_paypal > .paypalIcon {margin: 0; float: none; display: inline-block; float: right; margin-right: 20px;}
-  .checkout .paymentCardDetails {width: 100%;}
-  .checkout #WC_ShipmentDisplay_div_31 .button_primary > .button_text {width: 250px; float: right;}
-  .checkout div#shipping #shopcartAddressForm .HAddressAdd .button_primary {float: right; width: 40%;}
-
+    #dev {
+        display: block;
+        width: 100%;
+        height: 5px;
+        background-color: pink;
+    }
+    .checkout .selectbox {display: inline-block; margin-bottom: 10px;}
+    .checkout #content_wrapper p,
+    .checkout #content_wrapper #WC_AccountDisplay_div_7 .strong {text-align: left;}
+    .checkout #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .button_primary > .button_text, 
+    .checkout #content_wrapper #guestLogin #WC_AccountDisplay_div_19 .button_primary > .button_text,
+    .checkout #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {width: 300px;}
+    .checkout #content_wrapper #guestLogin .emailSection .infoText {margin-left: 25%;}
+    .checkout #addressLine2, .checkout #guestLogin .regForm .column_label {margin-bottom: 10px;}
+    .checkout #shipping .title label, #shipping #shipping_delivery_method_option p.title, #storeDetailsPage .title {float: left; width: 51%;}
+    .checkout #shipping .title label, .checkout #shipping #shipping_delivery_method_option p {width: 51%; float: left;}
+    .checkout #shipping #shipping_delivery_method_option a {float: right; margin-top: -34px;}
+    .checkout .addressDetailWrap {width: 31.5%;}
+    .checkout #bopis_table th, #bopis_table1 th {}
+    .checkout #bopis_table th:first-child {width: 5%;}
+    .checkout #bopis_table th:nth-child(2) {width: 56%;}
+    .checkout #bopis_table th:last-child {width: 35%;}
+    .checkout #bopis_table td:first-child {width: 50px;}
+    .checkout #bopis_table td:nth-child(2) {display: table-cell;}
+    .checkout #bopis_table td:last-child,
+    .checkout #bopis_table td.slide:last-child {display: table-cell; width: 40%; position: relative; right: 0; background: transparent; transition: right 1s; -webkit-transform: translateZ(0);}
+    .opening-times {display: none;}
+    .closer {display: none;}
+    .checkout form#PaymentForm1 .billing_address_container a.button_secondary {float: right;}
+    .checkout .payment_radio_options #weaccept {float: right; margin-top: -5px; margin-right: 20px;}
+    #paymentPage.checkout #pay_by_paypal > .paypalIcon {margin: 0; float: none; display: inline-block; float: right; margin-right: 20px;}
+    .checkout .paymentCardDetails {width: 100%;}
+    .checkout #WC_ShipmentDisplay_div_31 .button_primary > .button_text {width: 250px; float: right;}
+    .checkout div#shipping #shopcartAddressForm .HAddressAdd .button_primary {float: right; width: 40%;}
+    .checkout .dijitTooltip {
+        position: absolute;
+        z-index: 2000;
+        display: block;
+        left: 50%;
+        top: -10000px;
+        overflow: visible;
+    }    
 
 }
 /* Larger than tablet */
