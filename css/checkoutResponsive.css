@@ -940,7 +940,7 @@ form {position: relative;}
     .checkout .dijitTooltip {
         left: 0 !important;
         margin-top: -35px;
-        margin: -35px 1% 0;
+        margin: -45px 1% 0;
     }
 
 } /* End Mobile < 399px*/	
@@ -957,7 +957,7 @@ form {position: relative;}
       .checkout .dijitTooltip {
         left: 0 !important;
         margin-top: -35px;
-        margin: -35px 1% 0;
+        margin: -45px 1% 0;
     }
 }
 
@@ -1000,7 +1000,7 @@ form {position: relative;}
         .checkout .dijitTooltip {
         left: 0 !important;
         margin-top: -35px;
-        margin: -35px 1% 0;
+        margin: -45px 1% 0;
     }
 
 }
