@@ -996,12 +996,13 @@ form {position: relative;}
     .checkout #WC_ShipmentDisplay_div_31 .button_primary > .button_text {width: 250px; float: right;}
     .checkout div#shipping #shopcartAddressForm .HAddressAdd .button_primary {float: right; width: 40%;}
     .checkout .dijitTooltip {
-        position: absolute;
+        position: absolute !important;
         z-index: 2000;
         display: block;
-        left: 50%;
-        top: -10000px;
+        left: unset;
+        top: unset;
         overflow: visible;
+        margin-top: -35px;
     }    
 
 }
