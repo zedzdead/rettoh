@@ -3,7 +3,7 @@ jQuery(document).ready(function($) {
 	console.log('checkoutResponsive start');	
 	if($('#checkout_crumb').length) {
 		$('body').addClass('checkout');
-		$('body').prepend($('<div id="dev"></dev>'));
+		//$('body').prepend($('<div id="dev"></dev>'));
 	}
 
 	//Add Phone Number if not already there
