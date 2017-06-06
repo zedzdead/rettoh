@@ -486,6 +486,8 @@ body.checkout  > iframe {display: none;}
 .checkout #page .store_message > .content > .message .message_text {width: 100%; margin: 0;}
 .checkout .store_message > .content > .close {outline: 0;}
 .checkout #page .shadowPiece {display: none;}
+.checkout .store_message > .content > .message .message_icon {display: none;}
+.checkout .store_message > .content > .message .message_text {float: none;}
 
 /* Checkout Page 2 */
 .checkout .sec-head {
