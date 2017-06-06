@@ -389,7 +389,7 @@ body.checkout  > iframe {display: none;}
 /* \f290 - Shopping bag */
 .checkout .crumb > span:first-child:before,
 /*.checkout #WC_ShipmentDisplay_links_2 span:before,*/
-.checkout .crumb > a span:first-child:before {
+.checkout .crumb > a:first-child span:before {
     content: "\f290";
     font-family: FontAwesome;
     font-size: 24px;
@@ -398,7 +398,7 @@ body.checkout  > iframe {display: none;}
 /* \f0d1 = Truck */
 .checkout .crumb > span:nth-child(3):before,
 /*.checkout #WC_ShipmentDisplay_links_3 span:before*/
-.checkout .crumb > a span:nth-child(3):before {
+.checkout .crumb > a:nth-child(2) span:before {
     content: "\f0d1";
     font-family: FontAwesome;
     font-size: 24px;
@@ -407,7 +407,7 @@ body.checkout  > iframe {display: none;}
 /* \f09d = Credit Card */
 .checkout .crumb > span:nth-child(5):before,
 /*.checkout #WC_ShipmentDisplay_links_4 span:before,*/
-.checkout .crumb > a span:nth-child(5):before {
+.checkout .crumb > a:nth-child(3) span:before {
     content: "\f09d";
     font-family: FontAwesome;
     font-size: 24px;
