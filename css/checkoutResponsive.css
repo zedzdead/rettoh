@@ -951,15 +951,6 @@ form {position: relative;}
 
 }
 
-
-@media (max-width: 550px) {
-    .checkout .dijitTooltip {
-        left: 0 !important;
-        margin-top: -35px;
-        margin: -45px 1% 0;
-    }
-}
-
 /* Larger than tablet (also point when grid becomes active) */
 @media (min-width: 550px) {
     #dev {
@@ -1040,6 +1031,14 @@ form {position: relative;}
   .checkout #bopis_table th:nth-child(2) {width: 60%;}
   .checkout #bopis_table th:last-child {width: 31%;}  
   .checkout .storeLocator { margin-top: 6px;} 
+}
+
+@media (max-width: 929px) {
+    .checkout .dijitTooltip {
+        left: 0 !important;
+        margin-top: -35px;
+        margin: -45px 1% 0;
+    }
 }
 
 /* Larger than tablet */
