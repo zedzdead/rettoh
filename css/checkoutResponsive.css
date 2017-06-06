@@ -1050,8 +1050,8 @@ form {position: relative;}
         position: absolute !important;
         z-index: 2000;
         display: block;
-        left: unset !important;
-        top: unset !important;
+        left: inherit !important;
+        top: inherit !important;
         overflow: visible;
         margin-top: -35px;
     }     
