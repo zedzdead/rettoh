@@ -33,7 +33,8 @@ jQuery(document).ready(function($) {
 
 		//Add Currently searched for Post Code or Town*/
 		var loc =  getQueryVariable('searchWordTownOrPostCode');
-		$('#bopis_table ').prepend($('<caption>Stores nearest to ' + loc + '.</caption>'));
+		var locdec = decodeURIComponent(loc);
+		$('#bopis_table ').prepend($('<caption>Stores nearest to ' + locdec + '.</caption>'));
 
 		$('.checkout #bopis_table td:nth-child(2)').prepend($('<div class="opening-times">Open</div>'));
 		$('.checkout #bopis_table td:last-child > div').before($('<div class="closer">Close</div>'));	
