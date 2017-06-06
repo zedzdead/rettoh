@@ -870,7 +870,7 @@ div#WC_CheckoutPaymentAndBillingAddressSummaryf_div_2_1 *,
 
 #orderConfirmationPage.checkout .addressTitle,
 #orderConfirmationPage.checkout .billing_method p.title {padding: 0; margin: 10px 0;}
-#orderConfirmationPage.checkout .billing_method p.title {text-align: left;}
+#orderConfirmationPage.checkout .billing_method p.title {text-align: left !important;}
 div#WC_CheckoutPaymentAndBillingAddressSummaryf_div_3_1 * {text-align: right !important;}
 div#WC_CheckoutPaymentAndBillingAddressSummaryf_div_3_1 p span {
     text-align: left !important;
@@ -983,6 +983,9 @@ form {position: relative;}
     height: 5px;
     background-color: yellow;
   }
+  .checkout #billing_summary .billing_address, .billing_summary .billing_address,
+  #orderConfirmationPage.checkout .billing_method {width: 49%; float: left;}
+
 
 }
 
