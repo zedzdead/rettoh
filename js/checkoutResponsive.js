@@ -27,8 +27,14 @@ jQuery(document).ready(function($) {
 		$('#shipAddressSelect').append($('#shipping_delivery_method_option'));
 	}
 
+	//Add Currently searched for Post Code or Town*/
 	//Add a clickable div to display opening times for click and collect - everything else done with css
 	if($('#bopis_table').length) {
+
+		//Add Currently searched for Post Code or Town*/
+		var loc =  getQueryVariable('searchWordTownOrPostCode');
+		$('#bopis_table ').prepend($('<caption>Stores nearest to ' + loc + '.</caption>'));
+
 		$('.checkout #bopis_table td:nth-child(2)').prepend($('<div class="opening-times">Open</div>'));
 		$('.checkout #bopis_table td:last-child > div').before($('<div class="closer">Close</div>'));	
 		$('.opening-times').each(function() {
@@ -44,3 +50,14 @@ jQuery(document).ready(function($) {
 	console.log('checkoutResponsive end');	
 	
 });
+
+function getQueryVariable(variable)
+{
+       var query = window.location.search.substring(1);
+       var vars = query.split("&");
+       for (var i=0;i<vars.length;i++) {
+               var pair = vars[i].split("=");
+               if(pair[0] == variable){return pair[1];}
+       }
+       return(false);
+}
