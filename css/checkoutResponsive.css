@@ -841,6 +841,12 @@ body.checkout  > iframe {display: none;}
 .checkout .button_primary {height: auto; width: 100%;}
 .checkout #WC_ShipmentDisplay_div_31 .button_primary {width: 100%; height: 40px;}
 .checkout #WC_ShipmentDisplay_div_31 .button_primary > .button_text {font-size: 18px; height: 40px; line-height: 40px; width: 100%;}
+.checkout #ems_TermsAndConditions_12278 p {font-size: 12px !important;}
+.checkout div.widget_site_popup > .top,
+.checkout div.widget_site_popup > .middle,
+.checkout div.widget_site_popup > .bottom,
+.checkout div.widget_site_popup > .middle > .content_left_border,
+.checkout div.widget_site_popup > .middle > .content_right_border {width: 100%;}
 
 /* Confirmation Page */
 #orderConfirmationPage.checkout .continue_shopping {width: 100%; float: none; text-align: center;}
