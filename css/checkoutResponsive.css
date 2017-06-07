@@ -174,15 +174,16 @@ body.checkout  > iframe {display: none;}
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .pnlResults, 
 #guestCheckoutPage #content_wrapper .pcaAutoCompleteSmall .pnlAutoCompleteSmall, 
 #guestCheckoutPage #content_wrapper .pcaAutoCompleteSmall .pnlResultsSmall {position: absolute; top: 30px; left: 0; width: 100% !important;}
-.checkout #pcainput_ct26be42hx99ka1716409 {line-height: 24px !important;}
+
 #guestCheckoutPage #content_wrapper #HAddress_Finder_PC .inputArea span {font-size: inherit;}
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea .suggestion {height: 16px !important;}
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea .suggestion .invisible {font-size: inherit !important;}
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea .suggestion span, 
 #guestCheckoutPage #content_wrapper #HAddress_Finder_PC .inputArea span {line-height: 16px; font-size: 14px !important; top: 0 !important; }
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea {height: 30px !important;}
+.checkout #pcainput_ct26be42hx99ka1716409 {line-height: 24px !important;}
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea .search {
-    top: 7px !important;
+    top: 0px !important;
     left: 7px !important;
     height: 16px !important;
     font-size: 14px !important;
