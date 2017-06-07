@@ -14,9 +14,9 @@
 /* Larger than Desktop 1200-huge! Blue        */
 /**********************************************/
 /* Default */
-/*
+
 body {display: none;}
-body.checkout {display: block;}*/
+body.checkout {display: block;}
 .checkout * {box-sizing: border-box;}
 .checkout img {width: 100% !important; height: auto !important;}  
 
@@ -905,6 +905,27 @@ div#WC_CheckoutPaymentAndBillingAddressSummaryf_div_3_1 p span {
 .checkout #OrderConfirmPagingDisplay #order_details .itemspecs {font-size: 12px; width: 72%; line-height: normal; margin: 0;}
 #orderConfirmationPage.checkout #total_breakdown #order_total .total_details {font-size: 16px;}
 .checkout .info_icon img {width: 20px !important; height: auto;}
+
+/*Order confirm click and collect*/
+.checkout #WC_OrderShippingBillingConfirmationPage_div_13 .times > div {
+    width:100% !important;
+    font-size:12px !important;
+    line-height:normal !important;
+}
+
+.checkout #GetDirectionLink, #GetDirectionLink2 {
+    width:100% !important;
+    height:25px !important;
+    line-height:25px !important;
+}
+
+.checkout #GetDirectionLink .button_text, #GetDirectionLink2 .button_text {
+    width:100% !important;
+    height:25px !important;
+    line-height:25px !important;
+    padding: 0 !important;
+    font-size:16px !important;
+}
 
 /* Form labels inside fields Start */
 /*
