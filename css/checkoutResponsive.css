@@ -976,7 +976,6 @@ form {position: relative;}
 } /* End Mobile < 399px*/	
 
 @media (min-width: 400px) {
-  * {box-sizing: border-box;}
   #dev {
     display: block;
     width: 100%;
