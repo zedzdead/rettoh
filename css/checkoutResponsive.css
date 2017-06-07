@@ -14,9 +14,9 @@
 /* Larger than Desktop 1200-huge! Blue        */
 /**********************************************/
 /* Default */
-
+/*
 body {display: none;}
-body.checkout {display: block;}
+body.checkout {display: block;}*/
 .checkout * {box-sizing: border-box;}
 .checkout img {width: 100% !important; height: auto !important;}  
 
@@ -862,7 +862,7 @@ body.checkout  > iframe {display: none;}
 #orderConfirmationPage.checkout .topSection h1 {width: 100%; font-size: 24px !important;}
 #orderConfirmationPage.checkout .topSection p {margin: 10px 0; width: 100%;}
 #orderConfirmationPage.checkout .left {width: 100%;}
-#orderConfirmationPage.checkout .main_header_text {font-size: 22px;}
+#orderConfirmationPage.checkout .main_header_text {font-size: 16px; width: 100%;}
 .checkout #billing_summary .billing_address, .billing_summary .billing_address {float: left; padding: 0 1% !important; width: 100%;}
 #orderConfirmationPage.checkout .billing_method {width: 100%; line-height: normal; top: 0; padding: 0 1%; float: right; clear: none;}
 div#WC_CheckoutPaymentAndBillingAddressSummaryf_div_2_1 *,
