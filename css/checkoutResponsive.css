@@ -184,9 +184,11 @@ body.checkout  > iframe {display: none;}
 .checkout #pcainput_ct26be42hx99ka1716409 {line-height: 24px !important;}
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea .search {
     top: 0px !important;
-    left: 7px !important;
+    left: 0px !important;
     height: 16px !important;
     font-size: 14px !important;
+    line-height: 24px !important;
+    margin: 7px !important;
 }
 
 #guestCheckoutPage #content_wrapper .HAddressBlock {margin-top: 20px;}
