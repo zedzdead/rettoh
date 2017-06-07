@@ -2,6 +2,7 @@ jQuery(document).ready(function($) {
 	//Look for Checkout crumbs and set dev bar
 	console.log('checkoutResponsive start');	
 	if($('#checkout_crumb').length) {
+		$('meta[name=viewport]').attr('content', 'width=device-width, initial-scale=1');
 		$('body').addClass('checkout');
 		//$('body').prepend($('<div id="dev"></dev>'));
 	}
