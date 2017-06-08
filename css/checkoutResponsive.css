@@ -1063,6 +1063,7 @@ form {position: relative;}
     background-color: turquoise;
   }
   .checkout #WC_AccountDisplay_div_7 .strong {margin-left: 26%;}
+  .checkout #content_wrapper #guestLogin .emailSection .infoText {margin-left: 0;}
   .checkout #content_wrapper #guestLogin .emailSection label,
   .checkout #addressLine2, 
   .checkout #content_wrapper #guestLogin .regForm .column_label {text-align: right; height: 25px;}
