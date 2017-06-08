@@ -68,7 +68,7 @@ body.checkout  > iframe {display: none;}
 .checkout #checkout_crumb .crumb span.step_off {margin: 0; font-size: 0; float: none; width: 20%; display: inline-block; color: #ccc;}
 .checkout #checkout_crumb .crumb a span.step_off {width: 100%;}
 .checkout #checkout_crumb .crumb a {width: 20%; display: inline-block; float: none;}
-.checkout #checkout_crumb .crumb span.step_on {color: #58595b;}
+.checkout #checkout_crumb .crumb span.step_on {color: #f4f4f4;}
 .checkout #box {min-width: 0; min-height: 200px;}
 .checkout #box h1 {text-align: center; font-size: 24px; margin: 0;}
 .checkout p,
@@ -1028,7 +1028,7 @@ form {position: relative;}
     .checkout #content_wrapper #WC_AccountDisplay_div_7 .strong {text-align: left;}
     .checkout #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .button_primary > .button_text, 
     .checkout #content_wrapper #guestLogin #WC_AccountDisplay_div_19 .button_primary > .button_text,
-    .checkout #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {width: 300px;}
+    .checkout #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {width: 300px; float: right;}
     .checkout #content_wrapper #guestLogin .emailSection .infoText {margin-left: 25%;}
     .checkout #addressLine2, .checkout #guestLogin .regForm .column_label {margin-bottom: 10px;}
     .checkout #shipping .title label, #shipping #shipping_delivery_method_option p.title, #storeDetailsPage .title {float: left; width: 51%;}
@@ -1062,6 +1062,7 @@ form {position: relative;}
     height: 5px;
     background-color: turquoise;
   }
+  .checkout #WC_AccountDisplay_div_7 .strong {margin-left: 26%;}
   .checkout #content_wrapper #guestLogin .emailSection label,
   .checkout #addressLine2, 
   .checkout #content_wrapper #guestLogin .regForm .column_label {text-align: right; height: 25px;}
@@ -1087,7 +1088,8 @@ form {position: relative;}
   div#label_state {padding-left: 10px; padding-right: 10px; position: relative; top: 7px;}
   .checkout .container_content_rightsidebar > .left_column,
   .checkout #shipping .container_content_rightsidebar > .left_column,
-  #paymentPage.checkout .container_content_rightsidebar > .left_column {width: 74%; margin-right: 1% !important;}  
+  #paymentPage.checkout .container_content_rightsidebar > .left_column {width: 74%; margin-right: 1% !important;}
+  #paymentPage.checkout .container_content_rightsidebar > .left_column #guestLogin {width: 100% !important;} 
   .checkout .container_content_rightsidebar > .right_column,
   .checkout #shipping .container_content_rightsidebar > .right_column,
   #paymentPage.checkout .container_content_rightsidebar > .right_column {float: right; width: 221px; width: 25% !important; margin-top: 28px;}
@@ -1097,6 +1099,7 @@ form {position: relative;}
   .checkout .storeLocator { margin-top: 6px;} 
 }
 
+/*Hack*/
 @media (max-width: 929px) {
     .checkout .dijitTooltip {
         left: 0 !important;
