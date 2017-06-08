@@ -3,7 +3,7 @@
 /* Author: Andy Davies          */
 /* Copyright: Hotter Shoes      */
 
-console.log('Start Checkout Improvements');
+console.log('checkoutImprovement start');
 //Replaced below
 /*
 jQuery(document).ready(function($) {
@@ -43,6 +43,7 @@ jQuery(document).ready(function($) {
 
 /*WS-2237 Address Finder - "Please enter an Address" persists after use*/
 jQuery(document).ready(function($) {
+	console.log('Start Shipping Message changes');
 	if($('.shipping_method_item label').length) {
 		$('.shipping_method_item label').click(function() {
 			setTimeout(function(){ $('#WC_SingleShipmentShippingMethodDetails_div_1 > p').toggleClass('msghide'); }, 2000);
@@ -53,6 +54,7 @@ jQuery(document).ready(function($) {
 			//$('#WC_SingleShipmentShippingMethodDetails_div_1 > p').toggleClass('msghide');
 		});
 	}
+	console.log('End Shipping Message changes');
 });
 
-console.log('End Checkout Improvements');
+console.log('checkoutImprovement end');

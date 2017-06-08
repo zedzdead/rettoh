@@ -3,7 +3,7 @@ jQuery(document).ready(function($) {
 	console.log('checkoutResponsive start');	
 	if($('#checkout_crumb').length) {
 		$('meta[name=viewport]').attr('content', 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0');
-		console.log('Add checkout with checkoutImprovement');
+		console.log('Add checkout class with checkoutResponsive.js');
 		$('body').addClass('checkout');
 		//$('body').prepend($('<div id="dev"></dev>'));
 	}
