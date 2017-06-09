@@ -31,7 +31,7 @@ jQuery(document).ready(function($) {
 
 	//Add Currently searched for Post Code or Town*/
 	//Add a clickable div to display opening times for click and collect - everything else done with css
-	if($('#bopis_table').length) {
+	if($('table#bopis_table').length) {
 
 		//Add Currently searched for Post Code or Town*/
 		var loc =  getQueryVariable('searchWordTownOrPostCode');
