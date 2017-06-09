@@ -861,6 +861,7 @@ body.checkout  > iframe {display: none;}
 .checkout div.widget_site_popup > .middle > .content_left_border,
 .checkout div.widget_site_popup > .middle > .content_left_border > .content_right_border {width: 100%;}
 .checkout #paymentPage.checkout #box .body, .checkout #paymentPage.checkout #box_1 .body {padding: 5px 1%;}
+.checkout .deliveryDetails .span {font-size: 12px !important;}
 
 /* Confirmation Page */
 #orderConfirmationPage.checkout .continue_shopping {width: 100%; float: none; text-align: center;}
