@@ -1028,8 +1028,8 @@ form {position: relative;}
     .checkout #content_wrapper #WC_AccountDisplay_div_7 .strong {text-align: left;}
     .checkout #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .button_primary > .button_text, 
     .checkout #content_wrapper #guestLogin #WC_AccountDisplay_div_19 .button_primary > .button_text,
-    /*
     #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {width: 49%; float: right;}
+    /*
     #guestCheckoutPage #content_wrapper .backToBasket {position: absolute; left: 20px; border: none; margin-top: -61px; width: 45%;}
     #guestCheckoutPage #content_wrapper .backToBasket a.button_primary {width: 100%;}
     #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {float: left; width: 100%;}
