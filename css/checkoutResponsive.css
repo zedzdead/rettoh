@@ -20,7 +20,7 @@
 #guestCheckoutPage {display: none;}
 body#guestCheckoutPage.checkout {display: block;}
 body.checkout {display: block;}
-.body {background: #fff;}
+.checkout .body {background: #fff;}
 .checkout * {box-sizing: border-box;}
 .checkout img {width: 100% !important; height: auto !important;}  
 
