@@ -1030,6 +1030,7 @@ form {position: relative;}
     .checkout #content_wrapper #guestLogin #WC_AccountDisplay_div_19 .button_primary > .button_text,
     #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {width: 49%; float: right;}
     #guestCheckoutPage #content_wrapper .backToBasket {position: absolute; left: 20px; border: none; margin-top: -61px; width: 40%;}
+    #guestCheckoutPage #content_wrapper .backToBasket a.button_primary {width: 100%;}
     #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {float: left;}
     .checkout #addressLine2, .checkout #guestLogin .regForm .column_label {margin-bottom: 10px;}
     .checkout #shipping .title label, #shipping #shipping_delivery_method_option p.title, #storeDetailsPage .title {float: left; width: 51%;}
