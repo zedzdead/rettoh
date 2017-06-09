@@ -19,7 +19,8 @@
 /*body {display: none;}*/
 #guestCheckoutPage {display: none;}
 body#guestCheckoutPage.checkout {display: block;}
-body.checkout {display: block; background: #fff;}
+body.checkout {display: block;}
+.body {background: #fff;}
 .checkout * {box-sizing: border-box;}
 .checkout img {width: 100% !important; height: auto !important;}  
 
