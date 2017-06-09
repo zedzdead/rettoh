@@ -16,8 +16,8 @@
 /* Default */
 
 /* Never do this! */
-/*body {display: none;}
-body.checkout {display: block;}*/
+/*body {display: none;}*/
+body.checkout {display: block;}
 .checkout * {box-sizing: border-box;}
 .checkout img {width: 100% !important; height: auto !important;}  
 
