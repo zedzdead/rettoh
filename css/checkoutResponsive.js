@@ -31,12 +31,14 @@ jQuery(document).ready(function($) {
 
 	//Add Currently searched for Post Code or Town*/
 	//Add a clickable div to display opening times for click and collect - everything else done with css
-	if($('#bopis_table').length) {
+	if($('table#bopis_table').length) {
 
 		//Add Currently searched for Post Code or Town*/
-		var loc =  getQueryVariable('searchWordTownOrPostCode');
-		var locdec = loc.replace(/\+/g, ' ');
-		$('#bopis_table ').prepend($('<caption>Stores nearest to ' + locdec + '.</caption>'));
+		var place =  getQueryVariable('searchWordTownOrPostCode');
+		if (place !== undefined) {
+			var placedec = place.replace(/\+/g, ' ');
+			$('#bopis_table ').prepend($('<caption>Stores nearest to ' + placedec + '.</caption>'));
+		}
 
 		$('.checkout #bopis_table td:nth-child(2)').prepend($('<div class="opening-times">Open</div>'));
 		$('.checkout #bopis_table td:last-child > div').before($('<div class="closer">Close</div>'));	
