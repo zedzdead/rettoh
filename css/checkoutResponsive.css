@@ -1069,7 +1069,7 @@ form {position: relative;}
     #paymentPage.respco #pay_by_paypal > .paypalIcon {margin: 0; float: none; display: inline-block; float: right; margin-right: 20px;}
     .respco .paymentCardDetails {width: 100%;}
     .respco #WC_ShipmentDisplay_div_31 .button_primary > .button_text,
-    .respco #box h1~.button_primary {width: 250px; float: right;}
+    .respco #box h1~.button_primary {display: none;}
     .respco div#shipping #shopcartAddressForm .HAddressAdd .button_primary {float: right; width: 40%;}
     .respco #paymentPage .paypalCols a {margin-left: 20px;}
     .respco #paymentPage .paypalMarketingOptions h4 {font-size: 1em;}
