@@ -1,15 +1,16 @@
+/*Comment for Phil*/
 jQuery(document).ready(function($) {
 	//Look for Checkout crumbs and set dev bar
 	console.log('checkoutResponsive start');	
 	if($('#checkout_crumb').length) {
 		$('meta[name=viewport]').attr('content', 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0');
-		console.log('Add checkout class with checkoutResponsive.js');
-		$('body').addClass('checkout');
+		console.log('Add respco class with checkoutResponsive.js');
+		$('body').addClass('respco');
 		//$('body').prepend($('<div id="dev"></dev>'));
 	}
 
 	//Add Phone Number if not already there
-	if($('.checkout').length && !$('.sec-number').length) {
+	if($('.respco').length && !$('.sec-number').length) {
 		console.log('Add Phone number');
 		$('.mobilelogo').prepend($('<div class="sec-number"><div class="sec-call">Call Today :</div><div id="sec-num" class="sec-num">0800 306 406</div></div>'));
 	}
@@ -40,8 +41,8 @@ jQuery(document).ready(function($) {
 			$('#bopis_table ').prepend($('<caption>Stores nearest to ' + placedec + '.</caption>'));
 		}
 
-		$('.checkout #bopis_table td:nth-child(2)').prepend($('<div class="opening-times">Open</div>'));
-		$('.checkout #bopis_table td:last-child > div').before($('<div class="closer">Close</div>'));	
+		$('.respco #bopis_table td:nth-child(2)').prepend($('<div class="opening-times">Open</div>'));
+		$('.respco #bopis_table td:last-child > div').before($('<div class="closer">Close</div>'));	
 		$('.opening-times').each(function() {
 			$(this).click(function() {
 				$('.slide').removeClass('slide');
