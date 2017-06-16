@@ -942,6 +942,8 @@ div#WC_CheckoutPaymentAndBillingAddressSummaryf_div_3_1 p span {
     margin: 0 auto;
 }
 
+#paymentPage.respco .paypalMarketingOptions h4 {font-size: 16px;}
+
 #paymentPage.respco  .paypalMarketingOptions input {
     margin: 5px 0 0 0;
     height: 20px;
