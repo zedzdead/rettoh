@@ -935,22 +935,22 @@ div#WC_CheckoutPaymentAndBillingAddressSummaryf_div_3_1 p span {
     font-size:16px !important;
 }
 
-.respco #paymentPage .paypalCols a {
+#paymentPage.respco  .paypalCols a {
     float: none;
     display: block;
     width: 100px;
     margin: 0 auto;
 }
 
-.respco #paymentPage .paypalMarketingOptions input {
+#paymentPage.respco  .paypalMarketingOptions input {
     margin: 5px 0 0 0;
     height: 20px;
     width: 20px;
     float: left;
 }
 
-.respco #paymentPage .paypalMarketingOptions input, 
-.respco #paymentPage .paypalMarketingOptions label {
+#paymentPage.respco  .paypalMarketingOptions input, 
+#paymentPage.respco  .paypalMarketingOptions label {
     float: left;
     display: block;
     vertical-align: top;
