@@ -957,8 +957,7 @@ div#WC_CheckoutPaymentAndBillingAddressSummaryf_div_3_1 p span {
     text-align: left;
 }
 
-#paymentPage.respco  .paypalMarketingOptions label {margin-left: 30px !important;}
-
+#paymentPage.respco  .paypalMarketingOptions label {margin-left: 30px !important; width: 250px; font-size: 14px;}
 
 
 /* Form labels inside fields Start */
