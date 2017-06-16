@@ -552,13 +552,13 @@ body.respco  > iframe {display: none;}
 .respco .addressDetailWrap:nth-child(odd),
 .respco .addressDetailWrap:nth-child(even) {margin: 10px 0;}
 .respco .addressDetailWrap .button_primary {height: 28px; min-width: 150px;}
-.respco .addressDetailWrap .button_primary > .button_text {font-size: 14px; height: 28px; line-height: 28px; padding: 0; min-width: 120px;}
+.respco .addressDetailWrap .button_primary > .button_text {font-size: 14px; height: 28px; line-height: 28px; padding: 0; min-width: 120px; width: 100%;}
 .respco .addressDetailInner {min-height: 140px;}
 .respco #editAdddressLink, .newAddress {text-decoration: underline; font-size: 12px; height: 28px; font-weight: 400; line-height: 28px; width: 47%; margin: 0;}
 .respco #deleteAdddressLink {text-decoration: underline; font-family: Arial,Verdana,Helvetica,sans-serif; font-size: 14px; height: 28px; line-height: 28px; width: 47%;}
 .respco #deleteAdddressLink .button_text {padding: 0; font-size: 12px; font-weight: 400; border: 0; width: auto; min-width: 0; text-decoration: underline; height: 28px; line-height: 28px; display: inline; float: none;}
 .respco #HAddANewAddress div {margin-top: 20px;}
-.respco #WC_ShippingAddressSelectSingle_div_1 .addressDetailWrap .address {text-align: center;}
+.respco #WC_ShippingAddressSelectSingle_div_1 .addressDetailWrap .address {min-height: 150px;}
 
 .respco #shipping .container_content_rightsidebar.addressbook_sidebar .left_column {margin: 0;}
 .respco #shipping_method_content p {text-align: left;}
