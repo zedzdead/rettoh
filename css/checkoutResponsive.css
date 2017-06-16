@@ -855,7 +855,7 @@ body.respco  > iframe {display: none;}
 .respco #WC_ShipmentDisplay_div_31 .button_primary {width: 100%; height: 40px;}
 .respco #box > .button_primary  {width: 100%; height: 40px; margin-top: 20px;}
 .respco #WC_ShipmentDisplay_div_31 .button_primary > .button_text {font-size: 18px; height: 40px; line-height: 40px; width: 100%;}
-.respco #box .button_primary .button_text {font-size: 18px; height: 40px; line-height: 40px; width: 100%;}
+.respco #box > .button_primary .button_text {font-size: 18px; height: 40px; line-height: 40px; width: 100%;}
 .respco #ems_TermsAndConditions_12278 p {font-size: 12px !important;}
 .respco div.widget_site_popup > .top,
 .respco div.widget_site_popup > .middle,
