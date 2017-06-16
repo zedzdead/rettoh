@@ -1118,7 +1118,7 @@ form {position: relative;}
   #WC_AddressEntryForm__div_5_1 {float: left;}
   .respco #checkout_crumb .crumb span.step_on, .respco #checkout_crumb .crumb span.step_off {font-size: 16px; width: 24%;}
   .respco .crumb span:before {display: none;}
-  #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {margin-right: 26%;}
+  #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {margin-right: 26%; width: 36%;}
 
   .respco #guestCheckoutPage #content_wrapper  #addressLine2 {padding: 0; text-align: left; margin: 0 0 25px;}
   .respco #content_wrapper #guestLogin #newUserForm input,
