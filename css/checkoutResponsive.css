@@ -1108,7 +1108,11 @@ form {position: relative;}
   .respco #bopis_table th:first-child {width: 5%;}
   .respco #bopis_table th:nth-child(2) {width: 60%;}
   .respco #bopis_table th:last-child {width: 31%;}  
-  .respco .storeLocator { margin-top: 6px;} 
+  .respco .storeLocator { margin-top: 6px;}
+  .respco #orderConfirmationPage #passwordArea .regForm {float: none; width: 100%;}
+  .respco #orderConfirmationPage #passwordArea .regForm .column_label {float: none; width: 100%; text-align: left;}
+  .respco #orderConfirmationPage #passwordArea .regForm input {float: none; width: 100%;}
+
 }
 
 /*Hack*/
