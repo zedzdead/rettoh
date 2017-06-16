@@ -913,6 +913,11 @@ div#WC_CheckoutPaymentAndBillingAddressSummaryf_div_3_1 p span {
 .respco #OrderConfirmPagingDisplay #order_details .itemspecs {font-size: 12px; width: 72%; line-height: normal; margin: 0;}
 #orderConfirmationPage.respco #total_breakdown #order_total .total_details {font-size: 16px;}
 .respco .info_icon img {width: 20px !important; height: auto;}
+#orderConfirmationPage.respco #passwordArea .regForm .column_label {
+    width: 39%;
+    float: left;
+}
+#orderConfirmationPage.respco #passwordArea .regForm input {margin: 0; width: 61%;}
 
 /*Order confirm click and collect*/
 .respco #WC_OrderShippingBillingConfirmationPage_div_13 .times > div {
