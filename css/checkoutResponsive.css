@@ -1088,9 +1088,7 @@ form {position: relative;}
     .respco .paymentCardDetails {width: 100%;}
     .respco #box h1~.button_primary {display: none;}
     .respco div#shipping #shopcartAddressForm .HAddressAdd .button_primary {float: right; width: 40%;}
-    .respco #paymentPage .paypalCols a {margin-left: 20px;}
-    .respco #paymentPage .paypalMarketingOptions h4 {font-size: 1em;}
-    .respco #paymentPage .paypalMarketingOptions label {font-size: 1em;}
+    #paymentPage.respco .paypalCols a {margin-left: 20px;}
     .respco div.button_primary {width: 100%; height: 40px;}     
     .respco div.button_primary > div.button_text {width: 100%;}
 
