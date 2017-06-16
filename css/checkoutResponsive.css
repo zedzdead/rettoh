@@ -954,9 +954,10 @@ div#WC_CheckoutPaymentAndBillingAddressSummaryf_div_3_1 p span {
     float: left;
     display: block;
     vertical-align: top;
-    margin-left: 30px !important;
     text-align: left;
 }
+
+#paymentPage.respco  .paypalMarketingOptions label {margin-left: 30px !important;}
 
 
 
