@@ -853,7 +853,7 @@ body.respco  > iframe {display: none;}
 .respco .fright .button_footer_line {width: 100%;}
 .respco .button_primary {height: auto; width: 100%;}
 .respco #WC_ShipmentDisplay_div_31 .button_primary {width: 100%; height: 40px;}
-.respco #box > .button_primary  {width: 100%; height: 40px;}
+.respco #box > .button_primary  {width: 100%; height: 40px; margin-top: 20px;}
 .respco #WC_ShipmentDisplay_div_31 .button_primary > .button_text {font-size: 18px; height: 40px; line-height: 40px; width: 100%;}
 .respco #box .button_primary .button_text {font-size: 18px; height: 40px; line-height: 40px; width: 100%;}
 .respco #ems_TermsAndConditions_12278 p {font-size: 12px !important;}
