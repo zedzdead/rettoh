@@ -96,6 +96,7 @@ body.respco  > iframe {display: none;}
     text-align: left;
     padding-right: 2%;
 }
+#guestLogin #newUserForm label, #guestLogin #newUserForm .column_label {top: 0;}
 .respco #guestLogin .emailSection input {width: 100% !important;}
 .respco #guestLogin .emailSection .infoText {
     padding: 0 10px 10px;
@@ -126,7 +127,7 @@ body.respco  > iframe {display: none;}
     border: 2px solid #7e7675;
     height: 36px;
     margin-bottom: 0; 
-    padding: 0 5px;
+    padding: 0 0 0 5px;
     font-size: 14px;
     line-height: 36px;
     width: 100%;
