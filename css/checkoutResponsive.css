@@ -96,7 +96,8 @@ body.respco  > iframe {display: none;}
     text-align: left;
     padding-right: 2%;
 }
-#guestLogin #newUserForm label, #guestLogin #newUserForm .column_label {top: 0;}
+.respco #addressLine2, .respco #guestLogin .regForm .column_label,
+#guestLogin #newUserForm label, #guestLogin #newUserForm .column_label {top: 0 !important;}
 .respco #guestLogin .emailSection input {width: 100% !important;}
 .respco #guestLogin .emailSection .infoText {
     padding: 0 10px 10px;
