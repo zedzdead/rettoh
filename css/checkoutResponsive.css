@@ -419,8 +419,9 @@ body.respco  > iframe {display: none;}
 }
 
 /* \f118 = Smile */
+/* \f08a = Heart */
 .respco #checkout_crumb span:nth-child(7):before {
-    content: "\f118";
+    content: "\f08a";
     font-family: FontAwesome;
     font-size: 24px;
 }
