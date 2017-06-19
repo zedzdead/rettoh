@@ -306,7 +306,7 @@ body.respco  > iframe {display: none;}
 #content_wrapper #guestLogin #offersArea .checkboxContainer {float: left; width: 36px;}
 #content_wrapper #guestLogin #offersArea .checkboxContainer input {
     float: left;
-    width: 40px !important;
+    width: 24px !important;
     position: relative;
     top: 0px;
     height: 24px !important;
@@ -1137,8 +1137,8 @@ form {position: relative;}
   #guestCheckoutPage #content_wrapper #addressLine2 span {margin: 0 -2px 0 0; top: 0 !important;}
 
   input#_state {max-width: 100% !important;}
-  div#stateDiv {float: right; width: 75%;}
-  div#label_state {padding-left: 10px; padding-right: 10px; position: relative; top: 7px;}
+  div#stateDiv {float: right; width: 75%; padding: 2px;}
+  div#label_state {padding-left: 10px; position: relative; top: 10px;}
   .respco .container_content_rightsidebar > .left_column,
   .respco #shipping .container_content_rightsidebar > .left_column,
   #paymentPage.respco .container_content_rightsidebar > .left_column {width: 74%; margin-right: 1% !important;}
