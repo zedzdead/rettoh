@@ -1129,8 +1129,8 @@ form {position: relative;}
   .respco #guestLogin .emailSection label {text-align: right; width: 25%;}
   .respco #content_wrapper #guestLogin .emailSection label {text-align: right; width: 25%;}
   .respco #content_wrapper #guestLogin .regForm .column_label {text-align: right; width: 25%;}
-  .respco #content_wrapper #addressLine2 span {text-align: right; width: 25%; margin-right: 3px;}
-  .respco #content_wrapper #addressLine2 input {float: none;}
+  .respco #content_wrapper #addressLine2 span {text-align: right; width: 25%;}
+  .respco #content_wrapper #addressLine2 input {float: none; margin-right: 3px;}
   .respco #addressLine2, .respco #guestLogin .regForm .column_label {margin-bottom: 0;}
   #guestCheckoutPage #content_wrapper #addressLine2 span {display: inline-block; text-align: right; padding: 0 10px 0 0; margin: 0;}
 
