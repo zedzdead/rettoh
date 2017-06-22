@@ -58,6 +58,8 @@ body.respco  > iframe {display: none;}
 .respco #headerWidget .uspboxmob {display: block; line-height: 30px; height: auto;}
 .respco #headerWidget .uspboxmobc {font-size: 14px;}
 .respco div#searchComponent {display: none;}
+.respco .mobuspout {background: none;}
+.respco .mobuspoutin {display: none;}
 
 /*Checkout Resets*/
 .respco .content_wrapper {min-width: 300px; max-width: 960px; width: 100%; text-align: center; margin: 0 auto;}
@@ -687,7 +689,7 @@ body.respco  > iframe {display: none;}
     font-size: 14px !important;
 }
 .respco #content_wrapper .HAddressBlock {margin-top: 20px;}
-.respco #content_wrapper .pcaAutoComplete .recentFavourites, .pcaAutoCompleteSmall .recentFavouritesSmall {top: 29px; left: 0;}
+.respco #content_wrapper .pcaAutoComplete .recentFavourites, .pcaAutoCompleteSmall .recentFavouritesSmall {top: 29px !important; left: 0;}
 .respco #content_wrapper .pcaAutoComplete .pcaItemHolder {padding: 5px 0 !important;}
 .respco #content_wrapper .pcaAutoComplete .pcaItem,
 .respco #content_wrapper .pcaAutoComplete .item span,
@@ -1107,7 +1109,7 @@ form {position: relative;}
 }
 
 /* Larger than tablet */
-@media (min-width: 750px) {
+@media (min-width: 770px) {
   #dev {
     display: block;
     width: 100%;
