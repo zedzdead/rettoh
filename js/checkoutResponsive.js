@@ -1,4 +1,4 @@
-/*Comment for Phil*/
+/*Comment for Phil 2*/
 jQuery(document).ready(function($) {
 	//Look for Checkout crumbs and set dev bar
 	console.log('checkoutResponsive start');	
@@ -53,6 +53,12 @@ jQuery(document).ready(function($) {
 			$('.slide').removeClass('slide');
 		});
 	}
+
+	if ($('#box > h1 > .button_primary').length) {
+		var movebut = $('#box > h1 > .button_primary').removeAttr('style');
+		$('#box > h1').after(movebut);
+	}
+
 	console.log('checkoutResponsive end');	
 	
 });
