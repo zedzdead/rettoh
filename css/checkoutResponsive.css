@@ -79,7 +79,7 @@ body.respco  > iframe {display: none;}
 .respco p,
 .respco #WC_AccountDisplay_div_7 .strong {font-size: 12px !important; text-align: center; padding: 0;}
 .respco .container_content_rightsidebar {width: 100%;}
-.respco .container_content_rightsidebar #guestLogin {width: 100%; padding: 0;}
+#guestCheckoutPage .respco .container_content_rightsidebar #guestLogin {width: 100%; padding: 0;}
 .respco #WC_AccountDisplay_div_7 br {display: none;}
 .respco form {text-align: left; width: 100%;}
 .respco #guestLogin #WC_AccountDisplay_div_3 .content {
@@ -1000,7 +1000,7 @@ div#WC_CheckoutPaymentAndBillingAddressSummaryf_div_3_1 p span {
     font-weight: 300;
     letter-spacing: 0.025em;
     line-height: 32px;
-    background: url('https://www.uatstag.hotter.com/wcsstore/HotterStorefrontAssetStore/content/images/Checkout/promise.png') no-repeat center 0 transparent;
+    background: url('/wcsstore/HotterStorefrontAssetStore/content/images/Checkout/promise.png') no-repeat center 0 transparent;
     display: inline-block;
 }
 .mf-cent {font-family: Baskerville-st, serif;}
