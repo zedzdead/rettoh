@@ -1001,9 +1001,8 @@ div#WC_CheckoutPaymentAndBillingAddressSummaryf_div_3_1 p span {
   display: inline-block;
 }
 .mf-happy,
-.mf-quality {font-style: italic;}
-.mf-guarantee {text-transform: uppercase; color: #A2C43F; font-size: 22px}
-.respfoot-guarantee-copy {font-size: 12px;}
+.mf-quality {font-family: Baskerville-st, serif; font-style: italic;}
+.mf-guarantee {font-family: Baskerville-st, serif; text-transform: uppercase; color: #A2C43F; font-size: 22px}
 .respfoot-guarantee-copy {
   font-size: 14px; 
   font-family: Tahoma, Geneva, sans-serif;
