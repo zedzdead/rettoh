@@ -59,6 +59,12 @@ jQuery(document).ready(function($) {
 		$('#box > h1').after(movebut);
 	}
 
+	/*Add bespoke ceckout responsive footer */
+	if ($('.respco').length) {
+		alert('OK');
+		$('.respco #page').append('<div class="mobfoot-guarantee"><h3><span class="mf-cent">100% </span><span class="mf-happy">Happy Promise </span><br><span class="mf-quality">Quality </span><span class="mf-guarantee">Guaranteed</span></h3>    <div class="mobfoot-guarantee-copy">With our no quibble guarantee, your comfort is 100% guaranteed. If for any reason you are not totally delighted, simply return or exchange within 90 days of purchase, no problem.</div></div><div id="cards_and_security"><div class="inline-block cardcontainer"><div class="copy">Payment Options:</div><div class="inline-block card payment_sprite payment-MasterCard-icn"></div><div class="inline-block card payment_sprite payment-Visa-icn"></div><div class="inline-block card payment_sprite payment-VisaElec-icn"></div><div class="inline-block card payment_sprite payment-Maestro-icn"></div><div class="inline-block card payment_sprite payment-PayPal-icn"></div></div><div class="inline-block securitycontainer"><div class="inline-block security"><script type="text/javascript" src="https://seal.thawte.com/getthawteseal?host_name=www.hotter.com&amp;size=L&amp;lang=en"></script><a href="https://sealinfo.thawte.com/thawtesplash?form_file=fdf/thawtesplash.fdf&amp;dn=WWW.HOTTER.COM&amp;lang=en" tabindex="-1" onmousedown="return v_mDown(event);" target="THAWTE_Splash"><img name="seal" border="true" src="https://seal.thawte.com/getthawteseal?at=0&amp;sealid=1&amp;dn=WWW.HOTTER.COM&amp;lang=en&amp;gmtoff=-60" oncontextmenu="return false;" alt="Click to Verify - This site has chosen a thawte SSL Certificate to improve Web site security"></a></div><div class="inline-block security"><a href="https://www.securitymetrics.com/site_certificate?id=1152229&amp;tk=0fdf7138da449e815ab12b26f88eb331" target="_blank"><div class="security_sprite security-identity_theft_protected"></div></a></div><div class="inline-block security"><a href="https://www.securitymetrics.com/site_certificate?id=1152229&amp;tk=0fdf7138da449e815ab12b26f88eb331" target="_blank"><div class="security_sprite security-sm_ccsafe_check1"></div></a></div></div></div>');		
+	}
+
 	console.log('checkoutResponsive end');	
 	
 });
