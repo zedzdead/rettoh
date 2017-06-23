@@ -1008,9 +1008,10 @@ div#WC_CheckoutPaymentAndBillingAddressSummaryf_div_3_1 p span {
 .mf-quality {font-family: Baskerville-st, serif; font-style: italic;}
 .mf-guarantee {font-family: Baskerville-st, serif; text-transform: uppercase; color: #A2C43F; font-size: 22px}
 .respfoot-guarantee-copy {
-  font-size: 14px; 
+  font-size: 12px;
+  line-height: 16px; 
   font-family: Tahoma, Geneva, sans-serif;
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -1145,6 +1146,8 @@ form {position: relative;}
     #paymentPage.respco .paypalCols a {margin-left: 20px;}
     .respco div.button_primary {width: 100%; height: 40px;}     
     .respco div.button_primary > div.button_text {width: 100%;}
+    .respfoot-guarantee h3 {padding-top: 0; padding-left: 50px; }
+    .respfoot-guarantee-copy {font-size: 14px; line-height: 18px; width: 70%;}
 
 }
 
