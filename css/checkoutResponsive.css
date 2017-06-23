@@ -109,6 +109,17 @@ body.respco  > iframe {display: none;}
 #WC_AccountDisplay_div_3 .content input, #WC_AccountDisplay_div_19 .content input {height: auto; width: 100%;}
 #AjaxUniversalVariableDataLayer {display: none;}
 .respco div.footer_wrapper_position {}
+
+/*Mob*/
+.respco .mobfoot-news,
+.respco .mobfoot-drops,
+ {display: none;}
+
+
+.respco .signup {display: none;}
+
+
+
 .respco #guestCheckoutPage .backToBasket,
 .respco #guestLogin #WC_AccountDisplay_div_3,
 .respco #guestLogin #userIsNotExist,
@@ -973,6 +984,31 @@ div#WC_CheckoutPaymentAndBillingAddressSummaryf_div_3_1 p span {
 
 #paymentPage.respco  .paypalMarketingOptions label {margin-left: 30px !important; width: 250px; font-size: 14px;}
 
+/* New Footer */
+.respfoot-guarantee {
+  text-align: center;
+  color: #666
+}
+.respfoot-guarantee h3 {
+  font-family: Baskerville, serif;
+  font-size: 26px;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  /*background: url('https://zedzdead.github.io/rettoh/images/promise.png') no-repeat center 0 transparent;*/
+  background: url('/wcsstore/HotterStorefrontAssetStore/content/images/checkout/promise.png') no-repeat center 0 transparent;
+  padding: 50px 0 0 0;
+  display: inline-block;
+}
+.mf-happy,
+.mf-quality {font-style: italic;}
+.mf-guarantee {text-transform: uppercase; color: #A2C43F; font-size: 22px}
+.respfoot-guarantee-copy {font-size: 12px;}
+.respfoot-guarantee-copy {
+  font-size: 14px; 
+  font-family: Tahoma, Geneva, sans-serif;
+  width: 70%;
+  margin: 0 auto;
+}
 
 /* Form labels inside fields Start */
 /*
