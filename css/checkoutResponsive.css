@@ -993,13 +993,15 @@ div#WC_CheckoutPaymentAndBillingAddressSummaryf_div_3_1 p span {
   margin-bottom: 20px;
 }
 .respfoot-guarantee h3 {
-  font-family: Baskerville-st, serif;
-  font-size: 26px;
-  font-weight: 300;
-  letter-spacing: 0.025em;
-  line-height: 32px;
-  background: url('https://www.uatstag.hotter.com/wcsstore/HotterStorefrontAssetStore/content/images/Checkout/promise.png') no-repeat center 0 transparent;
-  display: inline-block;
+    margin-top: 15px;
+    padding-top: 50px;
+    font-family: Baskerville-st, serif;
+    font-size: 26px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    line-height: 32px;
+    background: url('/wcsstore/HotterStorefrontAssetStore/content/images/Checkout/promise.png') no-repeat center 0 transparent;
+    display: inline-block;
 }
 .mf-cent {font-family: Baskerville-st, serif;}
 .mf-happy,
@@ -1118,7 +1120,7 @@ form {position: relative;}
     #guestCheckoutPage #content_wrapper .backToBasket a.button_primary {width: 100%;}
     #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {float: left; width: 100%;}
     */
-    #guestCheckoutPage #content_wrapper .backToBasket {margin-right: 26%; width: 100%; border: none;}
+    #guestCheckoutPage #content_wrapper .backToBasket {margin-right: 26%; width: 100%; border: none; margin-bottom: 0; padding-bottom: 0;}
     .respco #addressLine2, .respco #guestLogin .regForm .column_label {margin-bottom: 10px;}
     .respco #shipping .title label, #shipping #shipping_delivery_method_option p.title, #storeDetailsPage .title {float: left; width: 51%;}
     .respco #shipping .title label, .respco #shipping #shipping_delivery_method_option p {width: 51%; float: left;}
