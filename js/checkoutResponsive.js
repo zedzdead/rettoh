@@ -63,6 +63,7 @@ jQuery(document).ready(function($) {
 	if ($('.respco').length) {
 		alert('OK');
 		$('.content_left_shadow').append('<div class="respfoot-guarantee"><h3><span class="mf-cent">100% </span><span class="mf-happy">Happy Promise </span><br><span class="mf-quality">Quality </span><span class="mf-guarantee">Guaranteed</span></h3><div class="respfoot-guarantee-copy">With our no quibble guarantee, your comfort is 100% guaranteed. If for any reason you are not totally delighted, simply return or exchange within 90 days of purchase, no problem.</div></div>');
+		$('#cards_and_security').after('.respfoot-guarantee');
 	}
 
 	console.log('checkoutResponsive end');	
