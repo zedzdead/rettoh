@@ -1,16 +1,16 @@
-/*Comment for Phil*/
+/*Comment for Phil 2*/
 jQuery(document).ready(function($) {
 	//Look for Checkout crumbs and set dev bar
 	console.log('checkoutResponsive start');	
 	if($('#checkout_crumb').length) {
 		$('meta[name=viewport]').attr('content', 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0');
-		console.log('Add checkout class with checkoutResponsive.js');
-		$('body').addClass('checkout');
+		console.log('Add respco class with checkoutResponsive.js');
+		$('body').addClass('respco');
 		//$('body').prepend($('<div id="dev"></dev>'));
 	}
 
 	//Add Phone Number if not already there
-	if($('.checkout').length && !$('.sec-number').length) {
+	if($('.respco').length && !$('.sec-number').length) {
 		console.log('Add Phone number');
 		$('.mobilelogo').prepend($('<div class="sec-number"><div class="sec-call">Call Today :</div><div id="sec-num" class="sec-num">0800 306 406</div></div>'));
 	}
@@ -41,8 +41,8 @@ jQuery(document).ready(function($) {
 			$('#bopis_table ').prepend($('<caption>Stores nearest to ' + placedec + '.</caption>'));
 		}
 
-		$('.checkout #bopis_table td:nth-child(2)').prepend($('<div class="opening-times">Open</div>'));
-		$('.checkout #bopis_table td:last-child > div').before($('<div class="closer">Close</div>'));	
+		$('.respco #bopis_table td:nth-child(2)').prepend($('<div class="opening-times">Open</div>'));
+		$('.respco #bopis_table td:last-child > div').before($('<div class="closer">Close</div>'));	
 		$('.opening-times').each(function() {
 			$(this).click(function() {
 				$('.slide').removeClass('slide');
@@ -53,6 +53,19 @@ jQuery(document).ready(function($) {
 			$('.slide').removeClass('slide');
 		});
 	}
+
+	if ($('#box > h1 > .button_primary').length) {
+		var movebut = $('#box > h1 > .button_primary').removeAttr('style');
+		$('#box > h1').after(movebut);
+	}
+
+	/*Add bespoke ceckout responsive footer */
+	if ($('.respco').length) {
+		alert('OK');
+		$('.content_left_shadow').append('<div class="respfoot-guarantee"><h3><span class="mf-cent">100% </span><span class="mf-happy">Happy Promise </span><br><span class="mf-quality">Quality </span><span class="mf-guarantee">Guaranteed</span></h3><div class="respfoot-guarantee-copy">With our no quibble guarantee, your comfort is 100% guaranteed. If for any reason you are not totally delighted, simply return or exchange within 90 days of purchase, no problem.</div></div>');
+		$('#cards_and_security').after('.respfoot-guarantee');
+	}
+
 	console.log('checkoutResponsive end');	
 	
 });
