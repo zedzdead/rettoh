@@ -1000,7 +1000,7 @@ div#WC_CheckoutPaymentAndBillingAddressSummaryf_div_3_1 p span {
     font-weight: 300;
     letter-spacing: 0.025em;
     line-height: 32px;
-    background: url('/wcsstore/HotterStorefrontAssetStore/content/images/Checkout/promise.png') no-repeat center 0 transparent;
+    background: url('https://www.uatstag.hotter.com/wcsstore/HotterStorefrontAssetStore/content/images/Checkout/promise.png') no-repeat center 0 transparent;
     display: inline-block;
 }
 .mf-cent {font-family: Baskerville-st, serif;}
