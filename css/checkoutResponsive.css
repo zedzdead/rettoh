@@ -1116,7 +1116,7 @@ form {position: relative;}
     .respco #content_wrapper #WC_AccountDisplay_div_7 .strong {text-align: left;}
     .respco #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .button_primary > .button_text, 
     .respco #content_wrapper #guestLogin #WC_AccountDisplay_div_19 .button_primary > .button_text,
-    #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {width: 49%; float: right;}
+    #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {width: 290px; float: right;}
     /*
     #guestCheckoutPage #content_wrapper .backToBasket {position: absolute; left: 20px; border: none; margin-top: -61px; width: 45%;}
     #guestCheckoutPage #content_wrapper .backToBasket a.button_primary {width: 100%;}
@@ -1168,7 +1168,7 @@ form {position: relative;}
   #WC_AddressEntryForm__div_5_1 {float: left;}
   .respco #checkout_crumb .crumb span.step_on, .respco #checkout_crumb .crumb span.step_off {font-size: 16px; width: 24%;}
   .respco .crumb span:before {display: none;}
-  #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {margin-right: 26%; width: 290px;}
+  #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {width: 290px;}
 
   .respco #guestCheckoutPage #content_wrapper  #addressLine2 {padding: 0; text-align: left; margin: 0 0 25px;}
   .respco #content_wrapper #guestLogin #newUserForm input,
