@@ -1122,7 +1122,7 @@ form {position: relative;}
     #guestCheckoutPage #content_wrapper .backToBasket a.button_primary {width: 100%;}
     #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {float: left; width: 100%;}
     */
-    #guestCheckoutPage #content_wrapper .backToBasket {width: 100%; border: none; margin-bottom: 0; padding-bottom: 0;}
+    #guestCheckoutPage #content_wrapper .backToBasket {width: 100%; border: none; margin-bottom: 0; padding-bottom: 0; }
     .respco #addressLine2, .respco #guestLogin .regForm .column_label {margin-bottom: 10px;}
     .respco #shipping .title label, #shipping #shipping_delivery_method_option p.title, #storeDetailsPage .title {float: left; width: 51%;}
     .respco #shipping .title label, .respco #shipping #shipping_delivery_method_option p {width: 51%; float: left;}
@@ -1209,6 +1209,9 @@ form {position: relative;}
         left: 0 !important;
         margin-top: -35px;
         margin: -45px 1% 0;
+        width: 100% !important;
+        margin-left: -6px;
+        top: 1030px !important;
     }
 }
 
