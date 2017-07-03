@@ -985,7 +985,7 @@ div#WC_CheckoutPaymentAndBillingAddressSummaryf_div_3_1 p span {
 #paymentPage.respco  .paypalMarketingOptions label {margin-left: 30px !important; width: 250px; font-size: 14px;}
 
 /* New Footer */
-.respco div.footer_wrapper_position {max-width: 960px; margin: 0 auto;}
+.respco div.footer_wrapper_position {max-width: 960px; margin: 0 auto; display: none;}
 .respco .checkoutFooter {padding: 0 15px;}
 .respco #box .espot_checkout_bottom {display: none;}
 
