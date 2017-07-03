@@ -1019,7 +1019,9 @@ div#WC_CheckoutPaymentAndBillingAddressSummaryf_div_3_1 p span {
 }
 
 /*Temporary*/
-#cards_and_security .securitycontainer {display: none;}
+#cards_and_security .securitycontainer div:nth-child(2),
+#cards_and_security .securitycontainer div:last-child {display: none;}
+
 
 /* Form labels inside fields Start */
 /*
