@@ -4,90 +4,344 @@
 * 
 * Author: Andy Davies, CSS God;
 */
+
+
 /**********************************************/
-/* Contents												            */
+
+
+/* Contents									  */
+
+
 /* Mobile                 0-399   Green       */
+
+
 /* Larger than mobile   400-549   Yellow      */
+
+
 /* Larger than phablet  550-749   Pink        */
+
+
 /* Larger than tablet   750-999   Turquoise   */
+
+
 /* Larger than desktop 1000-1199  Lilac       */
+
+
 /* Larger than Desktop 1200-huge! Blue        */
+
+
 /**********************************************/
+
+
 /* Default */
 
-#guestCheckoutPage {display: none;} /* Reversed with a script - remaining checkout pages are hidden in Managemnet Centre Checkout CSS MQ*/
+#guestCheckoutPage {
+    display: none;
+}
+
+
+/* Reversed with a script - remaining checkout pages are hidden in Managemnet Centre Checkout CSS MQ*/
+
+
 /* Reverse the above when class is added*/
-body#guestCheckoutPage.respco {display: block;}
-body.respco {display: block;}
-.respco .body {background: #fff;}
-.respco * {box-sizing: border-box;}
-.respco img {width: 100% !important; height: auto !important;}  
+
+body#guestCheckoutPage.respco {
+    display: block;
+}
+
+body.respco {
+    display: block;
+}
+
+.respco .body {
+    background: #fff;
+}
+
+.respco * {
+    box-sizing: border-box;
+}
+
+.respco img {
+    width: 100% !important;
+    height: auto !important;
+}
+
 
 /*Clear fix */
-.group:after {content: ""; display: table; clear: both;}
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 /*Global Resets*/
-body.respco {background: none;}
-body#guestCheckoutPage {background: none;}
-body.respco  > iframe {display: none;}
-.respco .checkoutHeader, .respco .checkoutFooter {width: 100%;}
-.respco #headerWidget div.header_wrapper {min-width: 0; max-width: 960px; width: 100%; margin: 0 auto;}
-.respco #headerWidget div#widget_masthead_links div.masthead_links {display: none;}
-.respco #headerWidget div.header_wrapper > div.header_left_shadow {width: 100%; padding: 0;}
-.respco #headerWidget div.header_wrapper > div.header_left_shadow > div.header_right_shadow {width: 100%; padding: 0;}
-.respco #headerWidget div.header_wrapper > div.header_left_shadow > div.header_right_shadow > div.header {width: 100%;}
-.respco #headerWidget #masthead > .content {height: 63px; position: relative; width: 100%; background-color: #ffffff;}
-.respco #headerWidget div.widget_masthead_logo_position {left: 0px; position: relative; top: 0px;}
-.respco #headerWidget .desklogo {display: none;}
-.respco #headerWidget .desklogo > div {position: relative; width: 100%;}
-.respco #headerWidget div#widget_masthead_logo1 img {position: relative; left: 0; top: 0; margin: 0 !important; padding: 0; display: inline; width: auto; height: auto; max-width: 100%;}
-.respco #headerWidget .mobilelogo {display: block; width: 100%; margin: 30px auto 0; text-align: center;}
-.respco #ems_hotter_logo_17902 {width: 100%;}
-.respco #masthead > .top {height: 10px;}
-.respco .mobilelogo .searchposdiv {display: none;} 
-.respco #headerWidget .mobilelogo > div {float: none !important;}
-.respco #headerWidget .mobilelogo > div:nth-child(2) {width: 200px; margin: 0 auto;}
-.respco #headerWidget #masthead > .navigation {width: 100%;}
-.respco #headerWidget .header_espot_container {display: none;}
-.respco #headerWidget div.widget_minishopcart_position {display: none;}
-.respco #headerWidget a.blomobcart {display: none;}
-.respco #headerWidget .mobburger {display: none;}
-.respco #headerWidget #menu {display: none;}
-.respco #headerWidget .jsEnabled #masthead > .navigation {width: 100%;}
-.respco #headerWidget #USPGeneric {display: none;}
-.respco #headerWidget .uspboxmob {display: block; line-height: 30px; height: auto;}
-.respco #headerWidget .uspboxmobc {font-size: 14px;}
-.respco div#searchComponent {display: none;}
-.respco .mobuspout {background: none;}
-.respco .mobuspoutin {display: none;}
+
+body.respco {
+    background: none;
+}
+
+body#guestCheckoutPage {
+    background: none;
+}
+
+body.respco>iframe {
+    display: none;
+}
+
+.respco .checkoutHeader,
+.respco .checkoutFooter {
+    width: 100%;
+}
+
+.respco #headerWidget div.header_wrapper {
+    min-width: 0;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.respco #headerWidget div#widget_masthead_links div.masthead_links {
+    display: none;
+}
+
+.respco #headerWidget div.header_wrapper>div.header_left_shadow {
+    width: 100%;
+    padding: 0;
+}
+
+.respco #headerWidget div.header_wrapper>div.header_left_shadow>div.header_right_shadow {
+    width: 100%;
+    padding: 0;
+}
+
+.respco #headerWidget div.header_wrapper>div.header_left_shadow>div.header_right_shadow>div.header {
+    width: 100%;
+}
+
+.respco #headerWidget #masthead>.content {
+    height: 63px;
+    position: relative;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.respco #headerWidget div.widget_masthead_logo_position {
+    left: 0px;
+    position: relative;
+    top: 0px;
+}
+
+.respco #headerWidget .desklogo {
+    display: none;
+}
+
+.respco #headerWidget .desklogo>div {
+    position: relative;
+    width: 100%;
+}
+
+.respco #headerWidget div#widget_masthead_logo1 img {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: 0 !important;
+    padding: 0;
+    display: inline;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.respco #headerWidget .mobilelogo {
+    display: block;
+    width: 100%;
+    margin: 30px auto 0;
+    text-align: center;
+}
+
+.respco #ems_hotter_logo_17902 {
+    width: 100%;
+}
+
+.respco #masthead>.top {
+    height: 10px;
+}
+
+.respco .mobilelogo .searchposdiv {
+    display: none;
+}
+
+.respco #headerWidget .mobilelogo>div {
+    float: none !important;
+}
+
+.respco #ems_hotter_logo_25401 {
+    width: 100%;
+}
+
+.respco #headerWidget .mobilelogo>div:nth-child(2) {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.respco #headerWidget #masthead>.navigation {
+    width: 100%;
+}
+
+.respco #headerWidget .header_espot_container {
+    display: none;
+}
+
+.respco #headerWidget div.widget_minishopcart_position {
+    display: none;
+}
+
+.respco #headerWidget a.blomobcart {
+    display: none;
+}
+
+.respco #headerWidget .mobburger {
+    display: none;
+}
+
+.respco #headerWidget #menu {
+    display: none;
+}
+
+.respco #headerWidget .jsEnabled #masthead>.navigation {
+    width: 100%;
+}
+
+.respco #headerWidget #USPGeneric {
+    display: none;
+}
+
+.respco #headerWidget .uspboxmob {
+    display: block;
+    line-height: 30px;
+    height: auto;
+}
+
+.respco #headerWidget .uspboxmobc {
+    font-size: 14px;
+}
+
+.respco div#searchComponent {
+    display: none;
+}
+
 
 /*Checkout Resets*/
-.respco .content_wrapper {min-width: 300px; max-width: 960px; width: 100%; text-align: center; margin: 0 auto;}
-.respco  .content_wrapper > div.content_left_shadow {width: 100%; padding: 0 10px;}
-.respco  div.content_wrapper > div.content_left_shadow > div.content_right_shadow {width: 100%; padding: 0;}
-.respco  div.content_wrapper > div.content_left_shadow > div.content_right_shadow > div.main_content {width: 100%; padding: 0;}
-.respco  .container_full_width {width: 100%;}
-.respco #checkout_crumb {width: 100%; border: none; padding: 0; float: none; margin: 20px 0; color: #ccc;}
-.respco #checkout_crumb .crumb {text-align: center;}
-.respco #checkout_crumb .crumb span.step_on, 
-.respco #checkout_crumb .crumb span.step_off {margin: 0; font-size: 0; float: none; width: 20%; display: inline-block; color: #ccc;}
-.respco #checkout_crumb .crumb a span.step_off {width: 100%;}
-.respco #checkout_crumb .crumb a {width: 20%; display: inline-block; float: none;}
-.respco #checkout_crumb .crumb span.step_on {color: #666;}
-.respco #box {min-width: 0; min-height: 200px;}
-.respco #box h1 {text-align: center; font-size: 24px; margin: 0;}
+
+.respco .content_wrapper {
+    min-width: 300px;
+    max-width: 960px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.respco .content_wrapper>div.content_left_shadow {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.respco div.content_wrapper>div.content_left_shadow>div.content_right_shadow {
+    width: 100%;
+    padding: 0;
+}
+
+.respco div.content_wrapper>div.content_left_shadow>div.content_right_shadow>div.main_content {
+    width: 100%;
+    padding: 0;
+}
+
+.respco .container_full_width {
+    width: 100%;
+}
+
+.respco #checkout_crumb {
+    width: 100%;
+    border: none;
+    padding: 0;
+    float: none;
+    margin: 20px 0;
+    color: #ccc;
+}
+
+.respco #checkout_crumb .crumb {
+    text-align: center;
+}
+
+.respco #checkout_crumb .crumb span.step_on,
+.respco #checkout_crumb .crumb span.step_off {
+    margin: 0;
+    font-size: 0;
+    float: none;
+    width: 20%;
+    display: inline-block;
+    color: #ccc;
+}
+
+.respco #checkout_crumb .crumb a span.step_off {
+    width: 100%;
+}
+
+.respco #checkout_crumb .crumb a {
+    width: 20%;
+    display: inline-block;
+    float: none;
+}
+
+.respco #checkout_crumb .crumb span.step_on {
+    color: #666;
+}
+
+.respco #box {
+    min-width: 0;
+    min-height: 200px;
+}
+
+.respco #box h1 {
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+}
+
 .respco p,
-.respco #WC_AccountDisplay_div_7 .strong {font-size: 12px !important; text-align: center; padding: 0;}
-.respco .container_content_rightsidebar {width: 100%;}
-#guestCheckoutPage.respco .container_content_rightsidebar #guestLogin {width: 100%; padding: 0;}
-.respco #WC_AccountDisplay_div_7 br {display: none;}
-.respco form {text-align: left; width: 100%;}
+.respco #WC_AccountDisplay_div_7 .strong {
+    font-size: 12px !important;
+    text-align: center;
+    padding: 0;
+}
+
+.respco .container_content_rightsidebar {
+    width: 100%;
+}
+
+.respco .container_content_rightsidebar #guestLogin {
+    width: 100%;
+    padding: 0;
+}
+
+.respco #WC_AccountDisplay_div_7 br {
+    display: none;
+}
+
+.respco form {
+    text-align: left;
+    width: 100%;
+}
+
 .respco #guestLogin #WC_AccountDisplay_div_3 .content {
     padding: 5px;
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
 }
+
 .respco #guestLogin .emailSection label {
     font-size: 14px;
     line-height: 16px;
@@ -98,26 +352,30 @@ body.respco  > iframe {display: none;}
     text-align: left;
     padding-right: 2%;
 }
-.respco #addressLine2, .respco #guestLogin .regForm .column_label,
-#guestLogin #newUserForm label, #guestLogin #newUserForm .column_label {top: 0 !important;}
-.respco #guestLogin .emailSection input {width: 100% !important;}
+
+.respco #guestLogin .emailSection input {
+    width: 100% !important;
+}
+
 .respco #guestLogin .emailSection .infoText {
     padding: 0 10px 10px;
     font-size: 12px;
     text-align: left;
 }
-#WC_AccountDisplay_div_3 .content input, #WC_AccountDisplay_div_19 .content input {height: auto; width: 100%;}
-#AjaxUniversalVariableDataLayer {display: none;}
 
-/*Mob*/
-.respco .mobfoot-news,
-.respco .mobfoot-drops,
- {display: none;}
+#WC_AccountDisplay_div_3 .content input,
+#WC_AccountDisplay_div_19 .content input {
+    height: auto;
+    width: 100%;
+}
 
+#AjaxUniversalVariableDataLayer {
+    display: none;
+}
 
-.respco .signup {display: none;}
-
-
+.respco div.footer_wrapper_position {
+    display: none;
+}
 
 .respco #guestCheckoutPage .backToBasket,
 .respco #guestLogin #WC_AccountDisplay_div_3,
@@ -131,24 +389,36 @@ body.respco  > iframe {display: none;}
 .respco #guestCheckoutPage .backToBasket,
 .respco #guestCheckoutPage #addressLine2,
 #guestCheckoutPage #content_wrapper #guestLogin #passwordArea,
-.respco #guestLogin #WC_AccountDisplay_div_3 .myaccount_section_header, 
+.respco #guestLogin #WC_AccountDisplay_div_3 .myaccount_section_header,
 .respco #guestLogin #WC_AccountDisplay_div_19 .myaccount_section_header,
 .respco #guestLogin #offersArea,
-.respco #guestLogin #offersArea label {width: 100%;}
+.respco #guestLogin #offersArea label {
+    width: 100%;
+}
 
 #content_wrapper #guestLogin #newUserForm select {
     border: 2px solid #7e7675;
     height: 36px;
-    margin-bottom: 0; 
-    padding: 0 0 0 5px;
+    margin-bottom: 0;
+    padding: 0 5px;
     font-size: 14px;
     line-height: 36px;
     width: 100%;
     max-width: 400px;
 }
-.respco .form_2column .regForm {padding: 0;}
-.respco #guestLogin #newUserForm h2 {font-size: 18px;}
-.respco .HForm {clear: left;}
+
+.respco .form_2column .regForm {
+    padding: 0;
+}
+
+.respco #guestLogin #newUserForm h2 {
+    font-size: 18px;
+}
+
+.respco .HForm {
+    clear: left;
+}
+
 .respco #guestLogin .HAddress_Finder {
     width: 100%;
     padding: 0;
@@ -156,6 +426,7 @@ body.respco  > iframe {display: none;}
     float: none;
     margin: 0;
 }
+
 #guestCheckoutPage #content_wrapper #HAddress_Finder_PC {
     width: 90%;
     margin: 0 auto;
@@ -170,17 +441,18 @@ body.respco  > iframe {display: none;}
     text-align: left;
     left: 0;
     top: 0;
-    float:left;
+    float: left;
 }
 
 #guestCheckoutPage #content_wrapper .HForm .label_spacer span {
-  font-size: 12px !important;
+    font-size: 12px !important;
 }
+
 .respco #guestLogin .pcaAutoComplete .inputArea {
     border: 1px solid #ccc !important;
     padding: 0px !important;
     position: relative !important;
-    width: 100% !important; 
+    width: 100% !important;
     background-color: #fff !important;
     height: 20px !important;
     background-image: none;
@@ -188,18 +460,43 @@ body.respco  > iframe {display: none;}
     left: 0;
 }
 
-#guestCheckoutPage #content_wrapper .pcaAutoComplete .pnlAutoComplete, 
-#guestCheckoutPage #content_wrapper .pcaAutoComplete .pnlResults, 
-#guestCheckoutPage #content_wrapper .pcaAutoCompleteSmall .pnlAutoCompleteSmall, 
-#guestCheckoutPage #content_wrapper .pcaAutoCompleteSmall .pnlResultsSmall {position: absolute; top: 30px; left: 0; width: 100% !important;}
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .pnlAutoComplete,
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .pnlResults,
+#guestCheckoutPage #content_wrapper .pcaAutoCompleteSmall .pnlAutoCompleteSmall,
+#guestCheckoutPage #content_wrapper .pcaAutoCompleteSmall .pnlResultsSmall {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100% !important;
+}
 
-#guestCheckoutPage #content_wrapper #HAddress_Finder_PC .inputArea span {font-size: inherit;}
-#guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea .suggestion {height: 16px !important;}
-#guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea .suggestion .invisible {font-size: inherit !important;}
-#guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea .suggestion span, 
-#guestCheckoutPage #content_wrapper #HAddress_Finder_PC .inputArea span {line-height: 16px; font-size: 14px !important; top: 0 !important; }
-#guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea {height: 30px !important;}
-.respco #pcainput_ct26be42hx99ka1716409 {line-height: 24px !important;}
+#guestCheckoutPage #content_wrapper #HAddress_Finder_PC .inputArea span {
+    font-size: inherit;
+}
+
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea .suggestion {
+    height: 16px !important;
+}
+
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea .suggestion .invisible {
+    font-size: inherit !important;
+}
+
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea .suggestion span,
+#guestCheckoutPage #content_wrapper #HAddress_Finder_PC .inputArea span {
+    line-height: 16px;
+    font-size: 14px !important;
+    top: 0 !important;
+}
+
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea {
+    height: 30px !important;
+}
+
+.respco #pcainput_ct26be42hx99ka1716409 {
+    line-height: 24px !important;
+}
+
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .inputArea .search {
     top: 0px !important;
     left: 0px !important;
@@ -209,17 +506,32 @@ body.respco  > iframe {display: none;}
     margin: 7px !important;
 }
 
-#guestCheckoutPage #content_wrapper .HAddressBlock {margin-top: 20px;}
-#guestCheckoutPage #content_wrapper .pcaAutoComplete .recentFavourites, .pcaAutoCompleteSmall .recentFavouritesSmall {top: 29px; left: 0;}
-#guestCheckoutPage #content_wrapper .pcaAutoComplete .pcaItemHolder {padding: 5px 0 !important;}
+#guestCheckoutPage #content_wrapper .HAddressBlock {
+    margin-top: 20px;
+}
+
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .recentFavourites,
+.pcaAutoCompleteSmall .recentFavouritesSmall {
+    top: 29px;
+    left: 0;
+}
+
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .pcaItemHolder {
+    padding: 5px 0 !important;
+}
+
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .pcaItem,
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .item span,
 #guestCheckoutPage #content_wrapper .pcaAutoComplete .selectedItem span {
-  font-size: 12px !important;
-  line-height: 12px !important;
+    font-size: 12px !important;
+    line-height: 12px !important;
 }
-#guestCheckoutPage #content_wrapper .pcaAutoComplete .recentFavourites, 
-#guestCheckoutPage #content_wrapper .pcaAutoCompleteSmall .recentFavouritesSmall {width: 100% !important;}
+
+#guestCheckoutPage #content_wrapper .pcaAutoComplete .recentFavourites,
+#guestCheckoutPage #content_wrapper .pcaAutoCompleteSmall .recentFavouritesSmall {
+    width: 100% !important;
+}
+
 #guestCheckoutPage #content_wrapper #HAddressFinderAlternate {
     position: relative !important;
     left: 0 !important;
@@ -227,15 +539,23 @@ body.respco  > iframe {display: none;}
     font-size: 12px !important;
     color: #333;
 }
+
 #guestCheckoutPage #content_wrapper #HAddressFinderAlternate:hover {
-  color: #A5C842;
-  text-decoration: none;
+    color: #A5C842;
+    text-decoration: none;
 }
 
-
-
 .respco #addressLine2,
-.respco #guestLogin .regForm .column_label {font-size: 14px; line-height: 16px; width: 150px; text-align: left; display: inline-block; float: none; top: 0;}
+.respco #guestLogin .regForm .column_label {
+    font-size: 14px;
+    line-height: 16px;
+    width: 150px;
+    text-align: left;
+    display: inline-block;
+    float: none;
+    top: 0;
+}
+
 .respco #guestLogin #newUserForm input {
     margin-bottom: 0;
     line-height: 24px;
@@ -249,9 +569,18 @@ body.respco  > iframe {display: none;}
     color: #666;
     width: 100% !important;
 }
-#guestCheckoutPage #content_wrapper  #addressLine2 {width: 100%; max-width: 100%; padding: 0; top: 0 !important; margin-bottom: 25px;}
 
-.respco #guestLogin #newUserForm #passwordArea input {max-width: 397px;}
+#guestCheckoutPage #content_wrapper #addressLine2 {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    top: 0 !important;
+    margin-bottom: 25px;
+}
+
+.respco #guestLogin #newUserForm #passwordArea input {
+    max-width: 397px;
+}
 
 .respco #guestLogin #newUserForm select {
     height: auto;
@@ -262,14 +591,24 @@ body.respco  > iframe {display: none;}
     color: #666;
 }
 
-.respco #guestLogin #passwordArea {width: 100%;}
-.respco #guestLogin #newUserForm #passwordArea select {width: 30%; max-width: 133px;}
+.respco #guestLogin #passwordArea {
+    width: 100%;
+}
+
+.respco #guestLogin #newUserForm #passwordArea select {
+    width: 30%;
+    max-width: 133px;
+}
 
 .respco #guestLogin #newUserForm input:focus,
 .respco #guestLogin #newUserForm select:focus {
-  outline-color: #A5C842;
+    outline-color: #A5C842;
 }
-.respco #content_wrapper .fleft {float: none;}
+
+.respco #content_wrapper .fleft {
+    float: none;
+}
+
 .respco #content_wrapper #addressLine2 span {
     position: relative;
     font-size: 14px;
@@ -277,7 +616,6 @@ body.respco  > iframe {display: none;}
     padding-right: 10px;
     top: 0 !important;
     width: 150px;
-    padding: right: 10px;
     padding-right: 10px;
     margin-right: 5px;
     padding-left: 10px;
@@ -296,9 +634,19 @@ body.respco  > iframe {display: none;}
     margin-bottom: 15px;
 }
 
-.respco #content_wrapper #passwordArea input {width: 100% !important;}
-.respco #content_wrapper #guestLogin .myaccount_section_header {height: auto;}
-.respco #content_wrapper #guestLogin #passwordArea span.header {font-size: 12px; font-weight: normal;}
+.respco #content_wrapper #passwordArea input {
+    width: 100% !important;
+}
+
+.respco #content_wrapper #guestLogin .myaccount_section_header {
+    height: auto;
+}
+
+.respco #content_wrapper #guestLogin #passwordArea span.header {
+    font-size: 12px;
+    font-weight: normal;
+}
+
 .respco #content_wrapper #guestLogin #offersArea span.header {
     font-size: 10px;
     width: 100%;
@@ -308,22 +656,39 @@ body.respco  > iframe {display: none;}
     display: inline-block;
     padding: 0;
 }
+
 #guestLogin #WC_AccountDisplay_div_3 .myaccount_section_header,
-#guestLogin #WC_AccountDisplay_div_19 .myaccount_section_header {margin-bottom: 10px;}
-#content_wrapper #guestLogin #offersArea .checkboxandradio-wrap {font-size: 12px; padding-bottom: 5px;}
-#content_wrapper #guestLogin #offersArea label {float: none; font-size: 10px;}
+#guestLogin #WC_AccountDisplay_div_19 .myaccount_section_header {
+    margin-bottom: 10px;
+}
+
+#content_wrapper #guestLogin #offersArea .checkboxandradio-wrap {
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+#content_wrapper #guestLogin #offersArea label {
+    float: none;
+    font-size: 10px;
+}
+
 #content_wrapper #guestLogin #offersArea .sign_in_registration,
 #content_wrapper #guestLogin #offersArea .form_2column .label_spacer,
 #content_wrapper #guestLogin #offersArea .checkbox_registration,
-#content_wrapper #guestLogin #offersArea .checkboxContainer {float: left; width: 36px;}
+#content_wrapper #guestLogin #offersArea .checkboxContainer {
+    float: left;
+    width: 36px;
+}
+
 #content_wrapper #guestLogin #offersArea .checkboxContainer input {
     float: left;
-    width: 24px !important;
+    width: 40px !important;
     position: relative;
     top: 0px;
     height: 24px !important;
     margin-bottom: 0 !important;
 }
+
 .respco #content_wrapper .checkboxandradio-wrap h3 {
     margin-bottom: 6px;
     font-weight: bold;
@@ -332,7 +697,10 @@ body.respco  > iframe {display: none;}
     font-size: 12px;
 }
 
-.respco #content_wrapper #guestLogin #offersArea {width: 100%; }
+.respco #content_wrapper #guestLogin #offersArea {
+    width: 100%;
+}
+
 .respco #content_wrapper #guestLogin #offersArea .privacyLink {
     font-size: 10px;
     float: none;
@@ -346,11 +714,11 @@ body.respco  > iframe {display: none;}
 }
 
 .respco #content_wrapper #guestLogin #offersArea .privacyLink:hover {
-  text-decoration: underline;
-  color: #A5C842;
+    text-decoration: underline;
+    color: #A5C842;
 }
 
-.respco #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .content .button_primary, 
+.respco #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .content .button_primary,
 .respco #content_wrapper #guestLogin #WC_AccountDisplay_div_19 .content .button_primary {
     float: none;
     position: relative;
@@ -362,22 +730,35 @@ body.respco  > iframe {display: none;}
     margin: 0;
 }
 
-#content_wrapper #guestLogin #WC_AccountDisplay_div_3 .button_primary > .button_text, 
-#content_wrapper #guestLogin #WC_AccountDisplay_div_19 .button_primary > .button_text {
+#content_wrapper #guestLogin #WC_AccountDisplay_div_3 .button_primary>.button_text,
+#content_wrapper #guestLogin #WC_AccountDisplay_div_19 .button_primary>.button_text {
     font-size: 20px !important;
     height: 40px !important;
     line-height: 40px !important;
     padding: 0px;
-    font-family: Arial,Verdana,Helvetica,sans-serif;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
     font-weight: normal;
     text-transform: capitalize;
     width: 100%;
 }
-#content_wrapper #guestLogin .button_primary > .left_border,
-#content_wrapper #guestLogin .button_primary > .right_border {display: none;}
-.ems_account_registration_2 {display: none;}
-#content_wrapper #guestLogin #WC_AccountDisplay_div_3, #WC_AccountDisplay_div_19 {padding-bottom: 10px;}
-#content_wrapper #guestLogin #WC_AccountDisplay_div_19 {display: none;}
+
+#content_wrapper #guestLogin .button_primary>.left_border,
+#content_wrapper #guestLogin .button_primary>.right_border {
+    display: none;
+}
+
+.ems_account_registration_2 {
+    display: none;
+}
+
+#content_wrapper #guestLogin #WC_AccountDisplay_div_3,
+#WC_AccountDisplay_div_19 {
+    padding-bottom: 10px;
+}
+
+#content_wrapper #guestLogin #WC_AccountDisplay_div_19 {
+    display: none;
+}
 
 #guestCheckoutPage #content_wrapper .backToBasket {
     border-top: 1px solid #CCCCCC;
@@ -395,7 +776,6 @@ body.respco  > iframe {display: none;}
     width: 100%;
     line-height: 36px;
     font-size: 18px;
-    max-width: 600px;
 }
 
 #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {
@@ -408,33 +788,44 @@ body.respco  > iframe {display: none;}
     width: 100%;
 }
 
+
 /* Font Awesome */
+
+
 /* \f007 = User */
+
+
 /* \f290 - Shopping bag */
+
 .respco #checkout_crumb span:first-child:before {
     content: "\f290";
     font-family: FontAwesome;
     font-size: 24px;
 }
 
+
 /* \f0d1 = Truck */
+
 .respco #checkout_crumb span:nth-child(3):before {
     content: "\f0d1";
     font-family: FontAwesome;
     font-size: 24px;
 }
 
+
 /* \f09d = Credit Card */
+
 .respco #checkout_crumb span:nth-child(5):before {
     content: "\f09d";
     font-family: FontAwesome;
     font-size: 24px;
 }
 
+
 /* \f118 = Smile */
-/* \f08a = Heart */
+
 .respco #checkout_crumb span:nth-child(7):before {
-    content: "\f08a";
+    content: "\f118";
     font-family: FontAwesome;
     font-size: 24px;
 }
@@ -456,6 +847,8 @@ body.respco  > iframe {display: none;}
     font-family: FontAwesome;
     font-size: 24px;
 }
+
+
 /*
 #WC_ShipmentDisplay_div_4 span:first-child:before {
     content: "1";
@@ -463,27 +856,37 @@ body.respco  > iframe {display: none;}
     font-size: 24px;
 }
 
-/* \f0d1 = Truck *//*
+/* \f0d1 = Truck */
+
+
+/*
 #WC_ShipmentDisplay_div_4 span:nth-child(3):before {
     content: "2";
     font-family: 'Minion Pro Regular', "Times New Roman", Times, serif;
     font-size: 24px;
 }
 
-/* \f09d = Credit Card *//*
+/* \f09d = Credit Card */
+
+
+/*
 #WC_ShipmentDisplay_div_4 span:nth-child(5):before {
     content: "3";
     font-family: 'Minion Pro Regular', "Times New Roman", Times, serif;
     font-size: 24px;
 }
 
-/* \f118 = Smile *//*
+/* \f118 = Smile */
+
+
+/*
 #WC_ShipmentDisplay_div_4 span:nth-child(7):before {
     content: "4";
     font-family: 'Minion Pro Regular', "Times New Roman", Times, serif;
     font-size: 24px;
 }
 */
+
 #content_wrapper #guestLogin #Logon input {
     height: 36px;
     line-height: 18px;
@@ -506,28 +909,69 @@ body.respco  > iframe {display: none;}
     z-index: 9999;
 }
 
-.respco #page .store_message > .content {max-width: 300px; margin: 0 auto; box-shadow: 5px 5px 50px #cdf;}
-.respco #page .store_message > .content > .message {margin: 0; padding: 40px 20px 20px;}
-.respco #page .store_message > .content > .message .message_text {width: 100%; margin: 0;}
-.respco .store_message > .content > .close {outline: 0;}
-.respco #page .shadowPiece {display: none;}
-.respco .store_message > .content > .message .message_icon {display: none;}
-.respco .store_message > .content > .message .message_text {float: none;}
+.respco #page .store_message>.content {
+    max-width: 300px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 50px #cdf;
+}
+
+.respco #page .store_message>.content>.message {
+    margin: 0;
+    padding: 40px 20px 20px;
+}
+
+.respco #page .store_message>.content>.message .message_text {
+    width: 100%;
+    margin: 0;
+}
+
+.respco .store_message>.content>.close {
+    outline: 0;
+}
+
+.respco #page .shadowPiece {
+    display: none;
+}
+
+.respco .store_message>.content>.message .message_icon {
+    display: none;
+}
+
+.respco .store_message>.content>.message .message_text {
+    float: none;
+}
+
 
 /* Checkout Page 2 */
+
 .respco .sec-head {
-  position: relative;
-  margin-bottom: -30px;
+    position: relative;
+    margin-bottom: -30px;
 }
+
 .respco .sec-logo {
     float: none;
     width: 200px;
     margin: 30px auto 0;
 }
+
 .respco .sec-call,
-.respco .sec-num {display: inline-block; width: 40%; margin: 0; padding: 0; font-size: 14px;}
-.respco .sec-call {text-align: right;}
-.respco .sec-num {text-align: left;}
+.respco .sec-num {
+    display: inline-block;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.respco .sec-call {
+    text-align: right;
+}
+
+.respco .sec-num {
+    text-align: left;
+}
+
 .respco .sec-number {
     float: none;
     position: absolute;
@@ -548,68 +992,302 @@ body.respco  > iframe {display: none;}
     margin: 0 auto;
 }
 
-.respco .respcoHeader, .respcoFooter {width: 100%; max-width: 930px; padding: 0;}
-.respco .sec-head, 
+.respco .respcoHeader,
+.respcoFooter {
+    width: 100%;
+    max-width: 930px;
+    padding: 0;
+}
+
+.respco .sec-head,
 .respco #content_wrapper .content_wrapper,
 .respco #shipping .shipping_method,
 .respco .shipAddressSelect,
 .respco #shipAddressSelect .Hform,
-.respco .container_content_rightsidebar > .left_column,
-.respco .container_content_rightsidebar > .right_column,
-.respco #shipping .container_content_rightsidebar > .left_column,
-.respco #shipping .container_content_rightsidebar > .right_column,
-#paymentPage.respco .container_content_rightsidebar > .left_column,
-#paymentPage.respco .container_content_rightsidebar > .right_column,
-.respco .shipping_Order_Summary, .paymentOrderSummary,
-.respco #order_details .itemspecs {width: 100%;}
-.respco .clear_float {display: none;}
-.respco .shipping_address_content, .address_book {font-size: 14px;}
-.respco .addressDetailWrap {display: inline-block; width: 48%; margin: 0; float: none; vertical-align: top; padding: 10px 2%; min-height: 150px; margin: 5px 0;}
-.respco .addressDetailWrap:nth-child(odd),
-.respco .addressDetailWrap:nth-child(even) {margin: 10px 0;}
-.respco .addressDetailWrap .button_primary {height: 28px; }
-.respco .addressDetailWrap .button_primary > .button_text {font-size: 14px; height: 28px; line-height: 28px; padding: 0; min-width: 120px; width: 100%;}
-.respco .addressDetailInner {min-height: 140px;}
-.respco #editAdddressLink, .newAddress {text-decoration: underline; font-size: 12px; height: 28px; font-weight: 400; line-height: 28px; width: 47%; margin: 0;}
-.respco #deleteAdddressLink {text-decoration: underline; font-family: Arial,Verdana,Helvetica,sans-serif; font-size: 14px; height: 28px; line-height: 28px; width: 47%;}
-.respco #deleteAdddressLink .button_text {padding: 0; font-size: 12px; font-weight: 400; border: 0; width: auto; min-width: 0; text-decoration: underline; height: 28px; line-height: 28px; display: inline; float: none;}
-.respco #HAddANewAddress div {margin-top: 20px;}
-.respco #WC_ShippingAddressSelectSingle_div_1 .addressDetailWrap .address {min-height: 150px;}
+.respco .container_content_rightsidebar>.left_column,
+.respco .container_content_rightsidebar>.right_column,
+.respco #shipping .container_content_rightsidebar>.left_column,
+.respco #shipping .container_content_rightsidebar>.right_column,
+#paymentPage.respco .container_content_rightsidebar>.left_column,
+#paymentPage.respco .container_content_rightsidebar>.right_column,
+.respco .shipping_Order_Summary,
+.paymentOrderSummary,
+.respco #order_details .itemspecs {
+    width: 100%;
+}
 
-.respco #shipping .container_content_rightsidebar.addressbook_sidebar .left_column {margin: 0;}
-.respco #shipping_method_content p {text-align: left;}
-.respco #shipping .shipping_method_item, .respco .method_item {margin-bottom: 15px;}
-.respco #shipping_method_content input[type="radio"] + label { padding-right: 50px; }
-.respco .shipping_Order_Summary, .respco .paymentOrderSummary {width: 100%;}
-.respco #order_details {padding: 15px 1%; width: 100%;}
-.respco .right_column #order_details .itemspecs {margin-left: 0; width: 68%;}
-.respco .right_column #order_details .img {width: 30%; float: right; margin: 0;}
-.respco .right_column #order_details .img img {width: 100%; height: auto; max-width: 200px;}
-.respco .orderDetailsHeader {font-size: 16px; height: auto;}
-.respco #order_details tr.nested th {text-align: center;}
-.respco .right_column #order_details .itemspecs p {font-size: 12px;}
-.respco .right_column #order_details .itemspecs p {text-align: left; font-size: 20px; text-decoration: none;}
-.respco .right_column #order_details .itemspecs p a {text-decoration: none; font-size: 14px;}
-.respco .right_column #order_details .itemspecs p a:hover {color: #A2C43F;}
-.respco .shipping_Order_Summary .price {font-size: 12px; font-weight: bold; line-height: 40px;}
-.respco .right_column #order_details .itemspecs {margin-left: 0; font-size: 10px; line-height: normal; padding: 10px 0 10px 0;}
-.respco #order_details .th_align_left_normal {padding: 6px 2%;}
-.respco .shipping_Order_Summary .item-quantity span {color: #58595B; font-size: 12px; margin-top: 5px; display: inline-block;}
-.respco #total_breakdown {width: 100%; float: none; padding: 5px 2%; text-align: right; display: inline-block; vertical-align: top; }
-.respco .right_column #total_breakdown #order_total .total_details {font-size: 12px !important; line-height: inherit;}
-.respco #total_breakdown #order_total .total_figures {font-size: 12px !important;}
-.respco #total_breakdown .orderTotal, #total_breakdown .grandTotal {font-size: 20px !important; font-weight: bold;}
-.respco .shipping_Order_Summary .deliveryDetails {width: 100%; padding-top: 30px; margin: 0; float: none; clear: both;}
-.respco #total_breakdown .button_primary {height: auto !important; clear: both; width: 100% !important; margin: 10px 0 0 0;}
-.respco #total_breakdown .button_primary > .button_text {font-size: 16px !important; height: 40px !important; line-height: 40px !important; padding: 0px 0px !important; background-color: #fff !important; width: 100%; display: inline-block; border: solid 1px #ccc; color: #666;}
-.respco #shipping .title label, 
+.respco .clear_float {
+    display: none;
+}
+
+.respco .shipping_address_content,
+.address_book {
+    font-size: 14px;
+}
+
+.respco .addressDetailWrap {
+    display: inline-block;
+    width: 48%;
+    margin: 0;
+    float: none;
+    vertical-align: top;
+    padding: 10px 2%;
+    min-height: 150px;
+    margin: 5px 0;
+}
+
+.respco .addressDetailWrap:nth-child(odd),
+.respco .addressDetailWrap:nth-child(even) {
+    margin: 10px 0;
+}
+
+.respco .addressDetailWrap .button_primary {
+    height: 28px;
+}
+
+.respco .addressDetailWrap .button_primary>.button_text {
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0;
+    min-width: 120px;
+    width: 100%;
+}
+
+.respco .addressDetailInner {
+    min-height: 140px;
+}
+
+.respco #editAdddressLink,
+.newAddress {
+    text-decoration: underline;
+    font-size: 12px;
+    height: 28px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 47%;
+    margin: 0;
+}
+
+.respco #deleteAdddressLink {
+    text-decoration: underline;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    width: 47%;
+}
+
+.respco #deleteAdddressLink .button_text {
+    padding: 0;
+    font-size: 12px;
+    font-weight: 400;
+    border: 0;
+    width: auto;
+    min-width: 0;
+    text-decoration: underline;
+    height: 28px;
+    line-height: 28px;
+    display: inline;
+    float: none;
+}
+
+.respco #HAddANewAddress div {
+    margin-top: 20px;
+}
+
+.respco #WC_ShippingAddressSelectSingle_div_1 .addressDetailWrap .address {
+    min-height: 150px;
+}
+
+.respco #shipping .container_content_rightsidebar.addressbook_sidebar .left_column {
+    margin: 0;
+}
+
+.respco #shipping_method_content p {
+    text-align: left;
+}
+
+.respco #shipping .shipping_method_item,
+.respco .method_item {
+    margin-bottom: 15px;
+}
+
+.respco #shipping_method_content input[type="radio"]+label {
+    padding-right: 50px;
+}
+
+.respco .shipping_Order_Summary,
+.respco .paymentOrderSummary {
+    width: 100%;
+}
+
+.respco #order_details {
+    padding: 15px 1%;
+    width: 100%;
+}
+
+.respco .right_column #order_details .itemspecs {
+    margin-left: 0;
+    width: 68%;
+}
+
+.respco .right_column #order_details .img {
+    width: 30%;
+    float: right;
+    margin: 0;
+}
+
+.respco .right_column #order_details .img img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+}
+
+.respco .orderDetailsHeader {
+    font-size: 16px;
+    height: auto;
+}
+
+.respco #order_details tr.nested th {
+    text-align: center;
+}
+
+.respco .right_column #order_details .itemspecs p {
+    font-size: 12px;
+}
+
+.respco .right_column #order_details .itemspecs p {
+    text-align: left;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.respco .right_column #order_details .itemspecs p a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.respco .right_column #order_details .itemspecs p a:hover {
+    color: #A2C43F;
+}
+
+.respco .shipping_Order_Summary .price {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.respco .right_column #order_details .itemspecs {
+    margin-left: 0;
+    font-size: 10px;
+    line-height: normal;
+    padding: 10px 0 10px 0;
+}
+
+.respco #order_details .th_align_left_normal {
+    padding: 6px 2%;
+}
+
+.respco .shipping_Order_Summary .item-quantity span {
+    color: #58595B;
+    font-size: 12px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.respco #total_breakdown {
+    width: 100%;
+    float: none;
+    padding: 5px 2%;
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.respco .right_column #total_breakdown #order_total .total_details {
+    font-size: 12px !important;
+    line-height: inherit;
+}
+
+.respco #total_breakdown #order_total .total_figures {
+    font-size: 12px !important;
+}
+
+.respco #total_breakdown .orderTotal,
+#total_breakdown .grandTotal {
+    font-size: 20px !important;
+    font-weight: bold;
+}
+
+.respco .shipping_Order_Summary .deliveryDetails {
+    width: 100%;
+    padding-top: 30px;
+    margin: 0;
+    float: none;
+    clear: both;
+}
+
+.respco #total_breakdown .button_primary {
+    height: auto !important;
+    clear: both;
+    width: 100% !important;
+    margin: 10px 0 0 0;
+}
+
+.respco #total_breakdown .button_primary>.button_text {
+    font-size: 16px !important;
+    height: 40px !important;
+    line-height: 40px !important;
+    padding: 0px 0px !important;
+    background-color: #fff !important;
+    width: 100%;
+    display: inline-block;
+    border: solid 1px #ccc;
+    color: #666;
+}
+
+.respco #shipping .title label,
 .respco #shipping #shipping_delivery_method_option p,
-.respco #shipAddressSelect #shipping_delivery_method_option p {width: 100%;}
+.respco #shipAddressSelect #shipping_delivery_method_option p {
+    width: 100%;
+}
+
 .respco #shipping #shipping_delivery_method_option a,
-.respco #shipAddressSelect #shipping_delivery_method_option a {cursor: pointer; float: none; text-align: center; width: 50%; border: solid 1px #ccc; font-weight: bold; padding: 5px 0; display: inline-block; line-height: inherit; font-size: 14px; margin-top: 10px; background: #fff;}
-.respco .shipping_Order_Summary .deliveryDetails {width: 100%; font-size: inherit;}
-.respco #storeLocatorForm .formFields .hidden {font-size: 12px; line-height: 20px;}
-.respco .storeLocator .Hform .formFields input#searchWordTownOrPostCode {width: 100%; height: 30px; line-height: 30px; margin: 0; padding: 5px; font-size: 14px;}
+.respco #shipAddressSelect #shipping_delivery_method_option a {
+    cursor: pointer;
+    float: none;
+    text-align: center;
+    width: 50%;
+    border: solid 1px #ccc;
+    font-weight: bold;
+    padding: 5px 0;
+    display: inline-block;
+    line-height: inherit;
+    font-size: 14px;
+    margin-top: 10px;
+    background: #fff;
+}
+
+.respco .shipping_Order_Summary .deliveryDetails {
+    width: 100%;
+    font-size: inherit;
+}
+
+.respco #storeLocatorForm .formFields .hidden {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.respco .storeLocator .Hform .formFields input#searchWordTownOrPostCode {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    padding: 5px;
+    font-size: 14px;
+}
+
 .respco .storeLocator #storeLocatorForm input.button {
     background: none repeat scroll 0 0 #A5C842;
     border: medium none;
@@ -627,22 +1305,83 @@ body.respco  > iframe {display: none;}
     padding: 0;
 }
 
-.respco .respcoTitle {font-size: 22px; line-height: normal; padding-bottom: 10px; margin-top: 0;}
+.respco .respcoTitle {
+    font-size: 22px;
+    line-height: normal;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
 
 /* Add Address Form */
 
-.respco #ems_shopcart_address_create_1_143901 > div {margin: 0 !important;}
-.respco .addressDetailWrap .button_secondary {height: auto; width: 90%;}
-.respco #box .body .title {font-size: 16px;}
-.respco #shopcartAddressForm #box .body, .respco #shopcartAddressForm #box_1 .body {width: 100%;}
-.respco .HForm .label_spacer {font-size: 14px; min-height: 20px; width: 170px; line-height: 20px; text-align: left; margin-bottom: 0;}
-.respco .HForm input, .respco .HForm select {min-width: 100%; height: 28px; line-height: 28px; font-size: 14px; width: 100%;}
-.respco .HForm select {padding: 0 0 0 10px;}
-.respco #WC_ShoppingCartAddressEntryFormf_div_20 {padding: 10px; float: left;}
-.respco .HAddress_Finder {height: 140px; width: 100%; font-size: 14px;}
-.respco .HAddress_Finder span {font-size: 14px;}
-.respco #HAddress_Finder_PC {font-size: 12px; height: 140px; margin-left: 0; clear: left; width: 96%; margin: 0 2%;}
-.respco .pcaAutoComplete .inputArea {height: 31px !important;}
+.respco #ems_shopcart_address_create_1_143901>div {
+    margin: 0 !important;
+}
+
+.respco .addressDetailWrap .button_secondary {
+    height: auto;
+    width: 90%;
+}
+
+.respco #box .body .title {
+    font-size: 16px;
+}
+
+.respco #shopcartAddressForm #box .body,
+.respco #shopcartAddressForm #box_1 .body {
+    width: 100%;
+}
+
+.respco .HForm .label_spacer {
+    font-size: 14px;
+    min-height: 20px;
+    width: 170px;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.respco .HForm input,
+.respco .HForm select {
+    min-width: 100%;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.respco .HForm select {
+    padding: 0 0 0 10px;
+}
+
+.respco #WC_ShoppingCartAddressEntryFormf_div_20 {
+    padding: 10px;
+    float: left;
+}
+
+.respco .HAddress_Finder {
+    height: 140px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.respco .HAddress_Finder span {
+    font-size: 14px;
+}
+
+.respco #HAddress_Finder_PC {
+    font-size: 12px;
+    height: 140px;
+    margin-left: 0;
+    clear: left;
+    width: 96%;
+    margin: 0 2%;
+}
+
+.respco .pcaAutoComplete .inputArea {
+    height: 31px !important;
+}
 
 .respco .HAddress_Finder {
     width: 100%;
@@ -651,6 +1390,7 @@ body.respco  > iframe {display: none;}
     float: none;
     margin: 0;
 }
+
 .respco #content_wrapper #HAddress_Finder_PC {
     width: 90%;
     margin: 0 auto;
@@ -665,17 +1405,18 @@ body.respco  > iframe {display: none;}
     text-align: left;
     left: 0;
     top: 0;
-    float:left;
+    float: left;
 }
 
 .respco #content_wrapper .HForm .label_spacer span {
-  font-size: 12px !important;
+    font-size: 12px !important;
 }
+
 .respco .pcaAutoComplete .inputArea {
     border: 1px solid #ccc !important;
     padding: 0px !important;
     position: relative !important;
-    width: 100% !important; 
+    width: 100% !important;
     background-color: #fff !important;
     height: 20px !important;
     background-image: none;
@@ -683,33 +1424,72 @@ body.respco  > iframe {display: none;}
     left: 0;
 }
 
-.respco #content_wrapper .pcaAutoComplete .pnlAutoComplete, 
-.respco #content_wrapper .pcaAutoComplete .pnlResults, 
-.respco #content_wrapper .pcaAutoCompleteSmall .pnlAutoCompleteSmall, 
-.respco #content_wrapper .pcaAutoCompleteSmall .pnlResultsSmall {position: absolute; top: 30px; left: 0; width: 100% !important;}
-.respco #content_wrapper #HAddress_Finder_PC .inputArea span {font-size: inherit;}
-.respco #content_wrapper .pcaAutoComplete .inputArea .suggestion {height: 16px !important;}
-.respco #content_wrapper .pcaAutoComplete .inputArea .suggestion .invisible {font-size: inherit !important;}
-.respco #content_wrapper .pcaAutoComplete .inputArea .suggestion span, 
-.respco #content_wrapper #HAddress_Finder_PC .inputArea span {line-height: 16px; font-size: 14px !important; top: 0 !important; }
-.respco #content_wrapper .pcaAutoComplete .inputArea {height: 30px !important;}
+.respco #content_wrapper .pcaAutoComplete .pnlAutoComplete,
+.respco #content_wrapper .pcaAutoComplete .pnlResults,
+.respco #content_wrapper .pcaAutoCompleteSmall .pnlAutoCompleteSmall,
+.respco #content_wrapper .pcaAutoCompleteSmall .pnlResultsSmall {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100% !important;
+}
+
+.respco #content_wrapper #HAddress_Finder_PC .inputArea span {
+    font-size: inherit;
+}
+
+.respco #content_wrapper .pcaAutoComplete .inputArea .suggestion {
+    height: 16px !important;
+}
+
+.respco #content_wrapper .pcaAutoComplete .inputArea .suggestion .invisible {
+    font-size: inherit !important;
+}
+
+.respco #content_wrapper .pcaAutoComplete .inputArea .suggestion span,
+.respco #content_wrapper #HAddress_Finder_PC .inputArea span {
+    line-height: 16px;
+    font-size: 14px !important;
+    top: 0 !important;
+}
+
+.respco #content_wrapper .pcaAutoComplete .inputArea {
+    height: 30px !important;
+}
+
 .respco #content_wrapper .pcaAutoComplete .inputArea .search {
     top: 7px !important;
     left: 7px !important;
     height: 16px !important;
     font-size: 14px !important;
 }
-.respco #content_wrapper .HAddressBlock {margin-top: 20px;}
-.respco #content_wrapper .pcaAutoComplete .recentFavourites, .pcaAutoCompleteSmall .recentFavouritesSmall {top: 29px !important; left: 0;}
-.respco #content_wrapper .pcaAutoComplete .pcaItemHolder {padding: 5px 0 !important;}
+
+.respco #content_wrapper .HAddressBlock {
+    margin-top: 20px;
+}
+
+.respco #content_wrapper .pcaAutoComplete .recentFavourites,
+.pcaAutoCompleteSmall .recentFavouritesSmall {
+    top: 29px;
+    left: 0;
+}
+
+.respco #content_wrapper .pcaAutoComplete .pcaItemHolder {
+    padding: 5px 0 !important;
+}
+
 .respco #content_wrapper .pcaAutoComplete .pcaItem,
 .respco #content_wrapper .pcaAutoComplete .item span,
 .respco #content_wrapper .pcaAutoComplete .selectedItem span {
-  font-size: 12px !important;
-  line-height: 12px !important;
+    font-size: 12px !important;
+    line-height: 12px !important;
 }
-.respco #content_wrapper .pcaAutoComplete .recentFavourites, 
-.respco #content_wrapper .pcaAutoCompleteSmall .recentFavouritesSmall {width: 100% !important;}
+
+.respco #content_wrapper .pcaAutoComplete .recentFavourites,
+.respco #content_wrapper .pcaAutoCompleteSmall .recentFavouritesSmall {
+    width: 100% !important;
+}
+
 .respco #content_wrapper #HAddressFinderAlternate {
     position: relative !important;
     left: 0 !important;
@@ -717,38 +1497,113 @@ body.respco  > iframe {display: none;}
     font-size: 12px !important;
     color: #333;
 }
+
 .respco #content_wrapper #HAddressFinderAlternate:hover {
-  color: #A5C842;
-  text-decoration: none;
+    color: #A5C842;
+    text-decoration: none;
 }
 
-.respco .HAddressAdd {margin: 0;}
-.respco div#shipping #shopcartAddressForm .HAddressAdd .button_primary {float: none; margin: 10px 0; display: block; height: 30px !important;}
-.respco #box_1 .button_primary > .button_text {height: 30px; line-height: 30px !important; font-size: 16px !important; display: inline-block; width: 100%;}
+.respco .HAddressAdd {
+    margin: 0;
+}
+
+.respco div#shipping #shopcartAddressForm .HAddressAdd .button_primary {
+    float: none;
+    margin: 10px 0;
+    display: block;
+    height: 30px !important;
+}
+
+.respco #box_1 .button_primary>.button_text {
+    height: 30px;
+    line-height: 30px !important;
+    font-size: 16px !important;
+    display: inline-block;
+    width: 100%;
+}
 
 
 /* Store Locator Click and Collect */
 
-.respco .checkOutTitle {font-size: 14px;}
-.respco #bopis_table th, #bopis_table1 th {height: 20px; line-height: 20px; font-size: 14px; display: inline-block; width: 32%;}
-.respco caption {font-size: 16px; font-weight: bold; padding: 20px; border: solid 1px #dccdcd; margin-bottom: 10px;}
-.respco #bopis_table th:first-child {text-align: left;}
-.respco #bopis_table th:nth-child(2) {text-align: center;}
-.respco #bopis_table th:last-child {text-align: right;}
-.respco #bopis_table tr.nested {height: 50px;}
-.respco #bopis_table tr {min-height: 0px; position: relative;}
-.respco tr #WC_CheckoutStoreSelection_div_8 {left: 15px;}
-.respco td > div > label.full-line:before,
-.respco .selected > td > div > label.full-line:before {position: absolute; top:58px;}
-.respco #bopis_table td:first-child {width: 50px;}
-.respco #bopis_table td:nth-child(2) {width: 100%; display: block; height: 135px;}
-.respco #bopis_table td:last-child {position: absolute; right: -300px; transition: right 1s; background: #ffe; padding: 20px; top: 0; -webkit-transform: translateZ(0);}
+.respco .checkOutTitle {
+    font-size: 14px;
+}
+
+.respco #bopis_table th,
+#bopis_table1 th {
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    display: inline-block;
+    width: 32%;
+}
+
+.respco caption {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px;
+    border: solid 1px #dccdcd;
+    margin-bottom: 10px;
+}
+
+.respco #bopis_table th:first-child {
+    text-align: left;
+}
+
+.respco #bopis_table th:nth-child(2) {
+    text-align: center;
+}
+
+.respco #bopis_table th:last-child {
+    text-align: right;
+}
+
+.respco #bopis_table tr.nested {
+    height: 50px;
+}
+
+.respco #bopis_table tr {
+    min-height: 0px;
+    position: relative;
+}
+
+.respco tr #WC_CheckoutStoreSelection_div_8 {
+    left: 15px;
+}
+
+.respco td>div>label.full-line:before,
+.respco .selected>td>div>label.full-line:before {
+    position: absolute;
+    top: 58px;
+}
+
+.respco #bopis_table td:first-child {
+    width: 50px;
+}
+
+.respco #bopis_table td:nth-child(2) {
+    width: 100%;
+    display: block;
+    height: 135px;
+}
+
+.respco #bopis_table td:last-child {
+    position: absolute;
+    right: -300px;
+    transition: right 1s;
+    background: #ffe;
+    padding: 20px;
+    top: 0;
+    -webkit-transform: translateZ(0);
+}
+
 .respco #bopis_table td.slide:last-child {
     position: absolute;
     top: 0px;
     right: -80px;
     z-index: 600;
 }
+
 .opening-times {
     position: relative;
     z-index: 500;
@@ -760,7 +1615,10 @@ body.respco  > iframe {display: none;}
     width: 24px;
     height: 24px;
 }
+
+
 /* \f017 = Clock */
+
 .opening-times:before {
     content: "\f017";
     font-family: FontAwesome;
@@ -771,7 +1629,11 @@ body.respco  > iframe {display: none;}
     height: 24px;
     display: inline-block;
 }
-.opening-times:hover:before {cursor: pointer;}
+
+.opening-times:hover:before {
+    cursor: pointer;
+}
+
 .closer {
     position: absolute !important;
     top: 0;
@@ -783,8 +1645,14 @@ body.respco  > iframe {display: none;}
     background: #ffe;
     opacity: 0;
 }
-.slide .closer {opacity: 1;}
+
+.slide .closer {
+    opacity: 1;
+}
+
+
 /* \f00d = Close */
+
 .closer:before {
     content: "\f00d";
     font-family: FontAwesome;
@@ -793,29 +1661,76 @@ body.respco  > iframe {display: none;}
     height: 24px;
     display: inline-block;
 }
-.closer:hover:before {cursor: pointer; width: 24px; height: 24px; display: inline-block;}
-.respco .my_account_content_bold {font-size: 14px; font-weight: 700;}
-.respco #bopis_table .dotted_bottom_border > div > div {width: 100% !important;}
-.respco #bopis_table td:last-child > div {position: relative;}
-.respco #bopis_table td {font-size: 12px;}
-.closer ~ div > div {line-height: 16px;}
+
+.closer:hover:before {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+.respco .my_account_content_bold {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.respco #bopis_table .dotted_bottom_border>div>div {
+    width: 100% !important;
+}
+
+.respco #bopis_table td:last-child>div {
+    position: relative;
+}
+
+.respco #bopis_table td {
+    font-size: 12px;
+}
+
+.closer~div>div {
+    line-height: 16px;
+}
+
 .ems_store_locator_landing_1,
 .ems_store_locator_landing_2,
-.ems_store_locator_landing_3 {display: none;}
+.ems_store_locator_landing_3 {
+    display: none;
+}
+
 
 /* Payment Page */
-#paymentPage.respco #box .body, #paymentPage.respco #box_1 .body {width: 100%; border: none; padding: 0;}
-.respco form#PaymentForm1 .billingAddressSection {width: 100%; margin-top: 28px;}
-#paymentPage.respco .container_content_rightsidebar > .right_column {width: 100%;}
-.respco .paymentDetailsSection {width: 100%;}
-.respco form#PaymentForm1 .billingAddressSection {padding: 20px 5% 20px;}
+
+#paymentPage.respco #box .body,
+#paymentPage.respco #box_1 .body {
+    width: 100%;
+    border: none;
+    padding: 0;
+}
+
+.respco form#PaymentForm1 .billingAddressSection {
+    width: 100%;
+    margin-top: 28px;
+}
+
+#paymentPage.respco .container_content_rightsidebar>.right_column {
+    width: 100%;
+}
+
+.respco .paymentDetailsSection {
+    width: 100%;
+}
+
+.respco form#PaymentForm1 .billingAddressSection {
+    padding: 20px 5% 20px;
+}
+
 .respco form#PaymentForm1 .billing_address_container a.button_secondary {
     top: 8px;
     position: absolute;
     right: 0;
     bottom: 0;
 }
-.respco form#PaymentForm1 .billing_address_container a.button_secondary .button_text{
+
+.respco form#PaymentForm1 .billing_address_container a.button_secondary .button_text {
     background: none repeat scroll 0 0 #FFFFFF !important;
     border: 1px solid #CCCCCC;
     color: #74756F;
@@ -828,6 +1743,7 @@ body.respco  > iframe {display: none;}
     font-size: 12px;
     line-height: normal;
 }
+
 .respco form#PaymentForm1 .billing_address_container a.button_secondary {
     top: 0;
     position: relative;
@@ -840,185 +1756,396 @@ body.respco  > iframe {display: none;}
     padding: 0;
     height: auto;
 }
+
 .respco form#PaymentForm1 .billing_address_container a.button_secondary .button_text {
     line-height: 26px;
     font-size: 14px;
 }
-.respco form#PaymentForm1 .billingAddressSection span.addressDetails {}
-.respco div#payment_edit_billing_address {clear: both;}
 
-.respco #box .paymentDetailsSection p.title {padding: 20px 0 10px 0 !important; width: auto;}
-.respco .paymentDetailsSection .breadcrumb_current {font-size: 16px !important; padding: 0; width: 200px; margin: 0 auto 20px; text-align: center;}
-.respco .payment_radio_options label {font-size: 14px;}
-.respco .payment_radio_options #weaccept {float: none; margin: 0;}
+.respco form#PaymentForm1 .billingAddressSection span.addressDetails {}
+
+.respco div#payment_edit_billing_address {
+    clear: both;
+}
+
+.respco #box .paymentDetailsSection p.title {
+    padding: 20px 0 10px 0 !important;
+    width: auto;
+}
+
+.respco .paymentDetailsSection .breadcrumb_current {
+    font-size: 16px !important;
+    padding: 0;
+    width: 200px;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+.respco .payment_radio_options label {
+    font-size: 14px;
+}
+
+.respco .payment_radio_options #weaccept {
+    float: none;
+    margin: 0;
+}
+
 .respco .payment_radio_options input,
 #paymentPage.respco #pay_by_paypal,
-#paymentPage.respco #pay_by_paypal > #byPayPal {margin: 0;}
-#paymentPage.respco #pay_by_paypal > .paypalIcon {margin: 0 78px; display: block; width: 80px; float: none;}
-#pay_by_paypal label {width: auto !important; margin-bottom: 8px !important;}
-.respco .payment_radio_options > div {padding-left: 20px; margin-bottom: 5px;}
-.respco .paymentDetailsSection .paymentCardDetails .drop_down_billing {width: 100%; height: 32px; font-size: 14px; margin: 0;}
-.respco .paymentCardDetails {width: 100%;}
-.respco .card_info {width: 100%;}
-.respco .paymentCardDetails .col1 {width: 100%;}
-.respco .card_info .col1 .card_number {width: 100%;}
-.respco .paymentCardDetails .col1 label {width: 100%; font-size: 14px; padding: 0; text-align: left;}
-.respco .paymentCardDetails .col1 input {width: 100%; height: 32px; font-size: 14px;}
-.respco .card_info .month_year {height: 32px;}
-.respco .paymentCardDetails .col1 .date select {width: 120px; height: 32px; font-size: 14px;}
-.respco .paymentCardDetails .cvv2 input {width: 80%;}
-.respco .fright .button_footer_line {width: 100%;}
-.respco .button_primary {height: auto; width: 100%;}
-.respco #WC_ShipmentDisplay_div_31 .button_primary {width: 100%; height: 40px;}
-.respco #box > .button_primary  {width: 100%; height: 40px; margin-top: 20px;}
-.respco #WC_ShipmentDisplay_div_31 .button_primary > .button_text {font-size: 18px; height: 40px; line-height: 40px; width: 100%;}
-.respco #box > .button_primary .button_text {font-size: 18px; height: 40px; line-height: 40px; width: 100%;}
-.respco #ems_TermsAndConditions_12278 p {font-size: 12px !important;}
-.respco div.widget_site_popup > .top,
-.respco div.widget_site_popup > .middle,
-.respco div.widget_site_popup > .bottom,
-.respco div.widget_site_popup > .middle > .content_left_border,
-.respco div.widget_site_popup > .middle > .content_left_border > .content_right_border {width: 100%;}
-.respco #paymentPage.respco #box .body, .respco #paymentPage.respco #box_1 .body {padding: 5px 1%;}
-.respco .deliveryDetails span {font-size: 12px !important;}
+#paymentPage.respco #pay_by_paypal>#byPayPal {
+    margin: 0;
+}
+
+#paymentPage.respco #pay_by_paypal>.paypalIcon {
+    margin: 0 78px;
+    display: block;
+    width: 80px;
+    float: none;
+}
+
+#pay_by_paypal label {
+    width: auto !important;
+    margin-bottom: 8px !important;
+}
+
+.respco .payment_radio_options>div {
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+.respco .paymentDetailsSection .paymentCardDetails .drop_down_billing {
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+    margin: 0;
+}
+
+.respco .paymentCardDetails {
+    width: 100%;
+}
+
+.respco .card_info {
+    width: 100%;
+}
+
+.respco .paymentCardDetails .col1 {
+    width: 100%;
+}
+
+.respco .card_info .col1 .card_number {
+    width: 100%;
+}
+
+.respco .paymentCardDetails .col1 label {
+    width: 100%;
+    font-size: 14px;
+    padding: 0;
+    text-align: left;
+}
+
+.respco .paymentCardDetails .col1 input {
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+}
+
+.respco .card_info .month_year {
+    height: 32px;
+}
+
+.respco .paymentCardDetails .col1 .date select {
+    width: 120px;
+    height: 32px;
+    font-size: 14px;
+}
+
+.respco .paymentCardDetails .cvv2 input {
+    width: 80%;
+}
+
+.respco .fright .button_footer_line {
+    width: 100%;
+}
+
+.respco .button_primary {
+    height: auto;
+    width: 100%;
+}
+
+.respco #WC_ShipmentDisplay_div_31 .button_primary {
+    width: 100%;
+    height: 40px;
+}
+
+.respco #box>.button_primary {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.respco #WC_ShipmentDisplay_div_31 .button_primary>.button_text {
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+}
+
+.respco #box>.button_primary .button_text {
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+}
+
+.respco #ems_TermsAndConditions_12278 p {
+    font-size: 12px !important;
+}
+
+.respco div.widget_site_popup>.top,
+.respco div.widget_site_popup>.middle,
+.respco div.widget_site_popup>.bottom,
+.respco div.widget_site_popup>.middle>.content_left_border,
+.respco div.widget_site_popup>.middle>.content_left_border>.content_right_border {
+    width: 100%;
+}
+
+.respco #paymentPage.respco #box .body,
+.respco #paymentPage.respco #box_1 .body {
+    padding: 5px 1%;
+}
+
+.respco .deliveryDetails span {
+    font-size: 12px !important;
+}
+
 
 /* Confirmation Page */
-#orderConfirmationPage.respco .continue_shopping {width: 100%; float: none; text-align: center;}
-#orderConfirmationPage.respco .button_secondary {height: 32px; width: 100%;}
-.respco #guestCheckoutPage .backToBasket a.button_primary .button_text, 
-.respco form#PaymentForm1 .billing_address_container a.button_secondary .button_text, 
-.respco #MiniShopCartProductsList .button_secondary > .button_text, 
-.respco a.button_secondary .button_text {height: 32px; line-height: 32px; font-size: 14px; float: none;}
-#orderConfirmationPage.respco .topSection h1 {width: 100%; font-size: 24px !important;}
-#orderConfirmationPage.respco .topSection p {margin: 10px 0; width: 100%;}
-#orderConfirmationPage.respco .left {width: 100%;}
-#orderConfirmationPage.respco .main_header_text {font-size: 16px; width: 100%;}
-.respco #billing_summary .billing_address, .billing_summary .billing_address {float: left; padding: 0 1% !important; width: 100%;}
-#orderConfirmationPage.respco .billing_method {width: 100%; line-height: normal; top: 0; padding: 0 1%; float: right; clear: none;}
+
+#orderConfirmationPage.respco .continue_shopping {
+    width: 100%;
+    float: none;
+    text-align: center;
+}
+
+#orderConfirmationPage.respco .button_secondary {
+    height: 32px;
+    width: 100%;
+}
+
+.respco #guestCheckoutPage .backToBasket a.button_primary .button_text,
+.respco form#PaymentForm1 .billing_address_container a.button_secondary .button_text,
+.respco #MiniShopCartProductsList .button_secondary>.button_text,
+.respco a.button_secondary .button_text {
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    float: none;
+}
+
+#orderConfirmationPage.respco .topSection h1 {
+    width: 100%;
+    font-size: 24px !important;
+}
+
+#orderConfirmationPage.respco .topSection p {
+    margin: 10px 0;
+    width: 100%;
+}
+
+#orderConfirmationPage.respco .left {
+    width: 100%;
+}
+
+#orderConfirmationPage.respco .main_header_text {
+    font-size: 16px;
+    width: 100%;
+}
+
+.respco #billing_summary .billing_address,
+.billing_summary .billing_address {
+    float: left;
+    padding: 0 1% !important;
+    width: 100%;
+}
+
+#orderConfirmationPage.respco .billing_method {
+    width: 100%;
+    line-height: normal;
+    top: 0;
+    padding: 0 1%;
+    float: right;
+    clear: none;
+}
+
 div#WC_CheckoutPaymentAndBillingAddressSummaryf_div_2_1 *,
-#orderConfirmationPage.respco .billing_method * {text-align: left;clear: both;}
+#orderConfirmationPage.respco .billing_method * {
+    text-align: left;
+    clear: both;
+}
 
 #orderConfirmationPage.respco .addressTitle,
-#orderConfirmationPage.respco .billing_method p.title {padding: 0; margin: 10px 0;}
-#orderConfirmationPage.respco .billing_method p.title {text-align: left !important;}
-div#WC_CheckoutPaymentAndBillingAddressSummaryf_div_3_1 * {text-align: right !important;}
+#orderConfirmationPage.respco .billing_method p.title {
+    padding: 0;
+    margin: 10px 0;
+}
+
+#orderConfirmationPage.respco .billing_method p.title {
+    text-align: left !important;
+}
+
+div#WC_CheckoutPaymentAndBillingAddressSummaryf_div_3_1 * {
+    text-align: right !important;
+}
+
 div#WC_CheckoutPaymentAndBillingAddressSummaryf_div_3_1 p span {
     text-align: left !important;
     display: block;
     width: 50%;
     float: left;
 }
+
 .respco #orderConfirmationPage .billing_method .total_figures span {
     font-weight: normal;
     float: right;
     text-align: right;
 }
-#orderConfirmationPage.respco p {width: 100%;}
+
+#orderConfirmationPage.respco p {
+    width: 100%;
+}
+
 #orderConfirmationPage.respco .billing_method .total_figures span {
     font-weight: normal;
     text-align: right !important;
     float: right;
 }
-#orderConfirmationPage.respco .billing_method p.figure {text-align: left !important;}
-#orderConfirmationPage.respco .billing_method .total_figures .figure span {float: right; text-align: right !important;}
 
-#orderConfirmationPage.respco #shipping {width: 100%;}
-#orderConfirmationPage.respco #shipping .shipping_method {width: 100%;}
-#orderConfirmationPage.respco table#order_details {padding: 0;}
-.respco #OrderConfirmPagingDisplay #order_details .img {max-width: 130px; float: right; width: 25%;}
-.respco #OrderConfirmPagingDisplay #order_details .itemspecs .strongtext {line-height: 16px;}
-.respco #OrderConfirmPagingDisplay #order_details .itemspecs {font-size: 12px; width: 72%; line-height: normal; margin: 0;}
-#orderConfirmationPage.respco #total_breakdown #order_total .total_details {font-size: 16px;}
-.respco .info_icon img {width: 20px !important; height: auto;}
-#orderConfirmationPage.respco #passwordArea .regForm {margin-bottom: 10px; width: 100%;}
+#orderConfirmationPage.respco .billing_method p.figure {
+    text-align: left !important;
+}
+
+#orderConfirmationPage.respco .billing_method .total_figures .figure span {
+    float: right;
+    text-align: right !important;
+}
+
+#orderConfirmationPage.respco #shipping {
+    width: 100%;
+}
+
+#orderConfirmationPage.respco #shipping .shipping_method {
+    width: 100%;
+}
+
+#orderConfirmationPage.respco table#order_details {
+    padding: 0;
+}
+
+.respco #OrderConfirmPagingDisplay #order_details .img {
+    max-width: 130px;
+    float: right;
+    width: 25%;
+}
+
+.respco #OrderConfirmPagingDisplay #order_details .itemspecs .strongtext {
+    line-height: 16px;
+}
+
+.respco #OrderConfirmPagingDisplay #order_details .itemspecs {
+    font-size: 12px;
+    width: 72%;
+    line-height: normal;
+    margin: 0;
+}
+
+#orderConfirmationPage.respco #total_breakdown #order_total .total_details {
+    font-size: 16px;
+}
+
+.respco .info_icon img {
+    width: 20px !important;
+    height: auto;
+}
+
+#orderConfirmationPage.respco #passwordArea .regForm {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
 #orderConfirmationPage.respco #passwordArea .regForm .column_label {
     width: 39%;
     float: left;
 }
-#orderConfirmationPage.respco #passwordArea .regForm input {margin: 0; width: 61%;}
+
+#orderConfirmationPage.respco #passwordArea .regForm input {
+    margin: 0;
+    width: 61%;
+}
+
 
 /*Order confirm click and collect*/
-.respco #WC_OrderShippingBillingConfirmationPage_div_13 .times > div {
-    width:100% !important;
-    font-size:12px !important;
-    line-height:normal !important;
+
+.respco #WC_OrderShippingBillingConfirmationPage_div_13 .times>div {
+    width: 100% !important;
+    font-size: 12px !important;
+    line-height: normal !important;
 }
 
-.respco #GetDirectionLink, #GetDirectionLink2 {
-    width:100% !important;
-    height:25px !important;
-    line-height:25px !important;
+.respco #GetDirectionLink,
+#GetDirectionLink2 {
+    width: 100% !important;
+    height: 25px !important;
+    line-height: 25px !important;
 }
 
-.respco #GetDirectionLink .button_text, #GetDirectionLink2 .button_text {
-    width:100% !important;
-    height:25px !important;
-    line-height:25px !important;
+.respco #GetDirectionLink .button_text,
+#GetDirectionLink2 .button_text {
+    width: 100% !important;
+    height: 25px !important;
+    line-height: 25px !important;
     padding: 0 !important;
-    font-size:16px !important;
+    font-size: 16px !important;
 }
 
-#paymentPage.respco  .paypalCols a {
+#paymentPage.respco .paypalCols a {
     float: none;
     display: block;
     width: 100px;
     margin: 0 auto;
 }
 
-#paymentPage.respco .paypalMarketingOptions h4 {font-size: 14px;}
+#paymentPage.respco .paypalMarketingOptions h4 {
+    font-size: 14px;
+}
 
-#paymentPage.respco  .paypalMarketingOptions input {
+#paymentPage.respco .paypalMarketingOptions input {
     margin: 5px 0 0 0;
     height: 20px;
     width: 20px;
     float: left;
 }
 
-#paymentPage.respco  .paypalMarketingOptions input, 
-#paymentPage.respco  .paypalMarketingOptions label {
+#paymentPage.respco .paypalMarketingOptions input,
+#paymentPage.respco .paypalMarketingOptions label {
     float: left;
     display: block;
     vertical-align: top;
     text-align: left;
 }
 
-#paymentPage.respco  .paypalMarketingOptions label {margin-left: 30px !important; width: 250px; font-size: 14px;}
+#paymentPage.respco .paypalMarketingOptions label {
+    margin-left: 30px !important;
+    width: 250px;
+    font-size: 14px;
+}
 
-/* New Footer */
-.respco div.footer_wrapper_position {max-width: 960px; margin: 0 auto;}
-.respco .checkoutFooter {padding: 0 15px;}
-.respco #box .espot_checkout_bottom {display: none;}
 
-.respfoot-guarantee {
-  text-align: center;
-  color: #666;
-  clear: both;
-  margin-bottom: 20px;
-}
-.respfoot-guarantee h3 {
-    margin-top: 15px;
-    padding-top: 50px;
-    font-family: Baskerville-st, serif;
-    font-size: 26px;
-    font-weight: 300;
-    letter-spacing: 0.025em;
-    line-height: 32px;
-    background: url('/wcsstore/HotterStorefrontAssetStore/content/images/Checkout/promise.png') no-repeat center 0 transparent;
-    display: inline-block;
-}
-.mf-cent {font-family: Baskerville-st, serif;}
-.mf-happy,
-.mf-quality {font-family: Baskerville-st, serif; font-style: italic;}
-.mf-guarantee {font-family: Baskerville-st, serif; text-transform: uppercase; color: #A2C43F; font-size: 22px}
-.respfoot-guarantee-copy {
-  font-size: 10px;
-  line-height: 16px; 
-  font-family: Tahoma, Geneva, sans-serif;
-  width: 90%;
-  margin: 0 auto;
-}
+.respco > a {display: none;}
+
 
 /* Form labels inside fields Start */
+
+
 /*
 form {position: relative;}
 #content_wrapper #guestLogin .emailSection input {
@@ -1078,10 +2205,13 @@ form {position: relative;}
 #content_wrapper #guestLogin .emailSection label span.required-field  {color: red;}
 
 */
+
+
 /* Form labels inside fields End */
 
-  
+
 /*Mobile*/
+
 @media (max-width: 399px) {
     #dev {
         display: block;
@@ -1089,23 +2219,29 @@ form {position: relative;}
         height: 5px;
         background-color: green;
     }
-
-} /* End Mobile < 399px*/	
-
-@media (min-width: 400px) {
-  #dev {
-    display: block;
-    width: 100%;
-    height: 5px;
-    background-color: yellow;
-  }
-  .respco #billing_summary .billing_address, .billing_summary .billing_address,
-  #orderConfirmationPage.respco .billing_method {width: 49%; float: left;}
-
-
 }
 
+
+/* End Mobile < 399px*/
+
+@media (min-width: 400px) {
+    #dev {
+        display: block;
+        width: 100%;
+        height: 5px;
+        background-color: yellow;
+    }
+    .respco #billing_summary .billing_address,
+    .billing_summary .billing_address,
+    #orderConfirmationPage.respco .billing_method {
+        width: 49%;
+        float: left;
+    }
+}
+
+
 /* Larger than tablet (also point when grid becomes active) */
+
 @media (min-width: 550px) {
     #dev {
         display: block;
@@ -1113,139 +2249,310 @@ form {position: relative;}
         height: 5px;
         background-color: pink;
     }
-    .respco .selectbox {display: inline-block; margin-bottom: 10px;}
+    .respco .selectbox {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
     .respco #content_wrapper p,
-    .respco #content_wrapper #WC_AccountDisplay_div_7 .strong {text-align: left;}
-    .respco #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .button_primary > .button_text, 
-    .respco #content_wrapper #guestLogin #WC_AccountDisplay_div_19 .button_primary > .button_text,
-    #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {width: 290px; float: right;}
+    .respco #content_wrapper #WC_AccountDisplay_div_7 .strong {
+        text-align: left;
+    }
+    .respco #content_wrapper #guestLogin #WC_AccountDisplay_div_3 .button_primary>.button_text,
+    .respco #content_wrapper #guestLogin #WC_AccountDisplay_div_19 .button_primary>.button_text,
+    #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {
+        width: 49%;
+        float: right;
+    }
     /*
     #guestCheckoutPage #content_wrapper .backToBasket {position: absolute; left: 20px; border: none; margin-top: -61px; width: 45%;}
     #guestCheckoutPage #content_wrapper .backToBasket a.button_primary {width: 100%;}
     #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {float: left; width: 100%;}
     */
-    #guestCheckoutPage #content_wrapper .backToBasket {width: 100%; border: none; margin-bottom: 0; padding-bottom: 0; }
-    .respco #addressLine2, .respco #guestLogin .regForm .column_label {margin-bottom: 10px;}
-    .respco #shipping .title label, #shipping #shipping_delivery_method_option p.title, #storeDetailsPage .title {float: left; width: 51%;}
-    .respco #shipping .title label, .respco #shipping #shipping_delivery_method_option p {width: 51%; float: left;}
-    .respco #shipping #shipping_delivery_method_option a {float: right; margin-top: -34px;}
-    .respco .addressDetailWrap {width: 31.5%;}
-    .respco #bopis_table th, #bopis_table1 th {}
-    .respco #bopis_table th:first-child {width: 5%;}
-    .respco #bopis_table th:nth-child(2) {width: 56%;}
-    .respco #bopis_table th:last-child {width: 35%;}
-    .respco #bopis_table td:first-child {width: 50px;}
-    .respco #bopis_table td:nth-child(2) {display: table-cell;}
+    #guestCheckoutPage #content_wrapper .backToBasket {
+        margin-right: 26%;
+        width: 100%;
+        border: none;
+    }
+    .respco #addressLine2,
+    .respco #guestLogin .regForm .column_label {
+        margin-bottom: 10px;
+    }
+    .respco #shipping .title label,
+    #shipping #shipping_delivery_method_option p.title,
+    #storeDetailsPage .title {
+        float: left;
+        width: 51%;
+    }
+    .respco #shipping .title label,
+    .respco #shipping #shipping_delivery_method_option p {
+        width: 51%;
+        float: left;
+    }
+    .respco #shipping #shipping_delivery_method_option a {
+        float: right;
+        margin-top: -34px;
+    }
+    .respco .addressDetailWrap {
+        width: 31.5%;
+    }
+    .respco #bopis_table th,
+    #bopis_table1 th {}
+    .respco #bopis_table th:first-child {
+        width: 5%;
+    }
+    .respco #bopis_table th:nth-child(2) {
+        width: 56%;
+    }
+    .respco #bopis_table th:last-child {
+        width: 35%;
+    }
+    .respco #bopis_table td:first-child {
+        width: 50px;
+    }
+    .respco #bopis_table td:nth-child(2) {
+        display: table-cell;
+    }
     .respco #bopis_table td:last-child,
-    .respco #bopis_table td.slide:last-child {display: table-cell; width: 40%; position: relative; right: 0; background: transparent; transition: right 1s; -webkit-transform: translateZ(0);}
-    .opening-times {display: none;}
-    .closer {display: none;}
-    .respco form#PaymentForm1 .billing_address_container a.button_secondary {float: right;}
-    .respco .payment_radio_options #weaccept {float: right; margin-top: -5px; margin-right: 20px;}
-    #paymentPage.respco #pay_by_paypal > .paypalIcon {margin: 0; float: none; display: inline-block; float: right; margin-right: 20px;}
-    .respco .paymentCardDetails {width: 100%;}
-    .respco #box h1~.button_primary {display: none;}
-    .respco div#shipping #shopcartAddressForm .HAddressAdd .button_primary {float: right; width: 40%;}
-    #paymentPage.respco .paypalCols a {margin-left: 20px;}
-    .respco div.button_primary {width: 100%; height: 40px;}     
-    .respco div.button_primary > div.button_text {width: 100%;}
-    .respfoot-guarantee h3 {padding-top: 0; padding-left: 50px; background-position: left 0;}
-    .respfoot-guarantee-copy {font-size: 12px; line-height: 18px; width: 70%;}
-
+    .respco #bopis_table td.slide:last-child {
+        display: table-cell;
+        width: 40%;
+        position: relative;
+        right: 0;
+        background: transparent;
+        transition: right 1s;
+        -webkit-transform: translateZ(0);
+    }
+    .opening-times {
+        display: none;
+    }
+    .closer {
+        display: none;
+    }
+    .respco form#PaymentForm1 .billing_address_container a.button_secondary {
+        float: right;
+    }
+    .respco .payment_radio_options #weaccept {
+        float: right;
+        margin-top: -5px;
+        margin-right: 20px;
+    }
+    #paymentPage.respco #pay_by_paypal>.paypalIcon {
+        margin: 0;
+        float: none;
+        display: inline-block;
+        float: right;
+        margin-right: 20px;
+    }
+    .respco .paymentCardDetails {
+        width: 100%;
+    }
+    .respco #box h1~.button_primary {
+        display: none;
+    }
+    .respco div#shipping #shopcartAddressForm .HAddressAdd .button_primary {
+        float: right;
+        width: 40%;
+    }
+    #paymentPage.respco .paypalCols a {
+        margin-left: 20px;
+    }
+    .respco div.button_primary {
+        width: 100%;
+        height: 40px;
+    }
+    .respco div.button_primary>div.button_text {
+        width: 100%;
+    }
 }
+
 
 /* Larger than tablet */
-@media (min-width: 770px) {
-  #dev {
-    display: block;
-    width: 100%;
-    height: 5px;
-    background-color: turquoise;
-  }
-  .respco #WC_AccountDisplay_div_7 .strong {margin-left: 26%;}
-  .respco #content_wrapper #guestLogin .emailSection .infoText {margin-left: 25%;}
-  .respco #content_wrapper #guestLogin .emailSection label,
-  .respco #addressLine2, 
-  .respco #content_wrapper #guestLogin .regForm .column_label {text-align: right; height: 25px;}
-  #WC_AddressEntryForm__div_5_1 {float: left;}
-  .respco #checkout_crumb .crumb span.step_on, .respco #checkout_crumb .crumb span.step_off {font-size: 16px; width: 24%;}
-  .respco .crumb span:before {display: none;}
-  #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {width: 290px;}
 
-  .respco #guestCheckoutPage #content_wrapper  #addressLine2 {padding: 0; text-align: left; margin: 0 0 25px;}
-  .respco #content_wrapper #guestLogin #newUserForm input,
-  .respco #content_wrapper #guestLogin #Logon input {max-width: 74%;}
-  .respco #guestLogin .emailSection label {text-align: right; width: 25%;}
-  .respco #content_wrapper #guestLogin .emailSection label {text-align: right; width: 25%;}
-  .respco #content_wrapper #guestLogin .regForm .column_label {text-align: right; width: 25%;}
-  .respco #content_wrapper #addressLine2 span {text-align: right; width: 25%;}
-  .respco #content_wrapper #addressLine2 input {float: none; margin-right: 3px;}
-  .respco #addressLine2, .respco #guestLogin .regForm .column_label {margin-bottom: 0;}
-  #guestCheckoutPage #content_wrapper #addressLine2 span {display: inline-block; text-align: right; padding: 0 10px 0 0; margin: 0;}
-
-  #guestCheckoutPage #content_wrapper #addressLine2 span {margin: 0 -2px 0 0; top: 0 !important;}
-
-  input#_state {max-width: 100% !important;}
-  div#stateDiv {float: right; width: 75%; padding: 2px;}
-  div#label_state {padding-left: 10px; position: relative; top: 10px;}
-  .respco .container_content_rightsidebar > .left_column,
-  .respco #shipping .container_content_rightsidebar > .left_column,
-  #paymentPage.respco .container_content_rightsidebar > .left_column {width: 74%; margin-right: 1% !important;}
-  #paymentPage.respco .container_content_rightsidebar > .left_column #guestLogin {width: 100% !important;} 
-  .respco .container_content_rightsidebar > .right_column,
-  .respco #shipping .container_content_rightsidebar > .right_column,
-  #paymentPage.respco .container_content_rightsidebar > .right_column {float: right; width: 221px; width: 25% !important; margin-top: 28px;}
-  .respco #bopis_table th:first-child {width: 5%;}
-  .respco #bopis_table th:nth-child(2) {width: 60%;}
-  .respco #bopis_table th:last-child {width: 31%;}  
-  .respco .storeLocator { margin-top: 6px;}
-  .respco #orderConfirmationPage #passwordArea .regForm {float: none; width: 100%;}
-  .respco #orderConfirmationPage #passwordArea .regForm .column_label {float: none; width: 100%; text-align: left;}
-  .respco #orderConfirmationPage #passwordArea .regForm input {float: none; width: 100%;}
-
+@media (min-width: 750px) {
+    #dev {
+        display: block;
+        width: 100%;
+        height: 5px;
+        background-color: turquoise;
+    }
+    .respco #WC_AccountDisplay_div_7 .strong {
+        margin-left: 26%;
+    }
+    .respco #content_wrapper #guestLogin .emailSection .infoText {
+        margin-left: 25%;
+    }
+    .respco #content_wrapper #guestLogin .emailSection label,
+    .respco #addressLine2,
+    .respco #content_wrapper #guestLogin .regForm .column_label {
+        text-align: right;
+        height: 25px;
+    }
+    #WC_AddressEntryForm__div_5_1 {
+        float: left;
+    }
+    .respco #checkout_crumb .crumb span.step_on,
+    .respco #checkout_crumb .crumb span.step_off {
+        font-size: 16px;
+        width: 24%;
+    }
+    .respco .crumb span:before {
+        display: none;
+    }
+    #guestCheckoutPage #content_wrapper .backToBasket a.button_primary .button_text {
+        margin-right: 26%;
+        width: 36%;
+    }
+    .respco #guestCheckoutPage #content_wrapper #addressLine2 {
+        padding: 0;
+        text-align: left;
+        margin: 0 0 25px;
+    }
+    .respco #content_wrapper #guestLogin #newUserForm input,
+    .respco #content_wrapper #guestLogin #Logon input {
+        max-width: 74%;
+    }
+    .respco #guestLogin .emailSection label {
+        text-align: right;
+        width: 25%;
+    }
+    .respco #content_wrapper #guestLogin .emailSection label {
+        text-align: right;
+        width: 25%;
+    }
+    .respco #content_wrapper #guestLogin .regForm .column_label {
+        text-align: right;
+        width: 25%;
+    }
+    .respco #content_wrapper #addressLine2 span {
+        text-align: right;
+        width: 25%;
+    }
+    .respco #content_wrapper #addressLine2 input {
+        float: none;
+    }
+    .respco #addressLine2,
+    .respco #guestLogin .regForm .column_label {
+        margin-bottom: 0;
+    }
+    #guestCheckoutPage #content_wrapper #addressLine2 span {
+        display: inline-block;
+        text-align: right;
+        padding: 0 10px 0 0;
+        margin: 0;
+    }
+    #guestCheckoutPage #content_wrapper #addressLine2 span {
+        margin: 0;
+        top: 0 !important;
+    }
+    input#_state {
+        max-width: 100% !important;
+    }
+    div#stateDiv {
+        float: right;
+        width: 75%;
+    }
+    div#label_state {
+        padding-left: 10px;
+        padding-right: 10px;
+        position: relative;
+        top: 7px;
+    }
+    .respco .container_content_rightsidebar>.left_column,
+    .respco #shipping .container_content_rightsidebar>.left_column,
+    #paymentPage.respco .container_content_rightsidebar>.left_column {
+        width: 74%;
+        margin-right: 1% !important;
+    }
+    #paymentPage.respco .container_content_rightsidebar>.left_column #guestLogin {
+        width: 100% !important;
+    }
+    .respco .container_content_rightsidebar>.right_column,
+    .respco #shipping .container_content_rightsidebar>.right_column,
+    #paymentPage.respco .container_content_rightsidebar>.right_column {
+        float: right;
+        width: 221px;
+        width: 25% !important;
+        margin-top: 28px;
+    }
+    .respco #bopis_table th:first-child {
+        width: 5%;
+    }
+    .respco #bopis_table th:nth-child(2) {
+        width: 60%;
+    }
+    .respco #bopis_table th:last-child {
+        width: 31%;
+    }
+    .respco .storeLocator {
+        margin-top: 6px;
+    }
+    .respco #orderConfirmationPage #passwordArea .regForm {
+        float: none;
+        width: 100%;
+    }
+    .respco #orderConfirmationPage #passwordArea .regForm .column_label {
+        float: none;
+        width: 100%;
+        text-align: left;
+    }
+    .respco #orderConfirmationPage #passwordArea .regForm input {
+        float: none;
+        width: 100%;
+    }
 }
 
+
 /*Hack*/
+
 @media (max-width: 929px) {
     .respco .dijitTooltip {
         left: 0 !important;
         margin-top: -35px;
         margin: -45px 1% 0;
-        width: 100% !important;
-        margin-left: -6px;
-        top: 1030px !important;
     }
 }
 
+
 /* Larger than tablet */
+
 @media (min-width: 930px) {
-  #dev {
-    display: block;
-    width: 100%;
-    height: 5px;
-    background-color: gold;
-  }
-  .respco #bopis_table th:first-child {width: 5%;}
-  .respco #bopis_table th:nth-child(2) {width: 62%;}
-  .respco #bopis_table th:last-child {width: 29%;}  
+    #dev {
+        display: block;
+        width: 100%;
+        height: 5px;
+        background-color: gold;
+    }
+    .respco #bopis_table th:first-child {
+        width: 5%;
+    }
+    .respco #bopis_table th:nth-child(2) {
+        width: 62%;
+    }
+    .respco #bopis_table th:last-child {
+        width: 29%;
+    }
 }
+
 
 /* Larger than desktop */
+
 @media (min-width: 1000px) {
-  #dev {
-    display: block;
-    width: 100%;
-    height: 5px;
-    background-color: cornflowerblue;
-  }
+    #dev {
+        display: block;
+        width: 100%;
+        height: 5px;
+        background-color: cornflowerblue;
+    }
 }
 
+
 /* Larger than Desktop HD */
+
 @media (min-width: 1200px) {
-  #dev {
-    display: block;
-    width: 100%;
-    height: 5px;
-    background-color: blue;
-  }
+    #dev {
+        display: block;
+        width: 100%;
+        height: 5px;
+        background-color: blue;
+    }
 }
