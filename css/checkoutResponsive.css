@@ -21,7 +21,11 @@ body#guestCheckoutPage.respco {display: block;}
 body.respco {display: block;}
 .respco .body {background: #fff;}
 .respco * {box-sizing: border-box;}
-.respco img {width: 100% !important; height: auto !important;}  
+.respco img {width: 100% !important; height: auto !important;}
+.respco #cards_and_security .security img {
+    height: 100% !important;
+    width: auto !important;
+}
 
 /*Clear fix */
 .group:after {content: ""; display: table; clear: both;}
@@ -152,7 +156,7 @@ body.respco  > iframe {display: none;}
 .respco #guestLogin .HAddress_Finder {
     width: 100%;
     padding: 0;
-    height: 120px;
+    height: 120px !important;
     float: none;
     margin: 0;
 }
