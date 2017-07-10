@@ -113,6 +113,7 @@ body.respco  > iframe {display: none;}
 }
 #WC_AccountDisplay_div_3 .content input, #WC_AccountDisplay_div_19 .content input {height: auto; width: 100%;}
 #AjaxUniversalVariableDataLayer {display: none;}
+.respco .formDescription  {display: none;}
 
 /*Mob*/
 .respco .mobfoot-news,
