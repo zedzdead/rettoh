@@ -272,6 +272,8 @@ body.respco  > iframe {display: none;}
     margin-top: -26px;
 }
 
+.respco .drop_down_country {max-width: 100% !important;}
+
 .respco #guestLogin #passwordArea {width: 100%;}
 .respco #guestLogin #newUserForm #passwordArea select {width: 30%; max-width: 133px;}
 
