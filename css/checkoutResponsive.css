@@ -44,6 +44,7 @@ body.respco  > iframe {display: none;}
 .respco #headerWidget div.widget_masthead_logo_position {left: 0px; position: relative; top: 0px;}
 .respco #headerWidget .desklogo {display: none;}
 .respco #headerWidget .desklogo > div {position: relative; width: 100%;}
+.respco #ems_hotter_logo_25401 {width: 100% !important;}
 .respco #headerWidget div#widget_masthead_logo1 img {position: relative; left: 0; top: 0; margin: 0 !important; padding: 0; display: inline; width: auto; height: auto; max-width: 100%;}
 .respco #headerWidget .mobilelogo {display: block; width: 100%; margin: 30px auto 0; text-align: center;}
 .respco #ems_hotter_logo_17902 {width: 100%;}
