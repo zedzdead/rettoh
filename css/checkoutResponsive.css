@@ -267,6 +267,9 @@ body.respco  > iframe {display: none;}
 }
 
 /* US State Field */
+div#label_state {
+    margin-top: -44px;
+}
 #WC_AddressEntryForm__div_4_1 .selectbox {
     width: 100%;
     margin-top: -26px;
@@ -1200,6 +1203,7 @@ form {position: relative;}
   #guestCheckoutPage #content_wrapper #addressLine2 span {margin: 0 -2px 0 0; top: 0 !important;}
 
   input#_state {max-width: 100% !important;}
+  div#label_state {margin-top: 0;}
   div#stateDiv {float: right; width: 75%; padding: 2px;}
   div#label_state {padding-left: 10px; position: relative; top: 10px;}
   .respco .drop_down_country {width: 74% !important;}
