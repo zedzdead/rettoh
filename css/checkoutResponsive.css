@@ -1,8 +1,7 @@
-/*
-* RS2 Responsive V1.0
+/* Last update: 12/07/17 12:55
 * Copyright 2017, Hotter.com
 * 
-* Author: Andy Davies, CSS God;
+* Author: Andy Davies
 */
 /**********************************************/
 /* Contents                                                         */
@@ -62,9 +61,11 @@ body.respco  > iframe {display: none;}
 .respco #headerWidget #USPGeneric {display: none;}
 .respco #headerWidget .uspboxmob {display: block; line-height: 30px; height: auto;}
 .respco #headerWidget .uspboxmobc {font-size: 14px;}
+.respco #headerWidget .uspboxmob {display: none !important;} /* Monetate is causing a problem at time of hiding */
 .respco div#searchComponent {display: none;}
 .respco .mobuspout {background: none;}
 .respco .mobuspoutin {display: none;}
+
 
 /*Checkout Resets*/
 .respco .content_wrapper {min-width: 300px; max-width: 960px; width: 100%; text-align: center; margin: 0 auto;}
@@ -154,7 +155,7 @@ body.respco  > iframe {display: none;}
 }
 .respco .form_2column .regForm {padding: 0;}
 .respco #guestLogin #newUserForm h2 {font-size: 18px;}
-.respco .HForm {clear: left;}
+.respco .HForm {clear: left; display: block;}
 .respco #guestLogin .HAddress_Finder {
     width: 100%;
     padding: 0;
