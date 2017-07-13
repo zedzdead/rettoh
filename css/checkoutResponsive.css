@@ -1229,7 +1229,7 @@ form {position: relative;}
 }
 
 /*Hack*/
-@media (max-width: 929px) {
+@media (max-width: 770px) {
     .respco .dijitTooltip {
         left: 0 !important;
         margin-top: -35px;
