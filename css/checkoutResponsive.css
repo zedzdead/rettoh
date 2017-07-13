@@ -1037,6 +1037,7 @@ div#WC_CheckoutPaymentAndBillingAddressSummaryf_div_3_1 p span {
 }
 
 .respco > a {display: none;}
+.dijitTooltipContainer.dijitTooltipContents {background: #eff; color: #f00;}
 
 /* Form labels inside fields Start */
 /*
@@ -1235,7 +1236,6 @@ form {position: relative;}
         margin: -45px 1% 0;
         width: 100% !important;
         margin-left: -6px;
-        top: 1030px !important;
     }
 }
 
