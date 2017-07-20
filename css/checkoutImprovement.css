@@ -226,3 +226,8 @@ div#WC_CheckoutPaymentsAndBillingAddressf_div_2_1 > p.content {
 
 /*WS-2237 Address Finder - "Please enter an Address" persists after use */
 .msghide {visibility: hidden;}
+
+/*WS-2427*/
+#shoppingBasket #total_breakdown #PromotionCodeForm .button_text.greenify {
+    background: #a2c43f !important;
+}
