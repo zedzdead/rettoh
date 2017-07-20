@@ -18,6 +18,8 @@ jQuery(document).ready(function($) {
 });
 */
 //Old Mobile Secure Footer Functions
+//now in checkoutResponsive
+/*
 jQuery(document).ready(function($) {
 	if (jQuery('#WC_SingleShipmentShippingMethodDetails_div_1').length > 0)
 	{
@@ -60,7 +62,7 @@ jQuery(document).ready(function($) {
 	});
 
 });
-
+*/
 
 /*WS-2206 Click and collect Store Locator radio buttons*/
 jQuery(document).ready(function($) {
@@ -100,6 +102,16 @@ jQuery(document).ready(function($) {
 		});
 	}
 	console.log('End Shipping Message changes');
+});
+
+/*WS-2427*/
+jQuery(document).ready(function($) {
+	if ($('#shoppingBasket').length) {
+		$('#shoppingBasket #total_breakdown .promotion_input input').keyup(function() {
+			$('.promotion_button .button_text').addClass('greenify');
+		});
+	}
+	//changes #shoppingBasket #total_breakdown #PromotionCodeForm
 });
 
 console.log('checkoutImprovement end');
