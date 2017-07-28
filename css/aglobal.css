@@ -39,7 +39,7 @@ div.header_wrapper > div.header_left_shadow > div.header_right_shadow > div.head
 div.widget_masthead_logo_position {position: unset;}
 div#widget_masthead_links div.masthead_links {position: unset;}
 .hotter-logo {text-align: center; margin: 0 auto; width: 200px;}
-div#widget_masthead_logo1 img {width: 100% height: auto;}
+div#widget_masthead_logo1 img {width: 100%; height: auto;}
 .h-links-1 {float: left;}
 .h-links-2 {float: right; text-align: right;}
 
