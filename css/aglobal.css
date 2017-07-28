@@ -33,6 +33,7 @@ body {background: none;}
 /*Header*/
 div.widget_masthead_logo_position {position: unset;}
 div#widget_masthead_links div.masthead_links {position: unset;}
+.hotter-logo {text-align: center;}
 .h-links-1 {float: left;}
 .h-links-2 {float: right; text-align: right;}
 
