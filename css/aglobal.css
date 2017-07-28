@@ -29,6 +29,7 @@ a:active {color: #7E7675; text-decoration: underline; text-decoration-color: #A5
 
 /*Body*/
 body {background: none;}
+div.header_wrapper > div.header_left_shadow {width: 100%; padding: 0; margin: 0;}
 
 /*Header*/
 div.widget_masthead_logo_position {position: unset;}
