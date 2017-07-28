@@ -49,6 +49,8 @@ div#widget_masthead_logo1 img {width: 100%; height: auto;}
 
 .h-links-1 li, .h-links-2 li {display: inline-block; list-style: none;}
 
+div#widget_search>div.content input.search_input {width: 300px; font-size: 16px;}
+
 /*Clear fix */
 .group:after {content: ""; display: table; clear: both;}
 
