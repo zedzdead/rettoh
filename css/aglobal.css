@@ -36,7 +36,7 @@ div#widget_masthead_links div.masthead_links {position: unset;}
 .h-links-1 {float: left;}
 .h-links-2 {float: right; text-align: right;}
 
-#h-links-1 li {display: inline-block; padding: 10px; list-style: none;}
+.h-links-1 li, .h-links-2 li {display: inline-block; padding: 10px; list-style: none;}
 
 /*Clear fix */
 .group:after {content: ""; display: table; clear: both;}
