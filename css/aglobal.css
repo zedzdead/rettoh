@@ -37,7 +37,7 @@ div.header_wrapper > div.header_left_shadow > div.header_right_shadow > div.head
 
 /*Header*/
 div.widget_masthead_logo_position,
-.widget_masthead_links_position,
+div.widget_masthead_links_position,
 div#widget_masthead_links div.masthead_links {position: unset;}
 
 .hotter-logo {text-align: center; margin: 0 auto; width: 200px;}
