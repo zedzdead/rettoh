@@ -85,8 +85,8 @@ div#widget_search>div.content {
     float: left;
     position: absolute;
     top: 36px;
-    left: 42%;
-    border: solid 2px #999;
+    left: 40%;
+    border: solid 2px #efefef;
     border-radius: 10px;
 }
 div#widget_search>div.content input.search_input {
@@ -101,18 +101,18 @@ div#widget_search>div.content input.search_input {
 div#widget_search>div.content input.search_submit {
     position: relative;
     height: 46px;
-    width: 50px;
+    width: 48px;
     /* display: inline-block; */
     background: #A2C43F;
     margin: 0 3px 0 0;
     padding: 0;
     top: 0;
-    /* float: right; */
+    float: right;
     display: inline-block;
-	-webkit-border-top-right-radius: 10px;
-	-webkit-border-bottom-right-radius: 10px;
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;    
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 .widget_masthead_links_position {display: none;}
