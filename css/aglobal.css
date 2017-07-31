@@ -63,11 +63,7 @@ div#widget_masthead_logo1 img {width: 100%; height: auto;}
 .jsEnabled #masthead>.navigation {width: 100%;}
 /*div#searchComponent {height: 50px; background: pink;}*/
 div#searchComponent {position: unset;}
-div#widget_search>div.content {
-    padding: 0;
-    float: none;
-    height: 50px;
-}
+
 .jsEnabled div.widget_search_position {
     bottom: 62px;
     height: 50px;
@@ -80,6 +76,16 @@ div#widget_search {
     height: 50px;
     background-color: #ffffff;
     border-radius: 4px;
+}
+div#widget_search>div.content {
+    padding: 0;
+    float: none;
+    height: 50px;
+    /* width: 414px; */
+    float: left;
+    position: absolute;
+    top: 36px;
+    left: 42%;
 }
 div#widget_search>div.content input.search_input {
     /* width: 300px; */
