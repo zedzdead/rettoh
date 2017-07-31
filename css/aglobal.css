@@ -62,7 +62,18 @@ div#widget_masthead_logo1 img {width: 100%; height: auto;}
 
 .jsEnabled #masthead>.navigation {width: 100%;}
 /*div#searchComponent {height: 50px; background: pink;}*/
-div#widget_search>div.content input.search_input {width: 300px; font-size: 16px;}
+div#searchComponent {position: unset;}
+div#widget_search>div.content input.search_input {
+    width: 300px;
+    font-size: 16px;
+    border: solid 1px #ccc;
+    line-height: 20px;
+    height: 30px;
+    display: inline-block;
+    float: none;
+}
+
+div#widget_search>div.content input.search_submit {position: inherit; height: 30px; width: 30px; display: inline-block;}
 
 .widget_masthead_links_position {display: none;}
 
