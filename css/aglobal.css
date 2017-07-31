@@ -97,6 +97,7 @@ div#widget_search>div.content input.search_input {
     display: inline-block;
     float: none;
     vertical-align: top;
+    padding: 10px;
 }
 div#widget_search>div.content input.search_submit {
     position: relative;
