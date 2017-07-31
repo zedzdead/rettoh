@@ -42,7 +42,8 @@ div.header_wrapper > div.header_left_shadow > div.header_right_shadow > div.head
 
 
 /*Header*/
-#ems_hotter_logo_17902 {padding: 10px;}
+div.header_wrapper > div.header_left_shadow > div.header_right_shadow {padding: 0;}
+#ems_hotter_logo_17902 {padding: 5px 10px;}
 #masthead>.content {height: auto;}
 div.widget_masthead_logo_position,
 div.widget_masthead_links_position,
@@ -62,6 +63,8 @@ div#widget_masthead_logo1 img {width: 100%; height: auto;}
 #masthead>.navigation {width: 100%;}
 /*div#searchComponent {height: 50px; background: pink;}*/
 div#widget_search>div.content input.search_input {width: 300px; font-size: 16px;}
+
+.widget_masthead_links_position {display: none;}
 
 
 
