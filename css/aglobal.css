@@ -60,7 +60,7 @@ div#widget_masthead_logo1 img {width: 100%; height: auto;}
 .h-links-1 li, .h-links-2 li {display: inline-block; list-style: none;}
 
 #masthead>.navigation {width: 100%;}
-div#searchComponent {height: 50px; background: pink;}
+/*div#searchComponent {height: 50px; background: pink;}*/
 div#widget_search>div.content input.search_input {width: 300px; font-size: 16px;}
 
 
