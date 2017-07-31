@@ -63,6 +63,7 @@ div#widget_masthead_logo1 img {width: 100%; height: auto;}
 .jsEnabled #masthead>.navigation {width: 100%;}
 /*div#searchComponent {height: 50px; background: pink;}*/
 div#searchComponent {position: unset;}
+div#widget_search>div.content {padding: 0; float: none;}
 div#widget_search>div.content input.search_input {
     width: 300px;
     font-size: 16px;
