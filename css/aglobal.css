@@ -68,13 +68,22 @@ div#widget_search>div.content input.search_input {
     width: 300px;
     font-size: 16px;
     border: solid 1px #ccc;
-    line-height: 20px;
-    height: 30px;
-    display: inline-block;
-    float: none;
+    /* line-height: 20px; */
+    height: 50px;
+    /* display: inline-block; */
+    float: left;
+    /* vertical-align: text-bottom; */
 }
-
-div#widget_search>div.content input.search_submit {position: inherit; height: 30px; width: 30px; display: inline-block;}
+div#widget_search>div.content input.search_submit {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    /* display: inline-block; */
+    background: yellow;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
 
 .widget_masthead_links_position {display: none;}
 
