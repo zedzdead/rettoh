@@ -90,7 +90,7 @@ div#widget_search>div.content {
     border-radius: 10px;
 }
 div#widget_search>div.content input.search_input {
-    width: 300px;
+    width: 250px;
     font-size: 16px;
     /* line-height: 20px; */
     height: 50px;
@@ -102,7 +102,7 @@ div#widget_search>div.content input.search_input {
 div#widget_search>div.content input.search_submit {
     position: relative;
     height: 46px;
-    width: 48px;
+    width: 47px;
     /* display: inline-block; */
     background: #A2C43F;
     margin: 0 3px 0 0;
@@ -114,6 +114,11 @@ div#widget_search>div.content input.search_submit {
     -webkit-border-bottom-right-radius: 10px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+}
+
+div.widget_minishopcart_position {
+    top: 26px;
+    right: 10px !important;
 }
 
 .widget_masthead_links_position {display: none;}
