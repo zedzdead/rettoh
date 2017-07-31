@@ -16,6 +16,7 @@
 
 /* Defaults */
 
+* {box-sizing: border-box;}
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
     font-family: Raleway,Arial,Verdana,Helvetica,sans-serif;
 }
@@ -26,6 +27,8 @@ a:visited {}
 a:hover {color: #7E7675; text-decoration: underline; text-decoration-color: #A5C842;}
 a:active {color: #7E7675; text-decoration: underline; text-decoration-color: #A5C842;}
 
+/*Clear fix */
+.group:after {content: ""; display: table; clear: both;}
 
 /*img {width: 100% !important; height: auto !important;}*/
 
@@ -39,7 +42,7 @@ div.header_wrapper > div.header_left_shadow > div.header_right_shadow > div.head
 
 
 /*Header*/
-
+#ems_hotter_logo_17902 {padding: 10px;}
 div.widget_masthead_logo_position,
 div.widget_masthead_links_position,
 div#widget_masthead_links div.masthead_links {position: unset;}
@@ -58,6 +61,5 @@ div#widget_masthead_logo1 img {width: 100%; height: auto;}
 div#widget_search>div.content input.search_input {width: 300px; font-size: 16px;}
 
 
-/*Clear fix */
-.group:after {content: ""; display: table; clear: both;}
+
 
