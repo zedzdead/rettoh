@@ -84,10 +84,14 @@ div#widget_search>div.content {
     height: 50px;
     float: left;
     position: absolute;
-    top: 36px;
-    left: 40%;
+    right: 200px;
     border: solid 2px #efefef;
     border-radius: 10px;
+}
+div#widget_search>div.content,
+div.widget_minishopcart_position {top: 56px;}
+div#widget_minishopcart>div.content>div.info {
+	margin: 0;
 }
 div#widget_search>div.content input.search_input {
     width: 250px;
@@ -115,7 +119,6 @@ div#widget_search>div.content input.search_submit {
 }
 
 div.widget_minishopcart_position {
-    top: 26px;
     right: 10px !important;
 }
 
