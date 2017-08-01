@@ -81,7 +81,6 @@ div#widget_search>div.content {
     padding: 0;
     float: none;
     height: 50px;
-    /* width: 414px; */
     float: left;
     position: absolute;
     top: 36px;
@@ -92,7 +91,6 @@ div#widget_search>div.content {
 div#widget_search>div.content input.search_input {
     width: 250px;
     font-size: 16px;
-    /* line-height: 20px; */
     height: 50px;
     display: inline-block;
     float: none;
@@ -103,7 +101,6 @@ div#widget_search>div.content input.search_submit {
     position: relative;
     height: 46px;
     width: 47px;
-    /* display: inline-block; */
     background: #A2C43F;
     margin: 0 3px 0 0;
     padding: 0;
@@ -122,7 +119,3 @@ div.widget_minishopcart_position {
 }
 
 .widget_masthead_links_position {display: none;}
-
-
-
-
