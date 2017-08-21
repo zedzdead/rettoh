@@ -82,6 +82,7 @@ span.charges{
   top: 0;
   color: #666;
   transition: height 1s, width 1s;
+  z-index: 20;
 }
 
 #shipping_method_content label:hover + span {
