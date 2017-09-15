@@ -2,6 +2,7 @@
 /* Created 27/4/2017            */
 /* Author: Andy Davies          */
 /* Copyright: Hotter Shoes      */
+/* Updated: 04/09/2017          */
 
 console.log('checkoutImprovement start');
 //Replaced below
