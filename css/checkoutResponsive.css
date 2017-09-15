@@ -1,4 +1,4 @@
-/* Last update: 12/07/17 12:55
+/* Last update: 12/09/17 14:13;
 * Copyright 2017, Hotter.com
 * 
 * Author: Andy Davies
@@ -21,6 +21,7 @@ body.respco {display: block;}
 .respco .body {background: #fff;}
 .respco * {box-sizing: border-box;}
 .respco img {width: 100% !important; height: auto !important;}
+.respco .sec-logo-img {max-width: 200px;}
 .respco #cards_and_security .security img {
     height: 100% !important;
     width: auto !important;
@@ -44,7 +45,7 @@ body.respco  > iframe {display: none;}
 .respco #headerWidget .desklogo {display: none;}
 .respco #headerWidget .desklogo > div {position: relative; width: 100%;}
 .respco #ems_hotter_logo_25401 {width: 100% !important;}
-.respco #headerWidget div#widget_masthead_logo1 img {position: relative; left: 0; top: 0; margin: 0 !important; padding: 0; display: inline; width: auto; height: auto; max-width: 100%;}
+.respco #headerWidget div#widget_masthead_logo1 img {position: relative; left: 0; top: 0; margin: 0 !important; padding: 0; display: inline; width: auto; height: auto; max-width: 200px;}
 .respco #headerWidget .mobilelogo {display: block; width: 100%; margin: 30px auto 0; text-align: center;}
 .respco #ems_hotter_logo_17902 {width: 100%;}
 .respco #masthead > .top {height: 10px;}
@@ -68,6 +69,7 @@ body.respco  > iframe {display: none;}
 
 
 /*Checkout Resets*/
+#shoppingBasket #continueShoppingButton {float: left;}
 .respco .content_wrapper {min-width: 300px; max-width: 960px; width: 100%; text-align: center; margin: 0 auto;}
 .respco  .content_wrapper > div.content_left_shadow {width: 100%; padding: 0 10px;}
 .respco  div.content_wrapper > div.content_left_shadow > div.content_right_shadow {width: 100%; padding: 0;}

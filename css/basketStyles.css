@@ -1,0 +1,16 @@
+/* Besket Page Styles
+
+/* Assurance Messages Under Checkout Button*/
+div#ShopCartDisplay br,
+#ShopCartDisplay br {display: none;}
+.assurance {clear: both;}
+.assurance li {list-style: none; text-align: right; font-family: Baskerville-it, 'Times New Roman', Times, serif; font-style: italic; font-size: 21px; line-height: 30px;}
+.assurance li span {font-family: Baskerville, 'Times New Roman', Times, serif; font-style: normal !important; font-size: 21px; color: #a2c43f; letter-spacing: 2px; text-transform: uppercase;}
+#shoppingBasket #WC_CheckoutLogonf_div_9 {padding: 0;}
+#shoppingBasket #total_breakdown {margin-bottom: 15px;}
+
+@media screen and (max-width: 970px) and (min-width: 100px) and (orientation: portrait), only screen and (max-device-width: 640px)
+{
+    .assurance {padding: 15px 0;}
+    .assurance li, .assurance li span {font-size: 61px; line-height: 75px; text-align: center;}    
+}
