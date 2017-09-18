@@ -34,7 +34,7 @@ img {width: 100% !important; height: auto !important;}
 .respco .sec-logo-img {max-width: 200px;}
 div#widget_masthead_logo1 img {max-width: 200px;}
 
-/*Body*//*
+/*Body*/
 
 
 body {background: none;}
@@ -43,7 +43,7 @@ div.header_wrapper > div.header_left_shadow > div.header_right_shadow {width: 10
 div.header_wrapper > div.header_left_shadow > div.header_right_shadow > div.header {width: 100%;}
 
 
-/*Header*//*
+/*Header*/
 div.header_wrapper > div.header_left_shadow > div.header_right_shadow {padding: 0;}
 #ems_hotter_logo_17902 {padding: 5px 10px;}
 #masthead>.content {height: auto;}
@@ -64,7 +64,7 @@ div#widget_masthead_logo1 img {width: 100%; height: auto;}
 .h-links-1 li, .h-links-2 li {display: inline-block; list-style: none; padding-left: 30px;}
 
 .jsEnabled #masthead>.navigation {width: 100%;}
-/*div#searchComponent {height: 50px; background: pink;}*//*
+/*div#searchComponent {height: 50px; background: pink;}*/
 div#searchComponent {position: unset;}
 
 .jsEnabled div.widget_search_position {
@@ -75,7 +75,7 @@ div#searchComponent {position: unset;}
     z-index: 999999;
 }
 div#widget_search {
-    /* border: 0px solid #CCC; *//*
+    /* border: 0px solid #CCC; */
     height: 50px;
     background-color: #ffffff;
     border-radius: 4px;
@@ -125,4 +125,3 @@ div.widget_minishopcart_position {
 }
 
 .widget_masthead_links_position {display: none;}
-*/
