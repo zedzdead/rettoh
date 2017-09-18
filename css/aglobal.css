@@ -146,9 +146,9 @@ div.content_wrapper > div.content_left_shadow > div.content_right_shadow > div.m
 .product_listing_container .grid_mode .product > .product_image {width: 100%; height: auto;}
 .product_listing_container .grid_mode .product > .product_image img {max-width: 200px;}
 .product {width: 100%; display: inline-block; vertical-align: top;}
-.product .color_swatch_list {min-height: 82px;}
+.product .color_swatch_list {min-height: 82px; padding: 0 3%;}
 .product_listing_container .grid_mode .product > .product_color_swatches {width: 100%;}
-.product_listing_container .grid_mode .product > .product_color_swatches a {display: inline-block; width: 10%; margin: 0;}
+.product_listing_container .grid_mode .product > .product_color_swatches a {display: inline-block; width: 11%; margin: 0;}
 .product_listing_container .grid_mode .product > .product_color_swatches a.nodisplay {display: none;}
 
  
