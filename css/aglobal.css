@@ -153,7 +153,7 @@ div.content_wrapper > div.content_left_shadow {margin: 0; padding: 0;}
 .product_listing_container .grid_mode .product > .product_color_swatches a {display: inline-block; width: 11%; margin: 0;}
 .product_listing_container .grid_mode .product > .product_color_swatches a.nodisplay {display: none;}
 .product_listing_container .grid_mode .product > .product_info > .product_price {text-align: center;}
-.pr-snippet-stars {float: none; width: 84px; margin: 0 auto;}
+.pr-snippet-stars {float: none; width: 80px; margin: 0 auto; padding: 0;}
 
  
 /*Mobile*/
