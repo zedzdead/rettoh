@@ -153,6 +153,7 @@ div.content_wrapper > div.content_left_shadow {margin: 0; padding: 0;}
 .product_listing_container .grid_mode .product > .product_color_swatches a.nodisplay {display: none;}
 .product_listing_container .grid_mode .product > .product_info > .product_price {text-align: center;}
 #plp .pr-snippet-stars {float: none; width: 80px; margin: 0 auto !important; padding: 0;}
+.widget_product_listing>.middle>.left_border>.right_border>.content>.header_bar>.results_control {display: none;}
 
  
 /*Mobile*/
@@ -199,7 +200,7 @@ div.content_wrapper > div.content_left_shadow {margin: 0; padding: 0;}
     .container_content_leftsidebar > .left_column {width: 25%; margin-right: 2%;}
     .container_content_leftsidebar > .right_column {width: 73%;}
     div.content_wrapper > div.content_left_shadow {margin: 0; padding: 10px;}
-    
+    .widget_product_listing>.middle>.left_border>.right_border>.content>.header_bar>.results_control {display: block;}
 }
 
 /*Hack*/
