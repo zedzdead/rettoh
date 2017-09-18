@@ -128,6 +128,7 @@ div.widget_minishopcart_position {
 .widget_masthead_links_position {display: none;}
 
 /*PLP*/
+div.content_wrapper_position {max-width: 960px; margin: 0 auto;}
 div.content_wrapper {min-width: 300px;}
 div.content_wrapper > div.content_left_shadow,
 div.content_wrapper > div.content_left_shadow > div.content_right_shadow,
