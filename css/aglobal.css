@@ -126,3 +126,15 @@ div.widget_minishopcart_position {
 }
 
 .widget_masthead_links_position {display: none;}
+
+/*PLP*/
+
+.product_listing_container .grid_mode .product > .product_image {width: 100%; height: auto;}
+.product_listing_container .grid_mode .product > .product_image img {max-width: 200px;}
+.product {width: 100%; display: inline-block; vertical-align: top;}
+
+
+
+
+.product {width: 32%; display: inline-block; vertical-align: top;}
+
