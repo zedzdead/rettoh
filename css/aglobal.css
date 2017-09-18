@@ -173,6 +173,7 @@ div.content_wrapper > div.content_left_shadow {margin: 0; padding: 0;}
         height: 5px;
         background-color: yellow;
     }
+    .product {width: 48%; display: inline-block; vertical-align: top;}
 }
 
 /* Larger than tablet (also point when grid becomes active) */
@@ -183,7 +184,7 @@ div.content_wrapper > div.content_left_shadow {margin: 0; padding: 0;}
         height: 5px;
         background-color: pink;        
     }
-    .product {width: 48%; display: inline-block; vertical-align: top;}
+    .product {width: 32%; display: inline-block; vertical-align: top;}
 }
 
 /* Larger than tablet */
@@ -198,7 +199,7 @@ div.content_wrapper > div.content_left_shadow {margin: 0; padding: 0;}
     .container_content_leftsidebar > .left_column {width: 25%; margin-right: 2%;}
     .container_content_leftsidebar > .right_column {width: 73%;}
     div.content_wrapper > div.content_left_shadow {margin: 0; padding: 10px;}
-    .product {width: 32%; display: inline-block; vertical-align: top;}
+    
 }
 
 /*Hack*/
