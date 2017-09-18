@@ -44,6 +44,7 @@ div.header_wrapper > div.header_left_shadow > div.header_right_shadow > div.head
 
 
 /*Header*/
+div.header_wrapper {min-width: 300px;}
 div.header_wrapper > div.header_left_shadow > div.header_right_shadow {padding: 0;}
 #ems_hotter_logo_17902 {padding: 5px 10px;}
 #masthead>.content {height: auto;}
