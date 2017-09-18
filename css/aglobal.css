@@ -151,8 +151,91 @@ div.content_wrapper > div.content_left_shadow > div.content_right_shadow > div.m
 .product_listing_container .grid_mode .product > .product_color_swatches a {display: inline-block; width: 10%; margin: 0;}
 .product_listing_container .grid_mode .product > .product_color_swatches a.nodisplay {display: none;}
 
+ 
+/*Mobile*/
+@media (max-width: 399px) {
+    #dev {
+        display: block;
+        width: 100%;
+        height: 5px;
+        background-color: green;
+    }
 
+} /* End Mobile < 399px*/   
 
+@media (min-width: 400px) {
+    #dev {
+        display: block;
+        width: 100%;
+        height: 5px;
+        background-color: yellow;
+    }
+}
 
-.product {width: 32%; display: inline-block; vertical-align: top;}
+/* Larger than tablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+    #dev {
+        display: block;
+        width: 100%;
+        height: 5px;
+        background-color: pink;
+    }
+}
 
+/* Larger than tablet */
+@media (min-width: 770px) {
+    #dev {
+        display: block;
+        width: 100%;
+        height: 5px;
+        background-color: turquoise;
+    }
+    .product {width: 32%; display: inline-block; vertical-align: top;}
+}
+
+/*Hack*/
+@media (max-width: 770px) {
+    .respco .dijitTooltip {
+        left: 12px !important;
+        margin-top: -35px;
+        margin: -45px 1% 0;
+        width: 100% !important;
+        margin-left: -6px;
+    }
+    div#paymentArea1.dijitContentPane > div {
+        margin: 5px 0 0 !important;
+        font-size: 10px !important;
+        line-height: 14px !important;
+    }    
+}
+
+/* Larger than tablet */
+@media (min-width: 930px) {
+    #dev {
+        display: block;
+        width: 100%;
+        height: 5px;
+        background-color: gold;
+    }
+    .product {width: 24%; display: inline-block; vertical-align: top;}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+    #dev {
+        display: block;
+        width: 100%;
+        height: 5px;
+        background-color: cornflowerblue;
+    }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+    #dev {
+        display: block;
+        width: 100%;
+        height: 5px;
+        background-color: blue;
+    }
+}
