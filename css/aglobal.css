@@ -134,8 +134,8 @@ div.content_wrapper > div.content_left_shadow > div.content_right_shadow,
 div.content_wrapper > div.content_left_shadow > div.content_right_shadow > div.main_content,
 .container_full_width,
 .container_content_leftsidebar {width: 100%;}
-.container_content_leftsidebar > .left_column {width: 25%;}
-.container_content_leftsidebar > .right_column {width: 75%;}
+.container_content_leftsidebar > .left_column {width: 25%; margin-right: 2%;}
+.container_content_leftsidebar > .right_column {width: 73%;}
 .product_listing_container .grid_mode .product > .product_image {width: 100%; height: auto;}
 .product_listing_container .grid_mode .product > .product_image img {max-width: 200px;}
 .product {width: 100%; display: inline-block; vertical-align: top;}
