@@ -162,6 +162,7 @@ div.content_wrapper > div.content_left_shadow {margin: auto; padding: 0;}
         clear: left; 
         text-align: center;
         height: auto;
+        top: 0;
 }
 .sorting_controls span,
 #orderByForm {float: none;}
@@ -178,6 +179,7 @@ select#orderBy {font-size: 12px;}
     text-align: center;
     height: 30px;
     background: red;
+    min-width: 0;
 }
 .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls > .pages {
     float: none;
