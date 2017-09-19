@@ -178,7 +178,6 @@ select#orderBy {font-size: 12px;}
     line-height: 30px;
     text-align: center;
     height: 30px;
-    background: red;
     min-width: 0;
 }
 .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls > .pages {
@@ -186,7 +185,6 @@ select#orderBy {font-size: 12px;}
     line-height: 30px;
     width: 100%;
     height: auto;
-    border: solid 1px red;
 }
 #plp .paging_controls a {display: inline;}
 #plp .paging_controls > a {display: none;}
