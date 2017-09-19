@@ -171,12 +171,13 @@ select#orderBy {font-size: 12px;}
     cursor: default;
     display: inline-block;
     float: none;
-    margin: 0 6px;
-    min-width: 30px;
-    padding: 0 2px;
+    margin: 0;
+    width: 30px;
+    padding: 0;
     line-height: 30px;
     text-align: center;
     height: 30px;
+    background: red;
 }
 .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls > .pages {
     float: none;
