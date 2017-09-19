@@ -161,6 +161,7 @@ div.content_wrapper > div.content_left_shadow {margin: auto; padding: 0;}
         position: relative; 
         clear: left; 
         text-align: center;
+        height: auto;
 }
 .sorting_controls span,
 #orderByForm {float: none;}
@@ -171,10 +172,18 @@ select#orderBy {font-size: 12px;}
     display: inline-block;
     float: none;
     margin: 0 6px;
-    min-width: 20px;
+    min-width: 30px;
     padding: 0 2px;
-    line-height: 20px;
+    line-height: 30px;
     text-align: center;
+    height: 30px;
+}
+.widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls > .pages {
+    float: none;
+    line-height: 30px;
+    width: 100%;
+    height: auto;
+    border: solid 1px red;
 }
 .paging_controls a {display: inline;}
 .product_listing_container {clear: left;}
