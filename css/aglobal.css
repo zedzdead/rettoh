@@ -183,6 +183,7 @@ select#orderBy {font-size: 12px;}
     min-width: 0;
     border-radius: 15px;
     transition: all 1s;
+    font-weight: 700;
 }
 a.prev {font-size: 0;}
 a.prev:before {
