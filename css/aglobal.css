@@ -154,13 +154,34 @@ div.content_wrapper > div.content_left_shadow {margin: auto; padding: 0;}
 #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls,
 #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .title,
 #plp .widget_product_listing>.middle>.left_border>.right_border>.content>.header_bar>.sorting_controls,
-#plp .widget_product_listing>.middle>.left_border>.right_border>.content>.header_bar>.results_control {margin: 0; padding: 0; float: none; position: relative; clear: left;}
+#plp .widget_product_listing>.middle>.left_border>.right_border>.content>.header_bar>.results_control {
+        margin: 0; 
+        padding: 0; 
+        float: none; 
+        position: relative; 
+        clear: left; 
+        text-align: center;
+}
+.sorting_controls span,
+#orderByForm {float: none;}
 select#orderBy {font-size: 12px;}
+.widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls > .pages > ul > li {
+    color: #4D4D4D;
+    cursor: default;
+    display: inline-block;
+    float: none;
+    margin: 0 6px;
+    min-width: 20px;
+    padding: 0 2px;
+    line-height: 20px;
+    text-align: center;
+}
+.paging_controls a {display: inline;}
 .product_listing_container {clear: left;}
 .product_listing_container .grid_mode .product > .product_image {width: 100%; height: auto; height: 200px; text-align: center;}
 .product_listing_container .grid_mode .product > .product_image img {max-width: 200px;}
 .product {width: 100%; display: inline-block; vertical-align: top;}
-.product .color_swatch_list {min-height: 82px; padding: 0 3%;}
+.product .color_swatch_list {min-height: 90px; padding: 0 3%;}
 .product_listing_container .grid_mode .product > .product_color_swatches {width: 100%;}
 .product_listing_container .grid_mode .product > .product_color_swatches a {display: inline-block; width: 11%; margin: 0;}
 .product_listing_container .grid_mode .product > .product_color_swatches a.nodisplay {display: none;}
