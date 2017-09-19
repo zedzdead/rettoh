@@ -164,8 +164,10 @@ div.content_wrapper > div.content_left_shadow {margin: auto; padding: 0;}
         height: auto;
         top: 0;
 }
+
 .sorting_controls span,
-.sorting_controls form {float: none; display: inline-block;}
+.sorting_controls form,
+.sorting_controls #orderByForm {float: none; display: inline-block;}
 select#orderBy {font-size: 12px;}
 .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls > .pages > ul > li {
     color: #4D4D4D;
