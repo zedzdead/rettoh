@@ -151,7 +151,7 @@ div.widget_minishopcart_position {
 div.content_wrapper > div.content_left_shadow {margin: auto; padding: 0;}
 .container_content_leftsidebar .left_column {display: none;}
 .container_content_leftsidebar > .right_column {width: 100%;}
-.product_listing_container .grid_mode .product > .product_image {width: 100%; height: auto;}
+.product_listing_container .grid_mode .product > .product_image {width: 100%; height: auto; height: 200px; text-align: center;}
 .product_listing_container .grid_mode .product > .product_image img {max-width: 200px;}
 .product {width: 100%; display: inline-block; vertical-align: top;}
 .product .color_swatch_list {min-height: 82px; padding: 0 3%;}
