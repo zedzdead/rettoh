@@ -165,7 +165,7 @@ div.content_wrapper > div.content_left_shadow {margin: auto; padding: 0;}
         top: 0;
 }
 .sorting_controls span,
-#orderByForm {float: none;}
+.sorting_controls form {float: none; display: inline-block;}
 select#orderBy {font-size: 12px;}
 .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls > .pages > ul > li {
     color: #4D4D4D;
