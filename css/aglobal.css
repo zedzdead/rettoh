@@ -189,6 +189,7 @@ select#orderBy {font-size: 12px;}
     border: solid 1px red;
 }
 #plp .paging_controls a {display: inline;}
+#plp .paging_controls > a {display: none;}
 .product_listing_container {clear: left;}
 .product_listing_container .grid_mode .product > .product_image {width: 100%; height: auto; height: 200px; text-align: center;}
 .product_listing_container .grid_mode .product > .product_image img {max-width: 200px;}
