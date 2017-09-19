@@ -184,6 +184,18 @@ select#orderBy {font-size: 12px;}
     border-radius: 15px;
     transition: all 1s;
 }
+a.prev {font-size: 0;}
+a.prev:before {
+    content: "\f104";
+    font-family: FontAwesome;
+    font-size: 14px;
+}
+a.next {font-size: 0;}
+a.next:before {
+    content: "\f105";
+    font-family: FontAwesome;
+    font-size: 14px;
+}
 .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls > .pages {
     float: none;
     line-height: 30px;
