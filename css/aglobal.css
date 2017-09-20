@@ -248,10 +248,10 @@ a.next:before {
         background-color: pink;        
     }
     .product {width: 32%; display: inline-block; vertical-align: top;}
-    .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls > .title {width: 50%; text-align: left; float: left;}
-    .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls > .results_control {width: 50%; text-align: right; float: right;}
-    .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls > .sorting_controls {width: 50%; text-align: left; float: left;}
-    .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls > .pages {width: 50%; float: right; text-align: right;}
+    #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .title {width: 50%; text-align: left; float: left;}
+    #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .results_control {width: 50%; text-align: right; float: right;}
+    #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .sorting_controls {width: 50%; text-align: left; float: left;}
+    #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .title .pages {width: 50%; float: right; text-align: right;}
 }
 
 /* Larger than tablet */
@@ -294,9 +294,9 @@ a.next:before {
         background-color: gold;
     }
     .product {width: 24%; display: inline-block; vertical-align: top;}
-    .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls > .header_bar .title {width: 33%;}
-    .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls > .sorting_controls {width: 33%; margin: -22px auto 0 auto; text-align: center; float:none;}
-    .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls > .results_control {width: 33%;}
+    #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .title {width: 33%;}
+    #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .sorting_controls {width: 33%; margin: -22px auto 0 auto; text-align: center; float:none;}
+    #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .results_control {width: 33%;}
 }
 
 /* Larger than desktop */
