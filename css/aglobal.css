@@ -267,7 +267,7 @@ a.next:before {
     .container_content_leftsidebar > .right_column {width: 73%;}
     div.content_wrapper > div.content_left_shadow {margin: auto; padding: 10px;}
     .widget_product_listing>.middle>.left_border>.right_border>.content>.header_bar>.results_control {display: block;}
-    #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .title .pages {width: 50%; float: left; text-align: left; clear: both;}
+    #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .sorting_controls {width: 50%; float: left; text-align: left; clear: both;}
 }
 
 /*Hack*/
