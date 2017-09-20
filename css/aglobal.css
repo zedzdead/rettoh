@@ -251,7 +251,7 @@ a.next:before {
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .title {width: 33%; text-align: left; float: left;}
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .results_control {width: 33%; text-align: right; float: right; clear: none;}
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .sorting_controls {width: 33%; text-align: right; float: right; clear: right;}
-    #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .pages {width: 33%; float: right; text-align: center;}
+    #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .pageing_controls {width: 33%; float: right; text-align: center; clear: none;}
 }
 
 /* Larger than tablet */
