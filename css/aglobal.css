@@ -163,6 +163,7 @@ div.content_wrapper > div.content_left_shadow {margin: auto; padding: 0;}
         text-align: center;
         height: auto;
         top: 0;
+        line-height: 30px;
 }
 
 .sorting_controls span,
