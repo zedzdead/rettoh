@@ -218,6 +218,27 @@ a.next:before {
 #plp .pr-snippet-stars {float: none; width: 80px; margin: 0 auto !important; padding: 0;}
 .widget_product_listing>.middle>.left_border>.right_border>.content>.header_bar>.results_control {display: none;}
 
+
+/*SIDR*/
+.sidr {
+    display: block;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    z-index: 999999;
+    width: 260px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.sidr.right {
+    left: auto;
+    right: -260px;
+}
+.sidr.left {
+    left: -260px;
+    right: auto;
+}
+
  
 /*Mobile*/
 @media (max-width: 399px) {
