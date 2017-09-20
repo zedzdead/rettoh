@@ -21,7 +21,7 @@
 
 * {box-sizing: border-box;}
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
-    font-family: 'Archivo Narrow',Arial,Verdana,Helvetica,sans-serif;
+    /*font-family: 'Archivo Narrow',Arial,Verdana,Helvetica,sans-serif;*/
 }
 
 a {color: #7E7675;	text-decoration: none;}
@@ -147,7 +147,7 @@ div.widget_minishopcart_position {
 #plp .widget_product_listing > .middle,
 #plp .widget_product_listing > .middle > .left_border,
 #plp .widget_product_listing > .middle > .left_border > .right_border,
-#plp .widget_product_listing > .middle > .left_border > .right_border > .content {width: 100%;}
+#plp .widget_product_listing > .middle > .left_border > .right_border > .content {width: 100%; padding: 0;}
 div.content_wrapper > div.content_left_shadow {margin: auto; padding: 0;}
 .container_content_leftsidebar .left_column {display: none;}
 .container_content_leftsidebar > .right_column {width: 100%;}
@@ -247,7 +247,7 @@ a.next:before {
         height: 5px;
         background-color: pink;        
     }
-    .product {width: 32%; display: inline-block; vertical-align: top;}
+    .product {width: 32.5%; display: inline-block; vertical-align: top;}
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .title {width: 50%; text-align: left; float: left;}
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .results_control {width: 50%; text-align: right; float: right; clear: none;}
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .sorting_controls {width: 50%; text-align: right; float: right; clear: right;}
