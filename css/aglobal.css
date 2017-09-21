@@ -151,6 +151,12 @@ div.widget_minishopcart_position {
 div.content_wrapper > div.content_left_shadow {margin: auto; padding: 0;}
 .container_content_leftsidebar .left_column {display: none;}
 .container_content_leftsidebar > .right_column {width: 100%;}
+
+#plp #category_header img {height: 170px; width: 695px;}
+#plp #category_header_image h1 {position: absolute; padding: 1% 0 0 1%; margin: 0; font-style: italic; font-family: Baskerville-BT; font-size: 3em; font-weight: normal; text-transform: none; line-height: 1em;}
+#plp #category_header_copy {padding: 0 5%; text-align: center;}
+#plp #category_header_copy {font-size: 0.8em; font-family: Bliss; line-height: normal;}
+
 #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls,
 #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .title,
 #plp .widget_product_listing>.middle>.left_border>.right_border>.content>.header_bar>.sorting_controls,
