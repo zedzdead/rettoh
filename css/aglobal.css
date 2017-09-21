@@ -322,7 +322,7 @@ a.next:before {
     #plp .attraqt_product {width: 24%; display: inline-block; vertical-align: top;}
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .title {width: 33%;}
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .sorting_controls {width: 33%; margin: -22px auto 0 auto; text-align: center; float:none; clear: none;}
-    #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .results_control {width: 33%;}
+    #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .results_control {width: 33%; clear: right;}
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls {width: 33%; float: right; text-align: right; clear: right;}
 
 }
