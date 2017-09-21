@@ -212,9 +212,9 @@ a.next:before {
 .product_listing_container .grid_mode .attraqt_product > .product_image img {max-width: 200px;}
 .attraqt_product {width: 100%; display: inline-block; vertical-align: top;}
 .attraqt_product .color_swatch_list {min-height: 90px; padding: 0 3%;}
-.product_listing_container .grid_mode .attraqt_product > .product_color_swatches {width: 100%;}
-.product_listing_container .grid_mode .attraqt_product > .product_color_swatches a {display: inline-block; width: 11%; margin: 0;}
-.product_listing_container .grid_mode .attraqt_product > .product_color_swatches a.nodisplay {display: none;}
+.product_listing_container .grid_mode .attraqt_product > .swatches {width: 100%;}
+.product_listing_container .grid_mode .attraqt_product > .swatches a {display: inline-block; width: 11%; margin: 0;}
+.product_listing_container .grid_mode .attraqt_product > .swatches a.nodisplay {display: none;}
 .product_listing_container .grid_mode .attraqt_product > .product_info > .product_price {text-align: center;}
 #plp .pr-snippet-stars {float: none; width: 80px; margin: 0 auto !important; padding: 0;}
 .widget_product_listing>.middle>.left_border>.right_border>.content>.header_bar>.results_control {display: none;}
