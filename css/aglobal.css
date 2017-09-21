@@ -258,7 +258,7 @@ a.next:before {
         height: 5px;
         background-color: yellow;
     }
-    .attraqt_product {width: 48%; display: inline-block; vertical-align: top;}
+    #plp .attraqt_product {width: 48%; display: inline-block; vertical-align: top;}
 }
 
 /* Larger than tablet (also point when grid becomes active) */
@@ -269,7 +269,7 @@ a.next:before {
         height: 5px;
         background-color: pink;        
     }
-    .attraqt_product {width: 32.5%; display: inline-block; vertical-align: top;}
+    #plp .attraqt_product {width: 32.5%; display: inline-block; vertical-align: top;}
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .title {width: 50%; text-align: left; float: left;}
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .results_control {width: 50%; text-align: right; float: right; clear: none;}
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .sorting_controls {width: 50%; text-align: right; float: right; clear: right;}
@@ -317,7 +317,7 @@ a.next:before {
         height: 5px;
         background-color: gold;
     }
-    .attraqt_product {width: 24%; display: inline-block; vertical-align: top;}
+    #plp .attraqt_product {width: 24%; display: inline-block; vertical-align: top;}
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .title {width: 33%;}
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .sorting_controls {width: 33%; margin: -22px auto 0 auto; text-align: center; float:none; clear: none;}
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .results_control {width: 33%;}
@@ -333,7 +333,7 @@ a.next:before {
         height: 5px;
         background-color: cornflowerblue;
     }
-    .attraqt_product {width: 24%; display: inline-block; vertical-align: top;}
+    #plp .attraqt_product {width: 24%; display: inline-block; vertical-align: top;}
 }
 
 /* Larger than Desktop HD */
@@ -345,4 +345,5 @@ a.next:before {
         background-color: blue;
 
     }
+    #plp .attraqt_product {width: 24%; display: inline-block; vertical-align: top;}
 }
