@@ -153,8 +153,9 @@ div.content_wrapper > div.content_left_shadow {margin: auto; padding: 0;}
 .container_content_leftsidebar > .right_column {width: 100%;}
 
 #plp div.widget_tall_double_espot {width: 100%;}
-#plp #category_header img {height: 170px; width: 695px;}
-#plp #category_header_image h1 {position: absolute; padding: 1% 0 0 1%; margin: 0; font-style: italic; font-family: Baskerville-BT; font-size: 3em; font-weight: normal; text-transform: none; line-height: 1em;}
+#plp #category_header {position: relative;}
+#plp #category_header img {}
+#plp #category_header_image h1 {position: absolute; padding: 1%; margin: 0; font-style: italic; font-family: Baskerville-BT; font-size: 1.5em; font-weight: normal; text-transform: capitalize; left: 0; top: 50px;}
 #plp #category_header_copy {padding: 0 5%; text-align: center;}
 #plp #category_header_copy {font-size: 0.8em; font-family: Bliss; line-height: normal;}
 
