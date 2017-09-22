@@ -154,7 +154,7 @@ div.content_wrapper > div.content_left_shadow {margin: auto; padding: 0;}
 
 #plp div.widget_tall_double_espot {width: 100%;}
 #plp #category_header {position: relative;}
-#plp #category_header h1 {position: absolute; padding: 1%; margin: 0; font-style: italic; font-family: Baskerville-BT; font-size: 1.5em; font-weight: normal; text-transform: capitalize; left: 0; top: 50px;}
+#plp #category_header h1 {position: absolute; padding: 1%; margin: 0; font-style: italic; font-family: Baskerville-BT; font-size: 1.5em; font-weight: normal; text-transform: capitalize; left: 0; top: 50px; background-color:rgba(0, 0, 0, 0.5);}
 #plp #category_header img {}
 #plp #category_header_copy {padding: 0 5%; text-align: center;}
 #plp #category_header_copy {font-size: 0.8em; font-family: Bliss; line-height: normal;}
