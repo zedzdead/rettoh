@@ -153,8 +153,11 @@ div.content_wrapper > div.content_left_shadow {margin: auto; padding: 0;}
 .container_content_leftsidebar > .right_column {width: 100%;}
 
 #plp div.widget_tall_double_espot {width: 100%;}
+
+.dark-bg #plp #category_header h1 {background-color: rgba(0, 0, 0, 0.7); color: #fff;}
+.light-bg #plp #category_header h1 {background-color: rgba(255, 255, 255, 0.7); color: #000;}
 #plp #category_header {position: relative;}
-#plp #category_header h1 {position: absolute; padding: 1%; margin: 0; font-style: italic; font-family: Baskerville-BT; font-size: 1.5em; font-weight: normal; text-transform: capitalize; left: 0; top: 0; background-color: rgba(0, 0, 0, 0.5); color: #fff; text-align: center; width: 100%;}
+#plp #category_header h1 {position: absolute; padding: 1%; margin: 0; font-style: italic; font-family: Baskerville-BT; font-size: 1.5em; font-weight: normal; text-transform: capitalize; left: 0; top: 0; text-align: center; width: 100%;}
 
 #plp #category_header img {}
 #plp #category_header_copy {padding: 0 5%; text-align: center; font-size: 0.8em; font-family: Bliss; line-height: normal; display: none;}
@@ -335,7 +338,11 @@ a.next:before {
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .sorting_controls {width: 33%; margin: -22px auto 0 auto; text-align: center; float:none; clear: none;}
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .results_control {width: 33%; clear: right;}
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls {width: 33%; float: right; text-align: right; clear: right;}
-    #plp #category_header_copy {padding: 10px;  position: absolute; bottom: 25px; background-color: rgba(255,255,255, 0.7); width: 70%; right: 10px;}
+    #plp #category_header_copy {padding: 10px;  position: absolute; bottom: 15px; width: 70%; right: 10px;}
+    .dark-bg #plp #category_header_copy {background-color: rgba(0, 0, 0, 0.7);}
+    .dark-bg #plp #category_header_copy * {color: #fff;}
+    .light-bg #plp #category_header_copy {background-color: rgba(255, 255, 255, 0.7);}
+    .light-bg #plp #category_header_copy * {color: #000;}
 }
 
 /* Larger than desktop */
