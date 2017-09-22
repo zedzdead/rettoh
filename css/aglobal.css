@@ -156,8 +156,7 @@ div.content_wrapper > div.content_left_shadow {margin: auto; padding: 0;}
 #plp #category_header {position: relative;}
 #plp #category_header h1 {position: absolute; padding: 1%; margin: 0; font-style: italic; font-family: Baskerville-BT; font-size: 1.5em; font-weight: normal; text-transform: capitalize; left: 0; top: 15px; background-color:rgba(0, 0, 0, 0.5); color: #fff; margin: 1%;}
 #plp #category_header img {}
-#plp #category_header_copy {padding: 0 5%; text-align: center;}
-#plp #category_header_copy {font-size: 0.8em; font-family: Bliss; line-height: normal;}
+#plp #category_header_copy {padding: 0 5%; text-align: center; font-size: 0.8em; font-family: Bliss; line-height: normal; display: none;}
 
 #plp .widget_product_listing {margin-top: 40px;}
 #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls,
@@ -285,6 +284,7 @@ a.next:before {
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .results_control {width: 50%; text-align: right; float: right; clear: right;}
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .sorting_controls {width: 100%; text-align: center; float: none; clear:both;}
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls {width: 50%; float: right; text-align: right; clear: right;}
+    #plp #category_header_copy {display: block;}
 }
 
 /* Larger than tablet */
