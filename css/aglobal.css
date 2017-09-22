@@ -285,7 +285,7 @@ a.next:before {
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .results_control {width: 50%; text-align: right; float: right; clear: right;}
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .sorting_controls {width: 100%; text-align: center; float: none; clear:both;}
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls {width: 50%; float: right; text-align: right; clear: right;}
-    #plp #category_header h1 {top: 15px; margin: 1%; text-align:left;}
+    #plp #category_header h1 {top: 15px; margin: 1%; text-align:left; width: auto;}
     #plp #category_header_copy {display: block;}
 }
 
