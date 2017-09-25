@@ -234,6 +234,7 @@ a.next:before {
 
 
 /*SIDR*/
+/*
 .sidr {
     display: block;
     position: fixed;
@@ -253,6 +254,16 @@ a.next:before {
     right: auto;
 }
 
+.sidr-class-clear_all_text img,
+.sidr-class-filter_option img {display: none;}
+*/
+
+#plp > .left_column {
+    position: absolute;
+    top: 0;
+    z-index: 300;
+    background: #fff;
+}
  
 /*Mobile*/
 @media (max-width: 399px) {
