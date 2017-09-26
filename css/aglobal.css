@@ -259,12 +259,19 @@ a.next:before {
 */
 
 #plp > .left_column {
-    position: absolute;
+    position: fixed;
     top: 0;
     z-index: 300;
     background: #fff;
+    box-shadow: #ccc 2px 2px 8px;
+    left: -230px;
+    transition: all 1s;
 }
- 
+
+#plp > .left_column.show {
+    left: 0;
+}
+
 /*Mobile*/
 @media (max-width: 399px) {
     #dev {
