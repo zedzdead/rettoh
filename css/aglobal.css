@@ -258,6 +258,8 @@ a.next:before {
 .sidr-class-filter_option img {display: none;}
 */
 
+#mobile-filter {font-size: 12px;}
+
 #plp > .left_column {
     position: fixed;
     top: 0;
@@ -340,7 +342,8 @@ a.next:before {
         margin: 5px 0 0 !important;
         font-size: 10px !important;
         line-height: 14px !important;
-    }    
+    }
+    #mobile-filter {display: none;}
 }
 
 /* Larger than tablet */
