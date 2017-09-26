@@ -327,6 +327,7 @@ a.next:before {
     .widget_product_listing>.middle>.left_border>.right_border>.content>.header_bar>.results_control {display: block;}
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .sorting_controls {width: 50%; float: left; text-align: left; clear: left;}
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls {width:  50%; float: right; text-align: right; clear: right;}
+    #mobile-filter {display: none;}
 }
 
 /*Hack*/
@@ -343,7 +344,7 @@ a.next:before {
         font-size: 10px !important;
         line-height: 14px !important;
     }
-    #mobile-filter {display: none;}
+
 }
 
 /* Larger than tablet */
