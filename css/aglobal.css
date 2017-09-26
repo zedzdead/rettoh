@@ -259,6 +259,7 @@ a.next:before {
 */
 
 #mobile-filter {font-size: 12px;}
+.close-filter {float: right;}
 
 #plp > .left_column {
     position: fixed;
@@ -327,7 +328,8 @@ a.next:before {
     .widget_product_listing>.middle>.left_border>.right_border>.content>.header_bar>.results_control {display: block;}
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .sorting_controls {width: 50%; float: left; text-align: left; clear: left;}
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls {width:  50%; float: right; text-align: right; clear: right;}
-    #mobile-filter {display: none;}
+    #mobile-filter,
+    .close-filter {display: none;}
 }
 
 /*Hack*/
