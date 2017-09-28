@@ -307,6 +307,7 @@ a.next:before {
 
 div.widget_left_nav {min-height: 1000px;}
 
+div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.header {float: none;}
 div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.section_list {clear:left;}
 
 /*Mobile*/
