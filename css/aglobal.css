@@ -257,7 +257,18 @@ a.next:before {
 .sidr-class-filter_option img {display: none;}
 */
 
-#mobile-filter {font-size: 12px;}
+#mobile-filter {font-size: 12px; text-align: center;}
+/* \f0b0 - Filter Icon http://fontawesome.io/icon/filter/ */
+.close-filter:before {
+    font-family: 'FontAwesome';
+    content: '\f0b0';
+    font-size: 12px;
+    display: inline-block;
+    width: 16px;
+    line-height: 16px;
+    color: #A5C842
+}
+
 .close-filter {float: right; font-size: 0;}
 /* \f00d - Close Icon http://fontawesome.io/icon/times/ */
 .close-filter:before {
