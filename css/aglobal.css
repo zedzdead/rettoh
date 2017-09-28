@@ -281,7 +281,7 @@ a.next:before {
 }
 
 #plp > .left_column {
-    position: fixed;
+    position: absolute;
     top: 0;
     z-index: 300;
     background: #fff;
