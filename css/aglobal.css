@@ -263,25 +263,33 @@ a.next:before {
 .close-filter:before {
     font-family: 'FontAwesome';
     content: '\f00d';
-    font-size: 18px;
+    font-size: 24px;
     display: inline-block;
-    width: 20px;
-    line-height: 20px;
+    width: 24px;
+    line-height: 24px;
 }
 
 #plp > .left_column {
     position: fixed;
     top: 0;
     z-index: 300;
+    /*background: #fff;
+    box-shadow: #ccc 2px 2px 8px;
+    left: -230px;*/
+    transition: all 1s;
+}
+
+#plp > .left_column > .wrapper {
     background: #fff;
     box-shadow: #ccc 2px 2px 8px;
     left: -230px;
-    transition: all 1s;
 }
 
 #plp > .left_column.show {
     left: 0;
 }
+
+div.widget_left_nav {min-height: 1000px;}
 
 /*Mobile*/
 @media (max-width: 399px) {
