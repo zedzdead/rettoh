@@ -259,7 +259,7 @@ a.next:before {
 
 #mobile-filter {font-size: 12px; text-align: center;}
 /* \f0b0 - Filter Icon http://fontawesome.io/icon/filter/ */
-.close-filter:before {
+#mobile-filter:before {
     font-family: 'FontAwesome';
     content: '\f0b0';
     font-size: 12px;
