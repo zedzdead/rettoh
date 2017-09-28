@@ -263,7 +263,10 @@ a.next:before {
 .close-filter:before {
     font-family: 'FontAwesome';
     content: '\f00d';
-    font-size: 12px;
+    font-size: 18px;
+    display: inline-block;
+    width: 20px;
+    line-height: 20px;
 }
 
 #plp > .left_column {
