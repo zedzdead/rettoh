@@ -350,6 +350,7 @@ div.widget_left_nav {min-height: 1000px;}
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls {width:  50%; float: right; text-align: right; clear: right;}
     #mobile-filter,
     .close-filter {display: none;}
+    .closer-div {display: none;}
 }
 
 /*Hack*/
