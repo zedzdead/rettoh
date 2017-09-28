@@ -283,6 +283,16 @@ a.next:before {
     left: 0;
 }
 
+.closer-div {
+    width: 100%;
+    background: #fff;
+    min-height: 20000px;
+    position: absolute;
+    z-index: 299;
+    /* background: transparent; */
+    opacity: 0.5;
+}
+
 div.widget_left_nav {min-height: 1000px;}
 
 /*Mobile*/
