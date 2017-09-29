@@ -269,7 +269,7 @@ a.next:before {
     width: 14px;
     float: right;
 }
-#productsFacets .header.open {
+#productsFacets .header.open:after {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
