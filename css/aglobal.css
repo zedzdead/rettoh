@@ -224,7 +224,8 @@ a.next:before {
 #plp .attraqt_product {width: 48%; display: inline-block; vertical-align: top;}
 .product_listing_container .grid_mode .attraqt_product > .product_image {width: 100%; height: auto; height: 200px; text-align: center;}
 .product_listing_container .grid_mode .attraqt_product > .product_image img {max-width: 200px;}
-.attraqt_product {width: 100%; display: inline-block; vertical-align: top;}
+/*.attraqt_product {width: 100%; display: inline-block; vertical-align: top;}*/
+#plp .attraqt_product {width: 48%; display: inline-block; vertical-align: top;}
 .attraqt_product .color_swatch_list {min-height: 90px; padding: 0 3%;}
 .product_listing_container .grid_mode .attraqt_product > .swatches {width: 100%; max-width: initial;}
 .product_listing_container .grid_mode .attraqt_product > .swatches a {display: inline-block; width: 11%; margin: 0 1%;}
