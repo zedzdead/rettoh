@@ -260,7 +260,7 @@ a.next:before {
 */
 
 span.header-title,
-.open span.header-title {transition: all 1s;}
+.open span.header-title {transition: all 1s; width: 100%; display: inline-block;}
 
 span.header_title:after {
     width: 20px;
@@ -272,6 +272,7 @@ span.header_title:after {
     position: relative;
     right: 20px;
     font-family: 'FontAwesome';
+    transition: all 1s
 }
 
 .open span.header_title:after {
