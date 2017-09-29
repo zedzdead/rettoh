@@ -259,8 +259,8 @@ a.next:before {
 .sidr-class-filter_option img {display: none;}
 */
 
-#productsFacets .header {transition: all 1s;}
-#productsFacets .header:after {
+#productsFacets .header .header-title {transition: all 1s;}
+#productsFacets .header .header-title:after {
     font-family: 'FontAwesome';
     content: '\f04b';
     display: inline-block;
@@ -269,7 +269,7 @@ a.next:before {
     width: 14px;
     float: right;
 }
-#productsFacets .header.open:after {
+#productsFacets .header.open .header-title:after {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
