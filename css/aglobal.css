@@ -260,12 +260,16 @@ a.next:before {
 */
 
 span.header-title,
-.open span.header-title {transition: all 1s; width: 100%; display: inline-block;}
+.open span.header-title {width: 100%; display: inline-block;}
+
+span.header_title {
+    display: inline-block;
+    width: 100%;
+}
 
 span.header_title:after {
     width: 20px;
     height: 20px;
-    background: red;
     content: '\f04b';
     display: inline-block;
     float: right;
