@@ -257,9 +257,12 @@ a.next:before {
 .sidr-class-filter_option img {display: none;}
 */
 
-#mobile-filter {font-size: 12px; text-align: center;}
+#mobile-filter {font-size: 12px; text-align: center; background: #A2C43F;}
+#mobile-filter:hover {background: transparent;}
+
 /* \f0b0 - Filter Icon http://fontawesome.io/icon/filter/ */
-#mobile-filter:before {
+#mobile-filter-button {display: inline-block; width: 100%;}
+#mobile-filter-button:before {
     font-family: 'FontAwesome';
     content: '\f0b0';
     font-size: 12px;
