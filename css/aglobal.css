@@ -259,17 +259,22 @@ a.next:before {
 .sidr-class-filter_option img {display: none;}
 */
 
-#productsFacets .header .header-title {transition: all 1s;}
-#productsFacets .header .header-title:after {
-    font-family: 'FontAwesome';
+span.header-title,
+.open span.header-title {transition: all 1s;}
+
+span.header_title:after {
+    width: 20px;
+    height: 20px;
+    background: red;
     content: '\f04b';
     display: inline-block;
-    font-size: 14px;
-    line-height: 23px;
-    width: 14px;
     float: right;
+    position: relative;
+    right: 20px;
+    font-family: 'FontAwesome';
 }
-#productsFacets .header.open .header-title:after {
+
+.open span.header_title:after {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
