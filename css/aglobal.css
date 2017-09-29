@@ -291,7 +291,7 @@ a.next:before {
     padding: 0 0 0 10px;
 }
 
-#plp > .left_column.show {
+#plp > .left_column.showfilter {
     left: 0;
 }
 
