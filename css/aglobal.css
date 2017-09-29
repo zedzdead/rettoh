@@ -300,8 +300,8 @@ a.next:before {
     left: -250px;
     transition: all 1s;
     padding: 0 0 0 10px;
-  overflow-y: scroll;
-  height:calc(100vh - 40px);    
+    overflow-y: auto;
+    height:calc(100vh - 20px);    
 }
 
 #plp > .left_column.showfilter {
