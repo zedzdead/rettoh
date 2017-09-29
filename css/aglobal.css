@@ -270,14 +270,16 @@ a.next:before {
     font-size: 14px;
     background: #A2C43F;
     height: 40px;
+    padding-right: 8px;
 }
-#mobile-filter-button:hover {background: transparent; color: initial; cursor: pointer;}
+#mobile-filter-button:hover {background: #e1e1e1; color: initial; cursor: pointer;}
 #mobile-filter-button:before {
     font-family: 'FontAwesome';
     content: '\f0b0';
     font-size: 16px;
     display: inline-block;
-    margin: 8px;
+    margin: 0px;
+    padding: 8px;
 }
 
 .close-filter {float: right; font-size: 0;}
@@ -362,6 +364,7 @@ div.force-open {
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls {width: 50%; float: right; text-align: right; clear: right;}
     #plp #category_header h1 {top: 15px; margin: 1%; text-align:left; width: auto;}
     #plp #category_header_copy {display: block;}
+    #mobile-filter {width: 167px; margin: 0 auto 5px;}
 }
 
 /* Larger than tablet */
