@@ -259,6 +259,16 @@ a.next:before {
 .sidr-class-filter_option img {display: none;}
 */
 
+#productsFacets .header {transition: all 1s;}
+#productsFacets .header:after {
+    font-family: 'FontAwesome';
+    content: '\f04b';
+    display: inline-block;
+    font-size: 14px;
+    line-height: 14px;
+    width: 14px;
+}
+
 #mobile-filter {text-align: center; margin: 0 0 5px;}
 #mobile-filter:hover {background: transparent;}
 
