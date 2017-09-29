@@ -268,7 +268,7 @@ span.header_title {
 }
 
 span.header_title:after {
-    width: 20px;
+    width: 11px;
     height: 20px;
     content: '\f04b';
     display: inline-block;
@@ -280,6 +280,7 @@ span.header_title:after {
 }
 
 .open span.header_title:after {
+    color: #A2C43F;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
