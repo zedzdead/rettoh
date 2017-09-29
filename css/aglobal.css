@@ -310,6 +310,9 @@ div.widget_left_nav {min-height: 1000px;}
 div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.header {float: none;}
 div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.header > div.clearall {clear: left;}
 div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.section_list {clear:left;}
+.openme div.section_list {
+    display: block !important;
+}
 
 /*Mobile*/
 @media (max-width: 399px) {
