@@ -311,6 +311,10 @@ div.widget_left_nav > div.content_left_border > div.content_right_border > div.c
 div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.header > div.clearall {clear: left;}
 div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.section_list {clear:left;}
 
+div.force-open {
+    display: block !important;
+}
+
 /*Mobile*/
 @media (max-width: 399px) {
     #dev {
