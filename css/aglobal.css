@@ -259,7 +259,7 @@ a.next:before {
 .sidr-class-filter_option img {display: none;}
 */
 
-#mobile-filter {text-align: center;}
+#mobile-filter {text-align: center; margin: 0 0 5px;}
 #mobile-filter:hover {background: transparent;}
 
 /* \f0b0 - Filter Icon http://fontawesome.io/icon/filter/ */
