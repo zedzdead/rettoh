@@ -284,7 +284,7 @@ a.next:before {
     position: absolute;
     top: 0;
     z-index: 300;
-    background: #fff;
+    background: #EEF5D5;
     box-shadow: #ccc 2px 2px 8px;
     left: -250px;
     transition: all 1s;
@@ -307,7 +307,7 @@ a.next:before {
 
 div.widget_left_nav {min-height: 1000px;}
 
-div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.header {float: none;}
+div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.header {float: none; background: transparent;}
 div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.header > div.clearall {clear: left;}
 div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.section_list {clear:left;}
 
