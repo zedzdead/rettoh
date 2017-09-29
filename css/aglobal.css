@@ -265,8 +265,16 @@ a.next:before {
     content: '\f04b';
     display: inline-block;
     font-size: 14px;
-    line-height: 14px;
+    line-height: 23px;
     width: 14px;
+    float: right;
+}
+#productsFacets .header.open {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);    
 }
 
 #mobile-filter {text-align: center; margin: 0 0 5px;}
