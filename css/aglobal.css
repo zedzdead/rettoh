@@ -257,11 +257,18 @@ a.next:before {
 .sidr-class-filter_option img {display: none;}
 */
 
-#mobile-filter {font-size: 12px; text-align: center; background: #A2C43F;}
+#mobile-filter {text-align: center;}
 #mobile-filter:hover {background: transparent;}
 
 /* \f0b0 - Filter Icon http://fontawesome.io/icon/filter/ */
-#mobile-filter-button {display: inline-block; width: 100%;}
+#mobile-filter-button {
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    background: #A2C43F;
+}
+#mobile-filter:hover {background: transparent; color: initial;}
 #mobile-filter-button:before {
     font-family: 'FontAwesome';
     content: '\f0b0';
@@ -269,7 +276,6 @@ a.next:before {
     display: inline-block;
     width: 16px;
     line-height: 16px;
-    color: #A5C842
 }
 
 .close-filter {float: right; font-size: 0;}
