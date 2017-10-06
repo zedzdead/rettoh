@@ -265,7 +265,19 @@ span.header-title,
 span.header_title {
     display: inline-block;
     width: 100%;
+    padding-left: 12px;
 }
+
+span.header_title:before {
+    width: 11px;
+    height: 20px;
+    content: '\f138';
+    display: inline-block;
+    position: relative;
+    font-family: 'FontAwesome';
+    transition: all 1s
+}
+
 
 span.header_title:after {
     width: 11px;
@@ -279,7 +291,8 @@ span.header_title:after {
     transition: all 1s
 }
 
-.open span.header_title:after {
+.open span.header_title:after,
+.open span.header_title:before {
     color: #A2C43F;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
