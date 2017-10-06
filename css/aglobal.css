@@ -268,13 +268,15 @@ span.header_title {
 }
 
 span.header_title:before {
-    width: 20px;
-    height: 20px;
+    /* width: 18px; */
+    /* line-height: 13px; */
     content: '\f138';
     display: inline-block;
     position: relative;
     font-family: 'FontAwesome';
-    transition: all 1s
+    transition: all 1s;
+    vertical-align: top;
+    padding: 0 5px;
 }
 
 
