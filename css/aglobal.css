@@ -272,6 +272,10 @@ span.header_title {
     width: 100%;
 }
 
+span.header_title:hover {
+    cursor: pointer;
+}
+
 span.header_title:before {
     /* width: 18px; */
     /* line-height: 13px; */
@@ -284,7 +288,7 @@ span.header_title:before {
     padding: 0 5px;
 }
 
-
+/*
 span.header_title:after {
     width: 11px;
     height: 20px;
@@ -296,8 +300,8 @@ span.header_title:after {
     font-family: 'FontAwesome';
     transition: all 1s
 }
-
-.open span.header_title:after,
+*/
+/*.open span.header_title:after,*/
 .open span.header_title:before {
     color: #A2C43F;
     -webkit-transform: rotate(90deg);
