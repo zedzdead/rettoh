@@ -259,6 +259,11 @@ a.next:before {
 .sidr-class-filter_option img {display: none;}
 */
 
+div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.section_list {
+    min-height: 25px;
+    padding: 8px 12px 8px 8px;
+}
+
 span.header-title,
 .open span.header-title {width: 100%; display: inline-block;}
 
