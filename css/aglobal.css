@@ -359,7 +359,7 @@ span.header_title:after {
 }
 
 .content_section.group {
-    border-bottom: 1px #e1e1e1;
+    border-bottom: 1px #e1e1e1 solid;
 }
 
 .closer-div {
