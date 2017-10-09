@@ -358,7 +358,7 @@ span.header_title:after {
     left: 0;
 }
 
-#productsFacets fieldset .content_section.group {
+.content_section.group {
     border-bottom: 1px #e1e1e1;
 }
 
