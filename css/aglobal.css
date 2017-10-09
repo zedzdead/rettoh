@@ -349,13 +349,17 @@ span.header_title:after {
     box-shadow: #ccc 2px 2px 8px;
     left: -250px;
     transition: all 1s;
-    padding: 0 0 0 10px;
+    padding: 10px 0 0 10px;
     overflow-y: auto;
     height:calc(100vh - 20px);    
 }
 
 #plp > .left_column.showfilter {
     left: 0;
+}
+
+#productsFacets fieldset .content_section.group {
+    border-bottom: 1px #e1e1e1;
 }
 
 .closer-div {
