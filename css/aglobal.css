@@ -241,6 +241,25 @@ div.widget_left_nav > div.content_left_border > div.content_right_border > div.c
     padding: 8px 12px 8px 8px;
 }
 
+div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.header > span.filter_by_title {
+    color: #58595B;
+    float: left;
+    font-family: "Minion Pro", "Times New Roman",Times,serif;
+    font-size: 18px;
+    padding-bottom: 5px;
+    /* text-transform: uppercase; */
+    font-weight: 700;
+}
+
+div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.header span.header_title {
+    color: #58595B;
+    float: left;
+    font-family: "Minion Pro", "Times New Roman",Times,serif;
+    font-size: 18px;
+    /* text-transform: uppercase; */
+    font-weight: 700;
+}
+
 span.header-title,
 .open span.header-title {width: 100%; display: inline-block;}
 
