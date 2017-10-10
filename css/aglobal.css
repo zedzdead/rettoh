@@ -287,7 +287,7 @@ div.widget_left_nav > div.content_left_border > div.content_right_border > div.c
     display: none;
 }
 
-#productsFacets label:before {
+#productsFacets input[data-checked="false"] + label:before {
     content: '\f096';
     display: inline-block;
     position: relative;
