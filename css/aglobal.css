@@ -161,7 +161,7 @@ div.content_wrapper > div.content_left_shadow {margin: auto; padding: 0;}
 #plp #category_header img {}
 #plp #category_header_copy {padding: 0 5%; text-align: center; font-size: 0.8em; font-family: Bliss; line-height: normal; display: none;}
 
-#plp .widget_product_listing {margin-top: 40px;}
+#plp .widget_product_listing {}
 #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls,
 #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .title,
 #plp .widget_product_listing>.middle>.left_border>.right_border>.content>.header_bar>.sorting_controls,
