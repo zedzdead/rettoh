@@ -298,7 +298,7 @@ div.widget_left_nav > div.content_left_border > div.content_right_border > div.c
     color: #58595B;       
 }
 
-#productsFacets label[data-checked="true"]:before {
+#productsFacets input[data-checked="true"] + label:before {
     content: '\f046';
 }
 
