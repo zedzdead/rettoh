@@ -47,6 +47,7 @@ div.header_wrapper > div.header_left_shadow > div.header_right_shadow > div.head
 
 
 /*Header*/
+/*
 div.header_wrapper {min-width: 300px;}
 div.header_wrapper > div.header_left_shadow > div.header_right_shadow {padding: 0;}
 #ems_hotter_logo_17902 {padding: 5px 10px;}
@@ -68,7 +69,7 @@ div#widget_masthead_logo1 img {width: 100%; height: auto;}
 .h-links-1 li, .h-links-2 li {display: inline-block; list-style: none; padding-left: 30px;}
 
 .jsEnabled #masthead>.navigation {width: 100%;}
-/*div#searchComponent {height: 50px; background: pink;}*/
+
 div#searchComponent {position: unset;}
 
 .jsEnabled div.widget_search_position {
@@ -79,7 +80,6 @@ div#searchComponent {position: unset;}
     z-index: 999999;
 }
 div#widget_search {
-    /* border: 0px solid #CCC; */
     height: 50px;
     background-color: #ffffff;
     border-radius: 4px;
@@ -129,7 +129,7 @@ div.widget_minishopcart_position {
 }
 
 .widget_masthead_links_position {display: none;}
-
+*/
 /*PLP*/
 #plp div.content_wrapper_position {max-width: 960px; margin: 0 auto;}
 #plp div.content_wrapper {min-width: 300px;}
@@ -281,6 +281,17 @@ span.header_title:before {
     font-family: 'FontAwesome';
     transition: all 1s;
     vertical-align: top;
+    padding: 0 5px;
+}
+
+span.header_title:before {
+    /* width: 18px; */
+    /*line-height: 17px;*/
+    content: '\f138';
+    display: inline-block;
+    position: relative;
+    font-family: 'FontAwesome';
+    transition: all 1s;
     padding: 0 5px;
 }
 
