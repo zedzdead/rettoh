@@ -270,10 +270,8 @@ span.header_title {
 span.header_title:hover {
     cursor: pointer;
 }
-
+/*
 span.header_title:before {
-    /* width: 18px; */
-    /* line-height: 13px; */
     content: '\f138';
     display: inline-block;
     position: relative;
@@ -283,7 +281,7 @@ span.header_title:before {
     padding: 0 5px;
     vertical-align: baseline;
 }
-
+*/
 span.header_title:before {
     /* width: 18px; */
     /*line-height: 17px;*/
@@ -293,6 +291,7 @@ span.header_title:before {
     font-family: 'FontAwesome';
     transition: all 1s;
     padding: 0 5px;
+    vertical-align: baseline;
 }
 
 /*
