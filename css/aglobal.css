@@ -39,16 +39,15 @@ div#widget_masthead_logo1 img {max-width: 200px;}
 
 /*Body*/
 
-
 body {background: none;}
-div.header_wrapper > div.header_left_shadow {width: 100%; padding: 0; margin: 0;}
-div.header_wrapper > div.header_left_shadow > div.header_right_shadow {width: 100%;}
-div.header_wrapper > div.header_left_shadow > div.header_right_shadow > div.header {width: 100%;}
-
 
 /*Header*/
 /*
 div.header_wrapper {min-width: 300px;}
+div.header_wrapper > div.header_left_shadow {width: 100%; padding: 0; margin: 0;}
+div.header_wrapper > div.header_left_shadow > div.header_right_shadow {width: 100%;}
+div.header_wrapper > div.header_left_shadow > div.header_right_shadow > div.header {width: 100%;}
+
 div.header_wrapper > div.header_left_shadow > div.header_right_shadow {padding: 0;}
 #ems_hotter_logo_17902 {padding: 5px 10px;}
 #masthead>.content {height: auto;}
