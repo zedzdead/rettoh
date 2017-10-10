@@ -319,18 +319,17 @@ span.header_title {
 span.header_title:hover {
     cursor: pointer;
 }
-/*
-span.header_title:before {
-    content: '\f138';
-    display: inline-block;
-    position: relative;
-    font-family: 'FontAwesome';
-    transition: all 1s;
-    vertical-align: top;
-    padding: 0 5px;
-    vertical-align: baseline;
+
+div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.section_list ul li label:hover, 
+div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.section_list div.showMore label:hover {
+    text-decoration: none;
 }
-*/
+
+div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.section_list ul li label span:hover, 
+div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.section_list div.showMore label span:hover {
+    text-decoration: underline;
+}
+
 span.header_title:before {
     /* width: 18px; */
     /*line-height: 17px;*/
