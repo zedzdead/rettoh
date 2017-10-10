@@ -245,7 +245,7 @@ div.widget_left_nav > div.content_left_border > div.content_right_border > div.c
 }
 
 div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.section_list > ul > li > a > div.filter_option > div.filter_sprite,
-div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.header > div.clearall > a > div.clear_all_text > div.filter_sprite, {display: none;}
+div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.header > div.clearall > a > div.clear_all_text > div.filter_sprite {display: none;}
 
 /* \f057 Time Circle */
 .clear_all_text span:before,
