@@ -287,7 +287,7 @@ div.widget_left_nav > div.content_left_border > div.content_right_border > div.c
     display: none;
 }
 
-#productsFacets label {
+#productsFacets label:before {
     content: '\f096';
     display: inline-block;
     position: relative;
@@ -298,7 +298,7 @@ div.widget_left_nav > div.content_left_border > div.content_right_border > div.c
     color: #58595B;       
 }
 
-#productsFacets label[data-checked="true"] {
+#productsFacets label[data-checked="true"]:before {
     content: '\f046';
 }
 
