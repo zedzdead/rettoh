@@ -254,10 +254,11 @@ div.widget_left_nav > div.content_left_border > div.content_right_border > div.c
     font-family: 'FontAwesome';
     transition: all 1s;
     padding: 0 5px;
-    vertical-align: baseline;    
+    vertical-align: baseline;
+    color: #A2C43F;   
 }
 
-.filter_option:hover span:before {color: #A2C43F;}
+.filter_option:hover span:before {color: #f00;}
 
 
 div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.header > span.filter_by_title {
