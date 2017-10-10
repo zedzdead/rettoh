@@ -305,8 +305,7 @@ div.widget_left_nav > div.content_left_border > div.content_right_border > div.c
     font-family: 'FontAwesome';
     transition: all 1s;
     padding: 0 5px 0 0;
-    vertical-align: baseline;
-    color: #A2C43F;       
+    vertical-align: baseline;      
 }
 
 span.header-title,
