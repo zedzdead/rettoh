@@ -485,7 +485,7 @@ div.force-open {
         height: 5px;
         background-color: turquoise;
     }
-    .container_content_leftsidebar .left_column {display: block;}
+    .container_content_leftsidebar .left_column {display: block; margin-top: 5px;}
     .container_content_leftsidebar > .left_column {width: 25%; margin-right: 2%;}
     .container_content_leftsidebar > .right_column {width: 73%;}
     div.content_wrapper > div.content_left_shadow {margin: auto; padding: 10px;}
