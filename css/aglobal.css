@@ -281,6 +281,7 @@ span.header_title:before {
     transition: all 1s;
     vertical-align: top;
     padding: 0 5px;
+    vertical-align: baseline;
 }
 
 span.header_title:before {
