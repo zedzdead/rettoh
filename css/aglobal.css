@@ -221,7 +221,8 @@ a.next:before {
 
 .product_listing_container + .header_bar .title,
 .product_listing_container + .header_bar .results_control,
-.product_listing_container + .header_bar .sorting_controls {display: none;}
+.product_listing_container + .header_bar .sorting_controls,
+.product_listing_container + .header_bar .mobile-filter {display: none;}
 
 .product_listing_container {clear: both;}
 #plp .attraqt_product.marketing,
