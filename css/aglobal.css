@@ -218,6 +218,11 @@ a.next:before {
 }
 #plp .paging_controls a {display: inline;}
 #plp .paging_controls > a {display: none;}
+
+.product_listing_container + .header_bar .title,
+.product_listing_container + .header_bar .results_control,
+.product_listing_container + .header_bar .sorting_controls {display: none;}
+
 .product_listing_container {clear: both;}
 #plp .attraqt_product.marketing,
 #plp .pagnarrow {display: none;}
