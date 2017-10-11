@@ -482,7 +482,7 @@ div.force-open {
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls {width: 50%; float: right; text-align: right; clear: right;}
     #plp #category_header h1 {top: 15px; margin: 1%; text-align:left; width: auto;}
     #plp #category_header_copy {display: block;}
-    #mobile-filter {width: 167px; margin: 0 auto 5px;}
+    .mobile-filter {width: 167px; margin: 0 auto 5px;}
 }
 
 /* Larger than tablet */
@@ -500,7 +500,7 @@ div.force-open {
     .widget_product_listing>.middle>.left_border>.right_border>.content>.header_bar>.results_control {display: block;}
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .sorting_controls {width: 50%; float: left; text-align: left; clear: left;}
     #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .paging_controls {width:  50%; float: right; text-align: right; clear: right;}
-    #mobile-filter,
+    .mobile-filter,
     .close-filter {display: none;}
     .closer-div {display: none;}
 }
