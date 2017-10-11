@@ -373,11 +373,11 @@ span.header_title:after {
     transform: rotate(90deg);    
 }
 
-#mobile-filter {text-align: center; margin: 0 0 5px;}
-#mobile-filter:hover {background: transparent;}
+.mobile-filter {text-align: center; margin: 0 0 5px;}
+.mobile-filter:hover {background: transparent;}
 
 /* \f0b0 - Filter Icon http://fontawesome.io/icon/filter/ */
-#mobile-filter-button {
+.mobile-filter-button {
     display: inline-block;
     width: 100%;
     color: #fff;
@@ -386,8 +386,8 @@ span.header_title:after {
     height: 40px;
     padding-right: 8px;
 }
-#mobile-filter-button:hover {background: #e1e1e1; color: initial; cursor: pointer;}
-#mobile-filter-button:before {
+.mobile-filter-button:hover {background: #e1e1e1; color: initial; cursor: pointer;}
+.mobile-filter-button:before {
     font-family: 'FontAwesome';
     content: '\f0b0';
     font-size: 16px;
