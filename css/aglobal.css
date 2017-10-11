@@ -175,6 +175,7 @@ div.content_wrapper > div.content_left_shadow {margin: auto; padding: 0;}
         height: auto;
         top: 0;
         line-height: 30px;
+        font-weight: 700;
 }
 
 .sorting_controls span,
@@ -272,6 +273,7 @@ div.widget_left_nav > div.content_left_border > div.content_right_border > div.c
     padding-bottom: 5px;
     text-transform: capitalize;
     font-weight: 700;
+    padding: 5px;
 }
 
 div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.header span.header_title {
