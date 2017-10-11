@@ -19,21 +19,21 @@
 
 /* Defaults */
 
-* {box-sizing: border-box;}
+#plp * {box-sizing: border-box;}
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
     /*font-family: 'Archivo Narrow',Arial,Verdana,Helvetica,sans-serif;*/
 }
 
-a {color: #7E7675;  text-decoration: none;}
-a:link {color: #7E7675; text-decoration: none;}
-a:visited {}
-a:hover {color: #7E7675; text-decoration: underline; text-decoration-color: #A5C842;}
-a:active {color: #7E7675; text-decoration: underline; text-decoration-color: #A5C842;}
+#plp a {color: #7E7675;  text-decoration: none;}
+#plp a:link {color: #7E7675; text-decoration: none;}
+#plp a:visited {}
+#plp a:hover {color: #7E7675; text-decoration: underline; text-decoration-color: #A5C842;}
+#plp a:active {color: #7E7675; text-decoration: underline; text-decoration-color: #A5C842;}
 
 /*Clear fix */
 .group:after {content: ""; display: table; clear: both;}
 
-img {width: 100% !important; height: auto !important;}
+#plp img {width: 100% !important; height: auto !important;}
 .respco .sec-logo-img {max-width: 200px;}
 div#widget_masthead_logo1 img {max-width: 200px;}
 
@@ -155,7 +155,7 @@ div.content_wrapper > div.content_left_shadow {margin: auto; padding: 0;}
 
 #plp #category_header.dark-bg h1 {background-color: rgba(0, 0, 0, 0.7); color: #fff;}
 #plp #category_header.light-bg h1 {background-color: rgba(255, 255, 255, 0.7); color: #000;}
-#plp #category_header {position: relative; height: 195px; overflow: hidden;}
+#plp #category_header {position: relative; max-height: 195px; overflow: hidden;}
 #plp #category_header h1 {position: absolute; padding: 1%; margin: 0; font-style: italic; font-family: Baskerville-BT; font-size: 1.5em; font-weight: normal; text-transform: capitalize; left: 0; top: 0; text-align: center; width: 100%;}
 
 #plp #category_header img {}
