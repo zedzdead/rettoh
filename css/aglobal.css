@@ -13,6 +13,8 @@
 /* Larger than Desktop 1200-huge! Blue        */
 /**********************************************/
 
+#dev{position: fixed;}
+
 /*Needs reverting*/
 #plp .uspboxmob {display: none;}
 
