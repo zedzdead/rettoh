@@ -15,6 +15,13 @@
 
 #dev{position: fixed;}
 
+/* Fudges start - must be page pre-fixed */
+#php div.header_wrapper {min-width: 0;}
+
+
+/* Fudges end - must be page pre-fixed */
+
+
 /*Needs reverting*/
 #plp .uspboxmob {display: none;}
 
