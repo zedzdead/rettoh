@@ -517,7 +517,7 @@ div.force-open {
     div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.header span.header_title  {font-size: 16px;}
     .section_list label {font-size: 12px; line-height: 20px;}
     .clear_all_text span,
-    .filter_option span {font-size: 18px;}
+    .filter_option span {font-size: 12px;}
 }
 
 /*Hack*/
