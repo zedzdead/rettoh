@@ -503,7 +503,7 @@ div.force-open {
         height: 5px;
         background-color: turquoise;
     }
-    #plp div.content_wrapper {padding: 0 10px;}
+    #plp div.content_wrapper {padding: 0 15px;}
     .container_content_leftsidebar .left_column {display: block; margin-top: 5px;}
     .container_content_leftsidebar > .left_column {width: 25%; margin-right: 2%;}
     .container_content_leftsidebar > .right_column {width: 73%;}
