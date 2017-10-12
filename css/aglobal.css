@@ -275,7 +275,7 @@ div.widget_left_nav > div.content_left_border > div.content_right_border > div.c
     color: #58595B;
     float: left;
     font-family: "Minion Pro", "Times New Roman",Times,serif;
-    font-size: 18px;
+    font-size: 24px;
     padding-bottom: 5px;
     text-transform: capitalize;
     font-weight: 700;
@@ -322,11 +322,14 @@ span.header-title,
 span.header_title {
     display: inline-block;
     width: 100%;
+    font-size: 20px;
 }
 
 span.header_title:hover {
     cursor: pointer;
 }
+
+span.facet {font-size: 20px; line-height: 30px;}
 
 div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.section_list ul li label:hover, 
 div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.section_list div.showMore label:hover {
@@ -503,6 +506,9 @@ div.force-open {
     .mobile-filter,
     .close-filter {display: none;}
     .closer-div {display: none;}
+    div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.header > span.filter_by_title {font-size: 18px;}
+    span.header_title {font-size: 16px;}
+    span.facet {font-size: 12px; line-height: 20px;}
 }
 
 /*Hack*/
