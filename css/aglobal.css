@@ -289,6 +289,9 @@ div.widget_left_nav > div.content_left_border > div.content_right_border > div.c
     font-size: 16px;
     text-transform: initial;
     font-weight: 700;
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;    
 }
 
 #productsFacets input {
@@ -319,17 +322,11 @@ div.widget_left_nav > div.content_left_border > div.content_right_border > div.c
 span.header-title,
 .open span.header-title {width: 100%; display: inline-block;}
 
-span.header_title {
-    display: inline-block;
-    width: 100%;
-    font-size: 20px;
-}
-
 span.header_title:hover {
     cursor: pointer;
 }
 
-span.facet {font-size: 20px; line-height: 30px;}
+.section_list label {font-size: 20px; line-height: 30px;}
 
 div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.section_list ul li label:hover, 
 div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.section_list div.showMore label:hover {
@@ -507,8 +504,8 @@ div.force-open {
     .close-filter {display: none;}
     .closer-div {display: none;}
     div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.header > span.filter_by_title {font-size: 18px;}
-    span.header_title {font-size: 16px;}
-    span.facet {font-size: 12px; line-height: 20px;}
+    div.widget_left_nav > div.content_left_border > div.content_right_border > div.content div.content_section div.header span.header_title  {font-size: 16px;}
+    .section_list label {font-size: 12px; line-height: 20px;}
 }
 
 /*Hack*/
