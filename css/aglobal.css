@@ -16,7 +16,9 @@
 #dev{position: fixed;}
 
 /* Fudges start - must be page pre-fixed */
-#php div.header_wrapper {min-width: 0;}
+#plp div.header_wrapper {min-width: 0;}
+#plp div.header_wrapper > div.header_left_shadow {margin-left: auto; margin-right: auto; padding-left: 0; max-width: 960px;}
+#plp div.header_wrapper > div.header_left_shadow > div.header_right_shadow {padding-right: 0; width: 100%;}
 
 
 /* Fudges end - must be page pre-fixed */
