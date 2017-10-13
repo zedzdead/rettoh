@@ -42,8 +42,9 @@
 #plp #menu > li > a {font-size: 13px;}
 
 /*Mobile*/
-#plp .#masthead > .top {height: auto;}
-#plp #mobmenusp {height: 24px; display: block;}
+#masthead > .top
+#plp .#masthead > .top {height: 32px !important;}
+#plp #mobmenusp {height: 24px; display: block !important;}
 #plp .mobuspout {
     background-color: #eeeceb;
     height: 32px;
