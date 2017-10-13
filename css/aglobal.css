@@ -38,7 +38,7 @@
 #plp div.widget_minishopcart_position,
 #plp div#searchComponent {display: none;}
 #plp .mobilelogo {display: block;}
-#menu > li > a {font-size: 13px;}
+#plp #menu > li > a {font-size: 13px;}
 
 @media (min-width: 770px) {
     #plp .desklogo,
