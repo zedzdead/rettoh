@@ -180,7 +180,7 @@ div.content_wrapper > div.content_left_shadow {margin: auto; padding: 0;}
 #plp .widget_product_listing > .middle > .left_border > .right_border > .content > .header_bar > .title,
 #plp .widget_product_listing>.middle>.left_border>.right_border>.content>.header_bar>.sorting_controls,
 #plp .widget_product_listing>.middle>.left_border>.right_border>.content>.header_bar>.results_control {
-        margin: 0; 
+        /*margin: 0; */
         padding: 0; 
         float: none; 
         position: relative; 
@@ -190,6 +190,10 @@ div.content_wrapper > div.content_left_shadow {margin: auto; padding: 0;}
         top: 0;
         line-height: 30px;
         font-weight: 700;
+}
+
+#plp .header_bar > div {
+    margin: 5px 0;
 }
 
 .sorting_controls span,
