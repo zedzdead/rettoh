@@ -22,8 +22,8 @@
 #plp div.header_wrapper > div.header_left_shadow > div.header_right_shadow > div.header {background-color: #FFFFFF; width: 100%; margin: 0;}
 #plp #masthead>.navigation {height: 0; padding: 0px; width: 100%;}
 #plp div.widget_masthead_logo_position {left: 0px; position: relative; top: 10px;}
-#plp .desklogo > div {position: relative; width: 100%; text-align: center; top: 20px;}
-#plp .desklog img {position: relative; left: initial; margin-left: initial; top: initial; margin: 0 auto;}
+#plp .desklogo > div {position: relative !important; width: 100% !important; text-align: center; top: 20px;}
+#plp .desklogo img {position: relative; left: initial; margin-left: initial; top: initial; margin: 0 auto;}
 
 /* Fudges end - must be page pre-fixed */
 
