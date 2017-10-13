@@ -13,7 +13,7 @@
 /* Larger than Desktop 1200-huge! Blue        */
 /**********************************************/
 
-#dev{position: fixed;}
+#dev{position: fixed; z-index: 200;}
 
 /* Fudges start - must be page pre-fixed */
 #plp div.header_wrapper {min-width: 0;}
@@ -38,6 +38,7 @@
 #plp div.widget_minishopcart_position,
 #plp div#searchComponent {display: none;}
 #plp .mobilelogo {display: block;}
+#menu > li > a {font-size: 13px;}
 
 @media (min-width: 770px) {
     #plp .desklogo,
@@ -47,6 +48,9 @@
     #plp .mobilelogo {display: none;}
 }
 
+@media (min-width: 930px) {
+    #menu > li > a {font-size: 15px;}
+}
 
 /* Fudges end - must be page pre-fixed */
 
