@@ -20,18 +20,18 @@
 #plp div.header_wrapper > div.header_left_shadow {margin-left: auto; margin-right: auto; padding-left: 0; max-width: 960px;}
 #plp div.header_wrapper > div.header_left_shadow > div.header_right_shadow {padding-right: 0; width: 100%;}
 #plp div.header_wrapper > div.header_left_shadow > div.header_right_shadow > div.header {background-color: #FFFFFF; width: 100%; margin: 0;}
+#plp #masthead>.content {height: 100px;}
 #plp #masthead>.navigation {height: 0; padding: 0px; width: 100%;}
 #plp div.widget_masthead_logo_position {left: 0px; position: relative; top: 10px;}
 #plp .desklogo > div {position: relative !important; width: 100% !important; text-align: center; top: 20px;}
-#plp .desklogo img {
-    position: relative !important;
-    left: 0 !important;
-    margin-left: 0 !important;
-    top: 10px !important;
-    margin: 0 auto;
-    width: 200px !important;
-    display: inline;
-}
+#plp .desklogo img {position: relative !important; left: 0 !important; margin-left: 0 !important; top: 10px !important; margin: 0 auto; width: 200px !important; display: inline;}
+#plp div.widget_masthead_links_position {
+    position: relative;
+    right: 0;
+    top: -65px;
+    width: 100%;
+    background: #EEECEB;
+} 
 
 /* Fudges end - must be page pre-fixed */
 
