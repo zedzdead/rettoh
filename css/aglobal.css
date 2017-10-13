@@ -43,8 +43,31 @@
 
 /*Mobile*/
 #plp #mobmenusp {height: 24px;}
-#plp .mobuspout {background-color: #eeeceb; height: 40px; width: 100%; font-family: 'Minion Pro Regular', "Times New Roman", Times, serif; font-size: 14px; line-height: 40px; position: absolute; left: 0; right: 0; text-align: center; min-width: 0;}
-#plp .mobuspoutin {width: 100%; position: relative; display: inline-block;}
+#plp .mobuspout {
+    background-color: #eeeceb;
+    height: 32px;
+    width: 100%;
+    font-family: 'Minion Pro Regular', "Times New Roman", Times, serif;
+    font-size: 14px;
+    line-height: 32px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    min-width: 0;
+}
+
+#plp .mobuspoutin {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+#plp .mobuspoutin > div {
+    font-size: 14px !important;
+    height: 18px !important;
+    line-height: 18px !important;
+}
 
 @media (min-width: 770px) {
     #plp .desklogo,
