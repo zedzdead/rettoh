@@ -17,7 +17,7 @@
 
 /* Fudges start - must be page pre-fixed */
 #plp div.header_wrapper {min-width: 0;}
-#plp div.header_wrapper > div.header_left_shadow {margin-left: auto; margin-right: auto; padding-left: 0; max-width: 960px;}
+#plp div.header_wrapper > div.header_left_shadow {margin-left: auto; margin-right: auto; padding-left: 0; max-width: 960px; width: 100%;}
 #plp div.header_wrapper > div.header_left_shadow > div.header_right_shadow {padding-right: 0; width: 100%;}
 #plp div.header_wrapper > div.header_left_shadow > div.header_right_shadow > div.header {background-color: #FFFFFF; width: 100%; margin: 0;}
 #plp #masthead>.content {height: 100px;}
@@ -28,6 +28,8 @@
 #plp div#widget_masthead_links {width: 100%;}
 #plp div.widget_masthead_links_position {position: relative; right: 0; top: -65px; width: 100%; background: #EEECEB;}
 #plp div#widget_masthead_links div.masthead_links {width: 100%;}
+#plp div#region_selector {display: none;}
+#plp #menu {width: 100%;}
 
 /* Fudges end - must be page pre-fixed */
 
