@@ -29,14 +29,16 @@
 #plp div.widget_masthead_links_position {position: relative; right: 0; top: -65px; width: 100%; background: #EEECEB;}
 #plp div#widget_masthead_links div.masthead_links {width: 100%;}
 #plp div#region_selector {display: none;}
-#php .desklogo {display: none;}
+#plp #menu {width: 100%;}
+
 
 /*default*/
-#php .mobilelogo {display: block;}
-#plp #menu {width: 100%;}
+#plp .desklogo {display: none;}
+#plp .mobilelogo {display: block;}
+
 @media (min-width: 770px) {
-    #php .desklogo {display: block;}
-    #php .mobilelogo {display: none;}
+    #plp .desklogo {display: block;}
+    #plp .mobilelogo {display: none;}
 }
 
 
