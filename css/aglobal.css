@@ -42,7 +42,8 @@
 #plp #menu > li > a {font-size: 13px;}
 
 /*Mobile*/
-#plp #mobmenusp {height: 24px;}
+#plp .#masthead > .top {height: auto;}
+#plp #mobmenusp {height: 24px; display: block;}
 #plp .mobuspout {
     background-color: #eeeceb;
     height: 32px;
@@ -55,6 +56,7 @@
     right: 0;
     text-align: center;
     min-width: 0;
+    display: block;
 }
 
 #plp .mobuspoutin {
@@ -64,6 +66,7 @@
 }
 
 #plp .mobuspoutin > div {
+    display: block;
     font-size: 14px !important;
     height: 18px !important;
     line-height: 18px !important;
@@ -74,7 +77,8 @@
     #plp #menu,
     #plp div.widget_minishopcart_position,
     #plp div#searchComponent {display: block;}
-    #plp .mobilelogo {display: none;}
+    #plp .mobilelogo,
+    #plp .#masthead > .top {display: none;}
 }
 
 @media (min-width: 930px) {
