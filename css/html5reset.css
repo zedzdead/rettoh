@@ -10,24 +10,24 @@ Twitter: @rich_clark
 /* FontAwesome - latin */
 @font-face {
     font-family: "Baskerville-st";
-    src: url('/wcsstore/HotterStorefrontAssetStore/content/fonts/BaskervilleBT-Roman_0.ttf');
+    src: url('../fonts/BaskervilleBT-Roman_0.ttf');
 }
 
 @font-face {
     font-family: "Baskerville-it";
-    src: url('/wcsstore/HotterStorefrontAssetStore/content/fonts/Baskerville-Italic2.ttf');
+    src: url('../fonts/Baskerville-Italic2.ttf');
 }
 
 @font-face {
     font-family: "Bliss";
-    src: url('/wcsstore/HotterStorefrontAssetStore/content/fonts/Bliss-Light.ttf');
+    src: url('../fonts/Bliss-Light.ttf');
 }
 
 @font-face {
     font-family: "Minion Pro Regular";
     font-style: normal;
     font-weight: normal;
-    src: local('Minion Pro Regular'), url('/wcsstore/HotterStorefrontAssetStore/content/fonts/MinionPro-Regular.woff')
+    src: local('Minion Pro Regular'), url('../fonts/MinionPro-Regular.woff')
 }
 /* libre-baskerville-regular - latin */
 
@@ -35,20 +35,20 @@ Twitter: @rich_clark
     font-family: "Libre Baskerville";
     font-style: normal;
     font-weight: 400;
-    src: url('/wcsstore/HotterStorefrontAssetStore/content/fonts/libre-baskerville-v4-latin-regular.eot');
+    src: url('../fonts/libre-baskerville-v4-latin-regular.eot');
     /* IE9 Compat Modes */
-    src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url('/wcsstore/HotterStorefrontAssetStore/content/fonts/libre-baskerville-v4-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('/wcsstore/HotterStorefrontAssetStore/content/fonts/libre-baskerville-v4-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-    url('/wcsstore/HotterStorefrontAssetStore/content/fonts/libre-baskerville-v4-latin-regular.woff') format('woff'), /* Modern Browsers */
-    url('/wcsstore/HotterStorefrontAssetStore/content/fonts/libre-baskerville-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('/wcsstore/HotterStorefrontAssetStore/content/fonts/libre-baskerville-v4-latin-regular.svg#LibreBaskerville') format('svg');
+    src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url('../fonts/libre-baskerville-v4-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/libre-baskerville-v4-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/libre-baskerville-v4-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/libre-baskerville-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/libre-baskerville-v4-latin-regular.svg#LibreBaskerville') format('svg');
     /* Legacy iOS */
 }
 
 @font-face {
     font-family: 'FontAwesome';
-    src: url('/wcsstore/HotterStorefrontAssetStore/content/fonts/fontawesome-webfont.eot');
-    src: url('/wcsstore/HotterStorefrontAssetStore/content/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), url('/wcsstore/HotterStorefrontAssetStore/content/fonts/fontawesome-webfont.woff2') format('woff2'), url('/wcsstore/HotterStorefrontAssetStore/content/fonts/fontawesome-webfont.woff') format('woff'), url('/wcsstore/HotterStorefrontAssetStore/content/fonts/fontawesome-webfont.ttf') format('truetype'), url('/wcsstore/HotterStorefrontAssetStore/content/fonts/fontawesome-webfont.svg#fontawesomeregular') format('svg');
+    src: url('../fonts/fontawesome-webfont.eot');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), url('/wcsstore/HotterStorefrontAssetStore/content/fonts/fontawesome-webfont.woff2') format('woff2'), url('/wcsstore/HotterStorefrontAssetStore/content/fonts/fontawesome-webfont.woff') format('woff'), url('/wcsstore/HotterStorefrontAssetStore/content/fonts/fontawesome-webfont.ttf') format('truetype'), url('/wcsstore/HotterStorefrontAssetStore/content/fonts/fontawesome-webfont.svg#fontawesomeregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
