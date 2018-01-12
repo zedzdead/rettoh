@@ -6,6 +6,8 @@ Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
 
+
+
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -25,6 +27,13 @@ time, mark, audio, video {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
+}
+
+h1 {
+    font-size: 13vmin;
+}
+h2 {
+    font-size: calc(0.5rem + 2.5vmin);
 }
 
 body {
